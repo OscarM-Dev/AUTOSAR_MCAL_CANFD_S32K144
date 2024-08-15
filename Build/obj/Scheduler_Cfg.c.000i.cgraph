@@ -1,0 +1,956 @@
+Trivially needed symbols: SchedulerCtrl_Ptr/56 SchedulerConfig_Ptr/55 Scheduler_Control/54 Scheduler_Config/53 Timer_Config/52 Task_Config/51 Queue_Config/50
+
+
+Initial Symbol table:
+
+Timer1_callback/60 (Timer1_callback) @069517e0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Timer_Config/52 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Task2_callback/59 (Task2_callback) @06951700
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Task1_callback/58 (Task1_callback) @06951620
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Queue1/57 (Queue1) @06947dc8
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: Queue_Config/50 (addr) 
+  Availability: not-ready
+  Varpool flags:
+SchedulerCtrl_Ptr/56 (SchedulerCtrl_Ptr) @06947ca8
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @01981040
+  References: Scheduler_Control/54 (addr) 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+SchedulerConfig_Ptr/55 (SchedulerConfig_Ptr) @06947c60
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06947ca8
+  References: Scheduler_Config/53 (addr) 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+Scheduler_Control/54 (Scheduler_Control) @06947c18
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06947c60
+  References: 
+  Referring: SchedulerCtrl_Ptr/56 (addr) 
+  Availability: not-ready
+  Varpool flags:
+Scheduler_Config/53 (Scheduler_Config) @06947bd0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06947c18
+  References: Task_Config/51 (addr) Timer_Config/52 (addr) Queue_Config/50 (addr) 
+  Referring: SchedulerConfig_Ptr/55 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Timer_Config/52 (Timer_Config) @06947b40
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06947bd0
+  References: Timer1_callback/60 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Task_Config/51 (Task_Config) @06947ab0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06947b40
+  References: Task1_callback/58 (addr) Task2_callback/59 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Queue_Config/50 (Queue_Config) @06947a20
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06947ab0
+  References: Queue1/57 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Bfx_CountLeadingZeros_u8/49 (Bfx_CountLeadingZeros_u8) @0693e0e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingSigns_s8/48 (Bfx_CountLeadingSigns_s8) @06939e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingOnes_u8/47 (Bfx_CountLeadingOnes_u8) @06939b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitSat_s8s8_s8/46 (Bfx_ShiftBitSat_s8s8_s8) @069398c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitSat_u8s8_u8/45 (Bfx_ShiftBitSat_u8s8_u8) @06939620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBits_u8u8u8u8/44 (Bfx_PutBits_u8u8u8u8) @06939380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBitsMask_u8u8u8/43 (Bfx_PutBitsMask_u8u8u8) @069390e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBit_u8u8u8/42 (Bfx_PutBit_u8u8u8) @06935e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CopyBit_u8u8u8u8/41 (Bfx_CopyBit_u8u8u8u8) @06935b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_RotBitLt_u8u8/40 (Bfx_RotBitLt_u8u8) @069358c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_RotBitRt_u8u8/39 (Bfx_RotBitRt_u8u8) @06935620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitLt_u8u8/38 (Bfx_ShiftBitLt_u8u8) @06935380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitRt_u8u8/37 (Bfx_ShiftBitRt_u8u8) @069350e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ToggleBitMask_u8u8/36 (Bfx_ToggleBitMask_u8u8) @0692fe00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ToggleBits_u8/35 (Bfx_ToggleBits_u8) @0692fb60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstParityEven_u8_u8/34 (Bfx_TstParityEven_u8_u8) @0692f8c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstBitLnMask_u8u8_u8/33 (Bfx_TstBitLnMask_u8u8_u8) @0692f620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstBitMask_u8u8_u8/32 (Bfx_TstBitMask_u8u8_u8) @0692f380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ClrBitMask_u8u8/31 (Bfx_ClrBitMask_u8u8) @0692f0e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBitMask_u8u8/30 (Bfx_SetBitMask_u8u8) @06929e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_GetBits_u8u8u8_u8/29 (Bfx_GetBits_u8u8u8_u8) @06929b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBits_u8u8u8u8/28 (Bfx_SetBits_u8u8u8u8) @069298c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_GetBit_u8u8_u8/27 (Bfx_GetBit_u8u8_u8) @06929620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ClrBit_u8u8/26 (Bfx_ClrBit_u8u8) @06929380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBit_u8u8/25 (Bfx_SetBit_u8u8) @069290e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingZeros_u32/24 (Bfx_CountLeadingZeros_u32) @06921e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingSigns_s32/23 (Bfx_CountLeadingSigns_s32) @06921b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingOnes_u32/22 (Bfx_CountLeadingOnes_u32) @069218c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitSat_s32s8_s32/21 (Bfx_ShiftBitSat_s32s8_s32) @06921620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitSat_u32s8_u32/20 (Bfx_ShiftBitSat_u32s8_u32) @06921380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBits_u32u8u8u32/19 (Bfx_PutBits_u32u8u8u32) @069210e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBitsMask_u32u32u32/18 (Bfx_PutBitsMask_u32u32u32) @0691ee00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBit_u32u8u8/17 (Bfx_PutBit_u32u8u8) @0691eb60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CopyBit_u32u8u32u8/16 (Bfx_CopyBit_u32u8u32u8) @0691e8c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_RotBitLt_u32u8/15 (Bfx_RotBitLt_u32u8) @0691e620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_RotBitRt_u32u8/14 (Bfx_RotBitRt_u32u8) @0691e380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitLt_u32u8/13 (Bfx_ShiftBitLt_u32u8) @0691e0e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitRt_u32u8/12 (Bfx_ShiftBitRt_u32u8) @0691ae00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ToggleBitMask_u32u32/11 (Bfx_ToggleBitMask_u32u32) @0691ab60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ToggleBits_u32/10 (Bfx_ToggleBits_u32) @0691a8c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstParityEven_u32_u8/9 (Bfx_TstParityEven_u32_u8) @0691a620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstBitLnMask_u32u32_u8/8 (Bfx_TstBitLnMask_u32u32_u8) @0691a380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstBitMask_u32u32_u8/7 (Bfx_TstBitMask_u32u32_u8) @0691a0e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ClrBitMask_u32u32/6 (Bfx_ClrBitMask_u32u32) @06915e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBitMask_u32u32/5 (Bfx_SetBitMask_u32u32) @06915b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_GetBits_u32u8u8_u32/4 (Bfx_GetBits_u32u8u8_u32) @069158c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBits_u32u8u8u8/3 (Bfx_SetBits_u32u8u8u8) @06915620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_GetBit_u32u8_u8/2 (Bfx_GetBit_u32u8_u8) @06915380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ClrBit_u32u8/1 (Bfx_ClrBit_u32u8) @069150e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBit_u32u8/0 (Bfx_SetBit_u32u8) @0684be00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+
+Removing unused symbols: Bfx_CountLeadingZeros_u8/49 Bfx_CountLeadingSigns_s8/48 Bfx_CountLeadingOnes_u8/47 Bfx_ShiftBitSat_s8s8_s8/46 Bfx_ShiftBitSat_u8s8_u8/45 Bfx_PutBits_u8u8u8u8/44 Bfx_PutBitsMask_u8u8u8/43 Bfx_PutBit_u8u8u8/42 Bfx_CopyBit_u8u8u8u8/41 Bfx_RotBitLt_u8u8/40 Bfx_RotBitRt_u8u8/39 Bfx_ShiftBitLt_u8u8/38 Bfx_ShiftBitRt_u8u8/37 Bfx_ToggleBitMask_u8u8/36 Bfx_ToggleBits_u8/35 Bfx_TstParityEven_u8_u8/34 Bfx_TstBitLnMask_u8u8_u8/33 Bfx_TstBitMask_u8u8_u8/32 Bfx_ClrBitMask_u8u8/31 Bfx_SetBitMask_u8u8/30 Bfx_GetBits_u8u8u8_u8/29 Bfx_SetBits_u8u8u8u8/28 Bfx_GetBit_u8u8_u8/27 Bfx_ClrBit_u8u8/26 Bfx_SetBit_u8u8/25 Bfx_CountLeadingZeros_u32/24 Bfx_CountLeadingSigns_s32/23 Bfx_CountLeadingOnes_u32/22 Bfx_ShiftBitSat_s32s8_s32/21 Bfx_ShiftBitSat_u32s8_u32/20 Bfx_PutBits_u32u8u8u32/19 Bfx_PutBitsMask_u32u32u32/18 Bfx_PutBit_u32u8u8/17 Bfx_CopyBit_u32u8u32u8/16 Bfx_RotBitLt_u32u8/15 Bfx_RotBitRt_u32u8/14 Bfx_ShiftBitLt_u32u8/13 Bfx_ShiftBitRt_u32u8/12 Bfx_ToggleBitMask_u32u32/11 Bfx_ToggleBits_u32/10 Bfx_TstParityEven_u32_u8/9 Bfx_TstBitLnMask_u32u32_u8/8 Bfx_TstBitMask_u32u32_u8/7 Bfx_ClrBitMask_u32u32/6 Bfx_SetBitMask_u32u32/5 Bfx_GetBits_u32u8u8_u32/4 Bfx_SetBits_u32u8u8u8/3 Bfx_GetBit_u32u8_u8/2 Bfx_ClrBit_u32u8/1 Bfx_SetBit_u32u8/0
+
+Reclaimed Symbol table:
+
+Timer1_callback/60 (Timer1_callback) @069517e0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Timer_Config/52 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Task2_callback/59 (Task2_callback) @06951700
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Task1_callback/58 (Task1_callback) @06951620
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Queue1/57 (Queue1) @06947dc8
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: Queue_Config/50 (addr) 
+  Availability: not-ready
+  Varpool flags:
+SchedulerCtrl_Ptr/56 (SchedulerCtrl_Ptr) @06947ca8
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Scheduler_Control/54 (addr) 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+SchedulerConfig_Ptr/55 (SchedulerConfig_Ptr) @06947c60
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Scheduler_Config/53 (addr) 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+Scheduler_Control/54 (Scheduler_Control) @06947c18
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: SchedulerCtrl_Ptr/56 (addr) 
+  Availability: not-ready
+  Varpool flags:
+Scheduler_Config/53 (Scheduler_Config) @06947bd0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Task_Config/51 (addr) Timer_Config/52 (addr) Queue_Config/50 (addr) 
+  Referring: SchedulerConfig_Ptr/55 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Timer_Config/52 (Timer_Config) @06947b40
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Timer1_callback/60 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Task_Config/51 (Task_Config) @06947ab0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Task1_callback/58 (addr) Task2_callback/59 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Queue_Config/50 (Queue_Config) @06947a20
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Queue1/57 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+
+
+Initial Symbol table:
+
+Timer1_callback/60 (Timer1_callback) @069517e0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Timer_Config/52 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Task2_callback/59 (Task2_callback) @06951700
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Task1_callback/58 (Task1_callback) @06951620
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Queue1/57 (Queue1) @06947dc8
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: Queue_Config/50 (addr) 
+  Availability: not-ready
+  Varpool flags:
+SchedulerCtrl_Ptr/56 (SchedulerCtrl_Ptr) @06947ca8
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Scheduler_Control/54 (addr) 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+SchedulerConfig_Ptr/55 (SchedulerConfig_Ptr) @06947c60
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Scheduler_Config/53 (addr) 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+Scheduler_Control/54 (Scheduler_Control) @06947c18
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: SchedulerCtrl_Ptr/56 (addr) 
+  Availability: not-ready
+  Varpool flags:
+Scheduler_Config/53 (Scheduler_Config) @06947bd0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Task_Config/51 (addr) Timer_Config/52 (addr) Queue_Config/50 (addr) 
+  Referring: SchedulerConfig_Ptr/55 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Timer_Config/52 (Timer_Config) @06947b40
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Timer1_callback/60 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Task_Config/51 (Task_Config) @06947ab0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Task1_callback/58 (addr) Task2_callback/59 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Queue_Config/50 (Queue_Config) @06947a20
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Queue1/57 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+Timer1_callback/60 (Timer1_callback) @069517e0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Timer_Config/52 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Task2_callback/59 (Task2_callback) @06951700
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Task1_callback/58 (Task1_callback) @06951620
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Function flags:
+  Called by: 
+  Calls: 
+Queue1/57 (Queue1) @06947dc8
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: Queue_Config/50 (addr) 
+  Availability: not-ready
+  Varpool flags:
+SchedulerCtrl_Ptr/56 (SchedulerCtrl_Ptr) @06947ca8
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Scheduler_Control/54 (addr) 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+SchedulerConfig_Ptr/55 (SchedulerConfig_Ptr) @06947c60
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Scheduler_Config/53 (addr) 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized
+Scheduler_Control/54 (Scheduler_Control) @06947c18
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: SchedulerCtrl_Ptr/56 (addr) 
+  Availability: not-ready
+  Varpool flags:
+Scheduler_Config/53 (Scheduler_Config) @06947bd0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Task_Config/51 (addr) Timer_Config/52 (addr) Queue_Config/50 (addr) 
+  Referring: SchedulerConfig_Ptr/55 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Timer_Config/52 (Timer_Config) @06947b40
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Timer1_callback/60 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Task_Config/51 (Task_Config) @06947ab0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Task1_callback/58 (addr) Task2_callback/59 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+Queue_Config/50 (Queue_Config) @06947a20
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: Queue1/57 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+Timer1_callback/60 (Timer1_callback) @069517e0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Timer_Config/52 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Task2_callback/59 (Task2_callback) @06951700
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Task1_callback/58 (Task1_callback) @06951620
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Queue1/57 (Queue1) @06947dc8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Queue_Config/50 (addr) 
+  Availability: not_available
+  Varpool flags:
+SchedulerCtrl_Ptr/56 (SchedulerCtrl_Ptr) @06947ca8
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Scheduler_Control/54 (addr) 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+SchedulerConfig_Ptr/55 (SchedulerConfig_Ptr) @06947c60
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Scheduler_Config/53 (addr) 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+Scheduler_Control/54 (Scheduler_Control) @06947c18
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: SchedulerCtrl_Ptr/56 (addr) 
+  Availability: available
+  Varpool flags:
+Scheduler_Config/53 (Scheduler_Config) @06947bd0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Task_Config/51 (addr) Timer_Config/52 (addr) Queue_Config/50 (addr) 
+  Referring: SchedulerConfig_Ptr/55 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Timer_Config/52 (Timer_Config) @06947b40
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Timer1_callback/60 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Task_Config/51 (Task_Config) @06947ab0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Task1_callback/58 (addr) Task2_callback/59 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Queue_Config/50 (Queue_Config) @06947a20
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Queue1/57 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Trivially needed variables: SchedulerCtrl_Ptr/56 SchedulerConfig_Ptr/55 Scheduler_Control/54 Scheduler_Config/53 Timer_Config/52 Task_Config/51 Queue_Config/50
+Removing variables:
+
+Final Symbol table:
+
+Timer1_callback/60 (Timer1_callback) @069517e0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Timer_Config/52 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Task2_callback/59 (Task2_callback) @06951700
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Task1_callback/58 (Task1_callback) @06951620
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Queue1/57 (Queue1) @06947dc8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Queue_Config/50 (addr) 
+  Availability: not_available
+  Varpool flags:
+SchedulerCtrl_Ptr/56 (SchedulerCtrl_Ptr) @06947ca8
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.data.SchedulerCtrl_Ptr (implicit_section)
+  Aux: @00000001
+  References: Scheduler_Control/54 (addr) 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+SchedulerConfig_Ptr/55 (SchedulerConfig_Ptr) @06947c60
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.data.SchedulerConfig_Ptr (implicit_section)
+  Aux: @06947ca8
+  References: Scheduler_Config/53 (addr) 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+Scheduler_Control/54 (Scheduler_Control) @06947c18
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.bss.Scheduler_Control (implicit_section)
+  Aux: @06947c60
+  References: 
+  Referring: SchedulerCtrl_Ptr/56 (addr) 
+  Availability: available
+  Varpool flags:
+Scheduler_Config/53 (Scheduler_Config) @06947bd0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.rodata.Scheduler_Config (implicit_section)
+  Aux: @06947c18
+  References: Task_Config/51 (addr) Timer_Config/52 (addr) Queue_Config/50 (addr) 
+  Referring: SchedulerConfig_Ptr/55 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Timer_Config/52 (Timer_Config) @06947b40
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.rodata.Timer_Config (implicit_section)
+  Aux: @06947bd0
+  References: Timer1_callback/60 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Task_Config/51 (Task_Config) @06947ab0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.rodata.Task_Config (implicit_section)
+  Aux: @06947b40
+  References: Task1_callback/58 (addr) Task2_callback/59 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Queue_Config/50 (Queue_Config) @06947a20
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.rodata.Queue_Config (implicit_section)
+  Aux: @06947ab0
+  References: Queue1/57 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known

@@ -1,0 +1,2 @@
+Autosar/IoHwAbs/src/IoHwAb.c:16:6:IoHwAb_Init0	16	static
+Autosar/IoHwAbs/src/IoHwAb.c:28:6:IoHwAb_GetVersionInfo	8	static

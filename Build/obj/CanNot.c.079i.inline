@@ -1,0 +1,198 @@
+IPA summary for CanIf_RxIndication/4 is missing.
+IPA summary for CanIf_TxConfirmation/3 is missing.
+IPA summary for CanIf_ControllerModeIndication/2 is missing.
+IPA summary for CanIf_ControllerBusOff/1 is missing.
+IPA summary for Delay/0 is missing.
+
+Flattening functions:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 0.
+node context cache: 0 hits, 0 misses, 0 initializations
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Why inlining failed?
+function body not available                       :        3 calls, 3.000000 freq, 0 count
+IPA summary for CanIf_RxIndication/4 is missing.
+IPA summary for CanIf_TxConfirmation/3 is missing.
+IPA summary for CanIf_ControllerModeIndication/2 is missing.
+IPA summary for CanIf_ControllerBusOff/1 is missing.
+IPA summary for Delay/0 is missing.
+Symbol table:
+
+CanIf_bRxFlag/9 (CanIf_bRxFlag) @06cbbca8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: CanIf_RxIndication/4 (write) 
+  Availability: not_available
+  Varpool flags:
+CanIf_bTxFlag/8 (CanIf_bTxFlag) @06cbbb88
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: CanIf_TxConfirmation/3 (write) 
+  Availability: not_available
+  Varpool flags:
+OsIf_GetElapsed/7 (OsIf_GetElapsed) @06cbc000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Delay/0 
+  Calls: 
+OsIf_GetCounter/6 (OsIf_GetCounter) @06cbcee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Delay/0 
+  Calls: 
+OsIf_MicrosToTicks/5 (OsIf_MicrosToTicks) @06cbce00
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Delay/0 
+  Calls: 
+CanIf_RxIndication/4 (CanIf_RxIndication) @06cbc9a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: CanIf_bRxFlag/9 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: 
+CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06cbc700
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: CanIf_bTxFlag/8 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: 
+CanIf_ControllerModeIndication/2 (CanIf_ControllerModeIndication) @06cbc460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: 
+CanIf_ControllerBusOff/1 (CanIf_ControllerBusOff) @06cbc1c0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: 
+Delay/0 (Delay) @06cb8a80
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: OsIf_GetElapsed/7 OsIf_GetCounter/6 OsIf_MicrosToTicks/5 
+
+;; Function Delay (Delay, funcdef_no=0, decl_uid=6579, cgraph_uid=1, symbol_order=0)
+
+Delay (uint32 ms)
+{
+  uint32 ElapsedTime;
+  uint32 SeedTick;
+  uint32 Timeout;
+  long unsigned int D.6616;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _13;
+
+  <bb 2> :
+  _1 = ms_5(D) * 1000;
+  Timeout_8 = OsIf_MicrosToTicks (_1, 1);
+  _2 = OsIf_GetCounter (1);
+  SeedTick = _2;
+  ElapsedTime_11 = 0;
+
+  <bb 3> :
+  # ElapsedTime_3 = PHI <ElapsedTime_11(2), ElapsedTime_14(3)>
+  _13 = OsIf_GetElapsed (&SeedTick, 1);
+  ElapsedTime_14 = _13 + ElapsedTime_3;
+  if (ElapsedTime_14 < Timeout_8)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 4> :
+  SeedTick ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function CanIf_ControllerBusOff (CanIf_ControllerBusOff, funcdef_no=1, decl_uid=6581, cgraph_uid=2, symbol_order=1)
+
+CanIf_ControllerBusOff (uint8 ControllerId)
+{
+  <bb 2> :
+  return;
+
+}
+
+
+
+;; Function CanIf_ControllerModeIndication (CanIf_ControllerModeIndication, funcdef_no=2, decl_uid=6584, cgraph_uid=3, symbol_order=2)
+
+CanIf_ControllerModeIndication (uint8 ControllerId, Can_ControllerStateType ControllerMode)
+{
+  <bb 2> :
+  return;
+
+}
+
+
+
+;; Function CanIf_TxConfirmation (CanIf_TxConfirmation, funcdef_no=3, decl_uid=6586, cgraph_uid=4, symbol_order=3)
+
+CanIf_TxConfirmation (PduIdType CanTxPduId)
+{
+  <bb 2> :
+  CanIf_bTxFlag = 1;
+  return;
+
+}
+
+
+
+;; Function CanIf_RxIndication (CanIf_RxIndication, funcdef_no=4, decl_uid=6589, cgraph_uid=5, symbol_order=4)
+
+CanIf_RxIndication (const struct Can_HwType * Mailbox, const struct PduInfoType * PduInfoPtr)
+{
+  <bb 2> :
+  CanIf_bRxFlag = 1;
+  return;
+
+}
+
+

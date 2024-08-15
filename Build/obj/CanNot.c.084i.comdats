@@ -1,0 +1,67 @@
+CanIf_RxIndication (const struct Can_HwType * Mailbox, const struct PduInfoType * PduInfoPtr)
+{
+  <bb 2> :
+  CanIf_bRxFlag = 1;
+  return;
+
+}
+
+
+CanIf_TxConfirmation (PduIdType CanTxPduId)
+{
+  <bb 2> :
+  CanIf_bTxFlag = 1;
+  return;
+
+}
+
+
+CanIf_ControllerModeIndication (uint8 ControllerId, Can_ControllerStateType ControllerMode)
+{
+  <bb 2> :
+  return;
+
+}
+
+
+CanIf_ControllerBusOff (uint8 ControllerId)
+{
+  <bb 2> :
+  return;
+
+}
+
+
+Delay (uint32 ms)
+{
+  uint32 ElapsedTime;
+  uint32 SeedTick;
+  uint32 Timeout;
+  long unsigned int D.6616;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _13;
+
+  <bb 2> :
+  _1 = ms_5(D) * 1000;
+  Timeout_8 = OsIf_MicrosToTicks (_1, 1);
+  _2 = OsIf_GetCounter (1);
+  SeedTick = _2;
+  ElapsedTime_11 = 0;
+
+  <bb 3> :
+  # ElapsedTime_3 = PHI <ElapsedTime_11(2), ElapsedTime_14(3)>
+  _13 = OsIf_GetElapsed (&SeedTick, 1);
+  ElapsedTime_14 = _13 + ElapsedTime_3;
+  if (ElapsedTime_14 < Timeout_8)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 4> :
+  SeedTick ={v} {CLOBBER};
+  return;
+
+}
+
+

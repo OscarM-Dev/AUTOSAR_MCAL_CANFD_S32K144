@@ -1,0 +1,255 @@
+Platform_InstallIrqHandler (IRQn_Type eIrqNumber, void (*Platform_IrqHandlerType) (void) pfNewHandler, void (*Platform_IrqHandlerType) (void) * const pfOldHandler)
+{
+  Std_ReturnType RetValue;
+  Std_ReturnType D.6322;
+  Std_ReturnType _11;
+
+  <bb 2> :
+  RetValue_3 = 0;
+  if (eIrqNumber_4(D) > 122)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  if (eIrqNumber_4(D) < 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Det_ReportError (255, 0, 36, 2);
+  RetValue_10 = 1;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  Platform_Ipw_InstallIrqHandler (eIrqNumber_4(D), pfNewHandler_6(D), pfOldHandler_7(D));
+
+  <bb 6> :
+  # RetValue_1 = PHI <RetValue_10(4), RetValue_3(5)>
+  _11 = RetValue_1;
+
+  <bb 7> :
+<L4>:
+  return _11;
+
+}
+
+
+Platform_GetIrqPriority (IRQn_Type eIrqNumber, uint8 * u8Priority)
+{
+  Std_ReturnType RetValue;
+  Std_ReturnType D.6314;
+  unsigned char _1;
+  Std_ReturnType _14;
+
+  <bb 2> :
+  RetValue_4 = 0;
+  if (eIrqNumber_5(D) > 122)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  if (eIrqNumber_5(D) < 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Det_ReportError (255, 0, 35, 2);
+  RetValue_13 = 1;
+  goto <bb 8>; [INV]
+
+  <bb 5> :
+  if (u8Priority_6(D) == 0B)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+  Det_ReportError (255, 0, 35, 1);
+  RetValue_11 = 1;
+  goto <bb 8>; [INV]
+
+  <bb 7> :
+  _1 = Platform_Ipw_GetIrqPriority (eIrqNumber_5(D));
+  *u8Priority_6(D) = _1;
+
+  <bb 8> :
+  # RetValue_2 = PHI <RetValue_13(4), RetValue_11(6), RetValue_4(7)>
+  _14 = RetValue_2;
+
+  <bb 9> :
+<L7>:
+  return _14;
+
+}
+
+
+Platform_SetIrqPriority (IRQn_Type eIrqNumber, uint8 u8Priority)
+{
+  Std_ReturnType RetValue;
+  Std_ReturnType D.6305;
+  Std_ReturnType _10;
+
+  <bb 2> :
+  RetValue_3 = 0;
+  if (eIrqNumber_4(D) > 122)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  if (eIrqNumber_4(D) < 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 4> :
+  if (u8Priority_5(D) > 15)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (255, 0, 34, 2);
+  RetValue_9 = 1;
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  Platform_Ipw_SetIrqPriority (eIrqNumber_4(D), u8Priority_5(D));
+
+  <bb 7> :
+  # RetValue_1 = PHI <RetValue_9(5), RetValue_3(6)>
+  _10 = RetValue_1;
+
+  <bb 8> :
+<L5>:
+  return _10;
+
+}
+
+
+Platform_SetIrq (IRQn_Type eIrqNumber, boolean bEnable)
+{
+  Std_ReturnType RetValue;
+  Std_ReturnType D.6295;
+  Std_ReturnType _10;
+
+  <bb 2> :
+  RetValue_3 = 0;
+  if (eIrqNumber_4(D) > 122)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  if (eIrqNumber_4(D) < 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Det_ReportError (255, 0, 33, 2);
+  RetValue_9 = 1;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  Platform_Ipw_SetIrq (eIrqNumber_4(D), bEnable_6(D));
+
+  <bb 6> :
+  # RetValue_1 = PHI <RetValue_9(4), RetValue_3(5)>
+  _10 = RetValue_1;
+
+  <bb 7> :
+<L4>:
+  return _10;
+
+}
+
+
+Platform_Init (const struct Platform_ConfigType * pConfig)
+{
+  uint8 u8CoreId;
+  int _1;
+  const struct Platform_ConfigType * _2;
+  const struct Platform_Ipw_ConfigType * _3;
+
+  <bb 2> :
+  u8CoreId_5 = 0;
+  if (pConfig_6(D) != 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (255, 0, 32, 1);
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  _1 = (int) u8CoreId_5;
+  _2 = Platform_Config[_1];
+  _3 = _2->pIpwConfig;
+  Platform_Ipw_Init (_3);
+
+  <bb 5> :
+  return;
+
+}
+
+
+Platform_Ipw_InstallIrqHandler (IRQn_Type eIrqNumber, void (*IntCtrl_Ip_IrqHandlerType) (void) pfNewHandler, void (*IntCtrl_Ip_IrqHandlerType) (void) * const pfOldHandler)
+{
+  <bb 2> :
+  IntCtrl_Ip_InstallHandler (eIrqNumber_2(D), pfNewHandler_3(D), pfOldHandler_4(D));
+  return;
+
+}
+
+
+Platform_Ipw_GetIrqPriority (IRQn_Type eIrqNumber)
+{
+  uint8 D.6316;
+  uint8 _4;
+
+  <bb 2> :
+  _4 = IntCtrl_Ip_GetPriority (eIrqNumber_2(D));
+
+  <bb 3> :
+<L0>:
+  return _4;
+
+}
+
+
+Platform_Ipw_SetIrqPriority (IRQn_Type eIrqNumber, uint8 u8Priority)
+{
+  <bb 2> :
+  IntCtrl_Ip_SetPriority (eIrqNumber_2(D), u8Priority_3(D));
+  return;
+
+}
+
+
+Platform_Ipw_SetIrq (IRQn_Type eIrqNumber, boolean bEnable)
+{
+  <bb 2> :
+  if (bEnable_2(D) != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  IntCtrl_Ip_EnableIrq (eIrqNumber_4(D));
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  IntCtrl_Ip_DisableIrq (eIrqNumber_4(D));
+
+  <bb 5> :
+  return;
+
+}
+
+

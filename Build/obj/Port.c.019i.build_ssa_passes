@@ -1,0 +1,172 @@
+Port_GetVersionInfo (struct Std_VersionInfoType * versioninfo)
+{
+  <bb 2> :
+  if (versioninfo == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (124, 0, 3, 16);
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  versioninfo->vendorID = 43;
+  versioninfo->moduleID = 124;
+  versioninfo->sw_major_version = 2;
+  versioninfo->sw_minor_version = 0;
+  versioninfo->sw_patch_version = 0;
+
+  <bb 5> :
+  return;
+
+}
+
+
+Port_RefreshPortDirection ()
+{
+  uint8 CoreId;
+
+  <bb 2> :
+  CoreId = 0;
+  Port_pConfigPtr.4_1 = Port_pConfigPtr;
+  if (Port_pConfigPtr.4_1 == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (124, 0, 2, 15);
+  goto <bb 7>; [INV]
+
+  <bb 4> :
+  Port_pConfigPtr.5_2 = Port_pConfigPtr;
+  _3 = Port_pConfigPtr.5_2->pau8Port_PartitionList;
+  _4 = (sizetype) CoreId;
+  _5 = _3 + _4;
+  _6 = *_5;
+  if (_6 != 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (124, 0, 2, 240);
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  Port_pConfigPtr.6_7 = Port_pConfigPtr;
+  Port_Ipw_RefreshPortDirection (Port_pConfigPtr.6_7);
+
+  <bb 7> :
+  return;
+
+}
+
+
+Port_SetPinMode (Port_PinType Pin, Port_PinModeType Mode)
+{
+  uint8 u8PinModeError;
+
+  <bb 2> :
+  u8PinModeError = 0;
+  Port_pConfigPtr.2_1 = Port_pConfigPtr;
+  if (Port_pConfigPtr.2_1 == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (124, 0, 4, 15);
+  goto <bb 6>; [INV]
+
+  <bb 4> :
+  Port_pConfigPtr.3_2 = Port_pConfigPtr;
+  u8PinModeError = Port_Ipw_SetPinMode (Pin, Mode, Port_pConfigPtr.3_2);
+  if (u8PinModeError == 13)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (124, 0, 4, 13);
+
+  <bb 6> :
+  return;
+
+}
+
+
+Port_SetPinDirection (Port_PinType Pin, Port_PinDirectionType Direction)
+{
+  Std_ReturnType ErrStatus;
+
+  <bb 2> :
+  Port_pConfigPtr.0_1 = Port_pConfigPtr;
+  if (Port_pConfigPtr.0_1 == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (124, 0, 1, 15);
+  goto <bb 6>; [INV]
+
+  <bb 4> :
+  Port_pConfigPtr.1_2 = Port_pConfigPtr;
+  ErrStatus = Port_Ipw_SetPinDirection (Pin, Direction, Port_pConfigPtr.1_2);
+  if (ErrStatus == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (124, 0, 1, 11);
+
+  <bb 6> :
+  return;
+
+}
+
+
+Port_Init (const struct Port_ConfigType * ConfigPtr)
+{
+  uint8 CoreId;
+  const struct Port_ConfigType * pLocalConfigPtr;
+
+  <bb 2> :
+  pLocalConfigPtr = ConfigPtr;
+  CoreId = 0;
+  if (ConfigPtr == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (124, 0, 0, 12);
+  goto <bb 7>; [INV]
+
+  <bb 4> :
+  _1 = pLocalConfigPtr->pau8Port_PartitionList;
+  _2 = (sizetype) CoreId;
+  _3 = _1 + _2;
+  _4 = *_3;
+  if (_4 != 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (124, 0, 0, 240);
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  Port_Ipw_Init (pLocalConfigPtr);
+  Port_pConfigPtr = pLocalConfigPtr;
+
+  <bb 7> :
+  return;
+
+}
+
+

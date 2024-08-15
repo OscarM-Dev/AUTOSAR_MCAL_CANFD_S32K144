@@ -1,0 +1,25 @@
+IoHwAb_GetVersionInfo (struct Std_VersionInfoType * versioninfo)
+{
+  <bb 2> :
+  versioninfo_2(D)->moduleID = 0;
+  versioninfo_2(D)->vendorID = 43;
+  versioninfo_2(D)->sw_major_version = 2;
+  versioninfo_2(D)->sw_minor_version = 0;
+  versioninfo_2(D)->sw_patch_version = 0;
+  return;
+
+}
+
+
+IoHwAb_Init0 (const struct IoHwAb0_ConfigType * ConfigPtr)
+{
+  <bb 2> :
+  HwIoAb_Buttons_Init (&ButtonsCfg);
+  HwIoAb_Leds_Init (&LedsCfg);
+  HwIoAb_Pots_Init (0B);
+  HwIoAb_Buzzer_Init (0B);
+  return;
+
+}
+
+

@@ -1,0 +1,15 @@
+Autosar/Mcal/Dio/src/Dio.c:235:30:Dio_ValidateChannelLevel	24	static
+Autosar/Mcal/Dio/src/Dio.c:269:30:Dio_ValidateChannelForWrite	24	static
+Autosar/Mcal/Dio/src/Dio.c:335:30:Dio_ValidateChannelForRead	24	static
+Autosar/Mcal/Dio/src/Dio.c:411:30:Dio_ValidatePortForWrite	24	static
+Autosar/Mcal/Dio/src/Dio.c:456:30:Dio_ValidatePortForRead	24	static
+Autosar/Mcal/Dio/src/Dio.c:509:30:Dio_ValidateChannelGroupForWrite	24	static
+Autosar/Mcal/Dio/src/Dio.c:553:30:Dio_ValidateChannelGroupForRead	24	static
+Autosar/Mcal/Dio/src/Dio.c:608:6:Dio_GetVersionInfo	16	static
+Autosar/Mcal/Dio/src/Dio.c:644:15:Dio_ReadChannel	24	static
+Autosar/Mcal/Dio/src/Dio.c:680:6:Dio_WriteChannel	24	static
+Autosar/Mcal/Dio/src/Dio.c:726:15:Dio_FlipChannel	24	static
+Autosar/Mcal/Dio/src/Dio.c:760:19:Dio_ReadPort	24	static
+Autosar/Mcal/Dio/src/Dio.c:794:6:Dio_WritePort	24	static
+Autosar/Mcal/Dio/src/Dio.c:827:19:Dio_ReadChannelGroup	24	static
+Autosar/Mcal/Dio/src/Dio.c:895:6:Dio_WriteChannelGroup	24	static

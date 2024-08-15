@@ -1,0 +1,288 @@
+---
+:project:
+  :use_exceptions: true
+  :use_mocks: true
+  :compile_threads: 1
+  :test_threads: 1
+  :use_test_preprocessor: false
+  :use_preprocessor_directives: false
+  :use_deep_dependencies: false
+  :generate_deep_dependencies: true
+  :auto_link_deep_dependencies: false
+  :test_file_prefix: test_
+  :options_paths: []
+  :release_build: true
+  :build_root: Build/build_ceedling
+  :which_ceedling: gem
+  :ceedling_version: 0.31.1
+:release_build:
+  :use_assembly: false
+  :artifacts: []
+:paths:
+  :test:
+  - Test/**
+  :source:
+  - Autosar/Bfx/**
+  :support: []
+  :include:
+  - Autosar/Mcal/Base/include/**
+  :libraries: []
+  :test_toolchain_include: []
+  :release_toolchain_include: []
+:files:
+  :test: []
+  :source: []
+  :assembly: []
+  :support: []
+  :include: []
+:environment:
+- :rake_columns: '120'
+:defines:
+  :test: []
+  :test_preprocess: []
+  :release: []
+  :release_preprocess: []
+  :use_test_definition: false
+:libraries:
+  :flag: "-l${1}"
+  :path_flag: "-L ${1}"
+  :test: []
+  :test_preprocess: []
+  :release: []
+  :release_preprocess: []
+:flags: {}
+:extension:
+  :header: ".h"
+  :source: ".c"
+  :assembly: ".s"
+  :object: ".o"
+  :libraries:
+  - ".a"
+  - ".so"
+  :executable: ".exe"
+  :map: ".map"
+  :list: ".lst"
+  :testpass: ".pass"
+  :testfail: ".fail"
+  :dependencies: ".d"
+:unity:
+  :vendor_path: C:/tools/ruby31/lib/ruby/gems/3.1.0/gems/ceedling-0.31.1/vendor
+  :defines: []
+:cmock:
+  :vendor_path: C:/tools/ruby31/lib/ruby/gems/3.1.0/gems/ceedling-0.31.1/vendor
+  :defines: []
+  :includes: []
+  :mock_prefix: Mock
+  :enforce_strict_ordering: true
+  :mock_path: Build/build_ceedling/test/mocks
+  :verbosity: 3
+  :plugins:
+  - :cexception
+  :unity_helper: false
+:cexception:
+  :vendor_path: C:/tools/ruby31/lib/ruby/gems/3.1.0/gems/ceedling-0.31.1/vendor
+  :defines: []
+:test_runner:
+  :includes: []
+  :file_suffix: _runner
+:tools:
+  :test_compiler:
+    :executable: gcc.exe
+    :name: default_test_compiler
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+    :arguments:
+    - ''
+    - ''
+    - -I"$": COLLECTION_PATHS_TEST_SUPPORT_SOURCE_INCLUDE_VENDOR
+    - -I"$": COLLECTION_PATHS_TEST_TOOLCHAIN_INCLUDE
+    - "-D$": COLLECTION_DEFINES_TEST_AND_VENDOR
+    - "-DGNU_COMPILER"
+    - "-g"
+    - ''
+    - -c "${1}"
+    - -o "${2}"
+    - "-MMD"
+    - -MF "${4}"
+  :test_fixture:
+    :executable: "${1}"
+    :name: default_test_fixture
+    :stderr_redirect: :auto
+    :background_exec: :none
+    :optional: false
+    :arguments: []
+  :test_linker:
+    :executable: gcc.exe
+    :name: default_test_linker
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+    :arguments:
+    - ''
+    - ''
+    - ''
+    - '"${1}"'
+    - "${5}"
+    - -o "${2}"
+    - ''
+    - "${4}"
+    - ''
+  :release_compiler:
+    :executable: gcc.exe
+    :name: default_release_compiler
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+    :arguments:
+    - ''
+    - ''
+    - -I"$": COLLECTION_PATHS_SOURCE_INCLUDE_VENDOR
+    - -I"$": COLLECTION_PATHS_RELEASE_TOOLCHAIN_INCLUDE
+    - "-D$": COLLECTION_DEFINES_RELEASE_AND_VENDOR
+    - "-DGNU_COMPILER"
+    - ''
+    - -c "${1}"
+    - -o "${2}"
+    - "-MMD"
+    - -MF "${4}"
+  :release_linker:
+    :executable: gcc.exe
+    :name: default_release_linker
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+    :arguments:
+    - ''
+    - ''
+    - ''
+    - '"${1}"'
+    - "${5}"
+    - -o "${2}"
+    - ''
+    - "${4}"
+    - ''
+  :gcov_compiler:
+    :executable: gcc.exe
+    :name: default_gcov_compiler
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+    :arguments:
+    - "-g"
+    - "-fprofile-arcs"
+    - "-ftest-coverage"
+    - ''
+    - ''
+    - -I"$": COLLECTION_PATHS_TEST_SUPPORT_SOURCE_INCLUDE_VENDOR
+    - -I"$": COLLECTION_PATHS_TEST_TOOLCHAIN_INCLUDE
+    - "-D$": COLLECTION_DEFINES_TEST_AND_VENDOR
+    - "-DGCOV_COMPILER"
+    - "-DCODE_COVERAGE"
+    - ''
+    - -c "${1}"
+    - -o "${2}"
+  :gcov_fixture:
+    :executable: "${1}"
+    :name: default_gcov_fixture
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+    :arguments: []
+  :gcov_gcov_post_report:
+    :executable: gcov.exe
+    :name: default_gcov_gcov_post_report
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: true
+    :arguments:
+    - "-b"
+    - "-c"
+    - "-r"
+    - "-x"
+    - "${1}"
+  :gcov_gcovr_post_report:
+    :executable: gcovr
+    :name: default_gcov_gcovr_post_report
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: true
+    :arguments:
+    - "${1}"
+  :gcov_linker:
+    :executable: gcc.exe
+    :name: default_gcov_linker
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+    :arguments:
+    - "-g"
+    - "-fprofile-arcs"
+    - "-ftest-coverage"
+    - ''
+    - ''
+    - ''
+    - '"${1}"'
+    - -o "${2}"
+    - "${4}"
+    - "${5}"
+    - ''
+  :gcov_report:
+    :executable: gcov.exe
+    :name: default_gcov_report
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+    :arguments:
+    - "-n"
+    - "-p"
+    - "-b"
+    - -o "$": GCOV_BUILD_OUTPUT_PATH
+    - '"${1}"'
+  :gcov_reportgenerator_post_report:
+    :executable: reportgenerator
+    :name: default_gcov_reportgenerator_post_report
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: true
+    :arguments:
+    - "${1}"
+:test_compiler:
+  :arguments: []
+:test_linker:
+  :arguments: []
+:test_fixture:
+  :arguments: []
+  :link_objects: []
+:test_includes_preprocessor:
+  :arguments: []
+:test_file_preprocessor:
+  :arguments: []
+:test_file_preprocessor_directives:
+  :arguments: []
+:test_dependencies_generator:
+  :arguments: []
+:release_compiler:
+  :arguments: []
+:release_linker:
+  :arguments: []
+:release_assembler:
+  :arguments: []
+:release_dependencies_generator:
+  :arguments: []
+:plugins:
+  :load_paths:
+  - C:/tools/ruby31/lib/ruby/gems/3.1.0/gems/ceedling-0.31.1/lib/../plugins
+  :enabled:
+  - stdout_pretty_tests_report
+  - gcov
+  :display_raw_test_results: false
+  :stdout_pretty_tests_report_path: C:/tools/ruby31/lib/ruby/gems/3.1.0/gems/ceedling-0.31.1/lib/../plugins/stdout_pretty_tests_report
+  :gcov_path: C:/tools/ruby31/lib/ruby/gems/3.1.0/gems/ceedling-0.31.1/lib/../plugins/gcov
+:gcov:
+  :abort_on_uncovered: true
+  :utilities:
+  - gcovr
+  :reports:
+  - HtmlDetailed
+  :uncovered_ignore_list:

@@ -1,0 +1,259 @@
+HwIoAb_Leds_TurnToggle (uint8 Led)
+{
+  uint8 status;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.11_1;
+  _Bool _2;
+  _Bool _3;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.12_4;
+  unsigned char _5;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.13_6;
+  const struct HwIoAb_Leds_Config * _7;
+  unsigned int _8;
+  unsigned int _9;
+  const struct HwIoAb_Leds_Config * _10;
+  short unsigned int _11;
+
+  <bb 2> :
+  status_17 = 0;
+  LedsControl_Ptr.11_1 = LedsControl_Ptr;
+  _2 = LedsControl_Ptr.11_1->Leds_init;
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (302, 0, 3, 2);
+  status_20 = 1;
+
+  <bb 4> :
+  # status_12 = PHI <status_17(2), status_20(3)>
+  LedsControl_Ptr.12_4 = LedsControl_Ptr;
+  _5 = LedsControl_Ptr.12_4->Leds;
+  if (Led_21(D) >= _5)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (302, 0, 3, 1);
+  status_23 = 1;
+
+  <bb 6> :
+  # status_13 = PHI <status_12(4), status_23(5)>
+  if (status_13 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  LedsControl_Ptr.13_6 = LedsControl_Ptr;
+  _7 = LedsControl_Ptr.13_6->LedsConfig_Ptr;
+  _8 = (unsigned int) Led_21(D);
+  _9 = _8 * 4;
+  _10 = _7 + _9;
+  _11 = _10->Led;
+  Dio_FlipChannel (_11);
+
+  <bb 8> :
+  return;
+
+}
+
+
+HwIoAb_Leds_TurnOff (uint8 Led)
+{
+  uint8 status;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.7_1;
+  _Bool _2;
+  _Bool _3;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.8_4;
+  unsigned char _5;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.9_6;
+  const struct HwIoAb_Leds_Config * _7;
+  unsigned int _8;
+  unsigned int _9;
+  const struct HwIoAb_Leds_Config * _10;
+  short unsigned int _11;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.10_12;
+  const struct HwIoAb_Leds_Config * _13;
+  unsigned int _14;
+  unsigned int _15;
+  const struct HwIoAb_Leds_Config * _16;
+  unsigned char _17;
+  _Bool _18;
+  unsigned char _19;
+
+  <bb 2> :
+  status_25 = 0;
+  LedsControl_Ptr.7_1 = LedsControl_Ptr;
+  _2 = LedsControl_Ptr.7_1->Leds_init;
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (302, 0, 2, 2);
+  status_28 = 1;
+
+  <bb 4> :
+  # status_20 = PHI <status_25(2), status_28(3)>
+  LedsControl_Ptr.8_4 = LedsControl_Ptr;
+  _5 = LedsControl_Ptr.8_4->Leds;
+  if (Led_29(D) >= _5)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (302, 0, 2, 1);
+  status_31 = 1;
+
+  <bb 6> :
+  # status_21 = PHI <status_20(4), status_31(5)>
+  if (status_21 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  LedsControl_Ptr.9_6 = LedsControl_Ptr;
+  _7 = LedsControl_Ptr.9_6->LedsConfig_Ptr;
+  _8 = (unsigned int) Led_29(D);
+  _9 = _8 * 4;
+  _10 = _7 + _9;
+  _11 = _10->Led;
+  LedsControl_Ptr.10_12 = LedsControl_Ptr;
+  _13 = LedsControl_Ptr.10_12->LedsConfig_Ptr;
+  _14 = (unsigned int) Led_29(D);
+  _15 = _14 * 4;
+  _16 = _13 + _15;
+  _17 = _16->Active;
+  _18 = _17 == 0;
+  _19 = (unsigned char) _18;
+  Dio_WriteChannel (_11, _19);
+
+  <bb 8> :
+  return;
+
+}
+
+
+HwIoAb_Leds_TurnOn (uint8 Led)
+{
+  uint8 status;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.3_1;
+  _Bool _2;
+  _Bool _3;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.4_4;
+  unsigned char _5;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.5_6;
+  const struct HwIoAb_Leds_Config * _7;
+  unsigned int _8;
+  unsigned int _9;
+  const struct HwIoAb_Leds_Config * _10;
+  short unsigned int _11;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.6_12;
+  const struct HwIoAb_Leds_Config * _13;
+  unsigned int _14;
+  unsigned int _15;
+  const struct HwIoAb_Leds_Config * _16;
+  unsigned char _17;
+
+  <bb 2> :
+  status_23 = 0;
+  LedsControl_Ptr.3_1 = LedsControl_Ptr;
+  _2 = LedsControl_Ptr.3_1->Leds_init;
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (302, 0, 1, 2);
+  status_26 = 1;
+
+  <bb 4> :
+  # status_18 = PHI <status_23(2), status_26(3)>
+  LedsControl_Ptr.4_4 = LedsControl_Ptr;
+  _5 = LedsControl_Ptr.4_4->Leds;
+  if (Led_27(D) >= _5)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (302, 0, 1, 1);
+  status_29 = 1;
+
+  <bb 6> :
+  # status_19 = PHI <status_18(4), status_29(5)>
+  if (status_19 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  LedsControl_Ptr.5_6 = LedsControl_Ptr;
+  _7 = LedsControl_Ptr.5_6->LedsConfig_Ptr;
+  _8 = (unsigned int) Led_27(D);
+  _9 = _8 * 4;
+  _10 = _7 + _9;
+  _11 = _10->Led;
+  LedsControl_Ptr.6_12 = LedsControl_Ptr;
+  _13 = LedsControl_Ptr.6_12->LedsConfig_Ptr;
+  _14 = (unsigned int) Led_27(D);
+  _15 = _14 * 4;
+  _16 = _13 + _15;
+  _17 = _16->Active;
+  Dio_WriteChannel (_11, _17);
+
+  <bb 8> :
+  return;
+
+}
+
+
+HwIoAb_Leds_Init (const struct HwIoAb_Leds_Config * Leds_Config)
+{
+  uint8 status;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.0_1;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.1_2;
+  struct HwIoAb_Leds_Ctrl * LedsControl_Ptr.2_3;
+
+  <bb 2> :
+  status_7 = 0;
+  if (Leds_Config_8(D) == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (302, 0, 0, 0);
+  status_11 = 1;
+
+  <bb 4> :
+  # status_4 = PHI <status_7(2), status_11(3)>
+  if (status_4 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  LedsControl_Ptr.0_1 = LedsControl_Ptr;
+  LedsControl_Ptr.0_1->Leds = 3;
+  LedsControl_Ptr.1_2 = LedsControl_Ptr;
+  LedsControl_Ptr.1_2->LedsConfig_Ptr = Leds_Config_8(D);
+  LedsControl_Ptr.2_3 = LedsControl_Ptr;
+  LedsControl_Ptr.2_3->Leds_init = 1;
+
+  <bb 6> :
+  return;
+
+}
+
+

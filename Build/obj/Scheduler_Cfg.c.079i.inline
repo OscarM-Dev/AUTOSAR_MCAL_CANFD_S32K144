@@ -1,0 +1,104 @@
+
+Flattening functions:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 0.
+node context cache: 0 hits, 0 misses, 0 initializations
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Why inlining failed?
+Symbol table:
+
+Timer1_callback/60 (Timer1_callback) @069517e0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Timer_Config/52 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Task2_callback/59 (Task2_callback) @06951700
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Task1_callback/58 (Task1_callback) @06951620
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Task_Config/51 (addr) 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Queue1/57 (Queue1) @06947dc8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Queue_Config/50 (addr) 
+  Availability: not_available
+  Varpool flags:
+SchedulerCtrl_Ptr/56 (SchedulerCtrl_Ptr) @06947ca8
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Scheduler_Control/54 (addr) 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+SchedulerConfig_Ptr/55 (SchedulerConfig_Ptr) @06947c60
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Scheduler_Config/53 (addr) 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+Scheduler_Control/54 (Scheduler_Control) @06947c18
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: SchedulerCtrl_Ptr/56 (addr) 
+  Availability: available
+  Varpool flags:
+Scheduler_Config/53 (Scheduler_Config) @06947bd0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Task_Config/51 (addr) Timer_Config/52 (addr) Queue_Config/50 (addr) 
+  Referring: SchedulerConfig_Ptr/55 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Timer_Config/52 (Timer_Config) @06947b40
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Timer1_callback/60 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Task_Config/51 (Task_Config) @06947ab0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Task1_callback/58 (addr) Task2_callback/59 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Queue_Config/50 (Queue_Config) @06947a20
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Queue1/57 (addr) 
+  Referring: Scheduler_Config/53 (addr) 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known

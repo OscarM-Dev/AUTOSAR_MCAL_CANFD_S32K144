@@ -1,0 +1,3 @@
+Dev/src/mcu_init.c:31:6:MCU_clocks	8	static
+Dev/src/mcu_init.c:48:6:EcuM_Init	8	static
+Dev/src/mcu_init.c:62:6:Delay	32	static

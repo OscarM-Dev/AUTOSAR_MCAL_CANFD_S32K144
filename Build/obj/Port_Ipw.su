@@ -1,0 +1,7 @@
+Autosar/Mcal/Port/src/Port_Ipw.c:218:20:Port_Ipw_Init_UnusedPins	32	static
+Autosar/Mcal/Port/src/Port_Ipw.c:404:6:Port_Ipw_Init	24	static
+Autosar/Mcal/Port/src/Port_Ipw.c:469:16:Port_Ipw_SetPinDirection	32	static
+Autosar/Mcal/Port/src/Port_Ipw.c:642:16:Port_Ipw_SetPinMode	48	static
+Autosar/Mcal/Port/src/Port_Ipw.c:756:6:Port_Ipw_SetGpioDirChangeability	24	static
+Autosar/Mcal/Port/src/Port_Ipw.c:804:6:Port_Ipw_SetGpioPadOutput	16	static
+Autosar/Mcal/Port/src/Port_Ipw.c:844:6:Port_Ipw_RefreshPortDirection	24	static

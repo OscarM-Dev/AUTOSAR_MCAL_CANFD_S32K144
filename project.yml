@@ -1,0 +1,30 @@
+#This is the configuration file for running the unit test cases with ceedling.
+:project:
+  :build_root: Build/build_ceedling
+  :release_build: TRUE
+  :test_file_prefix: test_
+  :which_ceedling: gem
+  :ceedling_version: 0.31.1
+
+:paths:
+  :test:
+    - Test/**     # directory where the unit testing are
+  :source:
+    - Autosar/Bfx/**      # directory where the functions to test are
+  :include:
+    - Autosar/Mcal/Base/include/**
+
+:plugins: 
+  :load_paths:
+    - "#{Ceedling.load_path}"
+  :enabled:
+    - stdout_pretty_tests_report
+    - gcov
+  
+:gcov:
+  :abort_on_uncovered: true
+  :utilities:
+    - gcovr
+  :reports:
+    - HtmlDetailed
+  :uncovered_ignore_list:

@@ -1,0 +1,859 @@
+Trivially needed symbols: main/58 CanIf_Can2_bRxFlag/57 CanIf_Can2_bTxFlag/56 Queue1/55
+
+
+Initial Symbol table:
+
+Delay/62 (Delay) @0a3e61c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+CanIf_Transmit/61 (CanIf_Transmit) @0a3e60e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 main/58 
+  Calls: 
+CanIf_SetControllerMode/60 (CanIf_SetControllerMode) @0a3e6000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+EcuM_Init/59 (EcuM_Init) @0a3aeee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+main/58 (main) @0a3aea80
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @01981040
+  References: CanIf_Can2_bTxFlag/56 (read) CanIf_Can2_bTxFlag/56 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Delay/62 CanIf_Transmit/61 CanIf_Transmit/61 CanIf_SetControllerMode/60 EcuM_Init/59 
+CanIf_Can2_bRxFlag/57 (CanIf_Can2_bRxFlag) @0a3a8dc8
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @0a3aea80
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can2_bTxFlag/56 (CanIf_Can2_bTxFlag) @0a3a8d80
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @0a3a8dc8
+  References: 
+  Referring: main/58 (read) main/58 (write) 
+  Availability: not-ready
+  Varpool flags:
+Queue1/55 (Queue1) @0a3a8d38
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @0a3a8d80
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags:
+Bfx_CountLeadingZeros_u8/54 (Bfx_CountLeadingZeros_u8) @0a3a1380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingSigns_s8/53 (Bfx_CountLeadingSigns_s8) @0a3a10e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingOnes_u8/52 (Bfx_CountLeadingOnes_u8) @0a39be00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitSat_s8s8_s8/51 (Bfx_ShiftBitSat_s8s8_s8) @0a39bb60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitSat_u8s8_u8/50 (Bfx_ShiftBitSat_u8s8_u8) @0a39b8c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBits_u8u8u8u8/49 (Bfx_PutBits_u8u8u8u8) @0a39b620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBitsMask_u8u8u8/48 (Bfx_PutBitsMask_u8u8u8) @0a39b380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBit_u8u8u8/47 (Bfx_PutBit_u8u8u8) @0a39b0e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CopyBit_u8u8u8u8/46 (Bfx_CopyBit_u8u8u8u8) @0a396e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_RotBitLt_u8u8/45 (Bfx_RotBitLt_u8u8) @0a396b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_RotBitRt_u8u8/44 (Bfx_RotBitRt_u8u8) @0a3968c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitLt_u8u8/43 (Bfx_ShiftBitLt_u8u8) @0a396620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitRt_u8u8/42 (Bfx_ShiftBitRt_u8u8) @0a396380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ToggleBitMask_u8u8/41 (Bfx_ToggleBitMask_u8u8) @0a3960e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ToggleBits_u8/40 (Bfx_ToggleBits_u8) @0a390e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstParityEven_u8_u8/39 (Bfx_TstParityEven_u8_u8) @0a390b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstBitLnMask_u8u8_u8/38 (Bfx_TstBitLnMask_u8u8_u8) @0a3908c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstBitMask_u8u8_u8/37 (Bfx_TstBitMask_u8u8_u8) @0a390620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ClrBitMask_u8u8/36 (Bfx_ClrBitMask_u8u8) @0a390380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBitMask_u8u8/35 (Bfx_SetBitMask_u8u8) @0a3900e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_GetBits_u8u8u8_u8/34 (Bfx_GetBits_u8u8u8_u8) @0a38ce00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBits_u8u8u8u8/33 (Bfx_SetBits_u8u8u8u8) @0a38cb60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_GetBit_u8u8_u8/32 (Bfx_GetBit_u8u8_u8) @0a38c8c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ClrBit_u8u8/31 (Bfx_ClrBit_u8u8) @0a38c620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBit_u8u8/30 (Bfx_SetBit_u8u8) @0a38c380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingZeros_u32/29 (Bfx_CountLeadingZeros_u32) @0a38c0e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingSigns_s32/28 (Bfx_CountLeadingSigns_s32) @0a382e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CountLeadingOnes_u32/27 (Bfx_CountLeadingOnes_u32) @0a382b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitSat_s32s8_s32/26 (Bfx_ShiftBitSat_s32s8_s32) @0a3828c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitSat_u32s8_u32/25 (Bfx_ShiftBitSat_u32s8_u32) @0a382620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBits_u32u8u8u32/24 (Bfx_PutBits_u32u8u8u32) @0a382380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBitsMask_u32u32u32/23 (Bfx_PutBitsMask_u32u32u32) @0a3820e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_PutBit_u32u8u8/22 (Bfx_PutBit_u32u8u8) @0a380e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_CopyBit_u32u8u32u8/21 (Bfx_CopyBit_u32u8u32u8) @0a380b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_RotBitLt_u32u8/20 (Bfx_RotBitLt_u32u8) @0a3808c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_RotBitRt_u32u8/19 (Bfx_RotBitRt_u32u8) @0a380620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitLt_u32u8/18 (Bfx_ShiftBitLt_u32u8) @0a380380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ShiftBitRt_u32u8/17 (Bfx_ShiftBitRt_u32u8) @0a3800e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ToggleBitMask_u32u32/16 (Bfx_ToggleBitMask_u32u32) @0a37de00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ToggleBits_u32/15 (Bfx_ToggleBits_u32) @0a37db60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstParityEven_u32_u8/14 (Bfx_TstParityEven_u32_u8) @0a37d8c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstBitLnMask_u32u32_u8/13 (Bfx_TstBitLnMask_u32u32_u8) @0a37d620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_TstBitMask_u32u32_u8/12 (Bfx_TstBitMask_u32u32_u8) @0a37d380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ClrBitMask_u32u32/11 (Bfx_ClrBitMask_u32u32) @0a37d0e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBitMask_u32u32/10 (Bfx_SetBitMask_u32u32) @0a377e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_GetBits_u32u8u8_u32/9 (Bfx_GetBits_u32u8u8_u32) @0a377b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBits_u32u8u8u8/8 (Bfx_SetBits_u32u8u8u8) @0a3778c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_GetBit_u32u8_u8/7 (Bfx_GetBit_u32u8_u8) @0a377620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_ClrBit_u32u8/6 (Bfx_ClrBit_u32u8) @0a377380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Bfx_SetBit_u32u8/5 (Bfx_SetBit_u32u8) @0a3770e0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06b8f1c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06b89700
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06b89d20
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06b89a80
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+DevAssert/0 (DevAssert) @06e68b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+
+Removing unused symbols: Bfx_CountLeadingZeros_u8/54 Bfx_CountLeadingSigns_s8/53 Bfx_CountLeadingOnes_u8/52 Bfx_ShiftBitSat_s8s8_s8/51 Bfx_ShiftBitSat_u8s8_u8/50 Bfx_PutBits_u8u8u8u8/49 Bfx_PutBitsMask_u8u8u8/48 Bfx_PutBit_u8u8u8/47 Bfx_CopyBit_u8u8u8u8/46 Bfx_RotBitLt_u8u8/45 Bfx_RotBitRt_u8u8/44 Bfx_ShiftBitLt_u8u8/43 Bfx_ShiftBitRt_u8u8/42 Bfx_ToggleBitMask_u8u8/41 Bfx_ToggleBits_u8/40 Bfx_TstParityEven_u8_u8/39 Bfx_TstBitLnMask_u8u8_u8/38 Bfx_TstBitMask_u8u8_u8/37 Bfx_ClrBitMask_u8u8/36 Bfx_SetBitMask_u8u8/35 Bfx_GetBits_u8u8u8_u8/34 Bfx_SetBits_u8u8u8u8/33 Bfx_GetBit_u8u8_u8/32 Bfx_ClrBit_u8u8/31 Bfx_SetBit_u8u8/30 Bfx_CountLeadingZeros_u32/29 Bfx_CountLeadingSigns_s32/28 Bfx_CountLeadingOnes_u32/27 Bfx_ShiftBitSat_s32s8_s32/26 Bfx_ShiftBitSat_u32s8_u32/25 Bfx_PutBits_u32u8u8u32/24 Bfx_PutBitsMask_u32u32u32/23 Bfx_PutBit_u32u8u8/22 Bfx_CopyBit_u32u8u32u8/21 Bfx_RotBitLt_u32u8/20 Bfx_RotBitRt_u32u8/19 Bfx_ShiftBitLt_u32u8/18 Bfx_ShiftBitRt_u32u8/17 Bfx_ToggleBitMask_u32u32/16 Bfx_ToggleBits_u32/15 Bfx_TstParityEven_u32_u8/14 Bfx_TstBitLnMask_u32u32_u8/13 Bfx_TstBitMask_u32u32_u8/12 Bfx_ClrBitMask_u32u32/11 Bfx_SetBitMask_u32u32/10 Bfx_GetBits_u32u8u8_u32/9 Bfx_SetBits_u32u8u8u8/8 Bfx_GetBit_u32u8_u8/7 Bfx_ClrBit_u32u8/6 Bfx_SetBit_u32u8/5 Platform_Ipw_InstallIrqHandler/4 Platform_Ipw_GetIrqPriority/3 Platform_Ipw_SetIrqPriority/2 Platform_Ipw_SetIrq/1 DevAssert/0
+
+Reclaimed Symbol table:
+
+Delay/62 (Delay) @0a3e61c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+CanIf_Transmit/61 (CanIf_Transmit) @0a3e60e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 main/58 
+  Calls: 
+CanIf_SetControllerMode/60 (CanIf_SetControllerMode) @0a3e6000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+EcuM_Init/59 (EcuM_Init) @0a3aeee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+main/58 (main) @0a3aea80
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: CanIf_Can2_bTxFlag/56 (read) CanIf_Can2_bTxFlag/56 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Delay/62 CanIf_Transmit/61 CanIf_Transmit/61 CanIf_SetControllerMode/60 EcuM_Init/59 
+CanIf_Can2_bRxFlag/57 (CanIf_Can2_bRxFlag) @0a3a8dc8
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can2_bTxFlag/56 (CanIf_Can2_bTxFlag) @0a3a8d80
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: main/58 (read) main/58 (write) 
+  Availability: not-ready
+  Varpool flags:
+Queue1/55 (Queue1) @0a3a8d38
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags:
+
+
+Initial Symbol table:
+
+Delay/62 (Delay) @0a3e61c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+CanIf_Transmit/61 (CanIf_Transmit) @0a3e60e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 main/58 
+  Calls: 
+CanIf_SetControllerMode/60 (CanIf_SetControllerMode) @0a3e6000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+EcuM_Init/59 (EcuM_Init) @0a3aeee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+main/58 (main) @0a3aea80
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: CanIf_Can2_bTxFlag/56 (read) CanIf_Can2_bTxFlag/56 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Delay/62 CanIf_Transmit/61 CanIf_Transmit/61 CanIf_SetControllerMode/60 EcuM_Init/59 
+CanIf_Can2_bRxFlag/57 (CanIf_Can2_bRxFlag) @0a3a8dc8
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can2_bTxFlag/56 (CanIf_Can2_bTxFlag) @0a3a8d80
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: main/58 (read) main/58 (write) 
+  Availability: not-ready
+  Varpool flags:
+Queue1/55 (Queue1) @0a3a8d38
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+Delay/62 (Delay) @0a3e61c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+CanIf_Transmit/61 (CanIf_Transmit) @0a3e60e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 main/58 
+  Calls: 
+CanIf_SetControllerMode/60 (CanIf_SetControllerMode) @0a3e6000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+EcuM_Init/59 (EcuM_Init) @0a3aeee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: main/58 
+  Calls: 
+main/58 (main) @0a3aea80
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: CanIf_Can2_bTxFlag/56 (read) CanIf_Can2_bTxFlag/56 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Delay/62 CanIf_Transmit/61 CanIf_Transmit/61 CanIf_SetControllerMode/60 EcuM_Init/59 
+CanIf_Can2_bRxFlag/57 (CanIf_Can2_bRxFlag) @0a3a8dc8
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can2_bTxFlag/56 (CanIf_Can2_bTxFlag) @0a3a8d80
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: main/58 (read) main/58 (write) 
+  Availability: not-ready
+  Varpool flags:
+Queue1/55 (Queue1) @0a3a8d38
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags:
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+Delay/62 (Delay) @0a3e61c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/58 
+  Calls: 
+CanIf_Transmit/61 (CanIf_Transmit) @0a3e60e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/58 main/58 
+  Calls: 
+CanIf_SetControllerMode/60 (CanIf_SetControllerMode) @0a3e6000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/58 
+  Calls: 
+EcuM_Init/59 (EcuM_Init) @0a3aeee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: main/58 
+  Calls: 
+main/58 (main) @0a3aea80
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: CanIf_Can2_bTxFlag/56 (read) CanIf_Can2_bTxFlag/56 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Delay/62 CanIf_Transmit/61 CanIf_Transmit/61 CanIf_SetControllerMode/60 EcuM_Init/59 
+CanIf_Can2_bRxFlag/57 (CanIf_Can2_bRxFlag) @0a3a8dc8
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+CanIf_Can2_bTxFlag/56 (CanIf_Can2_bTxFlag) @0a3a8d80
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: main/58 (read) main/58 (write) 
+  Availability: available
+  Varpool flags:
+Queue1/55 (Queue1) @0a3a8d38
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Trivially needed variables: CanIf_Can2_bRxFlag/57 CanIf_Can2_bTxFlag/56 Queue1/55
+Removing variables:
+
+Final Symbol table:
+
+Delay/62 (Delay) @0a3e61c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+CanIf_Transmit/61 (CanIf_Transmit) @0a3e60e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+CanIf_SetControllerMode/60 (CanIf_SetControllerMode) @0a3e6000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+EcuM_Init/59 (EcuM_Init) @0a3aeee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+main/58 (main) @0a3aea80
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.main (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CanIf_Can2_bRxFlag/57 (CanIf_Can2_bRxFlag) @0a3a8dc8
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.bss.CanIf_Can2_bRxFlag (implicit_section)
+  Aux: @00000001
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+CanIf_Can2_bTxFlag/56 (CanIf_Can2_bTxFlag) @0a3a8d80
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.bss.CanIf_Can2_bTxFlag (implicit_section)
+  Aux: @0a3a8dc8
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+Queue1/55 (Queue1) @0a3a8d38
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.bss.Queue1 (implicit_section)
+  Aux: @0a3a8d80
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:

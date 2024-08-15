@@ -1,0 +1,56 @@
+main ()
+{
+  struct PduInfoType Message1;
+  uint8 Message1_SDU[8];
+  struct PduInfoType Message0;
+  uint8 Message0_SDU[8];
+  int D.9395;
+
+  <bb 2> :
+  Message0_SDU = "\x01\x02\x03\x04\x05\x06\x07\b";
+  Message0.SduDataPtr = &Message0_SDU;
+  Message0.MetaDataPtr = 0B;
+  Message0.SduLength = 8;
+  Message1_SDU = "\x00\x10 0@P`p";
+  Message1.SduDataPtr = &Message1_SDU;
+  Message1.MetaDataPtr = 0B;
+  Message1.SduLength = 8;
+  EcuM_Init ();
+  CanIf_SetControllerMode (0, 1);
+
+  <bb 3> :
+  CanIf_Transmit (0, &Message0);
+  CanIf_Transmit (1, &Message1);
+
+  <bb 4> :
+  CanIf_Can2_bTxFlag.0_1 = CanIf_Can2_bTxFlag;
+  _2 = ~CanIf_Can2_bTxFlag.0_1;
+  if (_2 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  CanIf_Can2_bTxFlag = 0;
+  _3 = Message0_SDU[0];
+  _4 = _3;
+  _5 = _4 + 1;
+  Message0_SDU[0] = _5;
+  _6 = Message0_SDU[7];
+  _7 = _6;
+  _8 = _7 + 1;
+  Message0_SDU[7] = _8;
+  _9 = Message1_SDU[0];
+  _10 = _9;
+  _11 = _10 + 1;
+  Message1_SDU[0] = _11;
+  _12 = Message1_SDU[7];
+  _13 = _12;
+  _14 = _13 + 1;
+  Message1_SDU[7] = _14;
+  Delay (5000);
+  goto <bb 3>; [INV]
+
+}
+
+

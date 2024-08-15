@@ -1,0 +1,13 @@
+Autosar/CanIf/src/CanIf.c:112:6:CanIf_Init	8	static
+Autosar/CanIf/src/CanIf.c:129:16:CanIf_Transmit	48	static
+Autosar/CanIf/src/CanIf.c:187:6:CanIf_TxConfirmation	24	static
+Autosar/CanIf/src/CanIf.c:211:6:CanIf_RxIndication	40	static
+Autosar/CanIf/src/CanIf.c:254:6:CanIf_ControllerModeIndication	8	static
+Autosar/CanIf/src/CanIf.c:264:6:CanIf_ControllerBusOff	8	static
+Autosar/CanIf/src/CanIf.c:279:16:CanIf_SetControllerMode	32	static
+Autosar/CanIf/src/CanIf.c:302:6:CanIf_EnableControllerInterrupts	24	static
+Autosar/CanIf/src/CanIf.c:321:6:CanIf_DisableControllerInterrupts	24	static
+Autosar/CanIf/src/CanIf.c:342:16:CanIf_GetControllerErrorState	32	static
+Autosar/CanIf/src/CanIf.c:366:16:CanIf_GetControllerMode	32	static
+Autosar/CanIf/src/CanIf.c:390:16:CanIf_GetControllerRxErrorCounter	32	static
+Autosar/CanIf/src/CanIf.c:414:16:CanIf_GetControllerTxErrorCounter	32	static

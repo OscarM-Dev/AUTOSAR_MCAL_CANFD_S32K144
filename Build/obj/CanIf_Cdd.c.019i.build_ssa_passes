@@ -1,0 +1,42 @@
+CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInfoPtr)
+{
+  <bb 2> :
+  CanIf_Can2_bRxFlag = 1;
+  return;
+
+}
+
+
+CDD_UserTxConfirmation_Can_2 (PduIdType TxPduId, Std_ReturnType result)
+{
+  static uint8 Transmit_count = 0;
+
+  <bb 2> :
+  if (result == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Transmit_count.0_1 = Transmit_count;
+  Transmit_count.1_2 = Transmit_count.0_1;
+  _3 = Transmit_count.1_2 + 1;
+  Transmit_count = _3;
+
+  <bb 4> :
+  Transmit_count.2_4 = Transmit_count;
+  if (Transmit_count.2_4 == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  CanIf_Can2_bTxFlag = 1;
+  Transmit_count = 0;
+
+  <bb 6> :
+  return;
+
+}
+
+

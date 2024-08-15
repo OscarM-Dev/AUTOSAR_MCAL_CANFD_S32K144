@@ -1,0 +1,279 @@
+IPA summary for Timer3_callback/55 is missing.
+IPA summary for Timer2_callback/54 is missing.
+IPA summary for Timer1_callback/53 is missing.
+IPA summary for Task2_callback/52 is missing.
+IPA summary for Task1_callback/51 is missing.
+
+Flattening functions:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 0.
+node context cache: 0 hits, 0 misses, 0 initializations
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Why inlining failed?
+function body not available                       :        2 calls, 2.000000 freq, 0 count
+IPA summary for Timer3_callback/55 is missing.
+IPA summary for Timer2_callback/54 is missing.
+IPA summary for Timer1_callback/53 is missing.
+IPA summary for Task2_callback/52 is missing.
+IPA summary for Task1_callback/51 is missing.
+Symbol table:
+
+ButtonsControl_Ptr/58 (ButtonsControl_Ptr) @06e21af8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Task2_callback/52 (read) 
+  Availability: not_available
+  Varpool flags:
+HwIoAb_Buttons_GetEvent/57 (HwIoAb_Buttons_GetEvent) @06e240e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Task2_callback/52 
+  Calls: 
+HwIoAb_Buttons_MainFunction/56 (HwIoAb_Buttons_MainFunction) @06e1a7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Task1_callback/51 
+  Calls: 
+Timer3_callback/55 (Timer3_callback) @06e1a2a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: 
+Timer2_callback/54 (Timer2_callback) @06e1aee0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: 
+Timer1_callback/53 (Timer1_callback) @06e1ac40
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: 
+Task2_callback/52 (Task2_callback) @06e1a9a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: ButtonsControl_Ptr/58 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: HwIoAb_Buttons_GetEvent/57 
+Task1_callback/51 (Task1_callback) @06e1a700
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: HwIoAb_Buttons_MainFunction/56 
+
+;; Function Task1_callback (Task1_callback, funcdef_no=51, decl_uid=5823, cgraph_uid=52, symbol_order=51)
+
+Task1_callback ()
+{
+  <bb 2> :
+  HwIoAb_Buttons_MainFunction ();
+  return;
+
+}
+
+
+
+;; Function Task2_callback (Task2_callback, funcdef_no=52, decl_uid=5825, cgraph_uid=53, symbol_order=52)
+
+Task2_callback ()
+{
+  uint8 actual_event;
+  uint8 i;
+  int _1;
+  int _2;
+  int _3;
+  int _4;
+  unsigned char i.0_5;
+  struct HwIoAb_Buttons_Ctrl * ButtonsControl_Ptr.1_6;
+  unsigned char _7;
+
+  <bb 2> :
+  i_10 = 0;
+  actual_event_11 = 0;
+  i_12 = 0;
+  goto <bb 28>; [INV]
+
+  <bb 3> :
+  actual_event_15 = HwIoAb_Buttons_GetEvent (i_8);
+  if (actual_event_15 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 27>; [INV]
+
+  <bb 4> :
+  _1 = (int) i_8;
+  switch (_1) <default: <L23> [INV], case 0: <L2> [INV], case 1: <L9> [INV], case 2: <L16> [INV]>
+
+  <bb 5> :
+<L2>:
+  _2 = (int) actual_event_15;
+  switch (_2) <default: <L7> [INV], case 1: <L3> [INV], case 2: <L4> [INV], case 3: <L5> [INV], case 4: <L6> [INV]>
+
+  <bb 6> :
+<L3>:
+  goto <bb 11>; [INV]
+
+  <bb 7> :
+<L4>:
+  goto <bb 11>; [INV]
+
+  <bb 8> :
+<L5>:
+  goto <bb 11>; [INV]
+
+  <bb 9> :
+<L6>:
+  goto <bb 11>; [INV]
+
+  <bb 10> :
+<L7>:
+
+  <bb 11> :
+  goto <bb 27>; [INV]
+
+  <bb 12> :
+<L9>:
+  _3 = (int) actual_event_15;
+  switch (_3) <default: <L14> [INV], case 1: <L10> [INV], case 2: <L11> [INV], case 3: <L12> [INV], case 4: <L13> [INV]>
+
+  <bb 13> :
+<L10>:
+  goto <bb 18>; [INV]
+
+  <bb 14> :
+<L11>:
+  goto <bb 18>; [INV]
+
+  <bb 15> :
+<L12>:
+  goto <bb 18>; [INV]
+
+  <bb 16> :
+<L13>:
+  goto <bb 18>; [INV]
+
+  <bb 17> :
+<L14>:
+
+  <bb 18> :
+  goto <bb 27>; [INV]
+
+  <bb 19> :
+<L16>:
+  _4 = (int) actual_event_15;
+  switch (_4) <default: <L21> [INV], case 1: <L17> [INV], case 2: <L18> [INV], case 3: <L19> [INV], case 4: <L20> [INV]>
+
+  <bb 20> :
+<L17>:
+  goto <bb 25>; [INV]
+
+  <bb 21> :
+<L18>:
+  goto <bb 25>; [INV]
+
+  <bb 22> :
+<L19>:
+  goto <bb 25>; [INV]
+
+  <bb 23> :
+<L20>:
+  goto <bb 25>; [INV]
+
+  <bb 24> :
+<L21>:
+
+  <bb 25> :
+  goto <bb 27>; [INV]
+
+  <bb 26> :
+<L23>:
+
+  <bb 27> :
+  i.0_5 = i_8;
+  i_16 = i.0_5 + 1;
+
+  <bb 28> :
+  # i_8 = PHI <i_12(2), i_16(27)>
+  ButtonsControl_Ptr.1_6 = ButtonsControl_Ptr;
+  _7 = ButtonsControl_Ptr.1_6->Buttons;
+  if (i_8 < _7)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 29>; [INV]
+
+  <bb 29> :
+  return;
+
+}
+
+
+
+;; Function Timer1_callback (Timer1_callback, funcdef_no=53, decl_uid=5827, cgraph_uid=54, symbol_order=53)
+
+Timer1_callback ()
+{
+  <bb 2> :
+  return;
+
+}
+
+
+
+;; Function Timer2_callback (Timer2_callback, funcdef_no=54, decl_uid=5829, cgraph_uid=55, symbol_order=54)
+
+Timer2_callback ()
+{
+  <bb 2> :
+  return;
+
+}
+
+
+
+;; Function Timer3_callback (Timer3_callback, funcdef_no=55, decl_uid=5831, cgraph_uid=56, symbol_order=55)
+
+Timer3_callback ()
+{
+  <bb 2> :
+  return;
+
+}
+
+

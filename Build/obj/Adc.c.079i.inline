@@ -1,0 +1,3744 @@
+IPA summary for Adc_Calibrate/44 is missing.
+IPA summary for Adc_GetVersionInfo/43 is missing.
+IPA summary for Adc_GetStreamLastPointer/42 is missing.
+IPA summary for Adc_GetGroupStatus/41 is missing.
+IPA summary for Adc_ReadGroup/40 is missing.
+IPA summary for Adc_StopGroupConversion/39 is missing.
+IPA summary for Adc_StartGroupConversion/38 is missing.
+IPA summary for Adc_DeInit/37 is missing.
+IPA summary for Adc_SetupResultBuffer/36 is missing.
+IPA summary for Adc_Init/35 is missing.
+IPA summary for Adc_UpdateStatusAfterGetStream/34 is missing.
+IPA summary for Adc_UpdateStatusReadGroupInt/33 is missing.
+IPA summary for Adc_UpdateSwQueueIndexNoInt/32 is missing.
+IPA summary for Adc_UpdateStatusReadGroupNoInt/31 is missing.
+IPA summary for Adc_UpdateStatusReadGroup/30 is missing.
+IPA summary for Adc_UpdateStatusStopConversion/29 is missing.
+IPA summary for Adc_StopSwGroupConversion/28 is missing.
+IPA summary for Adc_UpdateStatusStartConversion/27 is missing.
+IPA summary for Adc_CheckCurrentCoreId/26 is missing.
+IPA summary for Adc_InitUnitStatus/25 is missing.
+IPA summary for Adc_InitGroupsStatus/24 is missing.
+IPA summary for Adc_ValidateCallAndUnit/23 is missing.
+IPA summary for Adc_ValidateCallAndGroup/22 is missing.
+IPA summary for Adc_ValidateStateNotIdle/21 is missing.
+IPA summary for Adc_ValidateStateStartGroupConvNotBusy/20 is missing.
+IPA summary for Adc_ValidateSetupBufferNotBusy/19 is missing.
+IPA summary for Adc_ValidateDeInitNotBusy/18 is missing.
+IPA summary for Adc_ValidateCheckGroupNotConversion/17 is missing.
+IPA summary for Adc_ValidateNotBusyNoPrio/16 is missing.
+IPA summary for Adc_ValidateNotBusyNoQueue/15 is missing.
+IPA summary for Adc_EndValidateGloballCall/14 is missing.
+IPA summary for Adc_ValidateExtraParams/13 is missing.
+IPA summary for Adc_ValidateQueueNotFull/12 is missing.
+IPA summary for Adc_ValidateTriggerSrc/11 is missing.
+IPA summary for Adc_ValidateBufferUninit/10 is missing.
+IPA summary for Adc_ValidatePtr/9 is missing.
+IPA summary for Adc_ValidatePtrInit/8 is missing.
+IPA summary for Adc_ValidateGloballCall/7 is missing.
+IPA summary for Adc_ReportValidationError/6 is missing.
+IPA summary for Adc_ReportDetRuntimeError/5 is missing.
+IPA summary for Adc_ReportDetError/4 is missing.
+
+Flattening functions:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 0.
+node context cache: 0 hits, 0 misses, 0 initializations
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Why inlining failed?
+function not considered for inlining              :       77 calls, 77.000000 freq, 0 count
+function body not available                       :       26 calls, 26.000000 freq, 0 count
+IPA summary for Adc_Calibrate/44 is missing.
+IPA summary for Adc_GetVersionInfo/43 is missing.
+IPA summary for Adc_GetStreamLastPointer/42 is missing.
+IPA summary for Adc_GetGroupStatus/41 is missing.
+IPA summary for Adc_ReadGroup/40 is missing.
+IPA summary for Adc_StopGroupConversion/39 is missing.
+IPA summary for Adc_StartGroupConversion/38 is missing.
+IPA summary for Adc_DeInit/37 is missing.
+IPA summary for Adc_SetupResultBuffer/36 is missing.
+IPA summary for Adc_Init/35 is missing.
+IPA summary for Adc_UpdateStatusAfterGetStream/34 is missing.
+IPA summary for Adc_UpdateStatusReadGroupInt/33 is missing.
+IPA summary for Adc_UpdateSwQueueIndexNoInt/32 is missing.
+IPA summary for Adc_UpdateStatusReadGroupNoInt/31 is missing.
+IPA summary for Adc_UpdateStatusReadGroup/30 is missing.
+IPA summary for Adc_UpdateStatusStopConversion/29 is missing.
+IPA summary for Adc_StopSwGroupConversion/28 is missing.
+IPA summary for Adc_UpdateStatusStartConversion/27 is missing.
+IPA summary for Adc_CheckCurrentCoreId/26 is missing.
+IPA summary for Adc_InitUnitStatus/25 is missing.
+IPA summary for Adc_InitGroupsStatus/24 is missing.
+IPA summary for Adc_ValidateCallAndUnit/23 is missing.
+IPA summary for Adc_ValidateCallAndGroup/22 is missing.
+IPA summary for Adc_ValidateStateNotIdle/21 is missing.
+IPA summary for Adc_ValidateStateStartGroupConvNotBusy/20 is missing.
+IPA summary for Adc_ValidateSetupBufferNotBusy/19 is missing.
+IPA summary for Adc_ValidateDeInitNotBusy/18 is missing.
+IPA summary for Adc_ValidateCheckGroupNotConversion/17 is missing.
+IPA summary for Adc_ValidateNotBusyNoPrio/16 is missing.
+IPA summary for Adc_ValidateNotBusyNoQueue/15 is missing.
+IPA summary for Adc_EndValidateGloballCall/14 is missing.
+IPA summary for Adc_ValidateExtraParams/13 is missing.
+IPA summary for Adc_ValidateQueueNotFull/12 is missing.
+IPA summary for Adc_ValidateTriggerSrc/11 is missing.
+IPA summary for Adc_ValidateBufferUninit/10 is missing.
+IPA summary for Adc_ValidatePtr/9 is missing.
+IPA summary for Adc_ValidatePtrInit/8 is missing.
+IPA summary for Adc_ValidateGloballCall/7 is missing.
+IPA summary for Adc_ReportValidationError/6 is missing.
+IPA summary for Adc_ReportDetRuntimeError/5 is missing.
+IPA summary for Adc_ReportDetError/4 is missing.
+Symbol table:
+
+Adc_Ipw_Calibrate/56 (Adc_Ipw_Calibrate) @06e519a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_Calibrate/44 
+  Calls: 
+Adc_Ipw_ReadGroup/55 (Adc_Ipw_ReadGroup) @06e38e00
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_ReadGroup/40 
+  Calls: 
+Adc_Ipw_RemoveFromQueue/54 (Adc_Ipw_RemoveFromQueue) @06e38c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_UpdateSwQueueIndexNoInt/32 Adc_StopSwGroupConversion/28 
+  Calls: 
+Adc_Ipw_StopCurrentConversion/53 (Adc_Ipw_StopCurrentConversion) @06e38b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_StopSwGroupConversion/28 
+  Calls: 
+Adc_Ipw_StartNormalConversion/52 (Adc_Ipw_StartNormalConversion) @06e38620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_UpdateSwQueueIndexNoInt/32 Adc_UpdateStatusStopConversion/29 Adc_UpdateStatusStartConversion/27 
+  Calls: 
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_01/51 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_01) @06e38540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_UpdateStatusStartConversion/27 Adc_UpdateStatusStartConversion/27 Adc_UpdateStatusStartConversion/27 
+  Calls: 
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_01/50 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_01) @06e38380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_UpdateStatusStartConversion/27 Adc_UpdateStatusStartConversion/27 
+  Calls: 
+Adc_Ipw_DeInit/49 (Adc_Ipw_DeInit) @06e207e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_DeInit/37 
+  Calls: 
+Det_ReportRuntimeError/48 (Det_ReportRuntimeError) @06e201c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_ReportDetRuntimeError/5 
+  Calls: 
+Adc_Ipw_Init/47 (Adc_Ipw_Init) @06a47c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_Init/35 
+  Calls: 
+Adc_GetCoreID/46 (Adc_GetCoreID) @06a47b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_Calibrate/44 Adc_GetStreamLastPointer/42 Adc_GetGroupStatus/41 Adc_ReadGroup/40 Adc_StopGroupConversion/39 Adc_StartGroupConversion/38 Adc_DeInit/37 Adc_SetupResultBuffer/36 Adc_Init/35 
+  Calls: 
+Det_ReportError/45 (Det_ReportError) @06a479a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Adc_ReportDetError/4 
+  Calls: 
+Adc_Calibrate/44 (Adc_Calibrate) @06a47460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_ReportDetRuntimeError/5 Adc_Ipw_Calibrate/56 Adc_ValidateCheckGroupNotConversion/17 Adc_ValidateNotBusyNoQueue/15 Adc_ValidatePtr/9 Adc_ValidateCallAndUnit/23 Adc_GetCoreID/46 
+Adc_GetVersionInfo/43 (Adc_GetVersionInfo) @06a471c0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_ValidatePtr/9 
+Adc_GetStreamLastPointer/42 (Adc_GetStreamLastPointer) @06a38d20
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (read) Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_UpdateStatusAfterGetStream/34 Adc_ValidateStateNotIdle/21 Adc_ValidateCallAndGroup/22 Adc_GetCoreID/46 
+Adc_GetGroupStatus/41 (Adc_GetGroupStatus) @06a387e0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Adc_axGroupStatus/2 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_ValidateCallAndGroup/22 Adc_GetCoreID/46 
+Adc_ReadGroup/40 (Adc_ReadGroup) @06a382a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_UpdateStatusReadGroup/30 Adc_Ipw_ReadGroup/55 Adc_ValidateStateNotIdle/21 Adc_ValidatePtr/9 Adc_ValidateCallAndGroup/22 Adc_GetCoreID/46 
+Adc_StopGroupConversion/39 (Adc_StopGroupConversion) @06a38ee0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_UpdateStatusStopConversion/29 Adc_ValidateExtraParams/13 Adc_ValidateStateNotIdle/21 Adc_ValidateCallAndGroup/22 Adc_GetCoreID/46 
+Adc_StartGroupConversion/38 (Adc_StartGroupConversion) @06a38c40
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_UpdateStatusStartConversion/27 Adc_ValidateExtraParams/13 Adc_ValidateStateStartGroupConvNotBusy/20 Adc_ValidateCallAndGroup/22 Adc_GetCoreID/46 
+Adc_DeInit/37 (Adc_DeInit) @06a389a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_axUnitStatus/3 (write) Adc_apxCfgPtr/0 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_EndValidateGloballCall/14 Adc_ReportDetError/4 Adc_ReportDetRuntimeError/5 Adc_Ipw_DeInit/49 Adc_ValidateDeInitNotBusy/18 Adc_CheckCurrentCoreId/26 Adc_ValidateGloballCall/7 Adc_GetCoreID/46 
+Adc_SetupResultBuffer/36 (Adc_SetupResultBuffer) @06a38700
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Adc_axGroupStatus/2 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_ValidateSetupBufferNotBusy/19 Adc_ValidatePtr/9 Adc_ValidateCallAndGroup/22 Adc_GetCoreID/46 
+Adc_Init/35 (Adc_Init) @06a38460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Adc_apxCfgPtr/0 (write) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Adc_EndValidateGloballCall/14 Adc_ReportDetError/4 Adc_ReportDetRuntimeError/5 Adc_Ipw_Init/47 Adc_InitGroupsStatus/24 Adc_InitUnitStatus/25 Adc_CheckCurrentCoreId/26 Adc_ValidatePtrInit/8 Adc_ValidateGloballCall/7 Adc_GetCoreID/46 
+Adc_UpdateStatusAfterGetStream/34 (Adc_UpdateStatusAfterGetStream) @06a381c0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_GetStreamLastPointer/42 
+  Calls: 
+Adc_UpdateStatusReadGroupInt/33 (Adc_UpdateStatusReadGroupInt) @06a26d20
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_UpdateStatusReadGroup/30 
+  Calls: 
+Adc_UpdateSwQueueIndexNoInt/32 (Adc_UpdateSwQueueIndexNoInt) @06a267e0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_UpdateStatusReadGroupNoInt/31 
+  Calls: Adc_Ipw_StartNormalConversion/52 Adc_Ipw_RemoveFromQueue/54 
+Adc_UpdateStatusReadGroupNoInt/31 (Adc_UpdateStatusReadGroupNoInt) @06a262a0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (write) Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (write) Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (write) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_UpdateStatusReadGroup/30 
+  Calls: Adc_UpdateSwQueueIndexNoInt/32 
+Adc_UpdateStatusReadGroup/30 (Adc_UpdateStatusReadGroup) @06a26ee0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_ReadGroup/40 
+  Calls: Adc_UpdateStatusReadGroupInt/33 Adc_UpdateStatusReadGroupNoInt/31 
+Adc_UpdateStatusStopConversion/29 (Adc_UpdateStatusStopConversion) @06a26c40
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) Adc_axUnitStatus/3 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_StopGroupConversion/39 
+  Calls: Adc_ReportDetRuntimeError/5 Adc_Ipw_StartNormalConversion/52 Adc_StopSwGroupConversion/28 
+Adc_StopSwGroupConversion/28 (Adc_StopSwGroupConversion) @06a269a0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_UpdateStatusStopConversion/29 
+  Calls: Adc_Ipw_RemoveFromQueue/54 Adc_Ipw_StopCurrentConversion/53 
+Adc_UpdateStatusStartConversion/27 (Adc_UpdateStatusStartConversion) @06a26700
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (write) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (write) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (write) Adc_axUnitStatus/3 (read) Adc_axUnitStatus/3 (write) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_StartGroupConversion/38 
+  Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_01/51 Adc_Ipw_StartNormalConversion/52 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_01/51 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_01/50 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_01/51 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_01/50 
+Adc_CheckCurrentCoreId/26 (Adc_CheckCurrentCoreId) @06a26460
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_DeInit/37 Adc_Init/35 Adc_ValidateCallAndUnit/23 Adc_ValidateCallAndGroup/22 
+  Calls: 
+Adc_InitUnitStatus/25 (Adc_InitUnitStatus) @06a261c0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_axUnitStatus/3 (write) Adc_axUnitStatus/3 (write) Adc_axUnitStatus/3 (write) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_Init/35 
+  Calls: 
+Adc_InitGroupsStatus/24 (Adc_InitGroupsStatus) @06a18d20
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) Adc_axGroupStatus/2 (write) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_Init/35 
+  Calls: 
+Adc_ValidateCallAndUnit/23 (Adc_ValidateCallAndUnit) @06a187e0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_Calibrate/44 
+  Calls: Adc_ReportDetError/4 Adc_ReportDetError/4 Adc_CheckCurrentCoreId/26 Adc_ReportDetError/4 Adc_ReportDetError/4 
+Adc_ValidateCallAndGroup/22 (Adc_ValidateCallAndGroup) @06a182a0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_GetStreamLastPointer/42 Adc_GetGroupStatus/41 Adc_ReadGroup/40 Adc_StopGroupConversion/39 Adc_StartGroupConversion/38 Adc_SetupResultBuffer/36 
+  Calls: Adc_ReportDetError/4 Adc_ReportDetError/4 Adc_ReportDetError/4 Adc_CheckCurrentCoreId/26 Adc_ReportDetError/4 
+Adc_ValidateStateNotIdle/21 (Adc_ValidateStateNotIdle) @06a18ee0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (read) Adc_axGroupStatus/2 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_GetStreamLastPointer/42 Adc_ReadGroup/40 Adc_StopGroupConversion/39 
+  Calls: Adc_ReportDetRuntimeError/5 Adc_ReportDetRuntimeError/5 Adc_ReportDetRuntimeError/5 
+Adc_ValidateStateStartGroupConvNotBusy/20 (Adc_ValidateStateStartGroupConvNotBusy) @06a18c40
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_StartGroupConversion/38 
+  Calls: Adc_ValidateNotBusyNoPrio/16 Adc_ReportDetRuntimeError/5 
+Adc_ValidateSetupBufferNotBusy/19 (Adc_ValidateSetupBufferNotBusy) @06a189a0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_axGroupStatus/2 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_SetupResultBuffer/36 
+  Calls: Adc_ReportDetRuntimeError/5 
+Adc_ValidateDeInitNotBusy/18 (Adc_ValidateDeInitNotBusy) @06a18700
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_DeInit/37 
+  Calls: Adc_ValidateCheckGroupNotConversion/17 Adc_ValidateNotBusyNoQueue/15 
+Adc_ValidateCheckGroupNotConversion/17 (Adc_ValidateCheckGroupNotConversion) @06a18460
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_axGroupStatus/2 (read) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_Calibrate/44 Adc_ValidateDeInitNotBusy/18 
+  Calls: Adc_ReportDetRuntimeError/5 
+Adc_ValidateNotBusyNoPrio/16 (Adc_ValidateNotBusyNoPrio) @06a181c0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_axGroupStatus/2 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_ValidateStateStartGroupConvNotBusy/20 
+  Calls: Adc_ReportDetRuntimeError/5 Adc_ReportDetRuntimeError/5 
+Adc_ValidateNotBusyNoQueue/15 (Adc_ValidateNotBusyNoQueue) @06abdd20
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_axUnitStatus/3 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_Calibrate/44 Adc_ValidateDeInitNotBusy/18 
+  Calls: Adc_ReportDetRuntimeError/5 
+Adc_EndValidateGloballCall/14 (Adc_EndValidateGloballCall) @06abd7e0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_aeGlobalState/1 (write) Adc_aeGlobalState/1 (write) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_DeInit/37 Adc_Init/35 
+  Calls: 
+Adc_ValidateExtraParams/13 (Adc_ValidateExtraParams) @06abd2a0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_StopGroupConversion/39 Adc_StartGroupConversion/38 
+  Calls: Adc_ValidateQueueNotFull/12 Adc_ValidateTriggerSrc/11 Adc_ValidateBufferUninit/10 
+Adc_ValidateQueueNotFull/12 (Adc_ValidateQueueNotFull) @06abdee0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) Adc_axUnitStatus/3 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_ValidateExtraParams/13 
+  Calls: Adc_ReportValidationError/6 
+Adc_ValidateTriggerSrc/11 (Adc_ValidateTriggerSrc) @06abdc40
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_apxCfgPtr/0 (read) Adc_apxCfgPtr/0 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_ValidateExtraParams/13 
+  Calls: Adc_ReportValidationError/6 
+Adc_ValidateBufferUninit/10 (Adc_ValidateBufferUninit) @06abd9a0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_axGroupStatus/2 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_ValidateExtraParams/13 
+  Calls: Adc_ReportValidationError/6 
+Adc_ValidatePtr/9 (Adc_ValidatePtr) @06abd700
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_Calibrate/44 Adc_GetVersionInfo/43 Adc_ReadGroup/40 Adc_SetupResultBuffer/36 
+  Calls: Adc_ReportDetError/4 
+Adc_ValidatePtrInit/8 (Adc_ValidatePtrInit) @06abd460
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_Init/35 
+  Calls: Adc_ReportDetError/4 
+Adc_ValidateGloballCall/7 (Adc_ValidateGloballCall) @06abd1c0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: Adc_aeGlobalState/1 (read) 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_DeInit/37 Adc_Init/35 
+  Calls: Adc_ReportDetError/4 Adc_ReportDetError/4 
+Adc_ReportValidationError/6 (Adc_ReportValidationError) @06ab8d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: Adc_ValidateQueueNotFull/12 Adc_ValidateTriggerSrc/11 Adc_ValidateBufferUninit/10 
+  Calls: Adc_ReportDetError/4 
+Adc_ReportDetRuntimeError/5 (Adc_ReportDetRuntimeError) @06ab8ee0
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_Calibrate/44 Adc_DeInit/37 Adc_Init/35 Adc_UpdateStatusStopConversion/29 Adc_ValidateStateNotIdle/21 Adc_ValidateStateNotIdle/21 Adc_ValidateStateNotIdle/21 Adc_ValidateStateStartGroupConvNotBusy/20 Adc_ValidateNotBusyNoPrio/16 Adc_ValidateNotBusyNoPrio/16 Adc_ValidateCheckGroupNotConversion/17 Adc_ValidateNotBusyNoQueue/15 Adc_ValidateSetupBufferNotBusy/19 
+  Calls: Det_ReportRuntimeError/48 
+Adc_ReportDetError/4 (Adc_ReportDetError) @06ab8c40
+  Type: function definition analyzed
+  Visibility: no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local
+  Called by: Adc_DeInit/37 Adc_Init/35 Adc_ReportValidationError/6 Adc_ValidateCallAndUnit/23 Adc_ValidateCallAndUnit/23 Adc_ValidateCallAndUnit/23 Adc_ValidateCallAndUnit/23 Adc_ValidatePtr/9 Adc_ValidateCallAndGroup/22 Adc_ValidateCallAndGroup/22 Adc_ValidateCallAndGroup/22 Adc_ValidateCallAndGroup/22 Adc_ValidatePtrInit/8 Adc_ValidateGloballCall/7 Adc_ValidateGloballCall/7 
+  Calls: Det_ReportError/45 
+Adc_axUnitStatus/3 (Adc_axUnitStatus) @06aaf3f0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: Adc_UpdateStatusStartConversion/27 (write) Adc_UpdateStatusStartConversion/27 (read) Adc_StopSwGroupConversion/28 (read) Adc_UpdateSwQueueIndexNoInt/32 (read) Adc_ValidateQueueNotFull/12 (read) Adc_UpdateStatusStopConversion/29 (read) Adc_StopSwGroupConversion/28 (read) Adc_InitUnitStatus/25 (write) Adc_UpdateStatusStartConversion/27 (write) Adc_InitUnitStatus/25 (write) Adc_InitUnitStatus/25 (write) Adc_ValidateNotBusyNoQueue/15 (read) Adc_UpdateStatusStartConversion/27 (read) Adc_StopSwGroupConversion/28 (read) Adc_UpdateStatusStartConversion/27 (read) Adc_UpdateStatusStartConversion/27 (write) Adc_UpdateStatusStartConversion/27 (read) Adc_UpdateStatusStartConversion/27 (write) Adc_UpdateStatusStartConversion/27 (read) Adc_UpdateStatusStartConversion/27 (read) Adc_UpdateSwQueueIndexNoInt/32 (read) Adc_UpdateSwQueueIndexNoInt/32 (read) Adc_UpdateSwQueueIndexNoInt/32 (read) Adc_DeInit/37 (write) 
+  Availability: available
+  Varpool flags:
+Adc_axGroupStatus/2 (Adc_axGroupStatus) @06aaf3a8
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: Adc_InitGroupsStatus/24 (write) Adc_InitGroupsStatus/24 (write) Adc_InitGroupsStatus/24 (write) Adc_InitGroupsStatus/24 (write) Adc_InitGroupsStatus/24 (write) Adc_UpdateStatusReadGroupNoInt/31 (write) Adc_UpdateStatusReadGroupInt/33 (write) Adc_UpdateStatusAfterGetStream/34 (write) Adc_ValidateSetupBufferNotBusy/19 (read) Adc_UpdateStatusStopConversion/29 (write) Adc_UpdateStatusAfterGetStream/34 (write) Adc_ValidateNotBusyNoPrio/16 (read) Adc_UpdateStatusReadGroupInt/33 (write) Adc_UpdateStatusReadGroupInt/33 (read) Adc_UpdateStatusReadGroupInt/33 (write) Adc_ValidateCheckGroupNotConversion/17 (read) Adc_UpdateStatusAfterGetStream/34 (write) Adc_UpdateStatusAfterGetStream/34 (read) Adc_ValidateStateNotIdle/21 (read) Adc_ValidateStateNotIdle/21 (read) Adc_ValidateStateNotIdle/21 (read) Adc_UpdateStatusStartConversion/27 (write) Adc_UpdateStatusStartConversion/27 (write) Adc_UpdateStatusAfterGetStream/34 (read) Adc_UpdateStatusStopConversion/29 (read) Adc_UpdateStatusReadGroupNoInt/31 (write) Adc_UpdateStatusReadGroupNoInt/31 (write) Adc_GetGroupStatus/41 (read) Adc_ValidateBufferUninit/10 (read) Adc_SetupResultBuffer/36 (write) Adc_UpdateStatusReadGroupInt/33 (read) Adc_ValidateStateNotIdle/21 (read) Adc_UpdateStatusStopConversion/29 (write) Adc_UpdateStatusStopConversion/29 (write) Adc_GetStreamLastPointer/42 (read) Adc_GetStreamLastPointer/42 (read) Adc_GetStreamLastPointer/42 (read) Adc_GetStreamLastPointer/42 (read) Adc_GetStreamLastPointer/42 (read) Adc_GetStreamLastPointer/42 (read) 
+  Availability: available
+  Varpool flags:
+Adc_aeGlobalState/1 (Adc_aeGlobalState) @06aaf360
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: Adc_EndValidateGloballCall/14 (write) Adc_EndValidateGloballCall/14 (write) Adc_ValidateGloballCall/7 (read) 
+  Availability: available
+  Varpool flags:
+Adc_apxCfgPtr/0 (Adc_apxCfgPtr) @06aaf2d0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: Adc_ValidateTriggerSrc/11 (read) Adc_ValidateTriggerSrc/11 (read) Adc_StopGroupConversion/39 (read) Adc_UpdateStatusAfterGetStream/34 (read) Adc_UpdateStatusAfterGetStream/34 (read) Adc_UpdateStatusReadGroupInt/33 (read) Adc_UpdateStatusReadGroupInt/33 (read) Adc_UpdateStatusReadGroupInt/33 (read) Adc_UpdateStatusReadGroupInt/33 (read) Adc_UpdateStatusReadGroupNoInt/31 (read) Adc_ValidateQueueNotFull/12 (read) Adc_ValidateQueueNotFull/12 (read) Adc_ValidateCallAndUnit/23 (read) Adc_ValidateCallAndGroup/22 (read) Adc_ValidateCallAndGroup/22 (read) Adc_Init/35 (write) Adc_Init/35 (read) Adc_UpdateStatusReadGroupInt/33 (read) Adc_UpdateStatusAfterGetStream/34 (read) Adc_ValidateCallAndGroup/22 (read) Adc_ValidateCallAndUnit/23 (read) Adc_ValidateCheckGroupNotConversion/17 (read) Adc_UpdateStatusReadGroupNoInt/31 (read) Adc_UpdateStatusReadGroupNoInt/31 (read) Adc_UpdateStatusStopConversion/29 (read) Adc_UpdateStatusReadGroup/30 (read) Adc_UpdateStatusReadGroup/30 (read) Adc_DeInit/37 (read) Adc_DeInit/37 (write) Adc_ValidateCallAndGroup/22 (read) Adc_ValidateCallAndUnit/23 (read) Adc_ValidateCheckGroupNotConversion/17 (read) Adc_ValidateDeInitNotBusy/18 (read) Adc_UpdateSwQueueIndexNoInt/32 (read) Adc_UpdateSwQueueIndexNoInt/32 (read) Adc_ValidateStateStartGroupConvNotBusy/20 (read) Adc_UpdateStatusStopConversion/29 (read) Adc_UpdateStatusStopConversion/29 (read) Adc_ValidateStateStartGroupConvNotBusy/20 (read) Adc_ValidateStateStartGroupConvNotBusy/20 (read) Adc_DeInit/37 (read) Adc_InitGroupsStatus/24 (read) Adc_InitUnitStatus/25 (read) Adc_UpdateStatusAfterGetStream/34 (read) Adc_StopGroupConversion/39 (read) Adc_InitGroupsStatus/24 (read) Adc_ValidateQueueNotFull/12 (read) Adc_StartGroupConversion/38 (read) Adc_StartGroupConversion/38 (read) Adc_UpdateStatusReadGroupInt/33 (read) Adc_UpdateStatusAfterGetStream/34 (read) Adc_ValidateStateStartGroupConvNotBusy/20 (read) Adc_UpdateStatusAfterGetStream/34 (read) Adc_ValidateStateStartGroupConvNotBusy/20 (read) Adc_UpdateStatusStopConversion/29 (read) Adc_GetStreamLastPointer/42 (read) Adc_GetStreamLastPointer/42 (read) Adc_GetStreamLastPointer/42 (read) 
+  Availability: available
+  Varpool flags:
+
+;; Function Adc_ReportDetError (Adc_ReportDetError, funcdef_no=0, decl_uid=6431, cgraph_uid=1, symbol_order=4)
+
+Adc_ReportDetError (uint8 ServiceId, uint8 ErrorId)
+{
+  <bb 2> :
+  Det_ReportError (123, 0, ServiceId_2(D), ErrorId_3(D));
+  return;
+
+}
+
+
+
+;; Function Adc_ReportDetRuntimeError (Adc_ReportDetRuntimeError, funcdef_no=1, decl_uid=6434, cgraph_uid=2, symbol_order=5)
+
+Adc_ReportDetRuntimeError (uint8 ServiceId, uint8 ErrorId)
+{
+  <bb 2> :
+  Det_ReportRuntimeError (123, 0, ServiceId_2(D), ErrorId_3(D));
+  return;
+
+}
+
+
+
+;; Function Adc_ReportValidationError (Adc_ReportValidationError, funcdef_no=2, decl_uid=6438, cgraph_uid=3, symbol_order=6)
+
+Adc_ReportValidationError (struct Adc_ValidationResultType * Result, uint8 ServiceId, uint8 ErrorId)
+{
+  <bb 2> :
+  Result_2(D)->EndValidations = 1;
+  Result_2(D)->ValidParams = 1;
+  Adc_ReportDetError (ServiceId_5(D), ErrorId_6(D));
+  return;
+
+}
+
+
+
+;; Function Adc_ValidateGloballCall (Adc_ValidateGloballCall, funcdef_no=3, decl_uid=6441, cgraph_uid=4, symbol_order=7)
+
+Adc_ValidateGloballCall (uint8 ServiceId, uint8 CoreId)
+{
+  Std_ReturnType ValidState;
+  Std_ReturnType D.6851;
+  int _1;
+  <unnamed type> _2;
+  Std_ReturnType _13;
+
+  <bb 2> :
+  ValidState_5 = 1;
+  _1 = (int) CoreId_6(D);
+  _2 = Adc_aeGlobalState[_1];
+  if (_2 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  if (ServiceId_8(D) == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  ValidState_12 = 0;
+  goto <bb 9>; [INV]
+
+  <bb 5> :
+  Adc_ReportDetError (ServiceId_8(D), 10);
+  goto <bb 9>; [INV]
+
+  <bb 6> :
+  if (ServiceId_8(D) == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  Adc_ReportDetError (ServiceId_8(D), 13);
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  ValidState_9 = 0;
+
+  <bb 9> :
+  # ValidState_3 = PHI <ValidState_5(5), ValidState_5(7), ValidState_9(8), ValidState_12(4)>
+  _13 = ValidState_3;
+
+  <bb 10> :
+<L9>:
+  return _13;
+
+}
+
+
+
+;; Function Adc_ValidatePtrInit (Adc_ValidatePtrInit, funcdef_no=4, decl_uid=6443, cgraph_uid=5, symbol_order=8)
+
+Adc_ValidatePtrInit (const struct Adc_ConfigType * ConfigPtr)
+{
+  Std_ReturnType ValidPtr;
+  Std_ReturnType D.6855;
+  Std_ReturnType _8;
+
+  <bb 2> :
+  ValidPtr_3 = 0;
+  if (ConfigPtr_4(D) == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  ValidPtr_6 = 1;
+  Adc_ReportDetError (0, 20);
+
+  <bb 4> :
+  # ValidPtr_1 = PHI <ValidPtr_3(2), ValidPtr_6(3)>
+  _8 = ValidPtr_1;
+
+  <bb 5> :
+<L2>:
+  return _8;
+
+}
+
+
+
+;; Function Adc_ValidatePtr (Adc_ValidatePtr, funcdef_no=5, decl_uid=6446, cgraph_uid=6, symbol_order=9)
+
+Adc_ValidatePtr (uint8 ServiceId, const void * PtrVal)
+{
+  Std_ReturnType ValidPtr;
+  Std_ReturnType D.6894;
+  Std_ReturnType _9;
+
+  <bb 2> :
+  ValidPtr_3 = 0;
+  if (PtrVal_4(D) == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  ValidPtr_6 = 1;
+  Adc_ReportDetError (ServiceId_7(D), 20);
+
+  <bb 4> :
+  # ValidPtr_1 = PHI <ValidPtr_3(2), ValidPtr_6(3)>
+  _9 = ValidPtr_1;
+
+  <bb 5> :
+<L2>:
+  return _9;
+
+}
+
+
+
+;; Function Adc_ValidateBufferUninit (Adc_ValidateBufferUninit, funcdef_no=6, decl_uid=6450, cgraph_uid=7, symbol_order=10)
+
+Adc_ValidateBufferUninit (struct Adc_ValidationResultType * ReturnValue, uint8 ServiceId, Adc_GroupType Group)
+{
+  int _1;
+  int _2;
+  Adc_ValueGroupType * _3;
+
+  <bb 2> :
+  _1 = (int) ServiceId_6(D);
+  if (_1 == 2)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+<L0>:
+  _2 = (int) Group_7(D);
+  _3 = Adc_axGroupStatus[_2].ResultsBufferPtr;
+  if (_3 == 0B)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Adc_ReportValidationError (ReturnValue_9(D), ServiceId_6(D), 25);
+
+  <bb 5> :
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+<L3>:
+
+  <bb 7> :
+  return;
+
+}
+
+
+
+;; Function Adc_ValidateTriggerSrc (Adc_ValidateTriggerSrc, funcdef_no=7, decl_uid=6455, cgraph_uid=8, symbol_order=11)
+
+Adc_ValidateTriggerSrc (struct Adc_ValidationResultType * ReturnValue, uint8 ServiceId, Adc_GroupType Group, uint8 CoreId)
+{
+  unsigned int D.6979;
+  unsigned int D.6978;
+  Adc_GroupType GroupIndex;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  int _8;
+  const struct Adc_ConfigType * _9;
+  const struct Adc_GroupConfigurationType * _10;
+  unsigned int _11;
+  unsigned int _12;
+  const struct Adc_GroupConfigurationType * _13;
+  <unnamed type> _14;
+  unsigned int _22;
+  unsigned int _23;
+
+  <bb 2> :
+  _1 = (int) CoreId_17(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_19(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_20 = *_6;
+  _7 = (int) ServiceId_21(D);
+  _22 = (unsigned int) _7;
+  _23 = _22 + 4294967294;
+  if (_23 <= 1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+<L0>:
+  _8 = (int) CoreId_17(D);
+  _9 = Adc_apxCfgPtr[_8];
+  _10 = _9->GroupsPtr;
+  _11 = (unsigned int) GroupIndex_20;
+  _12 = _11 * 52;
+  _13 = _10 + _12;
+  _14 = _13->TriggerSource;
+  if (_14 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Adc_ReportValidationError (ReturnValue_24(D), ServiceId_21(D), 23);
+
+  <bb 5> :
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+<L4>:
+
+  <bb 7> :
+  return;
+
+}
+
+
+
+;; Function Adc_ValidateQueueNotFull (Adc_ValidateQueueNotFull, funcdef_no=8, decl_uid=6460, cgraph_uid=9, symbol_order=12)
+
+Adc_ValidateQueueNotFull (struct Adc_ValidationResultType * ReturnValue, uint8 ServiceId, Adc_GroupType Group, uint8 CoreId)
+{
+  Adc_HwUnitType LogicalHwUnitId;
+  Adc_GroupType GroupIndex;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  const struct Adc_ConfigType * _8;
+  const struct Adc_GroupConfigurationType * _9;
+  unsigned int _10;
+  unsigned int _11;
+  const struct Adc_GroupConfigurationType * _12;
+  int _13;
+  int _14;
+  const struct Adc_ConfigType * _15;
+  const struct Adc_GroupConfigurationType * _16;
+  unsigned int _17;
+  unsigned int _18;
+  const struct Adc_GroupConfigurationType * _19;
+  <unnamed type> _20;
+  int _21;
+  short unsigned int _22;
+
+  <bb 2> :
+  LogicalHwUnitId_25 = 0;
+  _1 = (int) CoreId_26(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_28(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_29 = *_6;
+  _7 = (int) CoreId_26(D);
+  _8 = Adc_apxCfgPtr[_7];
+  _9 = _8->GroupsPtr;
+  _10 = (unsigned int) GroupIndex_29;
+  _11 = _10 * 52;
+  _12 = _9 + _11;
+  LogicalHwUnitId_30 = _12->AdcLogicalUnitId;
+  _13 = (int) ServiceId_31(D);
+  if (_13 == 2)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 3> :
+<L0>:
+  _14 = (int) CoreId_26(D);
+  _15 = Adc_apxCfgPtr[_14];
+  _16 = _15->GroupsPtr;
+  _17 = (unsigned int) GroupIndex_29;
+  _18 = _17 * 52;
+  _19 = _16 + _18;
+  _20 = _19->Type;
+  if (_20 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  _21 = (int) LogicalHwUnitId_30;
+  _22 ={v} Adc_axUnitStatus[_21].SwNormalQueueIndex;
+  if (_22 > 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Adc_ReportValidationError (ReturnValue_32(D), ServiceId_31(D), 32);
+
+  <bb 6> :
+  goto <bb 8>; [INV]
+
+  <bb 7> :
+<L5>:
+
+  <bb 8> :
+  return;
+
+}
+
+
+
+;; Function Adc_ValidateExtraParams (Adc_ValidateExtraParams, funcdef_no=9, decl_uid=6424, cgraph_uid=10, symbol_order=13)
+
+Adc_ValidateExtraParams (uint8 ServiceId, uint32 ErrorIdList, Adc_GroupType Group, uint8 CoreId)
+{
+  struct Adc_ValidationResultType ValidationStatus;
+  Std_ReturnType D.6971;
+  long unsigned int _1;
+  _Bool _2;
+  _Bool _3;
+  long unsigned int _4;
+  _Bool _5;
+  _Bool _6;
+  long unsigned int _7;
+  _Bool _8;
+  _Bool _9;
+  Std_ReturnType _23;
+
+  <bb 2> :
+  ValidationStatus.EndValidations = 0;
+  ValidationStatus.ValidParams = 0;
+  _1 = ErrorIdList_16(D) & 1;
+  if (_1 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 3> :
+  _2 = ValidationStatus.EndValidations;
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Adc_ValidateBufferUninit (&ValidationStatus, ServiceId_17(D), Group_18(D));
+
+  <bb 5> :
+  _4 = ErrorIdList_16(D) & 2;
+  if (_4 != 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 6> :
+  _5 = ValidationStatus.EndValidations;
+  _6 = ~_5;
+  if (_6 != 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  Adc_ValidateTriggerSrc (&ValidationStatus, ServiceId_17(D), Group_18(D), CoreId_20(D));
+
+  <bb 8> :
+  _7 = ErrorIdList_16(D) & 4;
+  if (_7 != 0)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 9> :
+  _8 = ValidationStatus.EndValidations;
+  _9 = ~_8;
+  if (_9 != 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 10> :
+  Adc_ValidateQueueNotFull (&ValidationStatus, ServiceId_17(D), Group_18(D), CoreId_20(D));
+
+  <bb 11> :
+  _23 = ValidationStatus.ValidParams;
+  ValidationStatus ={v} {CLOBBER};
+
+  <bb 12> :
+<L13>:
+  return _23;
+
+}
+
+
+
+;; Function Adc_EndValidateGloballCall (Adc_EndValidateGloballCall, funcdef_no=10, decl_uid=6464, cgraph_uid=11, symbol_order=14)
+
+Adc_EndValidateGloballCall (Std_ReturnType ValidCall, uint8 ServiceId, uint8 CoreId)
+{
+  int _1;
+  int _2;
+
+  <bb 2> :
+  if (ValidCall_4(D) == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  if (ServiceId_6(D) == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  _1 = (int) CoreId_7(D);
+  Adc_aeGlobalState[_1] = 0;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  _2 = (int) CoreId_7(D);
+  Adc_aeGlobalState[_2] = 2;
+
+  <bb 6> :
+  return;
+
+}
+
+
+
+;; Function Adc_ValidateNotBusyNoQueue (Adc_ValidateNotBusyNoQueue, funcdef_no=11, decl_uid=6482, cgraph_uid=12, symbol_order=15)
+
+Adc_ValidateNotBusyNoQueue (Adc_HwUnitType Unit, uint8 ServiceId)
+{
+  const Adc_QueueIndexType NoGroupsInSwNormalQueue;
+  Std_ReturnType ErrorFound;
+  Std_ReturnType D.6924;
+  int _1;
+  Std_ReturnType _11;
+
+  <bb 2> :
+  ErrorFound_4 = 0;
+  _1 = (int) Unit_5(D);
+  NoGroupsInSwNormalQueue_7 ={v} Adc_axUnitStatus[_1].SwNormalQueueIndex;
+  if (NoGroupsInSwNormalQueue_7 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Adc_ReportDetRuntimeError (ServiceId_8(D), 11);
+  ErrorFound_10 = 1;
+
+  <bb 4> :
+  # ErrorFound_2 = PHI <ErrorFound_4(2), ErrorFound_10(3)>
+  _11 = ErrorFound_2;
+
+  <bb 5> :
+<L2>:
+  return _11;
+
+}
+
+
+
+;; Function Adc_ValidateNotBusyNoPrio (Adc_ValidateNotBusyNoPrio, funcdef_no=12, decl_uid=6479, cgraph_uid=13, symbol_order=16)
+
+Adc_ValidateNotBusyNoPrio (Adc_GroupType Group, boolean Implicitly, uint8 CoreId)
+{
+  Adc_StatusType Conversion;
+  Std_ReturnType ValidState;
+  Std_ReturnType D.6957;
+  int _1;
+  _Bool _2;
+  Std_ReturnType _13;
+
+  <bb 2> :
+  ValidState_5 = 1;
+  _1 = (int) Group_6(D);
+  Conversion_8 ={v} Adc_axGroupStatus[_1].Conversion;
+  _2 = ~Implicitly_9(D);
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 3> :
+  if (Conversion_8 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Adc_ReportDetRuntimeError (2, 11);
+  goto <bb 10>; [INV]
+
+  <bb 5> :
+  if (Implicitly_9(D) != 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 6> :
+  if (Conversion_8 != 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 7> :
+  if (Conversion_8 != 3)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  Adc_ReportDetRuntimeError (2, 11);
+  goto <bb 10>; [INV]
+
+  <bb 9> :
+  ValidState_12 = 0;
+
+  <bb 10> :
+  # ValidState_3 = PHI <ValidState_5(4), ValidState_5(8), ValidState_12(9)>
+  _13 = ValidState_3;
+
+  <bb 11> :
+<L9>:
+  return _13;
+
+}
+
+
+
+;; Function Adc_ValidateCheckGroupNotConversion (Adc_ValidateCheckGroupNotConversion, funcdef_no=13, decl_uid=6485, cgraph_uid=14, symbol_order=17)
+
+Adc_ValidateCheckGroupNotConversion (uint8 ServiceId, uint8 CoreId)
+{
+  Std_ReturnType ErrorFound;
+  Adc_GroupType GroupId;
+  Adc_GroupType GroupIter;
+  Adc_StatusType Conversion;
+  Std_ReturnType D.6930;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const struct Adc_GroupConfigurationType * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const struct Adc_GroupConfigurationType * _6;
+  int _7;
+  short unsigned int GroupIter.21_8;
+  int _9;
+  const struct Adc_ConfigType * _10;
+  short unsigned int _11;
+  Std_ReturnType _21;
+
+  <bb 2> :
+  ErrorFound_17 = 0;
+  GroupIter_18 = 0;
+  goto <bb 7>; [INV]
+
+  <bb 3> :
+  _1 = (int) CoreId_20(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupsPtr;
+  _4 = (unsigned int) GroupIter_12;
+  _5 = _4 * 52;
+  _6 = _3 + _5;
+  GroupId_22 = _6->GroupId;
+  _7 = (int) GroupId_22;
+  Conversion_23 ={v} Adc_axGroupStatus[_7].Conversion;
+  if (Conversion_23 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  if (Conversion_23 != 3)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Adc_ReportDetRuntimeError (ServiceId_24(D), 11);
+  ErrorFound_26 = 1;
+
+  <bb 6> :
+  # ErrorFound_13 = PHI <ErrorFound_14(3), ErrorFound_14(4), ErrorFound_26(5)>
+  GroupIter.21_8 = GroupIter_12;
+  GroupIter_27 = GroupIter.21_8 + 1;
+
+  <bb 7> :
+  # GroupIter_12 = PHI <GroupIter_18(2), GroupIter_27(6)>
+  # ErrorFound_14 = PHI <ErrorFound_17(2), ErrorFound_13(6)>
+  _9 = (int) CoreId_20(D);
+  _10 = Adc_apxCfgPtr[_9];
+  _11 = _10->GroupCount;
+  if (GroupIter_12 < _11)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 8> :
+  _21 = ErrorFound_14;
+
+  <bb 9> :
+<L7>:
+  return _21;
+
+}
+
+
+
+;; Function Adc_ValidateDeInitNotBusy (Adc_ValidateDeInitNotBusy, funcdef_no=14, decl_uid=6466, cgraph_uid=15, symbol_order=18)
+
+Adc_ValidateDeInitNotBusy (uint8 CoreId)
+{
+  Adc_HwUnitType LogicalHwUnitId;
+  Std_ReturnType ValidState;
+  Std_ReturnType ErrorFound;
+  Std_ReturnType D.6920;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const struct Adc_Ipw_Config * _3;
+  int _4;
+  unsigned char _5;
+  unsigned char LogicalHwUnitId.20_6;
+  unsigned char _7;
+  Std_ReturnType _28;
+
+  <bb 2> :
+  ErrorFound_17 = 0;
+  ValidState_18 = 1;
+  LogicalHwUnitId_19 = 0;
+  LogicalHwUnitId_20 = 0;
+  goto <bb 7>; [INV]
+
+  <bb 3> :
+  _1 = (int) CoreId_22(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->AdcIpwConfigPtr;
+  _4 = (int) LogicalHwUnitId_12;
+  _5 = _3->Mapping.AdcHwUnitArr[_4];
+  if (_5 == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  ErrorFound_24 = Adc_ValidateNotBusyNoQueue (LogicalHwUnitId_12, 1);
+  if (ErrorFound_24 == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  goto <bb 8>; [INV]
+
+  <bb 6> :
+  # ErrorFound_8 = PHI <ErrorFound_9(3), ErrorFound_24(4)>
+  LogicalHwUnitId.20_6 = LogicalHwUnitId_12;
+  LogicalHwUnitId_25 = LogicalHwUnitId.20_6 + 1;
+
+  <bb 7> :
+  # ErrorFound_9 = PHI <ErrorFound_17(2), ErrorFound_8(6)>
+  # LogicalHwUnitId_12 = PHI <LogicalHwUnitId_20(2), LogicalHwUnitId_25(6)>
+  if (LogicalHwUnitId_12 <= 1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 8> :
+  # ErrorFound_10 = PHI <ErrorFound_24(5), ErrorFound_9(7)>
+  if (ErrorFound_10 == 0)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 9> :
+  _7 = Adc_ValidateCheckGroupNotConversion (1, CoreId_22(D));
+  if (_7 == 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 10> :
+  ValidState_27 = 0;
+
+  <bb 11> :
+  # ValidState_11 = PHI <ValidState_18(8), ValidState_18(9), ValidState_27(10)>
+  _28 = ValidState_11;
+
+  <bb 12> :
+<L11>:
+  return _28;
+
+}
+
+
+
+;; Function Adc_ValidateSetupBufferNotBusy (Adc_ValidateSetupBufferNotBusy, funcdef_no=15, decl_uid=6468, cgraph_uid=16, symbol_order=19)
+
+Adc_ValidateSetupBufferNotBusy (Adc_GroupType Group)
+{
+  Std_ReturnType ValidState;
+  Std_ReturnType D.6899;
+  int _1;
+  <unnamed type> _2;
+  Std_ReturnType _10;
+
+  <bb 2> :
+  ValidState_5 = 1;
+  _1 = (int) Group_6(D);
+  _2 ={v} Adc_axGroupStatus[_1].Conversion;
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Adc_ReportDetRuntimeError (12, 11);
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  ValidState_8 = 0;
+
+  <bb 5> :
+  # ValidState_3 = PHI <ValidState_5(3), ValidState_8(4)>
+  _10 = ValidState_3;
+
+  <bb 6> :
+<L3>:
+  return _10;
+
+}
+
+
+
+;; Function Adc_ValidateStateStartGroupConvNotBusy (Adc_ValidateStateStartGroupConvNotBusy, funcdef_no=16, decl_uid=6471, cgraph_uid=17, symbol_order=20)
+
+Adc_ValidateStateStartGroupConvNotBusy (Adc_GroupType Group, uint8 CoreId)
+{
+  boolean Implicitly;
+  Std_ReturnType ValidState;
+  Adc_GroupType GroupIndex;
+  Std_ReturnType D.6946;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  const struct Adc_ConfigType * _8;
+  const struct Adc_GroupConfigurationType * _9;
+  unsigned int _10;
+  unsigned int _11;
+  const struct Adc_GroupConfigurationType * _12;
+  <unnamed type> _13;
+  int _14;
+  const struct Adc_ConfigType * _15;
+  const struct Adc_GroupConfigurationType * _16;
+  unsigned int _17;
+  unsigned int _18;
+  const struct Adc_GroupConfigurationType * _19;
+  <unnamed type> _20;
+  int _21;
+  const struct Adc_ConfigType * _22;
+  const struct Adc_GroupConfigurationType * _23;
+  unsigned int _24;
+  unsigned int _25;
+  const struct Adc_GroupConfigurationType * _26;
+  <unnamed type> _27;
+  int _28;
+  const struct Adc_ConfigType * _29;
+  const struct Adc_GroupConfigurationType * _30;
+  unsigned int _31;
+  unsigned int _32;
+  const struct Adc_GroupConfigurationType * _33;
+  <unnamed type> _34;
+  Std_ReturnType _48;
+
+  <bb 2> :
+  ValidState_38 = 0;
+  Implicitly_39 = 0;
+  _1 = (int) CoreId_40(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_42(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_43 = *_6;
+  _7 = (int) CoreId_40(D);
+  _8 = Adc_apxCfgPtr[_7];
+  _9 = _8->GroupsPtr;
+  _10 = (unsigned int) GroupIndex_43;
+  _11 = _10 * 52;
+  _12 = _9 + _11;
+  _13 = _12->Mode;
+  if (_13 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  _14 = (int) CoreId_40(D);
+  _15 = Adc_apxCfgPtr[_14];
+  _16 = _15->GroupsPtr;
+  _17 = (unsigned int) GroupIndex_43;
+  _18 = _17 * 52;
+  _19 = _16 + _18;
+  _20 = _19->Mode;
+  if (_20 == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 4> :
+  _21 = (int) CoreId_40(D);
+  _22 = Adc_apxCfgPtr[_21];
+  _23 = _22->GroupsPtr;
+  _24 = (unsigned int) GroupIndex_43;
+  _25 = _24 * 52;
+  _26 = _23 + _25;
+  _27 = _26->AccessMode;
+  if (_27 == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 5> :
+  _28 = (int) CoreId_40(D);
+  _29 = Adc_apxCfgPtr[_28];
+  _30 = _29->GroupsPtr;
+  _31 = (unsigned int) GroupIndex_43;
+  _32 = _31 * 52;
+  _33 = _30 + _32;
+  _34 = _33->BufferMode;
+  if (_34 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+  Implicitly_44 = 1;
+
+  <bb 7> :
+  # Implicitly_36 = PHI <Implicitly_39(3), Implicitly_39(4), Implicitly_39(5), Implicitly_44(6)>
+  if (ValidState_38 == 1)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  Adc_ReportDetRuntimeError (2, 11);
+  goto <bb 10>; [INV]
+
+  <bb 9> :
+  ValidState_46 = Adc_ValidateNotBusyNoPrio (Group_42(D), Implicitly_36, CoreId_40(D));
+
+  <bb 10> :
+  # ValidState_35 = PHI <ValidState_38(8), ValidState_46(9)>
+  _48 = ValidState_35;
+
+  <bb 11> :
+<L8>:
+  return _48;
+
+}
+
+
+
+;; Function Adc_ValidateStateNotIdle (Adc_ValidateStateNotIdle, funcdef_no=17, decl_uid=6475, cgraph_uid=18, symbol_order=21)
+
+Adc_ValidateStateNotIdle (uint8 ServiceId, Adc_GroupType Group, uint8 CoreId)
+{
+  Std_ReturnType ValidState;
+  Std_ReturnType D.7007;
+  int _1;
+  int _2;
+  <unnamed type> _3;
+  int _4;
+  <unnamed type> _5;
+  int _6;
+  <unnamed type> _7;
+  int _8;
+  <unnamed type> _9;
+  Std_ReturnType _28;
+
+  <bb 2> :
+  ValidState_18 = 0;
+  _1 = (int) ServiceId_19(D);
+  switch (_1) <default: <L12> [INV], case 3: <L5> [INV], case 4: <L0> [INV], case 11: <L9> [INV]>
+
+  <bb 3> :
+<L0>:
+  _2 = (int) Group_20(D);
+  _3 ={v} Adc_axGroupStatus[_2].Conversion;
+  if (_3 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  _4 = (int) Group_20(D);
+  _5 ={v} Adc_axGroupStatus[_4].AlreadyConverted;
+  if (_5 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Adc_ReportDetRuntimeError (ServiceId_19(D), 12);
+  ValidState_25 = 1;
+
+  <bb 6> :
+  # ValidState_10 = PHI <ValidState_18(3), ValidState_18(4), ValidState_25(5)>
+  goto <bb 14>; [INV]
+
+  <bb 7> :
+<L5>:
+  _6 = (int) Group_20(D);
+  _7 ={v} Adc_axGroupStatus[_6].Conversion;
+  if (_7 == 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  Adc_ReportDetRuntimeError (ServiceId_19(D), 12);
+  ValidState_27 = 1;
+
+  <bb 9> :
+  # ValidState_11 = PHI <ValidState_18(7), ValidState_27(8)>
+  goto <bb 14>; [INV]
+
+  <bb 10> :
+<L9>:
+  _8 = (int) Group_20(D);
+  _9 ={v} Adc_axGroupStatus[_8].Conversion;
+  if (_9 == 0)
+    goto <bb 11>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 11> :
+  Adc_ReportDetRuntimeError (ServiceId_19(D), 12);
+  ValidState_23 = 1;
+
+  <bb 12> :
+  # ValidState_12 = PHI <ValidState_18(10), ValidState_23(11)>
+  goto <bb 14>; [INV]
+
+  <bb 13> :
+<L12>:
+
+  <bb 14> :
+  # ValidState_13 = PHI <ValidState_10(6), ValidState_11(9), ValidState_12(12), ValidState_18(13)>
+  _28 = ValidState_13;
+
+  <bb 15> :
+<L14>:
+  return _28;
+
+}
+
+
+
+;; Function Adc_ValidateCallAndGroup (Adc_ValidateCallAndGroup, funcdef_no=18, decl_uid=6428, cgraph_uid=19, symbol_order=22)
+
+Adc_ValidateCallAndGroup (uint8 ServiceId, Adc_GroupType Group, uint8 CoreId)
+{
+  Adc_GroupType GroupIndex;
+  Std_ReturnType ValidCoreId;
+  Std_ReturnType ValidCallAndGroup;
+  Std_ReturnType D.6890;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  int _3;
+  const struct Adc_ConfigType * _4;
+  int _5;
+  const struct Adc_ConfigType * _6;
+  const uint16 * _7;
+  unsigned int _8;
+  unsigned int _9;
+  const uint16 * _10;
+  int _11;
+  const struct Adc_ConfigType * _12;
+  const struct Adc_GroupConfigurationType * _13;
+  unsigned int _14;
+  unsigned int _15;
+  const struct Adc_GroupConfigurationType * _16;
+  short unsigned int _17;
+  Std_ReturnType _35;
+
+  <bb 2> :
+  ValidCallAndGroup_20 = 1;
+  ValidCoreId_21 = 1;
+  GroupIndex_22 = 0;
+  _1 = (int) CoreId_23(D);
+  _2 = Adc_apxCfgPtr[_1];
+  if (_2 == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Adc_ReportDetError (ServiceId_27(D), 10);
+  goto <bb 11>; [INV]
+
+  <bb 4> :
+  _3 = (int) CoreId_23(D);
+  _4 = Adc_apxCfgPtr[_3];
+  ValidCoreId_26 = Adc_CheckCurrentCoreId (_4, CoreId_23(D));
+  if (ValidCoreId_26 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 5> :
+  if (Group_29(D) > 1)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+  Adc_ReportDetError (ServiceId_27(D), 21);
+  goto <bb 11>; [INV]
+
+  <bb 7> :
+  _5 = (int) CoreId_23(D);
+  _6 = Adc_apxCfgPtr[_5];
+  _7 = _6->GroupIdToIndexMapPtr;
+  _8 = (unsigned int) Group_29(D);
+  _9 = _8 * 2;
+  _10 = _7 + _9;
+  GroupIndex_30 = *_10;
+  _11 = (int) CoreId_23(D);
+  _12 = Adc_apxCfgPtr[_11];
+  _13 = _12->GroupsPtr;
+  _14 = (unsigned int) GroupIndex_30;
+  _15 = _14 * 52;
+  _16 = _13 + _15;
+  _17 = _16->GroupId;
+  if (Group_29(D) != _17)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  Adc_ReportDetError (ServiceId_27(D), 14);
+  goto <bb 11>; [INV]
+
+  <bb 9> :
+  ValidCallAndGroup_31 = 0;
+  goto <bb 11>; [INV]
+
+  <bb 10> :
+  Adc_ReportDetError (ServiceId_27(D), 14);
+
+  <bb 11> :
+  # ValidCallAndGroup_18 = PHI <ValidCallAndGroup_20(3), ValidCallAndGroup_20(8), ValidCallAndGroup_20(10), ValidCallAndGroup_20(6), ValidCallAndGroup_31(9)>
+  _35 = ValidCallAndGroup_18;
+
+  <bb 12> :
+<L12>:
+  return _35;
+
+}
+
+
+
+;; Function Adc_ValidateCallAndUnit (Adc_ValidateCallAndUnit, funcdef_no=19, decl_uid=6489, cgraph_uid=20, symbol_order=23)
+
+Adc_ValidateCallAndUnit (uint8 ServiceId, Adc_HwUnitType Unit, uint8 CoreId)
+{
+  Std_ReturnType ValidCoreId;
+  Std_ReturnType ValidCallAndUnit;
+  Std_ReturnType D.7128;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  int _3;
+  const struct Adc_ConfigType * _4;
+  int _5;
+  const struct Adc_ConfigType * _6;
+  const struct Adc_Ipw_Config * _7;
+  int _8;
+  unsigned char _9;
+  Std_ReturnType _24;
+
+  <bb 2> :
+  ValidCallAndUnit_12 = 1;
+  _1 = (int) CoreId_13(D);
+  _2 = Adc_apxCfgPtr[_1];
+  if (_2 == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Adc_ReportDetError (ServiceId_18(D), 10);
+  goto <bb 11>; [INV]
+
+  <bb 4> :
+  if (Unit_15(D) > 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Adc_ReportDetError (ServiceId_18(D), 38);
+  goto <bb 11>; [INV]
+
+  <bb 6> :
+  _3 = (int) CoreId_13(D);
+  _4 = Adc_apxCfgPtr[_3];
+  ValidCoreId_17 = Adc_CheckCurrentCoreId (_4, CoreId_13(D));
+  if (ValidCoreId_17 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 7> :
+  _5 = (int) CoreId_13(D);
+  _6 = Adc_apxCfgPtr[_5];
+  _7 = _6->AdcIpwConfigPtr;
+  _8 = (int) Unit_15(D);
+  _9 = _7->Mapping.AdcHwUnitArr[_8];
+  if (_9 == 1)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  ValidCallAndUnit_21 = 0;
+  goto <bb 11>; [INV]
+
+  <bb 9> :
+  Adc_ReportDetError (ServiceId_18(D), 14);
+  goto <bb 11>; [INV]
+
+  <bb 10> :
+  Adc_ReportDetError (ServiceId_18(D), 14);
+
+  <bb 11> :
+  # ValidCallAndUnit_10 = PHI <ValidCallAndUnit_12(3), ValidCallAndUnit_12(5), ValidCallAndUnit_12(9), ValidCallAndUnit_12(10), ValidCallAndUnit_21(8)>
+  _24 = ValidCallAndUnit_10;
+
+  <bb 12> :
+<L12>:
+  return _24;
+
+}
+
+
+
+;; Function Adc_InitGroupsStatus (Adc_InitGroupsStatus, funcdef_no=20, decl_uid=6491, cgraph_uid=21, symbol_order=24)
+
+Adc_InitGroupsStatus (uint8 CoreId)
+{
+  Adc_GroupType GroupId;
+  Adc_GroupType GroupCnt;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const struct Adc_GroupConfigurationType * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const struct Adc_GroupConfigurationType * _6;
+  int _7;
+  int _8;
+  int _9;
+  int _10;
+  int _11;
+  short unsigned int GroupCnt.10_12;
+  int _13;
+  const struct Adc_ConfigType * _14;
+  short unsigned int _15;
+
+  <bb 2> :
+  GroupCnt_18 = 0;
+  GroupId_19 = 0;
+  GroupCnt_20 = 0;
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  _1 = (int) CoreId_22(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupsPtr;
+  _4 = (unsigned int) GroupCnt_16;
+  _5 = _4 * 52;
+  _6 = _3 + _5;
+  GroupId_23 = _6->GroupId;
+  _7 = (int) GroupId_23;
+  Adc_axGroupStatus[_7].Conversion ={v} 0;
+  _8 = (int) GroupId_23;
+  Adc_axGroupStatus[_8].AlreadyConverted ={v} 0;
+  _9 = (int) GroupId_23;
+  Adc_axGroupStatus[_9].ResultIndex ={v} 0;
+  _10 = (int) GroupId_23;
+  Adc_axGroupStatus[_10].ResultsBufferPtr = 0B;
+  _11 = (int) GroupId_23;
+  Adc_axGroupStatus[_11].CurrentChannel = 0;
+  GroupCnt.10_12 = GroupCnt_16;
+  GroupCnt_29 = GroupCnt.10_12 + 1;
+
+  <bb 4> :
+  # GroupCnt_16 = PHI <GroupCnt_20(2), GroupCnt_29(3)>
+  _13 = (int) CoreId_22(D);
+  _14 = Adc_apxCfgPtr[_13];
+  _15 = _14->GroupCount;
+  if (GroupCnt_16 < _15)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  return;
+
+}
+
+
+
+;; Function Adc_InitUnitStatus (Adc_InitUnitStatus, funcdef_no=21, decl_uid=6493, cgraph_uid=22, symbol_order=25)
+
+Adc_InitUnitStatus (uint8 CoreId)
+{
+  Adc_QueueIndexType QueueIdx;
+  Adc_HwUnitType LogicalHwUnitId;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const struct Adc_Ipw_Config * _3;
+  int _4;
+  unsigned char _5;
+  int _6;
+  int _7;
+  int _8;
+  short unsigned int QueueIdx.8_9;
+  int _10;
+  unsigned char LogicalHwUnitId.9_11;
+
+  <bb 2> :
+  LogicalHwUnitId_17 = 0;
+  QueueIdx_18 = 0;
+  LogicalHwUnitId_19 = 0;
+  goto <bb 9>; [INV]
+
+  <bb 3> :
+  _1 = (int) CoreId_21(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->AdcIpwConfigPtr;
+  _4 = (int) LogicalHwUnitId_12;
+  _5 = _3->Mapping.AdcHwUnitArr[_4];
+  if (_5 == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  _6 = (int) LogicalHwUnitId_12;
+  Adc_axUnitStatus[_6].SwNormalQueueIndex ={v} 0;
+  QueueIdx_23 = 0;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  _7 = (int) LogicalHwUnitId_12;
+  _8 = (int) QueueIdx_13;
+  Adc_axUnitStatus[_7].SwNormalQueue[_8] ={v} 0;
+  QueueIdx.8_9 = QueueIdx_13;
+  QueueIdx_26 = QueueIdx.8_9 + 1;
+
+  <bb 6> :
+  # QueueIdx_13 = PHI <QueueIdx_23(4), QueueIdx_26(5)>
+  if (QueueIdx_13 <= 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  _10 = (int) LogicalHwUnitId_12;
+  Adc_axUnitStatus[_10].Sc1Used = 0;
+
+  <bb 8> :
+  LogicalHwUnitId.9_11 = LogicalHwUnitId_12;
+  LogicalHwUnitId_27 = LogicalHwUnitId.9_11 + 1;
+
+  <bb 9> :
+  # LogicalHwUnitId_12 = PHI <LogicalHwUnitId_19(2), LogicalHwUnitId_27(8)>
+  if (LogicalHwUnitId_12 <= 1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 10> :
+  return;
+
+}
+
+
+
+;; Function Adc_CheckCurrentCoreId (Adc_CheckCurrentCoreId, funcdef_no=22, decl_uid=6526, cgraph_uid=23, symbol_order=26)
+
+Adc_CheckCurrentCoreId (const struct Adc_ConfigType * CfgPtr, uint8 CoreId)
+{
+  Std_ReturnType ValidCoreId;
+  uint8 Index;
+  Std_ReturnType D.6861;
+  unsigned char _1;
+  const uint8 * _2;
+  sizetype _3;
+  const uint8 * _4;
+  unsigned char _5;
+  unsigned char Index.7_6;
+  unsigned char _7;
+  Std_ReturnType _18;
+
+  <bb 2> :
+  Index_10 = 0;
+  ValidCoreId_11 = 1;
+  _1 = CfgPtr_13(D)->CoreId;
+  if (CoreId_14(D) == _1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  Index_15 = 0;
+  goto <bb 7>; [INV]
+
+  <bb 4> :
+  _2 = CfgPtr_13(D)->AssignmentPartitionPtr;
+  _3 = (sizetype) Index_8;
+  _4 = _2 + _3;
+  _5 = *_4;
+  if (CoreId_14(D) == _5)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  ValidCoreId_17 = 0;
+  goto <bb 8>; [INV]
+
+  <bb 6> :
+  Index.7_6 = Index_8;
+  Index_16 = Index.7_6 + 1;
+
+  <bb 7> :
+  # Index_8 = PHI <Index_15(3), Index_16(6)>
+  _7 = CfgPtr_13(D)->AssignedPartitionCount;
+  if (Index_8 < _7)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 8> :
+  # ValidCoreId_9 = PHI <ValidCoreId_11(2), ValidCoreId_17(5), ValidCoreId_11(7)>
+  _18 = ValidCoreId_9;
+
+  <bb 9> :
+<L7>:
+  return _18;
+
+}
+
+
+
+;; Function Adc_UpdateStatusStartConversion (Adc_UpdateStatusStartConversion, funcdef_no=23, decl_uid=6497, cgraph_uid=24, symbol_order=27)
+
+Adc_UpdateStatusStartConversion (const Adc_GroupType Group, const Adc_HwUnitType Unit, uint8 CoreId)
+{
+  Std_ReturnType TimeOutStatus;
+  Adc_QueueIndexType SwNormalQueueIndex;
+  Adc_QueueIndexType QueueIndex;
+  int _1;
+  int _2;
+  int _3;
+  int _4;
+  int _5;
+  int _6;
+  short unsigned int _7;
+  short unsigned int _8;
+  short unsigned int _9;
+  int _10;
+  int _11;
+  short unsigned int _12;
+  int _13;
+  short unsigned int _14;
+  int _15;
+  int _16;
+  short unsigned int _17;
+  short unsigned int _18;
+  short unsigned int _19;
+
+  <bb 2> :
+  QueueIndex_23 = 0;
+  TimeOutStatus_24 = 0;
+  _1 = (int) Group_25(D);
+  Adc_axGroupStatus[_1].Conversion ={v} 1;
+  _2 = (int) Group_25(D);
+  Adc_axGroupStatus[_2].ResultIndex ={v} 0;
+  SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_01 ();
+  _3 = (int) Unit_30(D);
+  QueueIndex_31 ={v} Adc_axUnitStatus[_3].SwNormalQueueIndex;
+  if (QueueIndex_31 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  _4 = (int) Unit_30(D);
+  _5 = (int) QueueIndex_31;
+  Adc_axUnitStatus[_4].SwNormalQueue[_5] ={v} Group_25(D);
+  _6 = (int) Unit_30(D);
+  _7 ={v} Adc_axUnitStatus[_6].SwNormalQueueIndex;
+  _8 = _7;
+  _9 = _8 + 1;
+  Adc_axUnitStatus[_6].SwNormalQueueIndex ={v} _9;
+
+  <bb 4> :
+  SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_01 ();
+  SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_01 ();
+  _10 = (int) Unit_30(D);
+  SwNormalQueueIndex_36 ={v} Adc_axUnitStatus[_10].SwNormalQueueIndex;
+  _11 = (int) Unit_30(D);
+  _12 ={v} Adc_axUnitStatus[_11].SwNormalQueue[0];
+  if (Group_25(D) == _12)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  if (SwNormalQueueIndex_36 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 6> :
+  _13 = (int) Unit_30(D);
+  _14 ={v} Adc_axUnitStatus[_13].SwNormalQueueIndex;
+  if (_14 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  _15 = (int) Unit_30(D);
+  Adc_axUnitStatus[_15].SwNormalQueue[0] ={v} Group_25(D);
+  _16 = (int) Unit_30(D);
+  _17 ={v} Adc_axUnitStatus[_16].SwNormalQueueIndex;
+  _18 = _17;
+  _19 = _18 + 1;
+  Adc_axUnitStatus[_16].SwNormalQueueIndex ={v} _19;
+
+  <bb 8> :
+  SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_01 ();
+  Adc_Ipw_StartNormalConversion (Unit_30(D), CoreId_41(D));
+  goto <bb 10>; [INV]
+
+  <bb 9> :
+  SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_01 ();
+
+  <bb 10> :
+  return;
+
+}
+
+
+
+;; Function Adc_StopSwGroupConversion (Adc_StopSwGroupConversion, funcdef_no=24, decl_uid=6502, cgraph_uid=25, symbol_order=28)
+
+Adc_StopSwGroupConversion (Adc_QueueIndexType * RemovedPos, Adc_GroupType Group, Adc_HwUnitType Unit, uint8 CoreId)
+{
+  Adc_QueueIndexType NumOfSwNormalQueue;
+  Adc_QueueIndexType SwNormalQueueIndex;
+  Std_ReturnType TimeOutStatus;
+  Std_ReturnType D.7025;
+  int _1;
+  short unsigned int _2;
+  int _3;
+  int _4;
+  int _5;
+  short unsigned int _6;
+  short unsigned int SwNormalQueueIndex.35_7;
+  Std_ReturnType _22;
+
+  <bb 2> :
+  TimeOutStatus_15 = 0;
+  _1 = (int) Unit_16(D);
+  _2 ={v} Adc_axUnitStatus[_1].SwNormalQueueIndex;
+  *RemovedPos_18(D) = _2;
+  _3 = (int) Unit_16(D);
+  NumOfSwNormalQueue_20 ={v} Adc_axUnitStatus[_3].SwNormalQueueIndex;
+  SwNormalQueueIndex_21 = 0;
+  goto <bb 8>; [INV]
+
+  <bb 3> :
+  _4 = (int) Unit_16(D);
+  _5 = (int) SwNormalQueueIndex_11;
+  _6 ={v} Adc_axUnitStatus[_4].SwNormalQueue[_5];
+  if (Group_23(D) == _6)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 4> :
+  *RemovedPos_18(D) = SwNormalQueueIndex_11;
+  if (SwNormalQueueIndex_11 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  TimeOutStatus_27 = Adc_Ipw_StopCurrentConversion (Unit_16(D), Group_23(D), CoreId_25(D));
+
+  <bb 6> :
+  # TimeOutStatus_8 = PHI <TimeOutStatus_10(4), TimeOutStatus_27(5)>
+  Adc_Ipw_RemoveFromQueue (Unit_16(D), SwNormalQueueIndex_11);
+
+  <bb 7> :
+  # TimeOutStatus_9 = PHI <TimeOutStatus_10(3), TimeOutStatus_8(6)>
+  SwNormalQueueIndex.35_7 = SwNormalQueueIndex_11;
+  SwNormalQueueIndex_29 = SwNormalQueueIndex.35_7 + 1;
+
+  <bb 8> :
+  # TimeOutStatus_10 = PHI <TimeOutStatus_15(2), TimeOutStatus_9(7)>
+  # SwNormalQueueIndex_11 = PHI <SwNormalQueueIndex_21(2), SwNormalQueueIndex_29(7)>
+  if (SwNormalQueueIndex_11 < NumOfSwNormalQueue_20)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 9> :
+  _22 = TimeOutStatus_10;
+
+  <bb 10> :
+<L7>:
+  return _22;
+
+}
+
+
+
+;; Function Adc_UpdateStatusStopConversion (Adc_UpdateStatusStopConversion, funcdef_no=25, decl_uid=6506, cgraph_uid=26, symbol_order=29)
+
+Adc_UpdateStatusStopConversion (Adc_GroupType Group, Adc_HwUnitType Unit, uint8 CoreId)
+{
+  Adc_StatusType Conversion;
+  Adc_StreamBufferModeType BufferMode;
+  Adc_GroupAccessModeType AccessMode;
+  Adc_GroupConvModeType Mode;
+  Std_ReturnType TimeOutStatus;
+  Adc_QueueIndexType RemovedPos;
+  Adc_GroupType GroupIndex;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  const struct Adc_ConfigType * _8;
+  const struct Adc_GroupConfigurationType * _9;
+  unsigned int _10;
+  unsigned int _11;
+  const struct Adc_GroupConfigurationType * _12;
+  int _13;
+  const struct Adc_ConfigType * _14;
+  const struct Adc_GroupConfigurationType * _15;
+  unsigned int _16;
+  unsigned int _17;
+  const struct Adc_GroupConfigurationType * _18;
+  int _19;
+  const struct Adc_ConfigType * _20;
+  const struct Adc_GroupConfigurationType * _21;
+  unsigned int _22;
+  unsigned int _23;
+  const struct Adc_GroupConfigurationType * _24;
+  int _25;
+  int _26;
+  int _27;
+  int _28;
+  short unsigned int RemovedPos.34_29;
+  int _30;
+  short unsigned int _31;
+
+  <bb 2> :
+  _1 = (int) CoreId_34(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_36(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_37 = *_6;
+  RemovedPos = 0;
+  TimeOutStatus_39 = 0;
+  _7 = (int) CoreId_34(D);
+  _8 = Adc_apxCfgPtr[_7];
+  _9 = _8->GroupsPtr;
+  _10 = (unsigned int) GroupIndex_37;
+  _11 = _10 * 52;
+  _12 = _9 + _11;
+  Mode_40 = _12->Mode;
+  _13 = (int) CoreId_34(D);
+  _14 = Adc_apxCfgPtr[_13];
+  _15 = _14->GroupsPtr;
+  _16 = (unsigned int) GroupIndex_37;
+  _17 = _16 * 52;
+  _18 = _15 + _17;
+  AccessMode_41 = _18->AccessMode;
+  _19 = (int) CoreId_34(D);
+  _20 = Adc_apxCfgPtr[_19];
+  _21 = _20->GroupsPtr;
+  _22 = (unsigned int) GroupIndex_37;
+  _23 = _22 * 52;
+  _24 = _21 + _23;
+  BufferMode_42 = _24->BufferMode;
+  _25 = (int) Group_36(D);
+  Conversion_43 ={v} Adc_axGroupStatus[_25].Conversion;
+  _26 = (int) Group_36(D);
+  Adc_axGroupStatus[_26].ResultIndex ={v} 0;
+  if (Mode_40 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  if (AccessMode_41 == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 4> :
+  if (BufferMode_42 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 5> :
+  if (Conversion_43 == 3)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+  _27 = (int) Group_36(D);
+  Adc_axGroupStatus[_27].Conversion ={v} 0;
+  goto <bb 12>; [INV]
+
+  <bb 7> :
+  TimeOutStatus_48 = Adc_StopSwGroupConversion (&RemovedPos, Group_36(D), Unit_46(D), CoreId_34(D));
+  _28 = (int) Group_36(D);
+  Adc_axGroupStatus[_28].Conversion ={v} 0;
+  RemovedPos.34_29 = RemovedPos;
+  if (RemovedPos.34_29 == 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 8> :
+  _30 = (int) Unit_46(D);
+  _31 ={v} Adc_axUnitStatus[_30].SwNormalQueueIndex;
+  if (_31 != 0)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 9> :
+  Adc_Ipw_StartNormalConversion (Unit_46(D), CoreId_34(D));
+
+  <bb 10> :
+  if (TimeOutStatus_48 == 1)
+    goto <bb 11>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 11> :
+  Adc_ReportDetRuntimeError (3, 43);
+
+  <bb 12> :
+  RemovedPos ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function Adc_UpdateStatusReadGroup (Adc_UpdateStatusReadGroup, funcdef_no=26, decl_uid=6510, cgraph_uid=27, symbol_order=30)
+
+Adc_UpdateStatusReadGroup (const Adc_GroupType Group, const boolean Flag, uint8 CoreId)
+{
+  Adc_GroupType GroupIndex;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  const struct Adc_ConfigType * _8;
+  const struct Adc_GroupConfigurationType * _9;
+  unsigned int _10;
+  unsigned int _11;
+  const struct Adc_GroupConfigurationType * _12;
+  unsigned char _13;
+
+  <bb 2> :
+  _1 = (int) CoreId_15(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_17(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_18 = *_6;
+  _7 = (int) CoreId_15(D);
+  _8 = Adc_apxCfgPtr[_7];
+  _9 = _8->GroupsPtr;
+  _10 = (unsigned int) GroupIndex_18;
+  _11 = _10 * 52;
+  _12 = _9 + _11;
+  _13 = _12->AdcWithoutInterrupt;
+  if (_13 == 1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Adc_UpdateStatusReadGroupNoInt (Group_17(D), Flag_20(D), CoreId_15(D));
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  Adc_UpdateStatusReadGroupInt (Group_17(D), CoreId_15(D));
+
+  <bb 5> :
+  return;
+
+}
+
+
+
+;; Function Adc_UpdateStatusReadGroupNoInt (Adc_UpdateStatusReadGroupNoInt, funcdef_no=27, decl_uid=6514, cgraph_uid=28, symbol_order=31)
+
+Adc_UpdateStatusReadGroupNoInt (const Adc_GroupType Group, const boolean Flag, uint8 CoreId)
+{
+  Adc_GroupType GroupIndex;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  int _8;
+  const struct Adc_ConfigType * _9;
+  const struct Adc_GroupConfigurationType * _10;
+  unsigned int _11;
+  unsigned int _12;
+  const struct Adc_GroupConfigurationType * _13;
+  <unnamed type> _14;
+  int _15;
+  int _16;
+  const struct Adc_ConfigType * _17;
+  const struct Adc_GroupConfigurationType * _18;
+  unsigned int _19;
+  unsigned int _20;
+  const struct Adc_GroupConfigurationType * _21;
+  <unnamed type> _22;
+  int _23;
+
+  <bb 2> :
+  _1 = (int) CoreId_25(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_27(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_28 = *_6;
+  _7 = (int) Group_27(D);
+  Adc_axGroupStatus[_7].AlreadyConverted ={v} 1;
+  if (Flag_30(D) != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 3> :
+  _8 = (int) CoreId_25(D);
+  _9 = Adc_apxCfgPtr[_8];
+  _10 = _9->GroupsPtr;
+  _11 = (unsigned int) GroupIndex_28;
+  _12 = _11 * 52;
+  _13 = _10 + _12;
+  _14 = _13->Mode;
+  if (_14 == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  _15 = (int) Group_27(D);
+  Adc_axGroupStatus[_15].Conversion ={v} 1;
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  _16 = (int) CoreId_25(D);
+  _17 = Adc_apxCfgPtr[_16];
+  _18 = _17->GroupsPtr;
+  _19 = (unsigned int) GroupIndex_28;
+  _20 = _19 * 52;
+  _21 = _18 + _20;
+  _22 = _21->TriggerSource;
+  if (_22 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+  _23 = (int) Group_27(D);
+  Adc_axGroupStatus[_23].Conversion ={v} 0;
+  Adc_UpdateSwQueueIndexNoInt (Group_27(D), CoreId_25(D));
+
+  <bb 7> :
+  return;
+
+}
+
+
+
+;; Function Adc_UpdateSwQueueIndexNoInt (Adc_UpdateSwQueueIndexNoInt, funcdef_no=28, decl_uid=6517, cgraph_uid=29, symbol_order=32)
+
+Adc_UpdateSwQueueIndexNoInt (const Adc_GroupType Group, uint8 CoreId)
+{
+  Adc_QueueIndexType NumOfSwNormalQueue;
+  Adc_QueueIndexType SwNormalQueueIndex;
+  Adc_HwUnitType LogicalHwUnitId;
+  Adc_GroupType GroupIndex;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  const struct Adc_ConfigType * _8;
+  const struct Adc_GroupConfigurationType * _9;
+  unsigned int _10;
+  unsigned int _11;
+  const struct Adc_GroupConfigurationType * _12;
+  int _13;
+  short unsigned int _14;
+  int _15;
+  int _16;
+  int _17;
+  short unsigned int _18;
+  short unsigned int SwNormalQueueIndex.42_19;
+  int _20;
+  short unsigned int _21;
+
+  <bb 2> :
+  _1 = (int) CoreId_25(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_27(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_28 = *_6;
+  _7 = (int) CoreId_25(D);
+  _8 = Adc_apxCfgPtr[_7];
+  _9 = _8->GroupsPtr;
+  _10 = (unsigned int) GroupIndex_28;
+  _11 = _10 * 52;
+  _12 = _9 + _11;
+  LogicalHwUnitId_29 = _12->AdcLogicalUnitId;
+  _13 = (int) LogicalHwUnitId_29;
+  _14 ={v} Adc_axUnitStatus[_13].SwNormalQueueIndex;
+  if (_14 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 3> :
+  _15 = (int) LogicalHwUnitId_29;
+  NumOfSwNormalQueue_30 ={v} Adc_axUnitStatus[_15].SwNormalQueueIndex;
+  SwNormalQueueIndex_31 = 0;
+  goto <bb 7>; [INV]
+
+  <bb 4> :
+  _16 = (int) LogicalHwUnitId_29;
+  _17 = (int) SwNormalQueueIndex_22;
+  _18 ={v} Adc_axUnitStatus[_16].SwNormalQueue[_17];
+  if (Group_27(D) == _18)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Adc_Ipw_RemoveFromQueue (LogicalHwUnitId_29, SwNormalQueueIndex_22);
+  goto <bb 8>; [INV]
+
+  <bb 6> :
+  SwNormalQueueIndex.42_19 = SwNormalQueueIndex_22;
+  SwNormalQueueIndex_32 = SwNormalQueueIndex.42_19 + 1;
+
+  <bb 7> :
+  # SwNormalQueueIndex_22 = PHI <SwNormalQueueIndex_31(3), SwNormalQueueIndex_32(6)>
+  if (SwNormalQueueIndex_22 < NumOfSwNormalQueue_30)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 8> :
+  if (SwNormalQueueIndex_22 == 0)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 9> :
+  _20 = (int) LogicalHwUnitId_29;
+  _21 ={v} Adc_axUnitStatus[_20].SwNormalQueueIndex;
+  if (_21 != 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 10> :
+  Adc_Ipw_StartNormalConversion (LogicalHwUnitId_29, CoreId_25(D));
+
+  <bb 11> :
+  return;
+
+}
+
+
+
+;; Function Adc_UpdateStatusReadGroupInt (Adc_UpdateStatusReadGroupInt, funcdef_no=29, decl_uid=6520, cgraph_uid=30, symbol_order=33)
+
+Adc_UpdateStatusReadGroupInt (const Adc_GroupType Group, uint8 CoreId)
+{
+  Adc_GroupType GroupIndex;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  <unnamed type> _8;
+  int _9;
+  int _10;
+  <unnamed type> _11;
+  int _12;
+  const struct Adc_ConfigType * _13;
+  const struct Adc_GroupConfigurationType * _14;
+  unsigned int _15;
+  unsigned int _16;
+  const struct Adc_GroupConfigurationType * _17;
+  <unnamed type> _18;
+  int _19;
+  const struct Adc_ConfigType * _20;
+  const struct Adc_GroupConfigurationType * _21;
+  unsigned int _22;
+  unsigned int _23;
+  const struct Adc_GroupConfigurationType * _24;
+  <unnamed type> _25;
+  int _26;
+  const struct Adc_ConfigType * _27;
+  const struct Adc_GroupConfigurationType * _28;
+  unsigned int _29;
+  unsigned int _30;
+  const struct Adc_GroupConfigurationType * _31;
+  <unnamed type> _32;
+  int _33;
+  const struct Adc_ConfigType * _34;
+  const struct Adc_GroupConfigurationType * _35;
+  unsigned int _36;
+  unsigned int _37;
+  const struct Adc_GroupConfigurationType * _38;
+  <unnamed type> _39;
+  int _40;
+  const struct Adc_ConfigType * _41;
+  const struct Adc_GroupConfigurationType * _42;
+  unsigned int _43;
+  unsigned int _44;
+  const struct Adc_GroupConfigurationType * _45;
+  <unnamed type> _46;
+  int _47;
+  int _48;
+
+  <bb 2> :
+  _1 = (int) CoreId_51(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_53(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_54 = *_6;
+  _7 = (int) Group_53(D);
+  _8 ={v} Adc_axGroupStatus[_7].Conversion;
+  if (_8 == 2)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  _9 = (int) Group_53(D);
+  Adc_axGroupStatus[_9].Conversion ={v} 1;
+  goto <bb 13>; [INV]
+
+  <bb 4> :
+  _10 = (int) Group_53(D);
+  _11 ={v} Adc_axGroupStatus[_10].Conversion;
+  if (_11 == 3)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 13>; [INV]
+
+  <bb 5> :
+  _12 = (int) CoreId_51(D);
+  _13 = Adc_apxCfgPtr[_12];
+  _14 = _13->GroupsPtr;
+  _15 = (unsigned int) GroupIndex_54;
+  _16 = _15 * 52;
+  _17 = _14 + _16;
+  _18 = _17->TriggerSource;
+  if (_18 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 6> :
+  _19 = (int) CoreId_51(D);
+  _20 = Adc_apxCfgPtr[_19];
+  _21 = _20->GroupsPtr;
+  _22 = (unsigned int) GroupIndex_54;
+  _23 = _22 * 52;
+  _24 = _21 + _23;
+  _25 = _24->Mode;
+  if (_25 == 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  _26 = (int) CoreId_51(D);
+  _27 = Adc_apxCfgPtr[_26];
+  _28 = _27->GroupsPtr;
+  _29 = (unsigned int) GroupIndex_54;
+  _30 = _29 * 52;
+  _31 = _28 + _30;
+  _32 = _31->Mode;
+  if (_32 == 1)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 8> :
+  _33 = (int) CoreId_51(D);
+  _34 = Adc_apxCfgPtr[_33];
+  _35 = _34->GroupsPtr;
+  _36 = (unsigned int) GroupIndex_54;
+  _37 = _36 * 52;
+  _38 = _35 + _37;
+  _39 = _38->AccessMode;
+  if (_39 == 1)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 9> :
+  _40 = (int) CoreId_51(D);
+  _41 = Adc_apxCfgPtr[_40];
+  _42 = _41->GroupsPtr;
+  _43 = (unsigned int) GroupIndex_54;
+  _44 = _43 * 52;
+  _45 = _42 + _44;
+  _46 = _45->BufferMode;
+  if (_46 == 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 10> :
+  _47 = (int) Group_53(D);
+  Adc_axGroupStatus[_47].Conversion ={v} 0;
+  goto <bb 12>; [INV]
+
+  <bb 11> :
+  _48 = (int) Group_53(D);
+  Adc_axGroupStatus[_48].Conversion ={v} 1;
+
+  <bb 12> :
+
+  <bb 13> :
+  return;
+
+}
+
+
+
+;; Function Adc_UpdateStatusAfterGetStream (Adc_UpdateStatusAfterGetStream, funcdef_no=30, decl_uid=6523, cgraph_uid=31, symbol_order=34)
+
+Adc_UpdateStatusAfterGetStream (Adc_GroupType Group, uint8 CoreId)
+{
+  Adc_GroupType GroupIndex;
+  int _1;
+  const struct Adc_ConfigType * _2;
+  const uint16 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint16 * _6;
+  int _7;
+  <unnamed type> _8;
+  int _9;
+  int _10;
+  <unnamed type> _11;
+  int _12;
+  const struct Adc_ConfigType * _13;
+  const struct Adc_GroupConfigurationType * _14;
+  unsigned int _15;
+  unsigned int _16;
+  const struct Adc_GroupConfigurationType * _17;
+  <unnamed type> _18;
+  int _19;
+  const struct Adc_ConfigType * _20;
+  const struct Adc_GroupConfigurationType * _21;
+  unsigned int _22;
+  unsigned int _23;
+  const struct Adc_GroupConfigurationType * _24;
+  <unnamed type> _25;
+  int _26;
+  const struct Adc_ConfigType * _27;
+  const struct Adc_GroupConfigurationType * _28;
+  unsigned int _29;
+  unsigned int _30;
+  const struct Adc_GroupConfigurationType * _31;
+  <unnamed type> _32;
+  int _33;
+  const struct Adc_ConfigType * _34;
+  const struct Adc_GroupConfigurationType * _35;
+  unsigned int _36;
+  unsigned int _37;
+  const struct Adc_GroupConfigurationType * _38;
+  <unnamed type> _39;
+  int _40;
+  const struct Adc_ConfigType * _41;
+  const struct Adc_GroupConfigurationType * _42;
+  unsigned int _43;
+  unsigned int _44;
+  const struct Adc_GroupConfigurationType * _45;
+  <unnamed type> _46;
+  int _47;
+  int _48;
+
+  <bb 2> :
+  _1 = (int) CoreId_51(D);
+  _2 = Adc_apxCfgPtr[_1];
+  _3 = _2->GroupIdToIndexMapPtr;
+  _4 = (unsigned int) Group_53(D);
+  _5 = _4 * 2;
+  _6 = _3 + _5;
+  GroupIndex_54 = *_6;
+  _7 = (int) Group_53(D);
+  _8 ={v} Adc_axGroupStatus[_7].Conversion;
+  if (_8 == 2)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  _9 = (int) Group_53(D);
+  Adc_axGroupStatus[_9].Conversion ={v} 1;
+
+  <bb 4> :
+  _10 = (int) Group_53(D);
+  _11 ={v} Adc_axGroupStatus[_10].Conversion;
+  if (_11 == 3)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 5> :
+  _12 = (int) CoreId_51(D);
+  _13 = Adc_apxCfgPtr[_12];
+  _14 = _13->GroupsPtr;
+  _15 = (unsigned int) GroupIndex_54;
+  _16 = _15 * 52;
+  _17 = _14 + _16;
+  _18 = _17->TriggerSource;
+  if (_18 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 6> :
+  _19 = (int) CoreId_51(D);
+  _20 = Adc_apxCfgPtr[_19];
+  _21 = _20->GroupsPtr;
+  _22 = (unsigned int) GroupIndex_54;
+  _23 = _22 * 52;
+  _24 = _21 + _23;
+  _25 = _24->Mode;
+  if (_25 == 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  _26 = (int) CoreId_51(D);
+  _27 = Adc_apxCfgPtr[_26];
+  _28 = _27->GroupsPtr;
+  _29 = (unsigned int) GroupIndex_54;
+  _30 = _29 * 52;
+  _31 = _28 + _30;
+  _32 = _31->Mode;
+  if (_32 == 1)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 8> :
+  _33 = (int) CoreId_51(D);
+  _34 = Adc_apxCfgPtr[_33];
+  _35 = _34->GroupsPtr;
+  _36 = (unsigned int) GroupIndex_54;
+  _37 = _36 * 52;
+  _38 = _35 + _37;
+  _39 = _38->AccessMode;
+  if (_39 == 1)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 9> :
+  _40 = (int) CoreId_51(D);
+  _41 = Adc_apxCfgPtr[_40];
+  _42 = _41->GroupsPtr;
+  _43 = (unsigned int) GroupIndex_54;
+  _44 = _43 * 52;
+  _45 = _42 + _44;
+  _46 = _45->BufferMode;
+  if (_46 == 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 10> :
+  _47 = (int) Group_53(D);
+  Adc_axGroupStatus[_47].Conversion ={v} 0;
+  goto <bb 12>; [INV]
+
+  <bb 11> :
+  _48 = (int) Group_53(D);
+  Adc_axGroupStatus[_48].Conversion ={v} 1;
+
+  <bb 12> :
+  return;
+
+}
+
+
+
+;; Function Adc_Init (Adc_Init, funcdef_no=31, decl_uid=5739, cgraph_uid=32, symbol_order=35)
+
+Adc_Init (const struct Adc_ConfigType * ConfigPtr)
+{
+  Std_ReturnType ValidStatus;
+  Std_ReturnType TimeOutStatus;
+  Std_ReturnType ValidCoreId;
+  uint8 CoreIdTemp;
+  volatile uint8 CoreId;
+  unsigned char _1;
+  unsigned char CoreId.0_2;
+  unsigned char CoreId.1_3;
+  unsigned char CoreId.2_4;
+  int _5;
+  unsigned char CoreId.3_6;
+  unsigned char CoreId.4_7;
+  unsigned char CoreId.5_8;
+  int _9;
+  const struct Adc_ConfigType * _10;
+  const struct Adc_Ipw_Config * _11;
+  unsigned char CoreId.6_12;
+
+  <bb 2> :
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  CoreIdTemp_19 ={v} CoreId;
+  CoreId.0_2 ={v} CoreId;
+  ValidStatus_21 = Adc_ValidateGloballCall (0, CoreId.0_2);
+  if (ValidStatus_21 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  ValidStatus_24 = Adc_ValidatePtrInit (ConfigPtr_22(D));
+  if (ValidStatus_24 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  CoreId.1_3 ={v} CoreId;
+  ValidCoreId_26 = Adc_CheckCurrentCoreId (ConfigPtr_22(D), CoreId.1_3);
+  if (ValidCoreId_26 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 5> :
+  CoreId.2_4 ={v} CoreId;
+  _5 = (int) CoreId.2_4;
+  Adc_apxCfgPtr[_5] = ConfigPtr_22(D);
+  CoreId.3_6 ={v} CoreId;
+  Adc_InitUnitStatus (CoreId.3_6);
+  CoreId.4_7 ={v} CoreId;
+  Adc_InitGroupsStatus (CoreId.4_7);
+  CoreId.5_8 ={v} CoreId;
+  _9 = (int) CoreId.5_8;
+  _10 = Adc_apxCfgPtr[_9];
+  _11 = _10->AdcIpwConfigPtr;
+  TimeOutStatus_33 = Adc_Ipw_Init (_11, CoreIdTemp_19);
+  if (TimeOutStatus_33 == 1)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 6> :
+  Adc_ReportDetRuntimeError (0, 43);
+  goto <bb 8>; [INV]
+
+  <bb 7> :
+  ValidStatus_27 = 1;
+  Adc_ReportDetError (0, 14);
+
+  <bb 8> :
+  # ValidStatus_13 = PHI <ValidStatus_21(2), ValidStatus_24(3), ValidStatus_24(6), ValidStatus_27(7), ValidStatus_24(5)>
+  if (ValidStatus_13 == 0)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 9> :
+  CoreId.6_12 ={v} CoreId;
+  Adc_EndValidateGloballCall (ValidStatus_13, 0, CoreId.6_12);
+
+  <bb 10> :
+  return;
+
+}
+
+
+
+;; Function Adc_SetupResultBuffer (Adc_SetupResultBuffer, funcdef_no=32, decl_uid=5742, cgraph_uid=33, symbol_order=36)
+
+Adc_SetupResultBuffer (Adc_GroupType Group, Adc_ValueGroupType * const DataBufferPtr)
+{
+  volatile uint8 CoreId;
+  Std_ReturnType TempReturn;
+  Std_ReturnType D.6876;
+  unsigned char _1;
+  unsigned char CoreId.11_2;
+  unsigned char _3;
+  unsigned char _4;
+  unsigned char _5;
+  int _6;
+  Std_ReturnType _20;
+
+  <bb 2> :
+  TempReturn_9 = 1;
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  CoreId.11_2 ={v} CoreId;
+  _3 = Adc_ValidateCallAndGroup (12, Group_13(D), CoreId.11_2);
+  if (_3 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  _4 = Adc_ValidatePtr (12, DataBufferPtr_15(D));
+  if (_4 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  _5 = Adc_ValidateSetupBufferNotBusy (Group_13(D));
+  if (_5 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  _6 = (int) Group_13(D);
+  Adc_axGroupStatus[_6].ResultsBufferPtr = DataBufferPtr_15(D);
+  TempReturn_19 = 0;
+
+  <bb 6> :
+  # TempReturn_7 = PHI <TempReturn_9(2), TempReturn_9(3), TempReturn_9(4), TempReturn_19(5)>
+  _20 = TempReturn_7;
+
+  <bb 7> :
+<L6>:
+  return _20;
+
+}
+
+
+
+;; Function Adc_DeInit (Adc_DeInit, funcdef_no=33, decl_uid=5744, cgraph_uid=34, symbol_order=37)
+
+Adc_DeInit ()
+{
+  Std_ReturnType ValidStatus;
+  Std_ReturnType TempReturn;
+  uint8 CoreIdTemp;
+  Std_ReturnType ValidCoreId;
+  Adc_HwUnitType LogicalHwUnitId;
+  volatile uint8 CoreId;
+  unsigned char _1;
+  unsigned char CoreId.12_2;
+  unsigned char CoreId.13_3;
+  int _4;
+  const struct Adc_ConfigType * _5;
+  unsigned char CoreId.14_6;
+  unsigned char CoreId.15_7;
+  unsigned char CoreId.16_8;
+  int _9;
+  const struct Adc_ConfigType * _10;
+  const struct Adc_Ipw_Config * _11;
+  int _12;
+  unsigned char _13;
+  int _14;
+  unsigned char LogicalHwUnitId.17_15;
+  unsigned char CoreId.18_16;
+  int _17;
+  unsigned char CoreId.19_18;
+
+  <bb 2> :
+  LogicalHwUnitId_25 = 0;
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  CoreIdTemp_29 ={v} CoreId;
+  CoreId.12_2 ={v} CoreId;
+  ValidStatus_31 = Adc_ValidateGloballCall (1, CoreId.12_2);
+  if (ValidStatus_31 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 14>; [INV]
+
+  <bb 3> :
+  CoreId.13_3 ={v} CoreId;
+  _4 = (int) CoreId.13_3;
+  _5 = Adc_apxCfgPtr[_4];
+  ValidCoreId_33 = Adc_CheckCurrentCoreId (_5, CoreIdTemp_29);
+  if (ValidCoreId_33 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 13>; [INV]
+
+  <bb 4> :
+  CoreId.14_6 ={v} CoreId;
+  ValidStatus_36 = Adc_ValidateDeInitNotBusy (CoreId.14_6);
+  if (ValidStatus_36 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 14>; [INV]
+
+  <bb 5> :
+  CoreId.15_7 ={v} CoreId;
+  TempReturn_38 = Adc_Ipw_DeInit (CoreId.15_7);
+  if (TempReturn_38 == 1)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+  Adc_ReportDetRuntimeError (1, 43);
+
+  <bb 7> :
+  LogicalHwUnitId_40 = 0;
+  goto <bb 11>; [INV]
+
+  <bb 8> :
+  CoreId.16_8 ={v} CoreId;
+  _9 = (int) CoreId.16_8;
+  _10 = Adc_apxCfgPtr[_9];
+  _11 = _10->AdcIpwConfigPtr;
+  _12 = (int) LogicalHwUnitId_19;
+  _13 = _11->Mapping.AdcHwUnitArr[_12];
+  if (_13 == 1)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 9> :
+  _14 = (int) LogicalHwUnitId_19;
+  Adc_axUnitStatus[_14].Sc1Used = 0;
+
+  <bb 10> :
+  LogicalHwUnitId.17_15 = LogicalHwUnitId_19;
+  LogicalHwUnitId_43 = LogicalHwUnitId.17_15 + 1;
+
+  <bb 11> :
+  # LogicalHwUnitId_19 = PHI <LogicalHwUnitId_40(7), LogicalHwUnitId_43(10)>
+  if (LogicalHwUnitId_19 <= 1)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 12> :
+  CoreId.18_16 ={v} CoreId;
+  _17 = (int) CoreId.18_16;
+  Adc_apxCfgPtr[_17] = 0B;
+  goto <bb 14>; [INV]
+
+  <bb 13> :
+  Adc_ReportDetError (1, 14);
+
+  <bb 14> :
+  # ValidStatus_20 = PHI <ValidStatus_31(2), ValidStatus_36(12), ValidStatus_31(13), ValidStatus_36(4)>
+  CoreId.19_18 ={v} CoreId;
+  Adc_EndValidateGloballCall (ValidStatus_20, 1, CoreId.19_18);
+  return;
+
+}
+
+
+
+;; Function Adc_StartGroupConversion (Adc_StartGroupConversion, funcdef_no=34, decl_uid=5746, cgraph_uid=35, symbol_order=38)
+
+Adc_StartGroupConversion (Adc_GroupType Group)
+{
+  Adc_HwUnitType LogicalHwUnitId;
+  Adc_GroupType GroupIndex;
+  volatile uint8 CoreId;
+  unsigned char _1;
+  unsigned char CoreId.22_2;
+  unsigned char _3;
+  unsigned char CoreId.23_4;
+  int _5;
+  const struct Adc_ConfigType * _6;
+  const uint16 * _7;
+  unsigned int _8;
+  unsigned int _9;
+  const uint16 * _10;
+  unsigned char CoreId.24_11;
+  unsigned char _12;
+  unsigned char CoreId.25_13;
+  unsigned char _14;
+  unsigned char CoreId.26_15;
+  int _16;
+  const struct Adc_ConfigType * _17;
+  const struct Adc_GroupConfigurationType * _18;
+  unsigned int _19;
+  unsigned int _20;
+  const struct Adc_GroupConfigurationType * _21;
+  unsigned char CoreId.27_22;
+
+  <bb 2> :
+  GroupIndex_24 = 0;
+  LogicalHwUnitId_25 = 0;
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  CoreId.22_2 ={v} CoreId;
+  _3 = Adc_ValidateCallAndGroup (2, Group_29(D), CoreId.22_2);
+  if (_3 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  CoreId.23_4 ={v} CoreId;
+  _5 = (int) CoreId.23_4;
+  _6 = Adc_apxCfgPtr[_5];
+  _7 = _6->GroupIdToIndexMapPtr;
+  _8 = (unsigned int) Group_29(D);
+  _9 = _8 * 2;
+  _10 = _7 + _9;
+  GroupIndex_31 = *_10;
+  CoreId.24_11 ={v} CoreId;
+  _12 = Adc_ValidateStateStartGroupConvNotBusy (Group_29(D), CoreId.24_11);
+  if (_12 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  CoreId.25_13 ={v} CoreId;
+  _14 = Adc_ValidateExtraParams (2, 7, Group_29(D), CoreId.25_13);
+  if (_14 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  CoreId.26_15 ={v} CoreId;
+  _16 = (int) CoreId.26_15;
+  _17 = Adc_apxCfgPtr[_16];
+  _18 = _17->GroupsPtr;
+  _19 = (unsigned int) GroupIndex_31;
+  _20 = _19 * 52;
+  _21 = _18 + _20;
+  LogicalHwUnitId_34 = _21->AdcLogicalUnitId;
+  CoreId.27_22 ={v} CoreId;
+  Adc_UpdateStatusStartConversion (Group_29(D), LogicalHwUnitId_34, CoreId.27_22);
+
+  <bb 6> :
+  return;
+
+}
+
+
+
+;; Function Adc_StopGroupConversion (Adc_StopGroupConversion, funcdef_no=35, decl_uid=5748, cgraph_uid=36, symbol_order=39)
+
+Adc_StopGroupConversion (Adc_GroupType Group)
+{
+  Adc_GroupType GroupIndex;
+  volatile uint8 CoreId;
+  Adc_HwUnitType LogicalHwUnitId;
+  unsigned char _1;
+  unsigned char CoreId.28_2;
+  unsigned char _3;
+  unsigned char CoreId.29_4;
+  unsigned char _5;
+  unsigned char CoreId.30_6;
+  unsigned char _7;
+  unsigned char CoreId.31_8;
+  int _9;
+  const struct Adc_ConfigType * _10;
+  const uint16 * _11;
+  unsigned int _12;
+  unsigned int _13;
+  const uint16 * _14;
+  unsigned char CoreId.32_15;
+  int _16;
+  const struct Adc_ConfigType * _17;
+  const struct Adc_GroupConfigurationType * _18;
+  unsigned int _19;
+  unsigned int _20;
+  const struct Adc_GroupConfigurationType * _21;
+  unsigned char CoreId.33_22;
+
+  <bb 2> :
+  LogicalHwUnitId_24 = 0;
+  GroupIndex_25 = 0;
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  CoreId.28_2 ={v} CoreId;
+  _3 = Adc_ValidateCallAndGroup (3, Group_29(D), CoreId.28_2);
+  if (_3 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  CoreId.29_4 ={v} CoreId;
+  _5 = Adc_ValidateStateNotIdle (3, Group_29(D), CoreId.29_4);
+  if (_5 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  CoreId.30_6 ={v} CoreId;
+  _7 = Adc_ValidateExtraParams (3, 2, Group_29(D), CoreId.30_6);
+  if (_7 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  CoreId.31_8 ={v} CoreId;
+  _9 = (int) CoreId.31_8;
+  _10 = Adc_apxCfgPtr[_9];
+  _11 = _10->GroupIdToIndexMapPtr;
+  _12 = (unsigned int) Group_29(D);
+  _13 = _12 * 2;
+  _14 = _11 + _13;
+  GroupIndex_33 = *_14;
+  CoreId.32_15 ={v} CoreId;
+  _16 = (int) CoreId.32_15;
+  _17 = Adc_apxCfgPtr[_16];
+  _18 = _17->GroupsPtr;
+  _19 = (unsigned int) GroupIndex_33;
+  _20 = _19 * 52;
+  _21 = _18 + _20;
+  LogicalHwUnitId_34 = _21->AdcLogicalUnitId;
+  CoreId.33_22 ={v} CoreId;
+  Adc_UpdateStatusStopConversion (Group_29(D), LogicalHwUnitId_34, CoreId.33_22);
+
+  <bb 6> :
+  return;
+
+}
+
+
+
+;; Function Adc_ReadGroup (Adc_ReadGroup, funcdef_no=36, decl_uid=5751, cgraph_uid=37, symbol_order=40)
+
+Adc_ReadGroup (Adc_GroupType Group, Adc_ValueGroupType * DataBufferPtr)
+{
+  boolean Flag;
+  Std_ReturnType GroupRet;
+  volatile uint8 CoreId;
+  Std_ReturnType D.7036;
+  unsigned char _1;
+  unsigned char CoreId.36_2;
+  unsigned char _3;
+  unsigned char _4;
+  unsigned char CoreId.37_5;
+  unsigned char _6;
+  unsigned char CoreId.38_7;
+  _Bool Flag.39_8;
+  _Bool _9;
+  _Bool Flag.40_10;
+  unsigned char CoreId.41_11;
+  Std_ReturnType _27;
+
+  <bb 2> :
+  GroupRet_14 = 1;
+  Flag = 1;
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  CoreId.36_2 ={v} CoreId;
+  _3 = Adc_ValidateCallAndGroup (4, Group_19(D), CoreId.36_2);
+  if (_3 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  _4 = Adc_ValidatePtr (4, DataBufferPtr_21(D));
+  if (_4 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  CoreId.37_5 ={v} CoreId;
+  _6 = Adc_ValidateStateNotIdle (4, Group_19(D), CoreId.37_5);
+  if (_6 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 5> :
+  CoreId.38_7 ={v} CoreId;
+  GroupRet_25 = Adc_Ipw_ReadGroup (Group_19(D), DataBufferPtr_21(D), &Flag, CoreId.38_7);
+  if (GroupRet_25 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 6> :
+  Flag.39_8 = Flag;
+  _9 = ~Flag.39_8;
+  if (_9 != 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  Flag.40_10 = Flag;
+  CoreId.41_11 ={v} CoreId;
+  Adc_UpdateStatusReadGroup (Group_19(D), Flag.40_10, CoreId.41_11);
+
+  <bb 8> :
+  # GroupRet_12 = PHI <GroupRet_14(2), GroupRet_14(3), GroupRet_14(4), GroupRet_25(6), GroupRet_25(7)>
+  _27 = GroupRet_12;
+  Flag ={v} {CLOBBER};
+
+  <bb 9> :
+<L10>:
+  return _27;
+
+}
+
+
+
+;; Function Adc_GetGroupStatus (Adc_GetGroupStatus, funcdef_no=37, decl_uid=5753, cgraph_uid=38, symbol_order=41)
+
+Adc_GetGroupStatus (Adc_GroupType Group)
+{
+  Adc_StatusType TempReturn;
+  volatile uint8 CoreId;
+  Adc_StatusType D.7073;
+  unsigned char _1;
+  unsigned char CoreId.43_2;
+  unsigned char _3;
+  int _4;
+  Adc_StatusType _13;
+
+  <bb 2> :
+  TempReturn_6 = 0;
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  CoreId.43_2 ={v} CoreId;
+  _3 = Adc_ValidateCallAndGroup (9, Group_10(D), CoreId.43_2);
+  if (_3 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  _4 = (int) Group_10(D);
+  TempReturn_12 ={v} Adc_axGroupStatus[_4].Conversion;
+
+  <bb 4> :
+  # TempReturn_5 = PHI <TempReturn_6(2), TempReturn_12(3)>
+  _13 = TempReturn_5;
+
+  <bb 5> :
+<L2>:
+  return _13;
+
+}
+
+
+
+;; Function Adc_GetStreamLastPointer (Adc_GetStreamLastPointer, funcdef_no=38, decl_uid=5756, cgraph_uid=39, symbol_order=42)
+
+Adc_GetStreamLastPointer (Adc_GroupType Group, Adc_ValueGroupType * * PtrToSamplePtr)
+{
+  Std_ReturnType ValidStatus;
+  Adc_StreamNumSampleType ResultIndex;
+  Adc_StreamNumSampleType NumberOfResults;
+  Adc_GroupType GroupIndex;
+  volatile uint8 CoreId;
+  Adc_StreamNumSampleType D.7088;
+  unsigned char _1;
+  unsigned char CoreId.44_2;
+  unsigned char CoreId.45_3;
+  unsigned char _4;
+  int _5;
+  <unnamed type> _6;
+  int _7;
+  <unnamed type> _8;
+  unsigned char CoreId.46_9;
+  int _10;
+  const struct Adc_ConfigType * _11;
+  const uint16 * _12;
+  unsigned int _13;
+  unsigned int _14;
+  const uint16 * _15;
+  int _16;
+  short unsigned int _17;
+  unsigned char CoreId.47_18;
+  int _19;
+  const struct Adc_ConfigType * _20;
+  const struct Adc_GroupConfigurationType * _21;
+  unsigned int _22;
+  unsigned int _23;
+  const struct Adc_GroupConfigurationType * _24;
+  short unsigned int _25;
+  unsigned char CoreId.48_26;
+  int _27;
+  const struct Adc_ConfigType * _28;
+  const struct Adc_GroupConfigurationType * _29;
+  unsigned int _30;
+  unsigned int _31;
+  const struct Adc_GroupConfigurationType * _32;
+  int _33;
+  short unsigned int _34;
+  int _35;
+  int _36;
+  Adc_ValueGroupType * _37;
+  unsigned int _38;
+  unsigned int _39;
+  Adc_ValueGroupType * _40;
+  unsigned char CoreId.49_41;
+  Adc_StreamNumSampleType _67;
+
+  <bb 2> :
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  GroupIndex_49 = 0;
+  NumberOfResults_50 = 0;
+  ResultIndex_51 = 0;
+  CoreId.44_2 ={v} CoreId;
+  ValidStatus_54 = Adc_ValidateCallAndGroup (11, Group_52(D), CoreId.44_2);
+  if (ValidStatus_54 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 3> :
+  CoreId.45_3 ={v} CoreId;
+  _4 = Adc_ValidateStateNotIdle (11, Group_52(D), CoreId.45_3);
+  if (_4 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 4> :
+  *PtrToSamplePtr_55(D) = 0B;
+  _5 = (int) Group_52(D);
+  _6 ={v} Adc_axGroupStatus[_5].Conversion;
+  if (_6 != 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 5> :
+  _7 = (int) Group_52(D);
+  _8 ={v} Adc_axGroupStatus[_7].Conversion;
+  if (_8 != 1)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 6> :
+  CoreId.46_9 ={v} CoreId;
+  _10 = (int) CoreId.46_9;
+  _11 = Adc_apxCfgPtr[_10];
+  _12 = _11->GroupIdToIndexMapPtr;
+  _13 = (unsigned int) Group_52(D);
+  _14 = _13 * 2;
+  _15 = _12 + _14;
+  GroupIndex_60 = *_15;
+  _16 = (int) Group_52(D);
+  _17 ={v} Adc_axGroupStatus[_16].ResultIndex;
+  if (_17 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  CoreId.47_18 ={v} CoreId;
+  _19 = (int) CoreId.47_18;
+  _20 = Adc_apxCfgPtr[_19];
+  _21 = _20->GroupsPtr;
+  _22 = (unsigned int) GroupIndex_60;
+  _23 = _22 * 52;
+  _24 = _21 + _23;
+  _25 = _24->NumSamples;
+  ResultIndex_63 = _25 + 65535;
+  CoreId.48_26 ={v} CoreId;
+  _27 = (int) CoreId.48_26;
+  _28 = Adc_apxCfgPtr[_27];
+  _29 = _28->GroupsPtr;
+  _30 = (unsigned int) GroupIndex_60;
+  _31 = _30 * 52;
+  _32 = _29 + _31;
+  NumberOfResults_64 = _32->NumSamples;
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  _33 = (int) Group_52(D);
+  _34 ={v} Adc_axGroupStatus[_33].ResultIndex;
+  ResultIndex_61 = _34 + 65535;
+  _35 = (int) Group_52(D);
+  NumberOfResults_62 ={v} Adc_axGroupStatus[_35].ResultIndex;
+
+  <bb 9> :
+  # NumberOfResults_42 = PHI <NumberOfResults_64(7), NumberOfResults_62(8)>
+  # ResultIndex_44 = PHI <ResultIndex_63(7), ResultIndex_61(8)>
+  _36 = (int) Group_52(D);
+  _37 = Adc_axGroupStatus[_36].ResultsBufferPtr;
+  _38 = (unsigned int) ResultIndex_44;
+  _39 = _38 * 2;
+  _40 = _37 + _39;
+  *PtrToSamplePtr_55(D) = _40;
+  CoreId.49_41 ={v} CoreId;
+  Adc_UpdateStatusAfterGetStream (Group_52(D), CoreId.49_41);
+  goto <bb 12>; [INV]
+
+  <bb 10> :
+  *PtrToSamplePtr_55(D) = 0B;
+  goto <bb 12>; [INV]
+
+  <bb 11> :
+  *PtrToSamplePtr_55(D) = 0B;
+
+  <bb 12> :
+  # NumberOfResults_43 = PHI <NumberOfResults_50(10), NumberOfResults_50(11), NumberOfResults_50(5), NumberOfResults_42(9), NumberOfResults_50(4)>
+  _67 = NumberOfResults_43;
+
+  <bb 13> :
+<L13>:
+  return _67;
+
+}
+
+
+
+;; Function Adc_GetVersionInfo (Adc_GetVersionInfo, funcdef_no=39, decl_uid=5758, cgraph_uid=40, symbol_order=43)
+
+Adc_GetVersionInfo (struct Std_VersionInfoType * versioninfo)
+{
+  unsigned char _1;
+
+  <bb 2> :
+  _1 = Adc_ValidatePtr (10, versioninfo_4(D));
+  if (_1 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  versioninfo_4(D)->vendorID = 43;
+  versioninfo_4(D)->moduleID = 123;
+  versioninfo_4(D)->sw_major_version = 2;
+  versioninfo_4(D)->sw_minor_version = 0;
+  versioninfo_4(D)->sw_patch_version = 0;
+
+  <bb 4> :
+  return;
+
+}
+
+
+
+;; Function Adc_Calibrate (Adc_Calibrate, funcdef_no=40, decl_uid=5761, cgraph_uid=41, symbol_order=44)
+
+Adc_Calibrate (Adc_HwUnitType Unit, struct Adc_CalibrationStatusType * pStatus)
+{
+  boolean IsCalibrateCalled;
+  volatile uint8 CoreId;
+  unsigned char _1;
+  unsigned char CoreId.50_2;
+  unsigned char _3;
+  unsigned char _4;
+  unsigned char _5;
+  unsigned char CoreId.51_6;
+  unsigned char _7;
+  unsigned char CoreId.52_8;
+  unsigned char _9;
+
+  <bb 2> :
+  IsCalibrateCalled_13 = 0;
+  _1 = Adc_GetCoreID ();
+  CoreId ={v} _1;
+  CoreId.50_2 ={v} CoreId;
+  _3 = Adc_ValidateCallAndUnit (41, Unit_17(D), CoreId.50_2);
+  if (_3 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 3> :
+  _4 = Adc_ValidatePtr (41, pStatus_19(D));
+  if (_4 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 4> :
+  pStatus_19(D)->AdcUnitSelfTestStatus = 1;
+  _5 = Adc_ValidateNotBusyNoQueue (Unit_17(D), 41);
+  if (_5 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 5> :
+  CoreId.51_6 ={v} CoreId;
+  _7 = Adc_ValidateCheckGroupNotConversion (41, CoreId.51_6);
+  if (_7 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+  CoreId.52_8 ={v} CoreId;
+  Adc_Ipw_Calibrate (Unit_17(D), pStatus_19(D), CoreId.52_8);
+  IsCalibrateCalled_25 = 1;
+
+  <bb 7> :
+  # IsCalibrateCalled_10 = PHI <IsCalibrateCalled_13(4), IsCalibrateCalled_13(5), IsCalibrateCalled_25(6)>
+  if (IsCalibrateCalled_10 != 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 8> :
+  _9 = pStatus_19(D)->AdcUnitSelfTestStatus;
+  if (_9 == 1)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 9> :
+  Adc_ReportDetRuntimeError (41, 43);
+
+  <bb 10> :
+  return;
+
+}
+
+

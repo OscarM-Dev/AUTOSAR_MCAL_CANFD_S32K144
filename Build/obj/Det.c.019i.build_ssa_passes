@@ -1,0 +1,366 @@
+Det_Start ()
+{
+  <bb 2> :
+  return;
+
+}
+
+
+Det_ReportTransientFault (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 FaultId)
+{
+  uint32 u32CoreId;
+  Std_ReturnType D.8825;
+
+  <bb 2> :
+  _1 = Sys_GetCoreID ();
+  u32CoreId = (uint32) _1;
+  Det_TransientModuleId[u32CoreId] = ModuleId;
+  Det_TransientInstanceId[u32CoreId] = InstanceId;
+  Det_TransientApiId[u32CoreId] = ApiId;
+  Det_TransientFaultId[u32CoreId] = FaultId;
+  D.8825 = 0;
+
+  <bb 3> :
+<L0>:
+  return D.8825;
+
+}
+
+
+Det_ReportRuntimeError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
+{
+  uint32 u32CoreId;
+  Std_ReturnType D.8823;
+
+  <bb 2> :
+  _1 = Sys_GetCoreID ();
+  u32CoreId = (uint32) _1;
+  Det_RuntimeModuleId[u32CoreId] = ModuleId;
+  Det_RuntimeInstanceId[u32CoreId] = InstanceId;
+  Det_RuntimeApiId[u32CoreId] = ApiId;
+  Det_RuntimeErrorId[u32CoreId] = ErrorId;
+  D.8823 = 0;
+
+  <bb 3> :
+<L0>:
+  return D.8823;
+
+}
+
+
+Det_ReportError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
+{
+  uint32 u32CoreId;
+  const char * Strings_error[3];
+  Std_ReturnType D.8820;
+
+  <bb 2> :
+  _1 = Sys_GetCoreID ();
+  u32CoreId = (uint32) _1;
+  Det_ModuleId[u32CoreId] = ModuleId;
+  Det_InstanceId[u32CoreId] = InstanceId;
+  Det_ApiId[u32CoreId] = ApiId;
+  Det_ErrorId[u32CoreId] = ErrorId;
+  _2 = Det_GetModuleName (ModuleId);
+  Strings_error[0] = _2;
+  _3 = Det_GetApiName (ModuleId, ApiId);
+  Strings_error[1] = _3;
+  _4 = Det_GetErrorMeaning (ModuleId, ErrorId);
+  Strings_error[2] = _4;
+  _5 = Strings_error[0];
+  _6 = Strings_error[1];
+  _7 = (int) InstanceId;
+  _8 = Strings_error[2];
+  SEGGER_RTT_printf (0, "Error: Error in %s in function %s with the instance %d, %s\n", _5, _6, _7, _8);
+  D.8820 = 0;
+  Strings_error = {CLOBBER};
+
+  <bb 3> :
+<L1>:
+  return D.8820;
+
+}
+
+
+Det_GetErrorMeaning (uint16 ModuleId, uint8 ErrorId)
+{
+  const char * StringPtr;
+  uint8 i;
+  const char * D.8818;
+
+  <bb 2> :
+  i = 0;
+  StringPtr = 0B;
+  i = 0;
+  goto <bb 6>; [INV]
+
+  <bb 3> :
+  ModuleStrings_Ptr.13_1 = &ModuleStrings;
+  _2 = (unsigned int) i;
+  _3 = _2 * 24;
+  _4 = ModuleStrings_Ptr.13_1 + _3;
+  _5 = _4->ModuleId;
+  if (ModuleId == _5)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  StringPtr = Det_SearchError (i, ErrorId);
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  i.14_6 = i;
+  i = i.14_6 + 1;
+
+  <bb 6> :
+  if (i <= 10)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  D.8818 = StringPtr;
+
+  <bb 8> :
+<L5>:
+  return D.8818;
+
+}
+
+
+Det_GetApiName (uint16 ModuleId, uint8 ApiId)
+{
+  const char * StringPtr;
+  uint8 i;
+  const char * D.8814;
+
+  <bb 2> :
+  i = 0;
+  StringPtr = 0B;
+  i = 0;
+  goto <bb 6>; [INV]
+
+  <bb 3> :
+  ModuleStrings_Ptr.11_1 = &ModuleStrings;
+  _2 = (unsigned int) i;
+  _3 = _2 * 24;
+  _4 = ModuleStrings_Ptr.11_1 + _3;
+  _5 = _4->ModuleId;
+  if (ModuleId == _5)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  StringPtr = Det_SearchApi (i, ApiId);
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  i.12_6 = i;
+  i = i.12_6 + 1;
+
+  <bb 6> :
+  if (i <= 10)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  D.8814 = StringPtr;
+
+  <bb 8> :
+<L5>:
+  return D.8814;
+
+}
+
+
+Det_GetModuleName (uint16 ModuleId)
+{
+  const char * StringPtr;
+  uint8 i;
+  const char * D.8810;
+
+  <bb 2> :
+  i = 0;
+  StringPtr = 0B;
+  i = 0;
+  goto <bb 6>; [INV]
+
+  <bb 3> :
+  ModuleStrings_Ptr.8_1 = &ModuleStrings;
+  _2 = (unsigned int) i;
+  _3 = _2 * 24;
+  _4 = ModuleStrings_Ptr.8_1 + _3;
+  _5 = _4->ModuleId;
+  if (ModuleId == _5)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  ModuleStrings_Ptr.9_6 = &ModuleStrings;
+  _7 = (unsigned int) i;
+  _8 = _7 * 24;
+  _9 = ModuleStrings_Ptr.9_6 + _8;
+  StringPtr = _9->ModuleName;
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  i.10_10 = i;
+  i = i.10_10 + 1;
+
+  <bb 6> :
+  if (i <= 10)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  D.8810 = StringPtr;
+
+  <bb 8> :
+<L5>:
+  return D.8810;
+
+}
+
+
+Det_SearchError (uint8 ModuleIndex, uint8 ErrorId)
+{
+  const char * StringPtr;
+  uint8 i;
+  const char * D.8806;
+
+  <bb 2> :
+  i = 0;
+  StringPtr = 0B;
+  i = 0;
+  goto <bb 6>; [INV]
+
+  <bb 3> :
+  ModuleStrings_Ptr.4_1 = &ModuleStrings;
+  _2 = (unsigned int) ModuleIndex;
+  _3 = _2 * 24;
+  _4 = ModuleStrings_Ptr.4_1 + _3;
+  _5 = _4->ErrorMeanings;
+  _6 = (unsigned int) i;
+  _7 = _6 * 8;
+  _8 = _5 + _7;
+  _9 = _8->ErrorId;
+  if (ErrorId == _9)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  ModuleStrings_Ptr.5_10 = &ModuleStrings;
+  _11 = (unsigned int) ModuleIndex;
+  _12 = _11 * 24;
+  _13 = ModuleStrings_Ptr.5_10 + _12;
+  _14 = _13->ErrorMeanings;
+  _15 = (unsigned int) i;
+  _16 = _15 * 8;
+  _17 = _14 + _16;
+  StringPtr = _17->ErrorMeaning;
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  i.6_18 = i;
+  i = i.6_18 + 1;
+
+  <bb 6> :
+  ModuleStrings_Ptr.7_19 = &ModuleStrings;
+  _20 = (unsigned int) ModuleIndex;
+  _21 = _20 * 24;
+  _22 = ModuleStrings_Ptr.7_19 + _21;
+  _23 = _22->Errors;
+  if (i < _23)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  D.8806 = StringPtr;
+
+  <bb 8> :
+<L5>:
+  return D.8806;
+
+}
+
+
+Det_SearchApi (uint8 ModuleIndex, uint8 ApiId)
+{
+  const char * StringPtr;
+  uint8 i;
+  const char * D.8802;
+
+  <bb 2> :
+  i = 0;
+  StringPtr = 0B;
+  i = 0;
+  goto <bb 6>; [INV]
+
+  <bb 3> :
+  ModuleStrings_Ptr.0_1 = &ModuleStrings;
+  _2 = (unsigned int) ModuleIndex;
+  _3 = _2 * 24;
+  _4 = ModuleStrings_Ptr.0_1 + _3;
+  _5 = _4->ApiNames;
+  _6 = (unsigned int) i;
+  _7 = _6 * 8;
+  _8 = _5 + _7;
+  _9 = _8->ApiId;
+  if (ApiId == _9)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  ModuleStrings_Ptr.1_10 = &ModuleStrings;
+  _11 = (unsigned int) ModuleIndex;
+  _12 = _11 * 24;
+  _13 = ModuleStrings_Ptr.1_10 + _12;
+  _14 = _13->ApiNames;
+  _15 = (unsigned int) i;
+  _16 = _15 * 8;
+  _17 = _14 + _16;
+  StringPtr = _17->ApiName;
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  i.2_18 = i;
+  i = i.2_18 + 1;
+
+  <bb 6> :
+  ModuleStrings_Ptr.3_19 = &ModuleStrings;
+  _20 = (unsigned int) ModuleIndex;
+  _21 = _20 * 24;
+  _22 = ModuleStrings_Ptr.3_19 + _21;
+  _23 = _22->Apis;
+  if (i < _23)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  D.8802 = StringPtr;
+
+  <bb 8> :
+<L5>:
+  return D.8802;
+
+}
+
+
+Det_Init ()
+{
+  <bb 2> :
+  SEGGER_RTT_Init ();
+  return;
+
+}
+
+

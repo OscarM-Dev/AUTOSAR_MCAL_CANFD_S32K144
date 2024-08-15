@@ -1,0 +1,288 @@
+
+Marking local functions:
+
+
+Marking externally visible functions: HwIoAb_Leds_TurnToggle/3 HwIoAb_Leds_TurnOff/2 HwIoAb_Leds_TurnOn/1 HwIoAb_Leds_Init/0
+
+
+Marking externally visible variables:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+Dio_FlipChannel/7 (Dio_FlipChannel) @0693d7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: HwIoAb_Leds_TurnToggle/3 
+  Calls: 
+Dio_WriteChannel/6 (Dio_WriteChannel) @0693d540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: HwIoAb_Leds_TurnOff/2 HwIoAb_Leds_TurnOn/1 
+  Calls: 
+LedsControl_Ptr/5 (LedsControl_Ptr) @069269d8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: HwIoAb_Leds_Init/0 (read) HwIoAb_Leds_Init/0 (read) HwIoAb_Leds_Init/0 (read) HwIoAb_Leds_TurnOn/1 (read) HwIoAb_Leds_TurnOn/1 (read) HwIoAb_Leds_TurnOn/1 (read) HwIoAb_Leds_TurnOn/1 (read) HwIoAb_Leds_TurnOff/2 (read) HwIoAb_Leds_TurnOff/2 (read) HwIoAb_Leds_TurnOff/2 (read) HwIoAb_Leds_TurnOff/2 (read) HwIoAb_Leds_TurnToggle/3 (read) HwIoAb_Leds_TurnToggle/3 (read) HwIoAb_Leds_TurnToggle/3 (read) 
+  Availability: not_available
+  Varpool flags:
+Det_ReportError/4 (Det_ReportError) @0693d380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: HwIoAb_Leds_TurnToggle/3 HwIoAb_Leds_TurnToggle/3 HwIoAb_Leds_TurnOff/2 HwIoAb_Leds_TurnOff/2 HwIoAb_Leds_TurnOn/1 HwIoAb_Leds_TurnOn/1 HwIoAb_Leds_Init/0 
+  Calls: 
+HwIoAb_Leds_TurnToggle/3 (HwIoAb_Leds_TurnToggle) @06927e00
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Dio_FlipChannel/7 Det_ReportError/4 Det_ReportError/4 
+HwIoAb_Leds_TurnOff/2 (HwIoAb_Leds_TurnOff) @06927540
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Dio_WriteChannel/6 Det_ReportError/4 Det_ReportError/4 
+HwIoAb_Leds_TurnOn/1 (HwIoAb_Leds_TurnOn) @06927380
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Dio_WriteChannel/6 Det_ReportError/4 Det_ReportError/4 
+HwIoAb_Leds_Init/0 (HwIoAb_Leds_Init) @06927d20
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) LedsControl_Ptr/5 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Det_ReportError/4 
+HwIoAb_Leds_TurnToggle (uint8 Led)
+{
+  uint8 status;
+
+  <bb 2> :
+  status = 0;
+  LedsControl_Ptr.11_1 = LedsControl_Ptr;
+  _2 = LedsControl_Ptr.11_1->Leds_init;
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (302, 0, 3, 2);
+  status = 1;
+
+  <bb 4> :
+  LedsControl_Ptr.12_4 = LedsControl_Ptr;
+  _5 = LedsControl_Ptr.12_4->Leds;
+  if (Led >= _5)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (302, 0, 3, 1);
+  status = 1;
+
+  <bb 6> :
+  if (status == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  LedsControl_Ptr.13_6 = LedsControl_Ptr;
+  _7 = LedsControl_Ptr.13_6->LedsConfig_Ptr;
+  _8 = (unsigned int) Led;
+  _9 = _8 * 4;
+  _10 = _7 + _9;
+  _11 = _10->Led;
+  Dio_FlipChannel (_11);
+
+  <bb 8> :
+  return;
+
+}
+
+
+HwIoAb_Leds_TurnOff (uint8 Led)
+{
+  uint8 status;
+
+  <bb 2> :
+  status = 0;
+  LedsControl_Ptr.7_1 = LedsControl_Ptr;
+  _2 = LedsControl_Ptr.7_1->Leds_init;
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (302, 0, 2, 2);
+  status = 1;
+
+  <bb 4> :
+  LedsControl_Ptr.8_4 = LedsControl_Ptr;
+  _5 = LedsControl_Ptr.8_4->Leds;
+  if (Led >= _5)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (302, 0, 2, 1);
+  status = 1;
+
+  <bb 6> :
+  if (status == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  LedsControl_Ptr.9_6 = LedsControl_Ptr;
+  _7 = LedsControl_Ptr.9_6->LedsConfig_Ptr;
+  _8 = (unsigned int) Led;
+  _9 = _8 * 4;
+  _10 = _7 + _9;
+  _11 = _10->Led;
+  LedsControl_Ptr.10_12 = LedsControl_Ptr;
+  _13 = LedsControl_Ptr.10_12->LedsConfig_Ptr;
+  _14 = (unsigned int) Led;
+  _15 = _14 * 4;
+  _16 = _13 + _15;
+  _17 = _16->Active;
+  _18 = _17 == 0;
+  _19 = (unsigned char) _18;
+  Dio_WriteChannel (_11, _19);
+
+  <bb 8> :
+  return;
+
+}
+
+
+HwIoAb_Leds_TurnOn (uint8 Led)
+{
+  uint8 status;
+
+  <bb 2> :
+  status = 0;
+  LedsControl_Ptr.3_1 = LedsControl_Ptr;
+  _2 = LedsControl_Ptr.3_1->Leds_init;
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (302, 0, 1, 2);
+  status = 1;
+
+  <bb 4> :
+  LedsControl_Ptr.4_4 = LedsControl_Ptr;
+  _5 = LedsControl_Ptr.4_4->Leds;
+  if (Led >= _5)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (302, 0, 1, 1);
+  status = 1;
+
+  <bb 6> :
+  if (status == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  LedsControl_Ptr.5_6 = LedsControl_Ptr;
+  _7 = LedsControl_Ptr.5_6->LedsConfig_Ptr;
+  _8 = (unsigned int) Led;
+  _9 = _8 * 4;
+  _10 = _7 + _9;
+  _11 = _10->Led;
+  LedsControl_Ptr.6_12 = LedsControl_Ptr;
+  _13 = LedsControl_Ptr.6_12->LedsConfig_Ptr;
+  _14 = (unsigned int) Led;
+  _15 = _14 * 4;
+  _16 = _13 + _15;
+  _17 = _16->Active;
+  Dio_WriteChannel (_11, _17);
+
+  <bb 8> :
+  return;
+
+}
+
+
+HwIoAb_Leds_Init (const struct HwIoAb_Leds_Config * Leds_Config)
+{
+  uint8 status;
+
+  <bb 2> :
+  status = 0;
+  if (Leds_Config == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (302, 0, 0, 0);
+  status = 1;
+
+  <bb 4> :
+  if (status == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  LedsControl_Ptr.0_1 = LedsControl_Ptr;
+  LedsControl_Ptr.0_1->Leds = 3;
+  LedsControl_Ptr.1_2 = LedsControl_Ptr;
+  LedsControl_Ptr.1_2->LedsConfig_Ptr = Leds_Config;
+  LedsControl_Ptr.2_3 = LedsControl_Ptr;
+  LedsControl_Ptr.2_3->Leds_init = 1;
+
+  <bb 6> :
+  return;
+
+}
+
+

@@ -1,0 +1,600 @@
+Pwm_GetVersionInfo (struct Std_VersionInfoType * versioninfo)
+{
+  <bb 2> :
+  if (versioninfo != 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  versioninfo->vendorID = 43;
+  versioninfo->moduleID = 121;
+  versioninfo->sw_major_version = 2;
+  versioninfo->sw_minor_version = 0;
+  versioninfo->sw_patch_version = 0;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  Det_ReportError (121, 0, 8, 21);
+
+  <bb 5> :
+  return;
+
+}
+
+
+Pwm_SetOutputToIdle (Pwm_ChannelType ChannelNumber)
+{
+  Pwm_ChannelType PartitionChannelIdx;
+  uint32 CoreId;
+
+  <bb 2> :
+  CoreId = 0;
+  _1 = Pwm_ValidateChannelConfigCall (CoreId, ChannelNumber, 4);
+  if (_1 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 3> :
+  PartitionChannelIdx = Pwm_GetPartitionChannelIdx (CoreId, ChannelNumber);
+  _2 = Pwm_ValidateSetOutPutToIdle (CoreId, PartitionChannelIdx);
+  if (_2 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  _3 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _4 = (unsigned int) PartitionChannelIdx;
+  _5 = _4 * 24;
+  _6 = _3 + _5;
+  _7 = _6->ChannelIdleState;
+  _8 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _9 = (unsigned int) PartitionChannelIdx;
+  _10 = _9 * 24;
+  _11 = _8 + _10;
+  _12 = &_11->IpwChannelCfg;
+  Pwm_Ipw_SetOutputToIdle (_7, _12);
+  _13 = (int) PartitionChannelIdx;
+  Pwm_aState[CoreId].PwmChannelIdleState[_13] = 1;
+
+  <bb 5> :
+  Pwm_EndValidateChannelConfigCall (ChannelNumber);
+  return;
+
+}
+
+
+Pwm_SetPeriodAndDuty (Pwm_ChannelType ChannelNumber, Pwm_PeriodType Period, uint16 DutyCycle)
+{
+  Pwm_ChannelType PartitionChannelIdx;
+  uint32 CoreId;
+
+  <bb 2> :
+  CoreId = 0;
+  _1 = Pwm_ValidateChannelConfigCall (CoreId, ChannelNumber, 3);
+  if (_1 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  PartitionChannelIdx = Pwm_GetPartitionChannelIdx (CoreId, ChannelNumber);
+  _2 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _3 = (unsigned int) PartitionChannelIdx;
+  _4 = _3 * 24;
+  _5 = _2 + _4;
+  _6 = _5->PwmChannelClass;
+  _7 = Pwm_ValidateParamsPeriodClass (CoreId, PartitionChannelIdx, _6, Period, 3);
+  if (_7 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  _8 = Pwm_ValidateParamDuty (DutyCycle, 3);
+  if (_8 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  _9 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _10 = (unsigned int) PartitionChannelIdx;
+  _11 = _10 * 24;
+  _12 = _9 + _11;
+  _13 = &_12->IpwChannelCfg;
+  Pwm_Ipw_SetPeriodAndDuty (Period, DutyCycle, _13);
+
+  <bb 6> :
+  Pwm_EndValidateChannelConfigCall (ChannelNumber);
+  return;
+
+}
+
+
+Pwm_SetDutyCycle (Pwm_ChannelType ChannelNumber, uint16 DutyCycle)
+{
+  Std_ReturnType RetVal;
+  Pwm_ChannelType PartitionChannelIdx;
+  uint32 CoreId;
+
+  <bb 2> :
+  RetVal = 0;
+  CoreId = 0;
+  _1 = Pwm_ValidateChannelConfigCall (CoreId, ChannelNumber, 2);
+  if (_1 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  PartitionChannelIdx = Pwm_GetPartitionChannelIdx (CoreId, ChannelNumber);
+  _2 = Pwm_ValidateParamDuty (DutyCycle, 2);
+  if (_2 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  _3 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _4 = (unsigned int) PartitionChannelIdx;
+  _5 = _4 * 24;
+  _6 = _3 + _5;
+  _7 = &_6->IpwChannelCfg;
+  RetVal = Pwm_Ipw_SetDutyCycle (DutyCycle, _7);
+  if (RetVal != 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (121, 0, 2, 52);
+
+  <bb 6> :
+  Pwm_EndValidateChannelConfigCall (ChannelNumber);
+  return;
+
+}
+
+
+Pwm_DeInit ()
+{
+  uint8 Index;
+  uint32 CoreId;
+  const struct Pwm_ConfigType * ConfigPtr;
+  Std_ReturnType CallIsValid;
+
+  <bb 2> :
+  CoreId = 0;
+  CallIsValid = Pwm_ValidateGlobalConfigCall (CoreId, 1);
+  if (CallIsValid == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 3> :
+  Index = 0;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  _1 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _2 = (unsigned int) Index;
+  _3 = _2 * 24;
+  _4 = _1 + _3;
+  _5 = &_4->IpwChannelCfg;
+  _6 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _7 = (unsigned int) Index;
+  _8 = _7 * 24;
+  _9 = _6 + _8;
+  _10 = _9->ChannelIdleState;
+  Pwm_Ipw_DeInit (_5, _10);
+  Index.2_11 = Index;
+  Index = Index.2_11 + 1;
+
+  <bb 5> :
+  _12 = Pwm_aState[CoreId].PwmConfig;
+  _13 = _12->NumChannels;
+  if (Index < _13)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 6> :
+  ConfigPtr = Pwm_aState[CoreId].PwmConfig;
+  Index = 0;
+  goto <bb 8>; [INV]
+
+  <bb 7> :
+  _14 = ConfigPtr->PwmInstancesConfig;
+  _15 = (int) Index;
+  _16 = &(*_14)[_15];
+  Pwm_Ipw_DeInitInstance (_16);
+  Index.3_17 = Index;
+  Index = Index.3_17 + 1;
+
+  <bb 8> :
+  _18 = Pwm_aState[CoreId].PwmConfig;
+  _19 = _18->NumInstances;
+  if (Index < _19)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 9> :
+  Pwm_aState[CoreId].PwmConfig = 0B;
+  Index = 0;
+  goto <bb 11>; [INV]
+
+  <bb 10> :
+  _20 = (int) Index;
+  Pwm_aState[CoreId].PwmChannelConfigs[_20] = 0B;
+  Index.4_21 = Index;
+  Index = Index.4_21 + 1;
+
+  <bb 11> :
+  if (Index == 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 12> :
+  Pwm_EndValidateGlobalConfigCall (CoreId, CallIsValid, 1);
+  return;
+
+}
+
+
+Pwm_Init (const struct Pwm_ConfigType * ConfigPtr)
+{
+  uint8 Index;
+  uint32 CoreId;
+  Std_ReturnType CallIsValid;
+
+  <bb 2> :
+  CoreId = 0;
+  CallIsValid = Pwm_ValidateGlobalConfigCall (CoreId, 0);
+  if (CallIsValid == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 3> :
+  CallIsValid = Pwm_ValidateParamPtrInit (CoreId, ConfigPtr);
+  if (CallIsValid == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 4> :
+  Pwm_aState[CoreId].PwmConfig = ConfigPtr;
+  Index = 0;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  _1 = Pwm_aState[CoreId].PwmConfig;
+  _2 = _1->PwmInstancesConfig;
+  _3 = (int) Index;
+  _4 = &(*_2)[_3];
+  Pwm_Ipw_InitInstance (_4);
+  Index.0_5 = Index;
+  Index = Index.0_5 + 1;
+
+  <bb 6> :
+  _6 = Pwm_aState[CoreId].PwmConfig;
+  _7 = _6->NumInstances;
+  if (Index < _7)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  Index = 0;
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  _8 = Pwm_aState[CoreId].PwmConfig;
+  _9 = _8->PwmChannelsConfig;
+  _10 = (int) Index;
+  _11 = (int) Index;
+  _12 = &(*_9)[_10];
+  Pwm_aState[CoreId].PwmChannelConfigs[_11] = _12;
+  _13 = Pwm_aState[CoreId].PwmConfig;
+  _14 = _13->PwmChannelsConfig;
+  _15 = (int) Index;
+  _16 = &(*_14)[_15].IpwChannelCfg;
+  Pwm_Ipw_Init (_16);
+  Index.1_17 = Index;
+  Index = Index.1_17 + 1;
+
+  <bb 9> :
+  _18 = Pwm_aState[CoreId].PwmConfig;
+  _19 = _18->NumChannels;
+  if (Index < _19)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 10> :
+  Pwm_EndValidateGlobalConfigCall (CoreId, CallIsValid, 0);
+  return;
+
+}
+
+
+Pwm_ValidateSetOutPutToIdle (uint32 CoreId, Pwm_ChannelType ChannelNumber)
+{
+  Std_ReturnType RetVal;
+  Std_ReturnType D.6262;
+
+  <bb 2> :
+  RetVal = 0;
+  _1 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _2 = (unsigned int) ChannelNumber;
+  _3 = _2 * 24;
+  _4 = _1 + _3;
+  _5 = &_4->IpwChannelCfg;
+  RetVal = Pwm_Ipw_ValidateSetOutPutToIdle (_5);
+  if (RetVal != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (121, 0, 4, 66);
+
+  <bb 4> :
+  D.6262 = RetVal;
+
+  <bb 5> :
+<L2>:
+  return D.6262;
+
+}
+
+
+Pwm_ValidateParamsPeriodClass (uint32 CoreId, Pwm_ChannelType ChannelNumber, Pwm_ChannelClassType ChannelClass, Pwm_PeriodType Period, uint8 ServiceId)
+{
+  uint32 PeriodMaxValue;
+  Std_ReturnType RetVal;
+  Std_ReturnType D.6254;
+
+  <bb 2> :
+  RetVal = 0;
+  PeriodMaxValue = 0;
+  if (ChannelClass != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (121, 0, ServiceId, 19);
+  RetVal = 1;
+  goto <bb 6>; [INV]
+
+  <bb 4> :
+  _1 = Pwm_aState[CoreId].PwmChannelConfigs[0];
+  _2 = (unsigned int) ChannelNumber;
+  _3 = _2 * 24;
+  _4 = _1 + _3;
+  _5 = &_4->IpwChannelCfg;
+  PeriodMaxValue = Pwm_Ipw_GetMaxPeriodValue (_5);
+  _6 = (long unsigned int) Period;
+  if (PeriodMaxValue < _6)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (121, 0, ServiceId, 26);
+  RetVal = 1;
+
+  <bb 6> :
+  D.6254 = RetVal;
+
+  <bb 7> :
+<L6>:
+  return D.6254;
+
+}
+
+
+Pwm_ValidateParamDuty (uint16 DutyCycle, uint8 ServiceId)
+{
+  Std_ReturnType RetVal;
+  Std_ReturnType D.6240;
+
+  <bb 2> :
+  RetVal = 0;
+  if (DutyCycle > 32768)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (121, 0, ServiceId, 50);
+  RetVal = 1;
+
+  <bb 4> :
+  D.6240 = RetVal;
+
+  <bb 5> :
+<L2>:
+  return D.6240;
+
+}
+
+
+Pwm_ValidateParamPtrInit (uint32 CoreId, const struct Pwm_ConfigType * ConfigPtr)
+{
+  Std_ReturnType RetVal;
+  Std_ReturnType D.6210;
+
+  <bb 2> :
+  RetVal = 0;
+  if (ConfigPtr == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (121, 0, 0, 16);
+  RetVal = 1;
+
+  <bb 4> :
+  D.6210 = RetVal;
+
+  <bb 5> :
+<L3>:
+  return D.6210;
+
+}
+
+
+Pwm_EndValidateChannelConfigCall (Pwm_ChannelType ChannelNumber)
+{
+  <bb 2> :
+  return;
+
+}
+
+
+Pwm_ValidateChannelConfigCall (uint32 CoreId, Pwm_ChannelType ChannelNumber, uint8 ServiceId)
+{
+  Pwm_ChannelType PartitionChannelIdx;
+  Std_ReturnType RetVal;
+  Std_ReturnType D.6234;
+
+  <bb 2> :
+  RetVal = 0;
+  _1 = Pwm_aState[CoreId].PwmDriverState;
+  if (_1 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  RetVal = 1;
+  Det_ReportError (121, 0, ServiceId, 17);
+  goto <bb 8>; [INV]
+
+  <bb 4> :
+  if (ChannelNumber != 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  RetVal = 1;
+  Det_ReportError (121, 0, ServiceId, 18);
+  goto <bb 8>; [INV]
+
+  <bb 6> :
+  PartitionChannelIdx = Pwm_GetPartitionChannelIdx (CoreId, ChannelNumber);
+  _2 = Pwm_aState[CoreId].PwmConfig;
+  _3 = _2->NumChannels;
+  if (PartitionChannelIdx >= _3)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  RetVal = 1;
+  Det_ReportError (121, 0, ServiceId, 64);
+
+  <bb 8> :
+  D.6234 = RetVal;
+
+  <bb 9> :
+<L9>:
+  return D.6234;
+
+}
+
+
+Pwm_EndValidateGlobalConfigCall (uint32 CoreId, Std_ReturnType ValidCall, uint8 ServiceId)
+{
+  <bb 2> :
+  if (ValidCall == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  if (ServiceId == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Pwm_aState[CoreId].PwmDriverState = 0;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  Pwm_aState[CoreId].PwmDriverState = 1;
+
+  <bb 6> :
+  return;
+
+}
+
+
+Pwm_ValidateGlobalConfigCall (uint32 CoreId, uint8 ServiceId)
+{
+  Std_ReturnType RetVal;
+  Std_ReturnType D.6201;
+
+  <bb 2> :
+  RetVal = 0;
+  _1 = Pwm_aState[CoreId].PwmDriverState;
+  if (_1 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 3> :
+  if (ServiceId != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 4> :
+  Det_ReportError (121, 0, ServiceId, 17);
+  RetVal = 1;
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  if (ServiceId == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+  Det_ReportError (121, 0, ServiceId, 20);
+  RetVal = 1;
+
+  <bb 7> :
+  D.6201 = RetVal;
+
+  <bb 8> :
+<L7>:
+  return D.6201;
+
+}
+
+
+Pwm_GetPartitionChannelIdx (uint32 CoreId, Pwm_ChannelType ChannelNumber)
+{
+  uint8 D.6236;
+
+  <bb 2> :
+  D.6236 = ChannelNumber;
+
+  <bb 3> :
+<L0>:
+  return D.6236;
+
+}
+
+

@@ -1,0 +1,743 @@
+Dio_WriteChannelGroup (const struct Dio_ChannelGroupType * ChannelGroupIdPtr, Dio_PortLevelType Level)
+{
+  Std_ReturnType Valid;
+
+  <bb 2> :
+  Valid_5 = Dio_ValidateChannelGroupForWrite (ChannelGroupIdPtr_3(D), 5);
+  if (Valid_5 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Dio_Ipw_WriteChannelGroup (ChannelGroupIdPtr_3(D), Level_6(D));
+
+  <bb 4> :
+  return;
+
+}
+
+
+Dio_ReadChannelGroup (const struct Dio_ChannelGroupType * ChannelGroupIdPtr)
+{
+  Std_ReturnType Valid;
+  Dio_PortLevelType PortLevel;
+  Dio_PortLevelType D.5695;
+  Dio_PortLevelType _10;
+
+  <bb 2> :
+  PortLevel_3 = 0;
+  Valid_7 = Dio_ValidateChannelGroupForRead (ChannelGroupIdPtr_5(D), 4);
+  if (Valid_7 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  PortLevel_9 = Dio_Ipw_ReadChannelGroup (ChannelGroupIdPtr_5(D));
+
+  <bb 4> :
+  # PortLevel_1 = PHI <PortLevel_3(2), PortLevel_9(3)>
+  _10 = PortLevel_1;
+
+  <bb 5> :
+<L2>:
+  return _10;
+
+}
+
+
+Dio_WritePort (Dio_PortType PortId, Dio_PortLevelType Level)
+{
+  Std_ReturnType Valid;
+
+  <bb 2> :
+  Valid_5 = Dio_ValidatePortForWrite (PortId_3(D), 3);
+  if (Valid_5 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Dio_Ipw_WritePort (PortId_3(D), Level_6(D));
+
+  <bb 4> :
+  return;
+
+}
+
+
+Dio_ReadPort (Dio_PortType PortId)
+{
+  Std_ReturnType Valid;
+  Dio_PortLevelType PortLevel;
+  Dio_PortLevelType D.5671;
+  Dio_PortLevelType _10;
+
+  <bb 2> :
+  PortLevel_3 = 0;
+  Valid_7 = Dio_ValidatePortForRead (PortId_5(D), 2);
+  if (Valid_7 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  PortLevel_9 = Dio_Ipw_ReadPort (PortId_5(D));
+
+  <bb 4> :
+  # PortLevel_1 = PHI <PortLevel_3(2), PortLevel_9(3)>
+  _10 = PortLevel_1;
+
+  <bb 5> :
+<L2>:
+  return _10;
+
+}
+
+
+Dio_FlipChannel (Dio_ChannelType ChannelId)
+{
+  Std_ReturnType Valid;
+  Dio_LevelType ChannelLevel;
+  Dio_LevelType D.5667;
+  Dio_LevelType _10;
+
+  <bb 2> :
+  ChannelLevel_3 = 0;
+  Valid_7 = Dio_ValidateChannelForWrite (ChannelId_5(D), 17);
+  if (Valid_7 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  ChannelLevel_9 = Dio_Ipw_FlipChannel (ChannelId_5(D));
+
+  <bb 4> :
+  # ChannelLevel_1 = PHI <ChannelLevel_3(2), ChannelLevel_9(3)>
+  _10 = ChannelLevel_1;
+
+  <bb 5> :
+<L2>:
+  return _10;
+
+}
+
+
+Dio_WriteChannel (Dio_ChannelType ChannelId, Dio_LevelType Level)
+{
+  Std_ReturnType Valid;
+
+  <bb 2> :
+  Valid_5 = Dio_ValidateChannelForWrite (ChannelId_3(D), 1);
+  if (Valid_5 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 3> :
+  Valid_8 = Dio_ValidateChannelLevel (Level_6(D));
+  if (Valid_8 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Dio_Ipw_WriteChannel (ChannelId_3(D), Level_6(D));
+
+  <bb 5> :
+  return;
+
+}
+
+
+Dio_ReadChannel (Dio_ChannelType ChannelId)
+{
+  Std_ReturnType Valid;
+  Dio_LevelType ChannelLevel;
+  Dio_LevelType D.5635;
+  Dio_LevelType _10;
+
+  <bb 2> :
+  ChannelLevel_3 = 0;
+  Valid_7 = Dio_ValidateChannelForRead (ChannelId_5(D), 0);
+  if (Valid_7 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  ChannelLevel_9 = Dio_Ipw_ReadChannel (ChannelId_5(D));
+
+  <bb 4> :
+  # ChannelLevel_1 = PHI <ChannelLevel_3(2), ChannelLevel_9(3)>
+  _10 = ChannelLevel_1;
+
+  <bb 5> :
+<L2>:
+  return _10;
+
+}
+
+
+Dio_GetVersionInfo (struct Std_VersionInfoType * VersionInfo)
+{
+  <bb 2> :
+  if (VersionInfo_2(D) == 0B)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  Det_ReportError (120, 0, 18, 32);
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  VersionInfo_2(D)->vendorID = 43;
+  VersionInfo_2(D)->moduleID = 120;
+  VersionInfo_2(D)->sw_major_version = 2;
+  VersionInfo_2(D)->sw_minor_version = 0;
+  VersionInfo_2(D)->sw_patch_version = 0;
+
+  <bb 5> :
+  return;
+
+}
+
+
+Dio_ValidateChannelGroupForRead (const struct Dio_ChannelGroupType * pChannelGroup, uint8 u8ServiceId)
+{
+  uint8 u8ChannelGroup;
+  Std_ReturnType Valid;
+  Std_ReturnType D.5704;
+  const struct Dio_ChannelGroupType * _1;
+  long unsigned int _2;
+  long unsigned int pChannelGroup.0_3;
+  const struct Dio_ChannelGroupType * _4;
+  unsigned char _5;
+  sizetype _6;
+  sizetype _7;
+  sizetype _8;
+  const struct Dio_ChannelGroupType * _9;
+  long unsigned int _10;
+  long unsigned int pChannelGroup.1_11;
+  int _12;
+  long unsigned int _13;
+  unsigned char _14;
+  Std_ReturnType _24;
+
+  <bb 2> :
+  Valid_17 = 1;
+  u8ChannelGroup_20 = pChannelGroup_19(D)->port;
+  _1 = Dio_Config.pChannelGroupList;
+  _2 = (long unsigned int) _1;
+  pChannelGroup.0_3 = (long unsigned int) pChannelGroup_19(D);
+  if (_2 <= pChannelGroup.0_3)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  _4 = Dio_Config.pChannelGroupList;
+  _5 = Dio_Config.u8NumChannelGroups;
+  _6 = (sizetype) _5;
+  _7 = _6 + 536870911;
+  _8 = _7 * 8;
+  _9 = _4 + _8;
+  _10 = (long unsigned int) _9;
+  pChannelGroup.1_11 = (long unsigned int) pChannelGroup_19(D);
+  if (_10 >= pChannelGroup.1_11)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  if (u8ChannelGroup_20 <= 4)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 5> :
+  _12 = (int) u8ChannelGroup_20;
+  _13 = Dio_aAvailablePinsForRead[_12];
+  if (_13 != 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 6> :
+  _14 = pChannelGroup_19(D)->u8offset;
+  if (_14 <= 31)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  Valid_21 = 0;
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  Det_ReportError (120, 0, u8ServiceId_22(D), 31);
+
+  <bb 9> :
+  # Valid_15 = PHI <Valid_21(7), Valid_17(8)>
+  _24 = Valid_15;
+
+  <bb 10> :
+<L7>:
+  return _24;
+
+}
+
+
+Dio_ValidateChannelGroupForWrite (const struct Dio_ChannelGroupType * pChannelGroup, uint8 u8ServiceId)
+{
+  uint8 u8ChannelGroup;
+  Std_ReturnType Valid;
+  Std_ReturnType D.5715;
+  const struct Dio_ChannelGroupType * _1;
+  long unsigned int _2;
+  long unsigned int pChannelGroup.2_3;
+  const struct Dio_ChannelGroupType * _4;
+  unsigned char _5;
+  sizetype _6;
+  sizetype _7;
+  sizetype _8;
+  const struct Dio_ChannelGroupType * _9;
+  long unsigned int _10;
+  long unsigned int pChannelGroup.3_11;
+  int _12;
+  long unsigned int _13;
+  unsigned char _14;
+  Std_ReturnType _24;
+
+  <bb 2> :
+  Valid_17 = 1;
+  u8ChannelGroup_20 = pChannelGroup_19(D)->port;
+  _1 = Dio_Config.pChannelGroupList;
+  _2 = (long unsigned int) _1;
+  pChannelGroup.2_3 = (long unsigned int) pChannelGroup_19(D);
+  if (_2 <= pChannelGroup.2_3)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  _4 = Dio_Config.pChannelGroupList;
+  _5 = Dio_Config.u8NumChannelGroups;
+  _6 = (sizetype) _5;
+  _7 = _6 + 536870911;
+  _8 = _7 * 8;
+  _9 = _4 + _8;
+  _10 = (long unsigned int) _9;
+  pChannelGroup.3_11 = (long unsigned int) pChannelGroup_19(D);
+  if (_10 >= pChannelGroup.3_11)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  if (u8ChannelGroup_20 <= 4)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 5> :
+  _12 = (int) u8ChannelGroup_20;
+  _13 = Dio_aAvailablePinsForWrite[_12];
+  if (_13 != 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 6> :
+  _14 = pChannelGroup_19(D)->u8offset;
+  if (_14 <= 31)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  Valid_21 = 0;
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  Det_ReportError (120, 0, u8ServiceId_22(D), 31);
+
+  <bb 9> :
+  # Valid_15 = PHI <Valid_21(7), Valid_17(8)>
+  _24 = Valid_15;
+
+  <bb 10> :
+<L7>:
+  return _24;
+
+}
+
+
+Dio_ValidatePortForRead (Dio_PortType PortId, uint8 u8ServiceId)
+{
+  uint8 CoreId;
+  Std_ReturnType Valid;
+  Std_ReturnType D.5680;
+  int _1;
+  long unsigned int _2;
+  const uint32 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint32 * _6;
+  long unsigned int _7;
+  int _8;
+  long unsigned int _9;
+  long unsigned int _10;
+  int _11;
+  long unsigned int _12;
+  Std_ReturnType _25;
+
+  <bb 2> :
+  Valid_17 = 1;
+  CoreId_18 = 0;
+  if (PortId_19(D) <= 4)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  _1 = (int) PortId_19(D);
+  _2 = Dio_aAvailablePinsForRead[_1];
+  if (_2 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  _3 = Dio_Config.pau32Dio_PortToPartitionMap;
+  _4 = (unsigned int) PortId_19(D);
+  _5 = _4 * 4;
+  _6 = _3 + _5;
+  _7 = *_6;
+  _8 = (int) CoreId_18;
+  _9 = 1 << _8;
+  _10 = _7 & _9;
+  _11 = (int) CoreId_18;
+  _12 = _10 >> _11;
+  if (_12 == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Valid_23 = 0;
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  Det_ReportError (120, 0, u8ServiceId_21(D), 240);
+
+  <bb 7> :
+  # Valid_13 = PHI <Valid_23(5), Valid_17(6)>
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  Det_ReportError (120, 0, u8ServiceId_21(D), 20);
+
+  <bb 9> :
+  # Valid_14 = PHI <Valid_13(7), Valid_17(8)>
+  _25 = Valid_14;
+
+  <bb 10> :
+<L7>:
+  return _25;
+
+}
+
+
+Dio_ValidatePortForWrite (Dio_PortType PortId, uint8 u8ServiceId)
+{
+  uint8 CoreId;
+  Std_ReturnType Valid;
+  Std_ReturnType D.5691;
+  int _1;
+  long unsigned int _2;
+  const uint32 * _3;
+  unsigned int _4;
+  unsigned int _5;
+  const uint32 * _6;
+  long unsigned int _7;
+  int _8;
+  long unsigned int _9;
+  long unsigned int _10;
+  int _11;
+  long unsigned int _12;
+  Std_ReturnType _25;
+
+  <bb 2> :
+  Valid_17 = 1;
+  CoreId_18 = 0;
+  if (PortId_19(D) <= 4)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  _1 = (int) PortId_19(D);
+  _2 = Dio_aAvailablePinsForWrite[_1];
+  if (_2 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  _3 = Dio_Config.pau32Dio_PortToPartitionMap;
+  _4 = (unsigned int) PortId_19(D);
+  _5 = _4 * 4;
+  _6 = _3 + _5;
+  _7 = *_6;
+  _8 = (int) CoreId_18;
+  _9 = 1 << _8;
+  _10 = _7 & _9;
+  _11 = (int) CoreId_18;
+  _12 = _10 >> _11;
+  if (_12 == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Valid_23 = 0;
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  Det_ReportError (120, 0, u8ServiceId_21(D), 240);
+
+  <bb 7> :
+  # Valid_13 = PHI <Valid_23(5), Valid_17(6)>
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  Det_ReportError (120, 0, u8ServiceId_21(D), 20);
+
+  <bb 9> :
+  # Valid_14 = PHI <Valid_13(7), Valid_17(8)>
+  _25 = Valid_14;
+
+  <bb 10> :
+<L7>:
+  return _25;
+
+}
+
+
+Dio_ValidateChannelForRead (Dio_ChannelType ChannelId, uint8 u8ServiceId)
+{
+  uint32 u32ChannelToPartitionMap;
+  Dio_ChannelType maxChannelId;
+  uint8 CoreId;
+  Std_ReturnType Valid;
+  Std_ReturnType D.5644;
+  short unsigned int _1;
+  int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+  long unsigned int _6;
+  long unsigned int _7;
+  const uint32 * _8;
+  unsigned int _9;
+  unsigned int _10;
+  const uint32 * _11;
+  int _12;
+  long unsigned int _13;
+  long unsigned int _14;
+  int _15;
+  long unsigned int _16;
+  Std_ReturnType _31;
+
+  <bb 2> :
+  Valid_21 = 1;
+  CoreId_22 = 0;
+  maxChannelId_23 = 144;
+  if (ChannelId_24(D) <= maxChannelId_23)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  _1 = ChannelId_24(D) >> 5;
+  _2 = (int) _1;
+  _3 = Dio_aAvailablePinsForRead[_2];
+  _4 = (long unsigned int) ChannelId_24(D);
+  _5 = _4 & 31;
+  _6 = _3 >> _5;
+  _7 = _6 & 1;
+  if (_7 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  _8 = Dio_Config.pau32Dio_ChannelToPartitionMap;
+  _9 = (unsigned int) ChannelId_24(D);
+  _10 = _9 * 4;
+  _11 = _8 + _10;
+  u32ChannelToPartitionMap_26 = *_11;
+  _12 = (int) CoreId_22;
+  _13 = 1 << _12;
+  _14 = u32ChannelToPartitionMap_26 & _13;
+  _15 = (int) CoreId_22;
+  _16 = _14 >> _15;
+  if (_16 == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Valid_29 = 0;
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  Det_ReportError (120, 0, u8ServiceId_27(D), 240);
+
+  <bb 7> :
+  # Valid_17 = PHI <Valid_29(5), Valid_21(6)>
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  Det_ReportError (120, 0, u8ServiceId_27(D), 10);
+
+  <bb 9> :
+  # Valid_18 = PHI <Valid_17(7), Valid_21(8)>
+  _31 = Valid_18;
+
+  <bb 10> :
+<L7>:
+  return _31;
+
+}
+
+
+Dio_ValidateChannelForWrite (Dio_ChannelType ChannelId, uint8 u8ServiceId)
+{
+  uint32 u32ChannelToPartitionMap;
+  Dio_ChannelType maxChannelId;
+  uint8 CoreId;
+  Std_ReturnType Valid;
+  Std_ReturnType D.5657;
+  short unsigned int _1;
+  int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+  long unsigned int _6;
+  long unsigned int _7;
+  const uint32 * _8;
+  unsigned int _9;
+  unsigned int _10;
+  const uint32 * _11;
+  int _12;
+  long unsigned int _13;
+  long unsigned int _14;
+  int _15;
+  long unsigned int _16;
+  Std_ReturnType _31;
+
+  <bb 2> :
+  Valid_21 = 1;
+  CoreId_22 = 0;
+  maxChannelId_23 = 144;
+  if (ChannelId_24(D) <= maxChannelId_23)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 3> :
+  _1 = ChannelId_24(D) >> 5;
+  _2 = (int) _1;
+  _3 = Dio_aAvailablePinsForWrite[_2];
+  _4 = (long unsigned int) ChannelId_24(D);
+  _5 = _4 & 31;
+  _6 = _3 >> _5;
+  _7 = _6 & 1;
+  if (_7 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  _8 = Dio_Config.pau32Dio_ChannelToPartitionMap;
+  _9 = (unsigned int) ChannelId_24(D);
+  _10 = _9 * 4;
+  _11 = _8 + _10;
+  u32ChannelToPartitionMap_26 = *_11;
+  _12 = (int) CoreId_22;
+  _13 = 1 << _12;
+  _14 = u32ChannelToPartitionMap_26 & _13;
+  _15 = (int) CoreId_22;
+  _16 = _14 >> _15;
+  if (_16 == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  Valid_29 = 0;
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  Det_ReportError (120, 0, u8ServiceId_27(D), 240);
+
+  <bb 7> :
+  # Valid_17 = PHI <Valid_29(5), Valid_21(6)>
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  Det_ReportError (120, 0, u8ServiceId_27(D), 10);
+
+  <bb 9> :
+  # Valid_18 = PHI <Valid_17(7), Valid_21(8)>
+  _31 = Valid_18;
+
+  <bb 10> :
+<L7>:
+  return _31;
+
+}
+
+
+Dio_ValidateChannelLevel (Dio_LevelType Level)
+{
+  Std_ReturnType Valid;
+  Std_ReturnType D.5663;
+  Std_ReturnType _8;
+
+  <bb 2> :
+  Valid_3 = 1;
+  if (Level_4(D) == 1)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  if (Level_4(D) == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  Valid_7 = 0;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  Det_ReportError (120, 0, 1, 33);
+
+  <bb 6> :
+  # Valid_1 = PHI <Valid_7(4), Valid_3(5)>
+  _8 = Valid_1;
+
+  <bb 7> :
+<L4>:
+  return _8;
+
+}
+
+

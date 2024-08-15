@@ -1,0 +1,15 @@
+Autosar/Mcal/Pwm/src/Pwm.c:503:21:Pwm_GetPartitionChannelIdx	8	static
+Autosar/Mcal/Pwm/src/Pwm.c:541:23:Pwm_ValidateGlobalConfigCall	24	static
+Autosar/Mcal/Pwm/src/Pwm.c:599:20:Pwm_EndValidateGlobalConfigCall	8	static
+Autosar/Mcal/Pwm/src/Pwm.c:659:30:Pwm_ValidateChannelConfigCall	24	static
+Autosar/Mcal/Pwm/src/Pwm.c:772:20:Pwm_EndValidateChannelConfigCall	8	static
+Autosar/Mcal/Pwm/src/Pwm.c:800:30:Pwm_ValidateParamPtrInit	24	static
+Autosar/Mcal/Pwm/src/Pwm.c:911:30:Pwm_ValidateParamDuty	24	static
+Autosar/Mcal/Pwm/src/Pwm.c:960:30:Pwm_ValidateParamsPeriodClass	32	static
+Autosar/Mcal/Pwm/src/Pwm.c:1579:30:Pwm_ValidateSetOutPutToIdle	24	static
+Autosar/Mcal/Pwm/src/Pwm.c:1676:6:Pwm_Init	24	static
+Autosar/Mcal/Pwm/src/Pwm.c:1776:6:Pwm_DeInit	24	static
+Autosar/Mcal/Pwm/src/Pwm.c:1880:6:Pwm_SetDutyCycle	32	static
+Autosar/Mcal/Pwm/src/Pwm.c:1977:6:Pwm_SetPeriodAndDuty	32	static
+Autosar/Mcal/Pwm/src/Pwm.c:2060:6:Pwm_SetOutputToIdle	24	static
+Autosar/Mcal/Pwm/src/Pwm.c:2321:6:Pwm_GetVersionInfo	16	static

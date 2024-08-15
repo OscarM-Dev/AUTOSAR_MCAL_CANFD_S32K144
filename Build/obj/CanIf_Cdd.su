@@ -1,0 +1,2 @@
+Autosar/CanIf/src/CanIf_Cdd.c:19:6:CDD_UserTxConfirmation_Can_2	8	static
+Autosar/CanIf/src/CanIf_Cdd.c:40:6:CDD_UserRxIndication_Can_2	8	static

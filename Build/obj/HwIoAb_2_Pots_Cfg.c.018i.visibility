@@ -1,0 +1,29 @@
+
+Marking local functions:
+
+
+Marking externally visible functions:
+
+
+Marking externally visible variables: PotsControl_Ptr/1 PotsCtrl/0
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+PotsControl_Ptr/1 (PotsControl_Ptr) @069c8c18
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: PotsCtrl/0 (addr) 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+PotsCtrl/0 (PotsCtrl) @069c8bd0
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: PotsControl_Ptr/1 (addr) 
+  Availability: available
+  Varpool flags:

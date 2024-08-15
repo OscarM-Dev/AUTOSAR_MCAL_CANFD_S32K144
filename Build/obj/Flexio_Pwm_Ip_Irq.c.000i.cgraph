@@ -1,0 +1,123 @@
+
+
+Initial Symbol table:
+
+Flexio_Pwm_Ip_GetLowerValue/10 (Flexio_Pwm_Ip_GetLowerValue) @06976000
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_GetUpperValue/9 (Flexio_Pwm_Ip_GetUpperValue) @06971d20
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_SetLowerValue/8 (Flexio_Pwm_Ip_SetLowerValue) @06971a80
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_SetUpperValue/7 (Flexio_Pwm_Ip_SetUpperValue) @06971700
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_SetTimerInitMode/6 (Flexio_Pwm_Ip_SetTimerInitMode) @06971380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_SetTimerMode/5 (Flexio_Pwm_Ip_SetTimerMode) @06971000
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_SetTimerPin/4 (Flexio_Pwm_Ip_SetTimerPin) @0696fc40
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_SetTimerPinOutput/3 (Flexio_Pwm_Ip_SetTimerPinOutput) @0696f8c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_GetTimerFlag/2 (Flexio_Pwm_Ip_GetTimerFlag) @0696f540
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+Flexio_Pwm_Ip_GetPinState/1 (Flexio_Pwm_Ip_GetPinState) @0696f2a0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+DevAssert/0 (DevAssert) @06909460
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+
+Removing unused symbols: Flexio_Pwm_Ip_GetLowerValue/10 Flexio_Pwm_Ip_GetUpperValue/9 Flexio_Pwm_Ip_SetLowerValue/8 Flexio_Pwm_Ip_SetUpperValue/7 Flexio_Pwm_Ip_SetTimerInitMode/6 Flexio_Pwm_Ip_SetTimerMode/5 Flexio_Pwm_Ip_SetTimerPin/4 Flexio_Pwm_Ip_SetTimerPinOutput/3 Flexio_Pwm_Ip_GetTimerFlag/2 Flexio_Pwm_Ip_GetPinState/1 DevAssert/0
+
+Reclaimed Symbol table:
+
+
+
+Initial Symbol table:
+
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Trivially needed variables:
+Removing variables:
+
+Final Symbol table:
+

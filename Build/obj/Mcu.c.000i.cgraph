@@ -1,0 +1,1478 @@
+Trivially needed symbols: Mcu_ClkSrcFailureNotification/19 Mcu_SleepOnExit/18 Mcu_GetVersionInfo/17 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 Mcu_CheckGetVersionInfo/7 Mcu_CheckSetMode/6 Mcu_CheckInitClock/5 Mcu_CheckInit/4 Mcu_pConfigPtr/3 Mcu_eStatus/2 Mcu_au8ModeConfigIds/1 Mcu_au8ClockConfigIds/0
+
+
+Initial Symbol table:
+
+Mcu_Ipw_SleepOnExit/28 (Mcu_Ipw_SleepOnExit) @06c3ca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SleepOnExit/18 
+  Calls: 
+Mcu_Ipw_GetResetRawValue/27 (Mcu_Ipw_GetResetRawValue) @06c3c7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_GetResetRawValue/16 
+  Calls: 
+Mcu_Ipw_GetResetReason/26 (Mcu_Ipw_GetResetReason) @06c3c620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_GetResetReason/15 
+  Calls: 
+SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 (SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_SetMode/24 (Mcu_Ipw_SetMode) @06c3c2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 (SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_InitClock/22 (Mcu_Ipw_InitClock) @06c3c000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_InitClock/12 
+  Calls: 
+Mcu_Ipw_Init/21 (Mcu_Ipw_Init) @06c2f000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_Init/10 
+  Calls: 
+Det_ReportError/20 (Det_ReportError) @06c2f8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_HLDChecksEntry/8 Mcu_HLDChecksEntry/8 Mcu_CheckGetVersionInfo/7 Mcu_CheckSetMode/6 Mcu_CheckInitClock/5 Mcu_CheckInit/4 
+  Calls: 
+Mcu_ClkSrcFailureNotification/19 (Mcu_ClkSrcFailureNotification) @06c2f460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @01981040
+  References: Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: 
+Mcu_SleepOnExit/18 (Mcu_SleepOnExit) @06c2f1c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c2f460
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_SleepOnExit/28 Mcu_HLDChecksEntry/8 
+Mcu_GetVersionInfo/17 (Mcu_GetVersionInfo) @06c21d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c2f1c0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_CheckGetVersionInfo/7 
+Mcu_GetResetRawValue/16 (Mcu_GetResetRawValue) @06c217e0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c21d20
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetRawValue/27 Mcu_HLDChecksEntry/8 
+Mcu_GetResetReason/15 (Mcu_GetResetReason) @06c212a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c217e0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetReason/26 Mcu_HLDChecksEntry/8 
+Mcu_GetPllStatus/14 (Mcu_GetPllStatus) @06c21ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c212a0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_SetMode/13 (Mcu_SetMode) @06c21c40
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c21ee0
+  References: Mcu_au8ModeConfigIds/1 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 Mcu_Ipw_SetMode/24 SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 Mcu_CheckSetMode/6 Mcu_HLDChecksEntry/8 
+Mcu_InitClock/12 (Mcu_InitClock) @06c219a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c21c40
+  References: Mcu_au8ClockConfigIds/0 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_InitClock/22 Mcu_CheckInitClock/5 Mcu_HLDChecksEntry/8 
+Mcu_InitRamSection/11 (Mcu_InitRamSection) @06c21700
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c219a0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_Init/10 (Mcu_Init) @06c21460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06c21700
+  References: Mcu_pConfigPtr/3 (write) Mcu_pConfigPtr/3 (read) Mcu_au8ModeConfigIds/1 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_au8ClockConfigIds/0 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_Init/21 Mcu_CheckInit/4 Mcu_HLDChecksEntry/8 
+Mcu_HLDChecksExit/9 (Mcu_HLDChecksExit) @06c211c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06c21460
+  References: Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: 
+Mcu_HLDChecksEntry/8 (Mcu_HLDChecksEntry) @06b67ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06c211c0
+  References: Mcu_eStatus/2 (read) Mcu_eStatus/2 (read) Mcu_eStatus/2 (write) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: Det_ReportError/20 Det_ReportError/20 
+Mcu_CheckGetVersionInfo/7 (Mcu_CheckGetVersionInfo) @06b679a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06b67ee0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_GetVersionInfo/17 
+  Calls: Det_ReportError/20 
+Mcu_CheckSetMode/6 (Mcu_CheckSetMode) @06b67e00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06b679a0
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SetMode/13 
+  Calls: Det_ReportError/20 
+Mcu_CheckInitClock/5 (Mcu_CheckInitClock) @06b67b60
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06b67e00
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_InitClock/12 
+  Calls: Det_ReportError/20 
+Mcu_CheckInit/4 (Mcu_CheckInit) @06b678c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06b67b60
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_Init/10 
+  Calls: Det_ReportError/20 
+Mcu_pConfigPtr/3 (Mcu_pConfigPtr) @06b61828
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06b678c0
+  References: 
+  Referring: Mcu_CheckInitClock/5 (read) Mcu_CheckSetMode/6 (read) Mcu_Init/10 (write) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (write) Mcu_InitClock/12 (read) Mcu_SetMode/13 (read) Mcu_ClkSrcFailureNotification/19 (read) Mcu_ClkSrcFailureNotification/19 (read) 
+  Availability: not-ready
+  Varpool flags:
+Mcu_eStatus/2 (Mcu_eStatus) @06b617e0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06b61828
+  References: 
+  Referring: Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) 
+  Availability: not-ready
+  Varpool flags: initialized
+Mcu_au8ModeConfigIds/1 (Mcu_au8ModeConfigIds) @06b61708
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06b617e0
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_SetMode/13 (read) 
+  Availability: not-ready
+  Varpool flags:
+Mcu_au8ClockConfigIds/0 (Mcu_au8ClockConfigIds) @06b61678
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @06b61708
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_InitClock/12 (read) 
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+Mcu_Ipw_SleepOnExit/28 (Mcu_Ipw_SleepOnExit) @06c3ca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SleepOnExit/18 
+  Calls: 
+Mcu_Ipw_GetResetRawValue/27 (Mcu_Ipw_GetResetRawValue) @06c3c7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_GetResetRawValue/16 
+  Calls: 
+Mcu_Ipw_GetResetReason/26 (Mcu_Ipw_GetResetReason) @06c3c620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_GetResetReason/15 
+  Calls: 
+SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 (SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_SetMode/24 (Mcu_Ipw_SetMode) @06c3c2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 (SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_InitClock/22 (Mcu_Ipw_InitClock) @06c3c000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_InitClock/12 
+  Calls: 
+Mcu_Ipw_Init/21 (Mcu_Ipw_Init) @06c2f000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_Init/10 
+  Calls: 
+Det_ReportError/20 (Det_ReportError) @06c2f8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_HLDChecksEntry/8 Mcu_HLDChecksEntry/8 Mcu_CheckGetVersionInfo/7 Mcu_CheckSetMode/6 Mcu_CheckInitClock/5 Mcu_CheckInit/4 
+  Calls: 
+Mcu_ClkSrcFailureNotification/19 (Mcu_ClkSrcFailureNotification) @06c2f460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: 
+Mcu_SleepOnExit/18 (Mcu_SleepOnExit) @06c2f1c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_SleepOnExit/28 Mcu_HLDChecksEntry/8 
+Mcu_GetVersionInfo/17 (Mcu_GetVersionInfo) @06c21d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_CheckGetVersionInfo/7 
+Mcu_GetResetRawValue/16 (Mcu_GetResetRawValue) @06c217e0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetRawValue/27 Mcu_HLDChecksEntry/8 
+Mcu_GetResetReason/15 (Mcu_GetResetReason) @06c212a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetReason/26 Mcu_HLDChecksEntry/8 
+Mcu_GetPllStatus/14 (Mcu_GetPllStatus) @06c21ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_SetMode/13 (Mcu_SetMode) @06c21c40
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_au8ModeConfigIds/1 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 Mcu_Ipw_SetMode/24 SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 Mcu_CheckSetMode/6 Mcu_HLDChecksEntry/8 
+Mcu_InitClock/12 (Mcu_InitClock) @06c219a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_au8ClockConfigIds/0 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_InitClock/22 Mcu_CheckInitClock/5 Mcu_HLDChecksEntry/8 
+Mcu_InitRamSection/11 (Mcu_InitRamSection) @06c21700
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_Init/10 (Mcu_Init) @06c21460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_pConfigPtr/3 (write) Mcu_pConfigPtr/3 (read) Mcu_au8ModeConfigIds/1 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_au8ClockConfigIds/0 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_Init/21 Mcu_CheckInit/4 Mcu_HLDChecksEntry/8 
+Mcu_HLDChecksExit/9 (Mcu_HLDChecksExit) @06c211c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: 
+Mcu_HLDChecksEntry/8 (Mcu_HLDChecksEntry) @06b67ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_eStatus/2 (read) Mcu_eStatus/2 (read) Mcu_eStatus/2 (write) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: Det_ReportError/20 Det_ReportError/20 
+Mcu_CheckGetVersionInfo/7 (Mcu_CheckGetVersionInfo) @06b679a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_GetVersionInfo/17 
+  Calls: Det_ReportError/20 
+Mcu_CheckSetMode/6 (Mcu_CheckSetMode) @06b67e00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SetMode/13 
+  Calls: Det_ReportError/20 
+Mcu_CheckInitClock/5 (Mcu_CheckInitClock) @06b67b60
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_InitClock/12 
+  Calls: Det_ReportError/20 
+Mcu_CheckInit/4 (Mcu_CheckInit) @06b678c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_Init/10 
+  Calls: Det_ReportError/20 
+Mcu_pConfigPtr/3 (Mcu_pConfigPtr) @06b61828
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_CheckInitClock/5 (read) Mcu_CheckSetMode/6 (read) Mcu_Init/10 (write) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (write) Mcu_InitClock/12 (read) Mcu_SetMode/13 (read) Mcu_ClkSrcFailureNotification/19 (read) Mcu_ClkSrcFailureNotification/19 (read) 
+  Availability: not-ready
+  Varpool flags:
+Mcu_eStatus/2 (Mcu_eStatus) @06b617e0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) 
+  Availability: not-ready
+  Varpool flags: initialized
+Mcu_au8ModeConfigIds/1 (Mcu_au8ModeConfigIds) @06b61708
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_SetMode/13 (read) 
+  Availability: not-ready
+  Varpool flags:
+Mcu_au8ClockConfigIds/0 (Mcu_au8ClockConfigIds) @06b61678
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_InitClock/12 (read) 
+  Availability: not-ready
+  Varpool flags:
+
+
+Initial Symbol table:
+
+Mcu_Ipw_SleepOnExit/28 (Mcu_Ipw_SleepOnExit) @06c3ca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SleepOnExit/18 
+  Calls: 
+Mcu_Ipw_GetResetRawValue/27 (Mcu_Ipw_GetResetRawValue) @06c3c7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_GetResetRawValue/16 
+  Calls: 
+Mcu_Ipw_GetResetReason/26 (Mcu_Ipw_GetResetReason) @06c3c620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_GetResetReason/15 
+  Calls: 
+SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 (SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_SetMode/24 (Mcu_Ipw_SetMode) @06c3c2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 (SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_InitClock/22 (Mcu_Ipw_InitClock) @06c3c000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_InitClock/12 
+  Calls: 
+Mcu_Ipw_Init/21 (Mcu_Ipw_Init) @06c2f000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_Init/10 
+  Calls: 
+Det_ReportError/20 (Det_ReportError) @06c2f8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_HLDChecksEntry/8 Mcu_HLDChecksEntry/8 Mcu_CheckGetVersionInfo/7 Mcu_CheckSetMode/6 Mcu_CheckInitClock/5 Mcu_CheckInit/4 
+  Calls: 
+Mcu_ClkSrcFailureNotification/19 (Mcu_ClkSrcFailureNotification) @06c2f460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: 
+Mcu_SleepOnExit/18 (Mcu_SleepOnExit) @06c2f1c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_SleepOnExit/28 Mcu_HLDChecksEntry/8 
+Mcu_GetVersionInfo/17 (Mcu_GetVersionInfo) @06c21d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_CheckGetVersionInfo/7 
+Mcu_GetResetRawValue/16 (Mcu_GetResetRawValue) @06c217e0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetRawValue/27 Mcu_HLDChecksEntry/8 
+Mcu_GetResetReason/15 (Mcu_GetResetReason) @06c212a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetReason/26 Mcu_HLDChecksEntry/8 
+Mcu_GetPllStatus/14 (Mcu_GetPllStatus) @06c21ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_SetMode/13 (Mcu_SetMode) @06c21c40
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_au8ModeConfigIds/1 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 Mcu_Ipw_SetMode/24 SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 Mcu_CheckSetMode/6 Mcu_HLDChecksEntry/8 
+Mcu_InitClock/12 (Mcu_InitClock) @06c219a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_au8ClockConfigIds/0 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_InitClock/22 Mcu_CheckInitClock/5 Mcu_HLDChecksEntry/8 
+Mcu_InitRamSection/11 (Mcu_InitRamSection) @06c21700
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_Init/10 (Mcu_Init) @06c21460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_pConfigPtr/3 (write) Mcu_pConfigPtr/3 (read) Mcu_au8ModeConfigIds/1 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_au8ClockConfigIds/0 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_Init/21 Mcu_CheckInit/4 Mcu_HLDChecksEntry/8 
+Mcu_HLDChecksExit/9 (Mcu_HLDChecksExit) @06c211c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: 
+Mcu_HLDChecksEntry/8 (Mcu_HLDChecksEntry) @06b67ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_eStatus/2 (read) Mcu_eStatus/2 (read) Mcu_eStatus/2 (write) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: Det_ReportError/20 Det_ReportError/20 
+Mcu_CheckGetVersionInfo/7 (Mcu_CheckGetVersionInfo) @06b679a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_GetVersionInfo/17 
+  Calls: Det_ReportError/20 
+Mcu_CheckSetMode/6 (Mcu_CheckSetMode) @06b67e00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SetMode/13 
+  Calls: Det_ReportError/20 
+Mcu_CheckInitClock/5 (Mcu_CheckInitClock) @06b67b60
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_InitClock/12 
+  Calls: Det_ReportError/20 
+Mcu_CheckInit/4 (Mcu_CheckInit) @06b678c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_Init/10 
+  Calls: Det_ReportError/20 
+Mcu_pConfigPtr/3 (Mcu_pConfigPtr) @06b61828
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_CheckInitClock/5 (read) Mcu_CheckSetMode/6 (read) Mcu_Init/10 (write) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (write) Mcu_InitClock/12 (read) Mcu_SetMode/13 (read) Mcu_ClkSrcFailureNotification/19 (read) Mcu_ClkSrcFailureNotification/19 (read) 
+  Availability: not-ready
+  Varpool flags:
+Mcu_eStatus/2 (Mcu_eStatus) @06b617e0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) 
+  Availability: not-ready
+  Varpool flags: initialized
+Mcu_au8ModeConfigIds/1 (Mcu_au8ModeConfigIds) @06b61708
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_SetMode/13 (read) 
+  Availability: not-ready
+  Varpool flags:
+Mcu_au8ClockConfigIds/0 (Mcu_au8ClockConfigIds) @06b61678
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_InitClock/12 (read) 
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+Mcu_Ipw_SleepOnExit/28 (Mcu_Ipw_SleepOnExit) @06c3ca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SleepOnExit/18 
+  Calls: 
+Mcu_Ipw_GetResetRawValue/27 (Mcu_Ipw_GetResetRawValue) @06c3c7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_GetResetRawValue/16 
+  Calls: 
+Mcu_Ipw_GetResetReason/26 (Mcu_Ipw_GetResetReason) @06c3c620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_GetResetReason/15 
+  Calls: 
+SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 (SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_SetMode/24 (Mcu_Ipw_SetMode) @06c3c2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 (SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_InitClock/22 (Mcu_Ipw_InitClock) @06c3c000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_InitClock/12 
+  Calls: 
+Mcu_Ipw_Init/21 (Mcu_Ipw_Init) @06c2f000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_Init/10 
+  Calls: 
+Det_ReportError/20 (Det_ReportError) @06c2f8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: Mcu_HLDChecksEntry/8 Mcu_HLDChecksEntry/8 Mcu_CheckGetVersionInfo/7 Mcu_CheckSetMode/6 Mcu_CheckInitClock/5 Mcu_CheckInit/4 
+  Calls: 
+Mcu_ClkSrcFailureNotification/19 (Mcu_ClkSrcFailureNotification) @06c2f460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: 
+Mcu_SleepOnExit/18 (Mcu_SleepOnExit) @06c2f1c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_SleepOnExit/28 Mcu_HLDChecksEntry/8 
+Mcu_GetVersionInfo/17 (Mcu_GetVersionInfo) @06c21d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_CheckGetVersionInfo/7 
+Mcu_GetResetRawValue/16 (Mcu_GetResetRawValue) @06c217e0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetRawValue/27 Mcu_HLDChecksEntry/8 
+Mcu_GetResetReason/15 (Mcu_GetResetReason) @06c212a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetReason/26 Mcu_HLDChecksEntry/8 
+Mcu_GetPllStatus/14 (Mcu_GetPllStatus) @06c21ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_SetMode/13 (Mcu_SetMode) @06c21c40
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_au8ModeConfigIds/1 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 Mcu_Ipw_SetMode/24 SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 Mcu_CheckSetMode/6 Mcu_HLDChecksEntry/8 
+Mcu_InitClock/12 (Mcu_InitClock) @06c219a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_au8ClockConfigIds/0 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_InitClock/22 Mcu_CheckInitClock/5 Mcu_HLDChecksEntry/8 
+Mcu_InitRamSection/11 (Mcu_InitRamSection) @06c21700
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_Init/10 (Mcu_Init) @06c21460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: Mcu_pConfigPtr/3 (write) Mcu_pConfigPtr/3 (read) Mcu_au8ModeConfigIds/1 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_au8ClockConfigIds/0 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_Init/21 Mcu_CheckInit/4 Mcu_HLDChecksEntry/8 
+Mcu_HLDChecksExit/9 (Mcu_HLDChecksExit) @06c211c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: 
+Mcu_HLDChecksEntry/8 (Mcu_HLDChecksEntry) @06b67ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_eStatus/2 (read) Mcu_eStatus/2 (read) Mcu_eStatus/2 (write) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: Det_ReportError/20 Det_ReportError/20 
+Mcu_CheckGetVersionInfo/7 (Mcu_CheckGetVersionInfo) @06b679a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_GetVersionInfo/17 
+  Calls: Det_ReportError/20 
+Mcu_CheckSetMode/6 (Mcu_CheckSetMode) @06b67e00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_SetMode/13 
+  Calls: Det_ReportError/20 
+Mcu_CheckInitClock/5 (Mcu_CheckInitClock) @06b67b60
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_InitClock/12 
+  Calls: Det_ReportError/20 
+Mcu_CheckInit/4 (Mcu_CheckInit) @06b678c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: Mcu_Init/10 
+  Calls: Det_ReportError/20 
+Mcu_pConfigPtr/3 (Mcu_pConfigPtr) @06b61828
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_CheckInitClock/5 (read) Mcu_CheckSetMode/6 (read) Mcu_Init/10 (write) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (write) Mcu_InitClock/12 (read) Mcu_SetMode/13 (read) Mcu_ClkSrcFailureNotification/19 (read) Mcu_ClkSrcFailureNotification/19 (read) 
+  Availability: not-ready
+  Varpool flags:
+Mcu_eStatus/2 (Mcu_eStatus) @06b617e0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) 
+  Availability: not-ready
+  Varpool flags: initialized
+Mcu_au8ModeConfigIds/1 (Mcu_au8ModeConfigIds) @06b61708
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_SetMode/13 (read) 
+  Availability: not-ready
+  Varpool flags:
+Mcu_au8ClockConfigIds/0 (Mcu_au8ClockConfigIds) @06b61678
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_InitClock/12 (read) 
+  Availability: not-ready
+  Varpool flags:
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+Mcu_Ipw_SleepOnExit/28 (Mcu_Ipw_SleepOnExit) @06c3ca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_SleepOnExit/18 
+  Calls: 
+Mcu_Ipw_GetResetRawValue/27 (Mcu_Ipw_GetResetRawValue) @06c3c7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_GetResetRawValue/16 
+  Calls: 
+Mcu_Ipw_GetResetReason/26 (Mcu_Ipw_GetResetReason) @06c3c620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_GetResetReason/15 
+  Calls: 
+SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 (SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_SetMode/24 (Mcu_Ipw_SetMode) @06c3c2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 (SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_SetMode/13 
+  Calls: 
+Mcu_Ipw_InitClock/22 (Mcu_Ipw_InitClock) @06c3c000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_InitClock/12 
+  Calls: 
+Mcu_Ipw_Init/21 (Mcu_Ipw_Init) @06c2f000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_Init/10 
+  Calls: 
+Det_ReportError/20 (Det_ReportError) @06c2f8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: Mcu_HLDChecksEntry/8 Mcu_HLDChecksEntry/8 Mcu_CheckGetVersionInfo/7 Mcu_CheckSetMode/6 Mcu_CheckInitClock/5 Mcu_CheckInit/4 
+  Calls: 
+Mcu_ClkSrcFailureNotification/19 (Mcu_ClkSrcFailureNotification) @06c2f460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: 
+Mcu_SleepOnExit/18 (Mcu_SleepOnExit) @06c2f1c0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_SleepOnExit/28 Mcu_HLDChecksEntry/8 
+Mcu_GetVersionInfo/17 (Mcu_GetVersionInfo) @06c21d20
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_CheckGetVersionInfo/7 
+Mcu_GetResetRawValue/16 (Mcu_GetResetRawValue) @06c217e0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetRawValue/27 Mcu_HLDChecksEntry/8 
+Mcu_GetResetReason/15 (Mcu_GetResetReason) @06c212a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_GetResetReason/26 Mcu_HLDChecksEntry/8 
+Mcu_GetPllStatus/14 (Mcu_GetPllStatus) @06c21ee0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_SetMode/13 (Mcu_SetMode) @06c21c40
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Mcu_au8ModeConfigIds/1 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 Mcu_Ipw_SetMode/24 SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 Mcu_CheckSetMode/6 Mcu_HLDChecksEntry/8 
+Mcu_InitClock/12 (Mcu_InitClock) @06c219a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Mcu_au8ClockConfigIds/0 (read) Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_InitClock/22 Mcu_CheckInitClock/5 Mcu_HLDChecksEntry/8 
+Mcu_InitRamSection/11 (Mcu_InitRamSection) @06c21700
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_HLDChecksEntry/8 
+Mcu_Init/10 (Mcu_Init) @06c21460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: Mcu_pConfigPtr/3 (write) Mcu_pConfigPtr/3 (read) Mcu_au8ModeConfigIds/1 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_au8ClockConfigIds/0 (write) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (read) Mcu_pConfigPtr/3 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: Mcu_HLDChecksExit/9 Mcu_Ipw_Init/21 Mcu_CheckInit/4 Mcu_HLDChecksEntry/8 
+Mcu_HLDChecksExit/9 (Mcu_HLDChecksExit) @06c211c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) Mcu_eStatus/2 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: 
+Mcu_HLDChecksEntry/8 (Mcu_HLDChecksEntry) @06b67ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: Mcu_eStatus/2 (read) Mcu_eStatus/2 (read) Mcu_eStatus/2 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: Mcu_SleepOnExit/18 Mcu_GetResetRawValue/16 Mcu_GetResetReason/15 Mcu_GetPllStatus/14 Mcu_SetMode/13 Mcu_InitClock/12 Mcu_InitRamSection/11 Mcu_Init/10 
+  Calls: Det_ReportError/20 Det_ReportError/20 
+Mcu_CheckGetVersionInfo/7 (Mcu_CheckGetVersionInfo) @06b679a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: Mcu_GetVersionInfo/17 
+  Calls: Det_ReportError/20 
+Mcu_CheckSetMode/6 (Mcu_CheckSetMode) @06b67e00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: Mcu_SetMode/13 
+  Calls: Det_ReportError/20 
+Mcu_CheckInitClock/5 (Mcu_CheckInitClock) @06b67b60
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: Mcu_pConfigPtr/3 (read) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: Mcu_InitClock/12 
+  Calls: Det_ReportError/20 
+Mcu_CheckInit/4 (Mcu_CheckInit) @06b678c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: Mcu_Init/10 
+  Calls: Det_ReportError/20 
+Mcu_pConfigPtr/3 (Mcu_pConfigPtr) @06b61828
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: Mcu_InitClock/12 (read) Mcu_SetMode/13 (read) Mcu_Init/10 (write) Mcu_Init/10 (read) Mcu_CheckInitClock/5 (read) Mcu_CheckSetMode/6 (read) Mcu_Init/10 (write) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_Init/10 (read) Mcu_ClkSrcFailureNotification/19 (read) Mcu_ClkSrcFailureNotification/19 (read) 
+  Availability: available
+  Varpool flags:
+Mcu_eStatus/2 (Mcu_eStatus) @06b617e0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (read) Mcu_HLDChecksEntry/8 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) Mcu_HLDChecksExit/9 (write) 
+  Availability: available
+  Varpool flags: initialized
+Mcu_au8ModeConfigIds/1 (Mcu_au8ModeConfigIds) @06b61708
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_SetMode/13 (read) 
+  Availability: available
+  Varpool flags:
+Mcu_au8ClockConfigIds/0 (Mcu_au8ClockConfigIds) @06b61678
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: Mcu_Init/10 (write) Mcu_InitClock/12 (read) 
+  Availability: available
+  Varpool flags:
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Trivially needed variables: Mcu_pConfigPtr/3 Mcu_eStatus/2 Mcu_au8ModeConfigIds/1 Mcu_au8ClockConfigIds/0
+Removing variables:
+
+Final Symbol table:
+
+Mcu_Ipw_SleepOnExit/28 (Mcu_Ipw_SleepOnExit) @06c3ca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_Ipw_GetResetRawValue/27 (Mcu_Ipw_GetResetRawValue) @06c3c7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_Ipw_GetResetReason/26 (Mcu_Ipw_GetResetReason) @06c3c620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00/25 (SchM_Exit_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_Ipw_SetMode/24 (Mcu_Ipw_SetMode) @06c3c2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00/23 (SchM_Enter_Mcu_MCU_EXCLUSIVE_AREA_00) @06c3c1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_Ipw_InitClock/22 (Mcu_Ipw_InitClock) @06c3c000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_Ipw_Init/21 (Mcu_Ipw_Init) @06c2f000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Det_ReportError/20 (Det_ReportError) @06c2f8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_ClkSrcFailureNotification/19 (Mcu_ClkSrcFailureNotification) @06c2f460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_ClkSrcFailureNotification (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_SleepOnExit/18 (Mcu_SleepOnExit) @06c2f1c0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_SleepOnExit (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_GetVersionInfo/17 (Mcu_GetVersionInfo) @06c21d20
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_GetVersionInfo (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_GetResetRawValue/16 (Mcu_GetResetRawValue) @06c217e0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_GetResetRawValue (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_GetResetReason/15 (Mcu_GetResetReason) @06c212a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_GetResetReason (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_GetPllStatus/14 (Mcu_GetPllStatus) @06c21ee0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_GetPllStatus (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_SetMode/13 (Mcu_SetMode) @06c21c40
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_SetMode (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_InitClock/12 (Mcu_InitClock) @06c219a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_InitClock (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_InitRamSection/11 (Mcu_InitRamSection) @06c21700
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_InitRamSection (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_Init/10 (Mcu_Init) @06c21460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.Mcu_Init (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_HLDChecksExit/9 (Mcu_HLDChecksExit) @06c211c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Mcu_HLDChecksExit (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_HLDChecksEntry/8 (Mcu_HLDChecksEntry) @06b67ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Mcu_HLDChecksEntry (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_CheckGetVersionInfo/7 (Mcu_CheckGetVersionInfo) @06b679a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Mcu_CheckGetVersionInfo (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_CheckSetMode/6 (Mcu_CheckSetMode) @06b67e00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Mcu_CheckSetMode (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_CheckInitClock/5 (Mcu_CheckInitClock) @06b67b60
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Mcu_CheckInitClock (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_CheckInit/4 (Mcu_CheckInit) @06b678c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Mcu_CheckInit (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_pConfigPtr/3 (Mcu_pConfigPtr) @06b61828
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Mcu_pConfigPtr (implicit_section)
+  Aux: @00000001
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+Mcu_eStatus/2 (Mcu_eStatus) @06b617e0
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.data.Mcu_eStatus (implicit_section)
+  Aux: @06b61828
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+Mcu_au8ModeConfigIds/1 (Mcu_au8ModeConfigIds) @06b61708
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Mcu_au8ModeConfigIds (implicit_section)
+  Aux: @06b617e0
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+Mcu_au8ClockConfigIds/0 (Mcu_au8ClockConfigIds) @06b61678
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Mcu_au8ClockConfigIds (implicit_section)
+  Aux: @06b61708
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:

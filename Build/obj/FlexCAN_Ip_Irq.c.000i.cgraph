@@ -1,0 +1,1035 @@
+Trivially needed symbols: CAN2_ORED_0_15_MB_IRQHandler/46 CAN2_Error_IRQHandler/45 CAN2_ORED_IRQHandler/44 CAN1_ORED_16_31_MB_IRQHandler/43 CAN1_ORED_0_15_MB_IRQHandler/42 CAN1_Error_IRQHandler/41 CAN1_ORED_IRQHandler/40 CAN0_ORED_16_31_MB_IRQHandler/39 CAN0_ORED_0_15_MB_IRQHandler/38 CAN0_Error_IRQHandler/37 CAN0_ORED_IRQHandler/36
+
+
+Initial Symbol table:
+
+FlexCAN_IRQHandler/49 (FlexCAN_IRQHandler) @06e269a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_ORED_0_15_MB_IRQHandler/46 CAN1_ORED_16_31_MB_IRQHandler/43 CAN1_ORED_0_15_MB_IRQHandler/42 CAN0_ORED_16_31_MB_IRQHandler/39 CAN0_ORED_0_15_MB_IRQHandler/38 
+  Calls: 
+FlexCAN_Error_IRQHandler/48 (FlexCAN_Error_IRQHandler) @06e267e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_Error_IRQHandler/45 CAN1_Error_IRQHandler/41 CAN0_Error_IRQHandler/37 
+  Calls: 
+FlexCAN_BusOff_IRQHandler/47 (FlexCAN_BusOff_IRQHandler) @06e26620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_ORED_IRQHandler/44 CAN1_ORED_IRQHandler/40 CAN0_ORED_IRQHandler/36 
+  Calls: 
+CAN2_ORED_0_15_MB_IRQHandler/46 (CAN2_ORED_0_15_MB_IRQHandler) @06e261c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @01981040
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN2_Error_IRQHandler/45 (CAN2_Error_IRQHandler) @06e23d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e261c0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN2_ORED_IRQHandler/44 (CAN2_ORED_IRQHandler) @06e237e0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e23d20
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN1_ORED_16_31_MB_IRQHandler/43 (CAN1_ORED_16_31_MB_IRQHandler) @06e232a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e237e0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_ORED_0_15_MB_IRQHandler/42 (CAN1_ORED_0_15_MB_IRQHandler) @06e23ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e232a0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_Error_IRQHandler/41 (CAN1_Error_IRQHandler) @06e23c40
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e23ee0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN1_ORED_IRQHandler/40 (CAN1_ORED_IRQHandler) @06e239a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e23c40
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN0_ORED_16_31_MB_IRQHandler/39 (CAN0_ORED_16_31_MB_IRQHandler) @06e23700
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e239a0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_ORED_0_15_MB_IRQHandler/38 (CAN0_ORED_0_15_MB_IRQHandler) @06e23460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e23700
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_Error_IRQHandler/37 (CAN0_Error_IRQHandler) @06e231c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e23460
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN0_ORED_IRQHandler/36 (CAN0_ORED_IRQHandler) @06e1ee00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @06e231c0
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+FlexCAN_SetRegDefaultVal/35 (FlexCAN_SetRegDefaultVal) @06e1e2a0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetRxMaskType/34 (FlexCAN_SetRxMaskType) @06dd8ee0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetTxArbitrationStartDelay/33 (FlexCAN_SetTxArbitrationStartDelay) @06dd8a80
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_IsFreezeMode/32 (FlexCAN_IsFreezeMode) @06dd8700
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetRxIndividualMask/31 (FlexCAN_SetRxIndividualMask) @06dd8460
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetRxMsgBuffGlobalMask/30 (FlexCAN_SetRxMsgBuffGlobalMask) @06dd81c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_GetMsgBuffIntStatusFlag/29 (FlexCAN_GetMsgBuffIntStatusFlag) @06dd3ee0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetClkSrc/28 (FlexCAN_SetClkSrc) @06dd3c40
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_CanBitSampling/27 (FlexCAN_CanBitSampling) @06dd38c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetEdgeFilter/26 (FlexCAN_SetEdgeFilter) @06dd3540
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetBusOffAutorecovery/25 (FlexCAN_SetBusOffAutorecovery) @06dd31c0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetRemoteReqStore/24 (FlexCAN_SetRemoteReqStore) @06dd0e00
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetProtocolException/23 (FlexCAN_SetProtocolException) @06dd0a80
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetEntireFrameArbitrationFieldComparison/22 (FlexCAN_SetEntireFrameArbitrationFieldComparison) @06dd0700
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetIsoCan/21 (FlexCAN_SetIsoCan) @06dd0380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+RxFifoOcuppiedLastMsgBuff/20 (RxFifoOcuppiedLastMsgBuff) @06dc8ee0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_IsListenOnlyModeEnabled/19 (FlexCAN_IsListenOnlyModeEnabled) @06dc8c40
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_IsFDEnabled/18 (FlexCAN_IsFDEnabled) @06dc89a0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetSelfReception/17 (FlexCAN_SetSelfReception) @06dc8700
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_EnableExtCbt/16 (FlexCAN_EnableExtCbt) @06dc82a0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_IsExCbtEnabled/15 (FlexCAN_IsExCbtEnabled) @06dc3ee0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_GetFDTimeSegments/14 (FlexCAN_GetFDTimeSegments) @06dc3c40
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_GetTimeSegments/13 (FlexCAN_GetTimeSegments) @06dc39a0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_GetExtendedTimeSegments/12 (FlexCAN_GetExtendedTimeSegments) @06dc3700
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetExtendedTimeSegments/11 (FlexCAN_SetExtendedTimeSegments) @06dc3460
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetTimeSegments/10 (FlexCAN_SetTimeSegments) @06dbfd20
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetFDTimeSegments/9 (FlexCAN_SetFDTimeSegments) @06dbf620
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_GetBuffStatusImask/8 (FlexCAN_GetBuffStatusImask) @06dbbee0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_GetBuffStatusFlag/7 (FlexCAN_GetBuffStatusFlag) @06dbbc40
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_ClearMsgBuffIntStatusFlag/6 (FlexCAN_ClearMsgBuffIntStatusFlag) @06dbb9a0
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_UnlockRxMsgBuff/5 (FlexCAN_UnlockRxMsgBuff) @06dbb700
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetListenOnlyMode/4 (FlexCAN_SetListenOnlyMode) @06dbb380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetFDEnabled/3 (FlexCAN_SetFDEnabled) @06dbb000
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_IsEnabled/2 (FlexCAN_IsEnabled) @06da6b60
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetTDCOffset/1 (FlexCAN_SetTDCOffset) @06da6700
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_SetRxFifoGlobalMask/0 (FlexCAN_SetRxFifoGlobalMask) @06da6380
+  Type: function definition
+  Visibility: no_reorder
+  References: 
+  Referring: 
+  Function flags:
+  Called by: 
+  Calls: 
+
+Removing unused symbols: FlexCAN_SetRegDefaultVal/35 FlexCAN_SetRxMaskType/34 FlexCAN_SetTxArbitrationStartDelay/33 FlexCAN_IsFreezeMode/32 FlexCAN_SetRxIndividualMask/31 FlexCAN_SetRxMsgBuffGlobalMask/30 FlexCAN_GetMsgBuffIntStatusFlag/29 FlexCAN_SetClkSrc/28 FlexCAN_CanBitSampling/27 FlexCAN_SetEdgeFilter/26 FlexCAN_SetBusOffAutorecovery/25 FlexCAN_SetRemoteReqStore/24 FlexCAN_SetProtocolException/23 FlexCAN_SetEntireFrameArbitrationFieldComparison/22 FlexCAN_SetIsoCan/21 RxFifoOcuppiedLastMsgBuff/20 FlexCAN_IsListenOnlyModeEnabled/19 FlexCAN_IsFDEnabled/18 FlexCAN_SetSelfReception/17 FlexCAN_EnableExtCbt/16 FlexCAN_IsExCbtEnabled/15 FlexCAN_GetFDTimeSegments/14 FlexCAN_GetTimeSegments/13 FlexCAN_GetExtendedTimeSegments/12 FlexCAN_SetExtendedTimeSegments/11 FlexCAN_SetTimeSegments/10 FlexCAN_SetFDTimeSegments/9 FlexCAN_GetBuffStatusImask/8 FlexCAN_GetBuffStatusFlag/7 FlexCAN_ClearMsgBuffIntStatusFlag/6 FlexCAN_UnlockRxMsgBuff/5 FlexCAN_SetListenOnlyMode/4 FlexCAN_SetFDEnabled/3 FlexCAN_IsEnabled/2 FlexCAN_SetTDCOffset/1 FlexCAN_SetRxFifoGlobalMask/0
+
+Reclaimed Symbol table:
+
+FlexCAN_IRQHandler/49 (FlexCAN_IRQHandler) @06e269a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_ORED_0_15_MB_IRQHandler/46 CAN1_ORED_16_31_MB_IRQHandler/43 CAN1_ORED_0_15_MB_IRQHandler/42 CAN0_ORED_16_31_MB_IRQHandler/39 CAN0_ORED_0_15_MB_IRQHandler/38 
+  Calls: 
+FlexCAN_Error_IRQHandler/48 (FlexCAN_Error_IRQHandler) @06e267e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_Error_IRQHandler/45 CAN1_Error_IRQHandler/41 CAN0_Error_IRQHandler/37 
+  Calls: 
+FlexCAN_BusOff_IRQHandler/47 (FlexCAN_BusOff_IRQHandler) @06e26620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_ORED_IRQHandler/44 CAN1_ORED_IRQHandler/40 CAN0_ORED_IRQHandler/36 
+  Calls: 
+CAN2_ORED_0_15_MB_IRQHandler/46 (CAN2_ORED_0_15_MB_IRQHandler) @06e261c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN2_Error_IRQHandler/45 (CAN2_Error_IRQHandler) @06e23d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN2_ORED_IRQHandler/44 (CAN2_ORED_IRQHandler) @06e237e0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN1_ORED_16_31_MB_IRQHandler/43 (CAN1_ORED_16_31_MB_IRQHandler) @06e232a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_ORED_0_15_MB_IRQHandler/42 (CAN1_ORED_0_15_MB_IRQHandler) @06e23ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_Error_IRQHandler/41 (CAN1_Error_IRQHandler) @06e23c40
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN1_ORED_IRQHandler/40 (CAN1_ORED_IRQHandler) @06e239a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN0_ORED_16_31_MB_IRQHandler/39 (CAN0_ORED_16_31_MB_IRQHandler) @06e23700
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_ORED_0_15_MB_IRQHandler/38 (CAN0_ORED_0_15_MB_IRQHandler) @06e23460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_Error_IRQHandler/37 (CAN0_Error_IRQHandler) @06e231c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN0_ORED_IRQHandler/36 (CAN0_ORED_IRQHandler) @06e1ee00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+
+
+Initial Symbol table:
+
+FlexCAN_IRQHandler/49 (FlexCAN_IRQHandler) @06e269a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_ORED_0_15_MB_IRQHandler/46 CAN1_ORED_16_31_MB_IRQHandler/43 CAN1_ORED_0_15_MB_IRQHandler/42 CAN0_ORED_16_31_MB_IRQHandler/39 CAN0_ORED_0_15_MB_IRQHandler/38 
+  Calls: 
+FlexCAN_Error_IRQHandler/48 (FlexCAN_Error_IRQHandler) @06e267e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_Error_IRQHandler/45 CAN1_Error_IRQHandler/41 CAN0_Error_IRQHandler/37 
+  Calls: 
+FlexCAN_BusOff_IRQHandler/47 (FlexCAN_BusOff_IRQHandler) @06e26620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_ORED_IRQHandler/44 CAN1_ORED_IRQHandler/40 CAN0_ORED_IRQHandler/36 
+  Calls: 
+CAN2_ORED_0_15_MB_IRQHandler/46 (CAN2_ORED_0_15_MB_IRQHandler) @06e261c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN2_Error_IRQHandler/45 (CAN2_Error_IRQHandler) @06e23d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN2_ORED_IRQHandler/44 (CAN2_ORED_IRQHandler) @06e237e0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN1_ORED_16_31_MB_IRQHandler/43 (CAN1_ORED_16_31_MB_IRQHandler) @06e232a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_ORED_0_15_MB_IRQHandler/42 (CAN1_ORED_0_15_MB_IRQHandler) @06e23ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_Error_IRQHandler/41 (CAN1_Error_IRQHandler) @06e23c40
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN1_ORED_IRQHandler/40 (CAN1_ORED_IRQHandler) @06e239a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN0_ORED_16_31_MB_IRQHandler/39 (CAN0_ORED_16_31_MB_IRQHandler) @06e23700
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_ORED_0_15_MB_IRQHandler/38 (CAN0_ORED_0_15_MB_IRQHandler) @06e23460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_Error_IRQHandler/37 (CAN0_Error_IRQHandler) @06e231c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN0_ORED_IRQHandler/36 (CAN0_ORED_IRQHandler) @06e1ee00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+FlexCAN_IRQHandler/49 (FlexCAN_IRQHandler) @06e269a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_ORED_0_15_MB_IRQHandler/46 CAN1_ORED_16_31_MB_IRQHandler/43 CAN1_ORED_0_15_MB_IRQHandler/42 CAN0_ORED_16_31_MB_IRQHandler/39 CAN0_ORED_0_15_MB_IRQHandler/38 
+  Calls: 
+FlexCAN_Error_IRQHandler/48 (FlexCAN_Error_IRQHandler) @06e267e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_Error_IRQHandler/45 CAN1_Error_IRQHandler/41 CAN0_Error_IRQHandler/37 
+  Calls: 
+FlexCAN_BusOff_IRQHandler/47 (FlexCAN_BusOff_IRQHandler) @06e26620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: CAN2_ORED_IRQHandler/44 CAN1_ORED_IRQHandler/40 CAN0_ORED_IRQHandler/36 
+  Calls: 
+CAN2_ORED_0_15_MB_IRQHandler/46 (CAN2_ORED_0_15_MB_IRQHandler) @06e261c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN2_Error_IRQHandler/45 (CAN2_Error_IRQHandler) @06e23d20
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN2_ORED_IRQHandler/44 (CAN2_ORED_IRQHandler) @06e237e0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN1_ORED_16_31_MB_IRQHandler/43 (CAN1_ORED_16_31_MB_IRQHandler) @06e232a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_ORED_0_15_MB_IRQHandler/42 (CAN1_ORED_0_15_MB_IRQHandler) @06e23ee0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_Error_IRQHandler/41 (CAN1_Error_IRQHandler) @06e23c40
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN1_ORED_IRQHandler/40 (CAN1_ORED_IRQHandler) @06e239a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN0_ORED_16_31_MB_IRQHandler/39 (CAN0_ORED_16_31_MB_IRQHandler) @06e23700
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_ORED_0_15_MB_IRQHandler/38 (CAN0_ORED_0_15_MB_IRQHandler) @06e23460
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_Error_IRQHandler/37 (CAN0_Error_IRQHandler) @06e231c0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN0_ORED_IRQHandler/36 (CAN0_ORED_IRQHandler) @06e1ee00
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+FlexCAN_IRQHandler/49 (FlexCAN_IRQHandler) @06e269a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: CAN2_ORED_0_15_MB_IRQHandler/46 CAN1_ORED_16_31_MB_IRQHandler/43 CAN1_ORED_0_15_MB_IRQHandler/42 CAN0_ORED_16_31_MB_IRQHandler/39 CAN0_ORED_0_15_MB_IRQHandler/38 
+  Calls: 
+FlexCAN_Error_IRQHandler/48 (FlexCAN_Error_IRQHandler) @06e267e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: CAN2_Error_IRQHandler/45 CAN1_Error_IRQHandler/41 CAN0_Error_IRQHandler/37 
+  Calls: 
+FlexCAN_BusOff_IRQHandler/47 (FlexCAN_BusOff_IRQHandler) @06e26620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: CAN2_ORED_IRQHandler/44 CAN1_ORED_IRQHandler/40 CAN0_ORED_IRQHandler/36 
+  Calls: 
+CAN2_ORED_0_15_MB_IRQHandler/46 (CAN2_ORED_0_15_MB_IRQHandler) @06e261c0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN2_Error_IRQHandler/45 (CAN2_Error_IRQHandler) @06e23d20
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN2_ORED_IRQHandler/44 (CAN2_ORED_IRQHandler) @06e237e0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN1_ORED_16_31_MB_IRQHandler/43 (CAN1_ORED_16_31_MB_IRQHandler) @06e232a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_ORED_0_15_MB_IRQHandler/42 (CAN1_ORED_0_15_MB_IRQHandler) @06e23ee0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN1_Error_IRQHandler/41 (CAN1_Error_IRQHandler) @06e23c40
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN1_ORED_IRQHandler/40 (CAN1_ORED_IRQHandler) @06e239a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+CAN0_ORED_16_31_MB_IRQHandler/39 (CAN0_ORED_16_31_MB_IRQHandler) @06e23700
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_ORED_0_15_MB_IRQHandler/38 (CAN0_ORED_0_15_MB_IRQHandler) @06e23460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_IRQHandler/49 
+CAN0_Error_IRQHandler/37 (CAN0_Error_IRQHandler) @06e231c0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_Error_IRQHandler/48 
+CAN0_ORED_IRQHandler/36 (CAN0_ORED_IRQHandler) @06e1ee00
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: FlexCAN_BusOff_IRQHandler/47 
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Trivially needed variables:
+Removing variables:
+
+Final Symbol table:
+
+FlexCAN_IRQHandler/49 (FlexCAN_IRQHandler) @06e269a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_Error_IRQHandler/48 (FlexCAN_Error_IRQHandler) @06e267e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+FlexCAN_BusOff_IRQHandler/47 (FlexCAN_BusOff_IRQHandler) @06e26620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN2_ORED_0_15_MB_IRQHandler/46 (CAN2_ORED_0_15_MB_IRQHandler) @06e261c0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN2_ORED_0_15_MB_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN2_Error_IRQHandler/45 (CAN2_Error_IRQHandler) @06e23d20
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN2_Error_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN2_ORED_IRQHandler/44 (CAN2_ORED_IRQHandler) @06e237e0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN2_ORED_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN1_ORED_16_31_MB_IRQHandler/43 (CAN1_ORED_16_31_MB_IRQHandler) @06e232a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN1_ORED_16_31_MB_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN1_ORED_0_15_MB_IRQHandler/42 (CAN1_ORED_0_15_MB_IRQHandler) @06e23ee0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN1_ORED_0_15_MB_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN1_Error_IRQHandler/41 (CAN1_Error_IRQHandler) @06e23c40
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN1_Error_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN1_ORED_IRQHandler/40 (CAN1_ORED_IRQHandler) @06e239a0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN1_ORED_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN0_ORED_16_31_MB_IRQHandler/39 (CAN0_ORED_16_31_MB_IRQHandler) @06e23700
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN0_ORED_16_31_MB_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN0_ORED_0_15_MB_IRQHandler/38 (CAN0_ORED_0_15_MB_IRQHandler) @06e23460
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN0_ORED_0_15_MB_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN0_Error_IRQHandler/37 (CAN0_Error_IRQHandler) @06e231c0
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN0_Error_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
+CAN0_ORED_IRQHandler/36 (CAN0_ORED_IRQHandler) @06e1ee00
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder asm_written public section:.text.CAN0_ORED_IRQHandler (implicit_section)
+  References: 
+  Referring: 
+  Availability: available
+  Function flags:
+  Called by: 
+  Calls: 
