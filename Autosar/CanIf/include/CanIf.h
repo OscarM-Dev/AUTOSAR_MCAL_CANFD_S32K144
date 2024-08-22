@@ -98,6 +98,7 @@ extern "C"
 *                                       DEFINES AND MACROS
 ==================================================================================================*/
 //Configuration macros for the IDs of the CanIf controllers registered, manually edited.
+#define CanIfFlexCan0 1 //Id of CanIfFlexCan0 controller.
 #define CanIfFlexCan2 0 //Id of CanIfFlexCan2 controller.
 
 /*==================================================================================================

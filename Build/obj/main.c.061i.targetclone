@@ -1,67 +1,57 @@
 main ()
 {
-  struct PduInfoType Message1;
-  uint8 Message1_SDU[8];
-  struct PduInfoType Message0;
-  uint8 Message0_SDU[8];
-  int D.9395;
-  _Bool CanIf_Can2_bTxFlag.0_1;
-  _Bool _2;
-  unsigned char _3;
+  struct PduInfoType Message2;
+  uint8 Message2_SDU;
+  uint8 RxDataBuffer;
+  uint8 Control;
+  int D.9639;
+  unsigned char Control.0_1;
+  unsigned char _2;
+  unsigned char Control.1_3;
   unsigned char _4;
-  unsigned char _5;
-  unsigned char _6;
-  unsigned char _7;
-  unsigned char _8;
+  _Bool CanIf_Can0_bTxFlag.2_5;
+  _Bool _6;
+  unsigned char Message2_SDU.3_7;
+  unsigned char Message2_SDU.4_8;
   unsigned char _9;
-  unsigned char _10;
-  unsigned char _11;
-  unsigned char _12;
-  unsigned char _13;
-  unsigned char _14;
 
   <bb 2> :
-  Message0_SDU = "\x01\x02\x03\x04\x05\x06\x07\b";
-  Message0.SduDataPtr = &Message0_SDU;
-  Message0.MetaDataPtr = 0B;
-  Message0.SduLength = 8;
-  Message1_SDU = "\x00\x10 0@P`p";
-  Message1.SduDataPtr = &Message1_SDU;
-  Message1.MetaDataPtr = 0B;
-  Message1.SduLength = 8;
+  Control = 0;
+  RxDataBuffer = 50;
+  Message2_SDU = 1;
+  Message2.SduDataPtr = &Message2_SDU;
+  Message2.MetaDataPtr = 0B;
+  Message2.SduLength = 1;
   EcuM_Init ();
-  CanIf_SetControllerMode (0, 1);
+  CanIf_SetControllerMode (1, 1);
+  Control = 116;
+  Control.0_1 = Control;
+  _2 = Control.0_1 << 1;
+  Control = _2;
+  Control.1_3 = Control;
+  _4 = Control.1_3 + 1;
+  Control = _4;
+  Spi_SetupEB (0, &Control, 0B, 1);
+  Spi_SetupEB (1, 0B, &RxDataBuffer, 1);
+  Spi_SyncTransmit (0);
 
   <bb 3> :
-  CanIf_Transmit (0, &Message0);
-  CanIf_Transmit (1, &Message1);
+  CanIf_Transmit (2, &Message2);
 
   <bb 4> :
-  CanIf_Can2_bTxFlag.0_1 = CanIf_Can2_bTxFlag;
-  _2 = ~CanIf_Can2_bTxFlag.0_1;
-  if (_2 != 0)
+  CanIf_Can0_bTxFlag.2_5 = CanIf_Can0_bTxFlag;
+  _6 = ~CanIf_Can0_bTxFlag.2_5;
+  if (_6 != 0)
     goto <bb 4>; [INV]
   else
     goto <bb 5>; [INV]
 
   <bb 5> :
-  CanIf_Can2_bTxFlag = 0;
-  _3 = Message0_SDU[0];
-  _4 = _3;
-  _5 = _4 + 1;
-  Message0_SDU[0] = _5;
-  _6 = Message0_SDU[7];
-  _7 = _6;
-  _8 = _7 + 1;
-  Message0_SDU[7] = _8;
-  _9 = Message1_SDU[0];
-  _10 = _9;
-  _11 = _10 + 1;
-  Message1_SDU[0] = _11;
-  _12 = Message1_SDU[7];
-  _13 = _12;
-  _14 = _13 + 1;
-  Message1_SDU[7] = _14;
+  CanIf_Can0_bTxFlag = 0;
+  Message2_SDU.3_7 = Message2_SDU;
+  Message2_SDU.4_8 = Message2_SDU.3_7;
+  _9 = Message2_SDU.4_8 + 1;
+  Message2_SDU = _9;
   Delay (5000);
   goto <bb 3>; [INV]
 

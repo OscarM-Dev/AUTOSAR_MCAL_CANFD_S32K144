@@ -1,6 +1,6 @@
 Symbol table:
 
-Sys_GetCoreID/9 (Sys_GetCoreID) @06924b60
+Sys_GetCoreID/9 (Sys_GetCoreID) @06985b60
   Type: function
   Visibility: external public
   References: 
@@ -9,7 +9,7 @@ Sys_GetCoreID/9 (Sys_GetCoreID) @06924b60
   Function flags:
   Called by: SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01/8 SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00/6 SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00/5 
   Calls: 
-SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01/8 (SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01) @06924620
+SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01/8 (SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01) @06985620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_SENT_EXCLUSIVE_AREA_01/3 (read) reentry_guard_SENT_EXCLUSIVE_AREA_01/3 (write) msr_SENT_EXCLUSIVE_AREA_01/2 (read) reentry_guard_SENT_EXCLUSIVE_AREA_01/3 (read) 
@@ -18,7 +18,7 @@ SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01/8 (SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01) 
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/9 
-SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 (SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01) @06924380
+SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 (SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01) @06985380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_SENT_EXCLUSIVE_AREA_01/3 (read) msr_SENT_EXCLUSIVE_AREA_01/2 (write) reentry_guard_SENT_EXCLUSIVE_AREA_01/3 (read) reentry_guard_SENT_EXCLUSIVE_AREA_01/3 (write) 
@@ -27,7 +27,7 @@ SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 (SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01
   Function flags: body
   Called by: 
   Calls: Sent_schm_read_msr/4 Sys_GetCoreID/9 
-SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00/6 (SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00) @06924000
+SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00/6 (SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00) @06985000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_SENT_EXCLUSIVE_AREA_00/1 (read) reentry_guard_SENT_EXCLUSIVE_AREA_00/1 (write) msr_SENT_EXCLUSIVE_AREA_00/0 (read) reentry_guard_SENT_EXCLUSIVE_AREA_00/1 (read) 
@@ -36,7 +36,7 @@ SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00/6 (SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00) 
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/9 
-SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00/5 (SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00) @0691da80
+SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00/5 (SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00) @0697ea80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_SENT_EXCLUSIVE_AREA_00/1 (read) msr_SENT_EXCLUSIVE_AREA_00/0 (write) reentry_guard_SENT_EXCLUSIVE_AREA_00/1 (read) reentry_guard_SENT_EXCLUSIVE_AREA_00/1 (write) 
@@ -45,7 +45,7 @@ SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00/5 (SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00
   Function flags: body
   Called by: 
   Calls: Sent_schm_read_msr/4 Sys_GetCoreID/9 
-Sent_schm_read_msr/4 (Sent_schm_read_msr) @0691dc40
+Sent_schm_read_msr/4 (Sent_schm_read_msr) @0697ec40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -54,28 +54,28 @@ Sent_schm_read_msr/4 (Sent_schm_read_msr) @0691dc40
   Function flags: body
   Called by: SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00/5 
   Calls: 
-reentry_guard_SENT_EXCLUSIVE_AREA_01/3 (reentry_guard_SENT_EXCLUSIVE_AREA_01) @0691e318
+reentry_guard_SENT_EXCLUSIVE_AREA_01/3 (reentry_guard_SENT_EXCLUSIVE_AREA_01) @0697f318
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 (read) SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 (read) SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 (write) SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01/8 (read) SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01/8 (write) SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01/8 (read) 
   Availability: available
   Varpool flags:
-msr_SENT_EXCLUSIVE_AREA_01/2 (msr_SENT_EXCLUSIVE_AREA_01) @0691e288
+msr_SENT_EXCLUSIVE_AREA_01/2 (msr_SENT_EXCLUSIVE_AREA_01) @0697f288
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_01/7 (write) SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_01/8 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_SENT_EXCLUSIVE_AREA_00/1 (reentry_guard_SENT_EXCLUSIVE_AREA_00) @0691e1f8
+reentry_guard_SENT_EXCLUSIVE_AREA_00/1 (reentry_guard_SENT_EXCLUSIVE_AREA_00) @0697f1f8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00/5 (read) SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00/5 (read) SchM_Enter_Sent_SENT_EXCLUSIVE_AREA_00/5 (write) SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00/6 (read) SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00/6 (write) SchM_Exit_Sent_SENT_EXCLUSIVE_AREA_00/6 (read) 
   Availability: available
   Varpool flags:
-msr_SENT_EXCLUSIVE_AREA_00/0 (msr_SENT_EXCLUSIVE_AREA_00) @0691e168
+msr_SENT_EXCLUSIVE_AREA_00/0 (msr_SENT_EXCLUSIVE_AREA_00) @0697f168
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 

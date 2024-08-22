@@ -3,7 +3,7 @@ Trivially needed symbols: Platform_InstallIrqHandler/9 Platform_GetIrqPriority/8
 
 Initial Symbol table:
 
-IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
+IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06ebe0e0
   Type: function
   Visibility: external public
   References: 
@@ -11,7 +11,7 @@ IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
   Function flags:
   Called by: Platform_Ipw_InstallIrqHandler/4 
   Calls: 
-IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
+IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f97e00
   Type: function
   Visibility: external public
   References: 
@@ -19,7 +19,7 @@ IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
   Function flags:
   Called by: Platform_Ipw_GetIrqPriority/3 
   Calls: 
-IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
+IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f97b60
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
   Function flags:
   Called by: Platform_Ipw_SetIrqPriority/2 
   Calls: 
-IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
+IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f978c0
   Type: function
   Visibility: external public
   References: 
@@ -35,7 +35,7 @@ IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
+IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f977e0
   Type: function
   Visibility: external public
   References: 
@@ -43,7 +43,7 @@ IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
+Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f97540
   Type: function
   Visibility: external public
   References: 
@@ -51,14 +51,14 @@ Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
   Function flags:
   Called by: Platform_Init/5 
   Calls: 
-Platform_Config/11 (Platform_Config) @06da8bd0
+Platform_Config/11 (Platform_Config) @06e08ca8
   Type: variable
   Visibility: external public
   References: 
   Referring: Platform_Init/5 (read) 
   Availability: not-ready
   Varpool flags: read-only
-Det_ReportError/10 (Det_ReportError) @06f381c0
+Det_ReportError/10 (Det_ReportError) @06f97460
   Type: function
   Visibility: external public
   References: 
@@ -66,7 +66,7 @@ Det_ReportError/10 (Det_ReportError) @06f381c0
   Function flags:
   Called by: Platform_InstallIrqHandler/9 Platform_GetIrqPriority/8 Platform_GetIrqPriority/8 Platform_SetIrqPriority/7 Platform_SetIrq/6 Platform_Init/5 
   Calls: 
-Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
+Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f97000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -75,43 +75,43 @@ Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_InstallIrqHandler/4 Det_ReportError/10 
-Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
+Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f90b60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06f308c0
+  Aux: @06f97000
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_GetIrqPriority/3 Det_ReportError/10 Det_ReportError/10 
-Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
+Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f90700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06f30460
+  Aux: @06f90b60
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrqPriority/2 Det_ReportError/10 
-Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
+Platform_SetIrq/6 (Platform_SetIrq) @06f90d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06f30d20
+  Aux: @06f90700
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrq/1 Det_ReportError/10 
-Platform_Init/5 (Platform_Init) @06f307e0
+Platform_Init/5 (Platform_Init) @06f90a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06f30a80
+  Aux: @06f90d20
   References: Platform_Config/11 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_Init/12 Det_ReportError/10 
-Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06e05e00
   Type: function definition analyzed
   Visibility: no_reorder
   Aux: @01981040
@@ -120,34 +120,34 @@ Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
   Function flags: body
   Called by: Platform_InstallIrqHandler/9 
   Calls: IntCtrl_Ip_InstallHandler/17 
-Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06e05b60
   Type: function definition analyzed
   Visibility: no_reorder
-  Aux: @06f308c0
+  Aux: @06f97000
   References: 
   Referring: 
   Function flags: body
   Called by: Platform_GetIrqPriority/8 
   Calls: IntCtrl_Ip_GetPriority/16 
-Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06e058c0
   Type: function definition analyzed
   Visibility: no_reorder
-  Aux: @06f30460
+  Aux: @06f90b60
   References: 
   Referring: 
   Function flags: body
   Called by: Platform_SetIrqPriority/7 
   Calls: IntCtrl_Ip_SetPriority/15 
-Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06da6380
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06e05620
   Type: function definition analyzed
   Visibility: no_reorder
-  Aux: @06f30d20
+  Aux: @06f90700
   References: 
   Referring: 
   Function flags: body
   Called by: Platform_SetIrq/6 
   Calls: IntCtrl_Ip_DisableIrq/14 IntCtrl_Ip_EnableIrq/13 
-DevAssert/0 (DevAssert) @06d84460
+DevAssert/0 (DevAssert) @06de4460
   Type: function definition
   Visibility: no_reorder
   References: 
@@ -160,7 +160,7 @@ Removing unused symbols: DevAssert/0
 
 Reclaimed Symbol table:
 
-IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
+IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06ebe0e0
   Type: function
   Visibility: external public
   References: 
@@ -168,7 +168,7 @@ IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
   Function flags:
   Called by: Platform_Ipw_InstallIrqHandler/4 
   Calls: 
-IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
+IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f97e00
   Type: function
   Visibility: external public
   References: 
@@ -176,7 +176,7 @@ IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
   Function flags:
   Called by: Platform_Ipw_GetIrqPriority/3 
   Calls: 
-IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
+IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f97b60
   Type: function
   Visibility: external public
   References: 
@@ -184,7 +184,7 @@ IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
   Function flags:
   Called by: Platform_Ipw_SetIrqPriority/2 
   Calls: 
-IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
+IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f978c0
   Type: function
   Visibility: external public
   References: 
@@ -192,7 +192,7 @@ IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
+IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f977e0
   Type: function
   Visibility: external public
   References: 
@@ -200,7 +200,7 @@ IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
+Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f97540
   Type: function
   Visibility: external public
   References: 
@@ -208,14 +208,14 @@ Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
   Function flags:
   Called by: Platform_Init/5 
   Calls: 
-Platform_Config/11 (Platform_Config) @06da8bd0
+Platform_Config/11 (Platform_Config) @06e08ca8
   Type: variable
   Visibility: external public
   References: 
   Referring: Platform_Init/5 (read) 
   Availability: not-ready
   Varpool flags: read-only
-Det_ReportError/10 (Det_ReportError) @06f381c0
+Det_ReportError/10 (Det_ReportError) @06f97460
   Type: function
   Visibility: external public
   References: 
@@ -223,7 +223,7 @@ Det_ReportError/10 (Det_ReportError) @06f381c0
   Function flags:
   Called by: Platform_InstallIrqHandler/9 Platform_GetIrqPriority/8 Platform_GetIrqPriority/8 Platform_SetIrqPriority/7 Platform_SetIrq/6 Platform_Init/5 
   Calls: 
-Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
+Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f97000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -231,7 +231,7 @@ Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_InstallIrqHandler/4 Det_ReportError/10 
-Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
+Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f90b60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -239,7 +239,7 @@ Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_GetIrqPriority/3 Det_ReportError/10 Det_ReportError/10 
-Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
+Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f90700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -247,7 +247,7 @@ Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrqPriority/2 Det_ReportError/10 
-Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
+Platform_SetIrq/6 (Platform_SetIrq) @06f90d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -255,7 +255,7 @@ Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrq/1 Det_ReportError/10 
-Platform_Init/5 (Platform_Init) @06f307e0
+Platform_Init/5 (Platform_Init) @06f90a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Platform_Config/11 (read) 
@@ -263,7 +263,7 @@ Platform_Init/5 (Platform_Init) @06f307e0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_Init/12 Det_ReportError/10 
-Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06e05e00
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -271,7 +271,7 @@ Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
   Function flags: body
   Called by: Platform_InstallIrqHandler/9 
   Calls: IntCtrl_Ip_InstallHandler/17 
-Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06e05b60
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -279,7 +279,7 @@ Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
   Function flags: body
   Called by: Platform_GetIrqPriority/8 
   Calls: IntCtrl_Ip_GetPriority/16 
-Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06e058c0
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -287,7 +287,7 @@ Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
   Function flags: body
   Called by: Platform_SetIrqPriority/7 
   Calls: IntCtrl_Ip_SetPriority/15 
-Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06da6380
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06e05620
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -299,7 +299,7 @@ Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06da6380
 
 Initial Symbol table:
 
-IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
+IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06ebe0e0
   Type: function
   Visibility: external public
   References: 
@@ -307,7 +307,7 @@ IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
   Function flags:
   Called by: Platform_Ipw_InstallIrqHandler/4 
   Calls: 
-IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
+IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f97e00
   Type: function
   Visibility: external public
   References: 
@@ -315,7 +315,7 @@ IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
   Function flags:
   Called by: Platform_Ipw_GetIrqPriority/3 
   Calls: 
-IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
+IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f97b60
   Type: function
   Visibility: external public
   References: 
@@ -323,7 +323,7 @@ IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
   Function flags:
   Called by: Platform_Ipw_SetIrqPriority/2 
   Calls: 
-IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
+IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f978c0
   Type: function
   Visibility: external public
   References: 
@@ -331,7 +331,7 @@ IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
+IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f977e0
   Type: function
   Visibility: external public
   References: 
@@ -339,7 +339,7 @@ IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
+Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f97540
   Type: function
   Visibility: external public
   References: 
@@ -347,14 +347,14 @@ Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
   Function flags:
   Called by: Platform_Init/5 
   Calls: 
-Platform_Config/11 (Platform_Config) @06da8bd0
+Platform_Config/11 (Platform_Config) @06e08ca8
   Type: variable
   Visibility: external public
   References: 
   Referring: Platform_Init/5 (read) 
   Availability: not-ready
   Varpool flags: read-only
-Det_ReportError/10 (Det_ReportError) @06f381c0
+Det_ReportError/10 (Det_ReportError) @06f97460
   Type: function
   Visibility: external public
   References: 
@@ -362,7 +362,7 @@ Det_ReportError/10 (Det_ReportError) @06f381c0
   Function flags:
   Called by: Platform_InstallIrqHandler/9 Platform_GetIrqPriority/8 Platform_GetIrqPriority/8 Platform_SetIrqPriority/7 Platform_SetIrq/6 Platform_Init/5 
   Calls: 
-Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
+Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f97000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -370,7 +370,7 @@ Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_InstallIrqHandler/4 Det_ReportError/10 
-Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
+Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f90b60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -378,7 +378,7 @@ Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_GetIrqPriority/3 Det_ReportError/10 Det_ReportError/10 
-Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
+Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f90700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -386,7 +386,7 @@ Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrqPriority/2 Det_ReportError/10 
-Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
+Platform_SetIrq/6 (Platform_SetIrq) @06f90d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -394,7 +394,7 @@ Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrq/1 Det_ReportError/10 
-Platform_Init/5 (Platform_Init) @06f307e0
+Platform_Init/5 (Platform_Init) @06f90a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Platform_Config/11 (read) 
@@ -402,7 +402,7 @@ Platform_Init/5 (Platform_Init) @06f307e0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_Init/12 Det_ReportError/10 
-Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06e05e00
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -410,7 +410,7 @@ Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
   Function flags: body
   Called by: Platform_InstallIrqHandler/9 
   Calls: IntCtrl_Ip_InstallHandler/17 
-Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06e05b60
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -418,7 +418,7 @@ Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
   Function flags: body
   Called by: Platform_GetIrqPriority/8 
   Calls: IntCtrl_Ip_GetPriority/16 
-Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06e058c0
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -426,7 +426,7 @@ Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
   Function flags: body
   Called by: Platform_SetIrqPriority/7 
   Calls: IntCtrl_Ip_SetPriority/15 
-Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06da6380
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06e05620
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -439,7 +439,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
+IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06ebe0e0
   Type: function
   Visibility: external public
   References: 
@@ -447,7 +447,7 @@ IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
   Function flags:
   Called by: Platform_Ipw_InstallIrqHandler/4 
   Calls: 
-IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
+IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f97e00
   Type: function
   Visibility: external public
   References: 
@@ -455,7 +455,7 @@ IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
   Function flags:
   Called by: Platform_Ipw_GetIrqPriority/3 
   Calls: 
-IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
+IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f97b60
   Type: function
   Visibility: external public
   References: 
@@ -463,7 +463,7 @@ IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
   Function flags:
   Called by: Platform_Ipw_SetIrqPriority/2 
   Calls: 
-IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
+IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f978c0
   Type: function
   Visibility: external public
   References: 
@@ -471,7 +471,7 @@ IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
+IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f977e0
   Type: function
   Visibility: external public
   References: 
@@ -479,7 +479,7 @@ IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
+Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f97540
   Type: function
   Visibility: external public
   References: 
@@ -487,14 +487,14 @@ Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
   Function flags:
   Called by: Platform_Init/5 
   Calls: 
-Platform_Config/11 (Platform_Config) @06da8bd0
+Platform_Config/11 (Platform_Config) @06e08ca8
   Type: variable
   Visibility: external public
   References: 
   Referring: Platform_Init/5 (read) 
   Availability: not-ready
   Varpool flags: read-only
-Det_ReportError/10 (Det_ReportError) @06f381c0
+Det_ReportError/10 (Det_ReportError) @06f97460
   Type: function
   Visibility: external public
   References: 
@@ -502,7 +502,7 @@ Det_ReportError/10 (Det_ReportError) @06f381c0
   Function flags:
   Called by: Platform_InstallIrqHandler/9 Platform_GetIrqPriority/8 Platform_GetIrqPriority/8 Platform_SetIrqPriority/7 Platform_SetIrq/6 Platform_Init/5 
   Calls: 
-Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
+Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f97000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -510,7 +510,7 @@ Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_InstallIrqHandler/4 Det_ReportError/10 
-Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
+Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f90b60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -518,7 +518,7 @@ Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_GetIrqPriority/3 Det_ReportError/10 Det_ReportError/10 
-Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
+Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f90700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -526,7 +526,7 @@ Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrqPriority/2 Det_ReportError/10 
-Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
+Platform_SetIrq/6 (Platform_SetIrq) @06f90d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -534,7 +534,7 @@ Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrq/1 Det_ReportError/10 
-Platform_Init/5 (Platform_Init) @06f307e0
+Platform_Init/5 (Platform_Init) @06f90a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Platform_Config/11 (read) 
@@ -542,7 +542,7 @@ Platform_Init/5 (Platform_Init) @06f307e0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_Init/12 Det_ReportError/10 
-Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06e05e00
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -550,7 +550,7 @@ Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
   Function flags: body
   Called by: Platform_InstallIrqHandler/9 
   Calls: IntCtrl_Ip_InstallHandler/17 
-Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06e05b60
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -558,7 +558,7 @@ Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
   Function flags: body
   Called by: Platform_GetIrqPriority/8 
   Calls: IntCtrl_Ip_GetPriority/16 
-Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06e058c0
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -566,7 +566,7 @@ Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
   Function flags: body
   Called by: Platform_SetIrqPriority/7 
   Calls: IntCtrl_Ip_SetPriority/15 
-Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06da6380
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06e05620
   Type: function definition analyzed
   Visibility: no_reorder
   References: 
@@ -580,7 +580,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
+IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06ebe0e0
   Type: function
   Visibility: external public
   References: 
@@ -589,7 +589,7 @@ IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
   Function flags:
   Called by: Platform_Ipw_InstallIrqHandler/4 
   Calls: 
-IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
+IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f97e00
   Type: function
   Visibility: external public
   References: 
@@ -598,7 +598,7 @@ IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
   Function flags:
   Called by: Platform_Ipw_GetIrqPriority/3 
   Calls: 
-IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
+IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f97b60
   Type: function
   Visibility: external public
   References: 
@@ -607,7 +607,7 @@ IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
   Function flags:
   Called by: Platform_Ipw_SetIrqPriority/2 
   Calls: 
-IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
+IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f978c0
   Type: function
   Visibility: external public
   References: 
@@ -616,7 +616,7 @@ IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
+IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f977e0
   Type: function
   Visibility: external public
   References: 
@@ -625,7 +625,7 @@ IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
   Function flags:
   Called by: Platform_Ipw_SetIrq/1 
   Calls: 
-Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
+Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f97540
   Type: function
   Visibility: external public
   References: 
@@ -634,7 +634,7 @@ Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
   Function flags:
   Called by: Platform_Init/5 
   Calls: 
-Platform_Config/11 (Platform_Config) @06da8bd0
+Platform_Config/11 (Platform_Config) @06e08ca8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -642,7 +642,7 @@ Platform_Config/11 (Platform_Config) @06da8bd0
   Referring: Platform_Init/5 (read) 
   Availability: not_available
   Varpool flags: read-only
-Det_ReportError/10 (Det_ReportError) @06f381c0
+Det_ReportError/10 (Det_ReportError) @06f97460
   Type: function
   Visibility: external public
   References: 
@@ -651,7 +651,7 @@ Det_ReportError/10 (Det_ReportError) @06f381c0
   Function flags:
   Called by: Platform_InstallIrqHandler/9 Platform_GetIrqPriority/8 Platform_GetIrqPriority/8 Platform_SetIrqPriority/7 Platform_SetIrq/6 Platform_Init/5 
   Calls: 
-Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
+Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f97000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -660,7 +660,7 @@ Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_InstallIrqHandler/4 Det_ReportError/10 
-Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
+Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f90b60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -669,7 +669,7 @@ Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_GetIrqPriority/3 Det_ReportError/10 Det_ReportError/10 
-Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
+Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f90700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -678,7 +678,7 @@ Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrqPriority/2 Det_ReportError/10 
-Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
+Platform_SetIrq/6 (Platform_SetIrq) @06f90d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -687,7 +687,7 @@ Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_SetIrq/1 Det_ReportError/10 
-Platform_Init/5 (Platform_Init) @06f307e0
+Platform_Init/5 (Platform_Init) @06f90a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Platform_Config/11 (read) 
@@ -696,7 +696,7 @@ Platform_Init/5 (Platform_Init) @06f307e0
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_Init/12 Det_ReportError/10 
-Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06e05e00
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -705,7 +705,7 @@ Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
   Function flags: body local
   Called by: Platform_InstallIrqHandler/9 
   Calls: IntCtrl_Ip_InstallHandler/17 
-Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06e05b60
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -714,7 +714,7 @@ Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
   Function flags: body local
   Called by: Platform_GetIrqPriority/8 
   Calls: IntCtrl_Ip_GetPriority/16 
-Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06e058c0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -723,7 +723,7 @@ Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
   Function flags: body local
   Called by: Platform_SetIrqPriority/7 
   Calls: IntCtrl_Ip_SetPriority/15 
-Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06da6380
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06e05620
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -743,7 +743,7 @@ Removing variables:
 
 Final Symbol table:
 
-IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
+IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06ebe0e0
   Type: function
   Visibility: external public
   References: 
@@ -752,7 +752,7 @@ IntCtrl_Ip_InstallHandler/17 (IntCtrl_Ip_InstallHandler) @06f38e00
   Function flags:
   Called by: 
   Calls: 
-IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
+IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f97e00
   Type: function
   Visibility: external public
   References: 
@@ -761,7 +761,7 @@ IntCtrl_Ip_GetPriority/16 (IntCtrl_Ip_GetPriority) @06f38b60
   Function flags:
   Called by: 
   Calls: 
-IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
+IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f97b60
   Type: function
   Visibility: external public
   References: 
@@ -770,7 +770,7 @@ IntCtrl_Ip_SetPriority/15 (IntCtrl_Ip_SetPriority) @06f388c0
   Function flags:
   Called by: 
   Calls: 
-IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
+IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f978c0
   Type: function
   Visibility: external public
   References: 
@@ -779,7 +779,7 @@ IntCtrl_Ip_DisableIrq/14 (IntCtrl_Ip_DisableIrq) @06f38620
   Function flags:
   Called by: 
   Calls: 
-IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
+IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f977e0
   Type: function
   Visibility: external public
   References: 
@@ -788,7 +788,7 @@ IntCtrl_Ip_EnableIrq/13 (IntCtrl_Ip_EnableIrq) @06f38540
   Function flags:
   Called by: 
   Calls: 
-Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
+Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f97540
   Type: function
   Visibility: external public
   References: 
@@ -797,7 +797,7 @@ Platform_Ipw_Init/12 (Platform_Ipw_Init) @06f382a0
   Function flags:
   Called by: 
   Calls: 
-Platform_Config/11 (Platform_Config) @06da8bd0
+Platform_Config/11 (Platform_Config) @06e08ca8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -805,7 +805,7 @@ Platform_Config/11 (Platform_Config) @06da8bd0
   Referring: 
   Availability: not_available
   Varpool flags: read-only
-Det_ReportError/10 (Det_ReportError) @06f381c0
+Det_ReportError/10 (Det_ReportError) @06f97460
   Type: function
   Visibility: external public
   References: 
@@ -814,7 +814,7 @@ Det_ReportError/10 (Det_ReportError) @06f381c0
   Function flags:
   Called by: 
   Calls: 
-Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
+Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f97000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Platform_InstallIrqHandler (implicit_section)
   References: 
@@ -823,7 +823,7 @@ Platform_InstallIrqHandler/9 (Platform_InstallIrqHandler) @06f308c0
   Function flags:
   Called by: 
   Calls: 
-Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
+Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f90b60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Platform_GetIrqPriority (implicit_section)
   References: 
@@ -832,7 +832,7 @@ Platform_GetIrqPriority/8 (Platform_GetIrqPriority) @06f30460
   Function flags:
   Called by: 
   Calls: 
-Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
+Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f90700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Platform_SetIrqPriority (implicit_section)
   References: 
@@ -841,7 +841,7 @@ Platform_SetIrqPriority/7 (Platform_SetIrqPriority) @06f30d20
   Function flags:
   Called by: 
   Calls: 
-Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
+Platform_SetIrq/6 (Platform_SetIrq) @06f90d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Platform_SetIrq (implicit_section)
   References: 
@@ -850,7 +850,7 @@ Platform_SetIrq/6 (Platform_SetIrq) @06f30a80
   Function flags:
   Called by: 
   Calls: 
-Platform_Init/5 (Platform_Init) @06f307e0
+Platform_Init/5 (Platform_Init) @06f90a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Platform_Init (implicit_section)
   References: 
@@ -859,7 +859,7 @@ Platform_Init/5 (Platform_Init) @06f307e0
   Function flags:
   Called by: 
   Calls: 
-Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06e05e00
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly asm_written section:.text.Platform_Ipw_InstallIrqHandler (implicit_section)
   References: 
@@ -868,7 +868,7 @@ Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06da6b60
   Function flags: local
   Called by: 
   Calls: 
-Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06e05b60
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly asm_written section:.text.Platform_Ipw_GetIrqPriority (implicit_section)
   References: 
@@ -877,7 +877,7 @@ Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06da68c0
   Function flags: local
   Called by: 
   Calls: 
-Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06e058c0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly asm_written section:.text.Platform_Ipw_SetIrqPriority (implicit_section)
   References: 
@@ -886,7 +886,7 @@ Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06da6620
   Function flags: local
   Called by: 
   Calls: 
-Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06da6380
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06e05620
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly asm_written section:.text.Platform_Ipw_SetIrq (implicit_section)
   References: 

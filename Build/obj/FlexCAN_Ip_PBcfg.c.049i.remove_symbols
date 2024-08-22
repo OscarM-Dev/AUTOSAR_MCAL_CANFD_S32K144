@@ -4,30 +4,30 @@ Reclaiming variables:
 Clearing address taken flags:
 Symbol table:
 
-Can_43_FLEXCAN_ErrorIrqCallback/2 (Can_43_FLEXCAN_ErrorIrqCallback) @06db8c40
+Can_43_FLEXCAN_ErrorIrqCallback/2 (Can_43_FLEXCAN_ErrorIrqCallback) @06d37ee0
   Type: function
   Visibility: external public
   Address is taken.
   References: 
-  Referring: Flexcan_aCtrlConfigPB/0 (addr) 
+  Referring: Flexcan_aCtrlConfigPB/0 (addr) Flexcan_aCtrlConfigPB/0 (addr) 
   Availability: not_available
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_CommonIrqCallback/1 (Can_43_FLEXCAN_CommonIrqCallback) @06db8b60
+Can_43_FLEXCAN_CommonIrqCallback/1 (Can_43_FLEXCAN_CommonIrqCallback) @06d37e00
   Type: function
   Visibility: external public
   Address is taken.
   References: 
-  Referring: Flexcan_aCtrlConfigPB/0 (addr) 
+  Referring: Flexcan_aCtrlConfigPB/0 (addr) Flexcan_aCtrlConfigPB/0 (addr) 
   Availability: not_available
   Function flags:
   Called by: 
   Calls: 
-Flexcan_aCtrlConfigPB/0 (Flexcan_aCtrlConfigPB) @06db93a8
+Flexcan_aCtrlConfigPB/0 (Flexcan_aCtrlConfigPB) @06d385a0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
-  References: Can_43_FLEXCAN_CommonIrqCallback/1 (addr) Can_43_FLEXCAN_ErrorIrqCallback/2 (addr) 
+  References: Can_43_FLEXCAN_CommonIrqCallback/1 (addr) Can_43_FLEXCAN_ErrorIrqCallback/2 (addr) Can_43_FLEXCAN_CommonIrqCallback/1 (addr) Can_43_FLEXCAN_ErrorIrqCallback/2 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known

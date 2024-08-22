@@ -70,7 +70,7 @@ extern "C"{
 *                                      DEFINES AND MACROS
 ==================================================================================================*/
 #define FLEXCAN_IP_PB_CFG  \
-    extern const Flexcan_Ip_ConfigType Flexcan_aCtrlConfigPB[1U];
+    extern const Flexcan_Ip_ConfigType Flexcan_aCtrlConfigPB[2U];
 
 
 #ifdef __cplusplus

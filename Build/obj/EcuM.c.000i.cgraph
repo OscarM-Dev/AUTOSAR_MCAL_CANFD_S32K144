@@ -3,7 +3,7 @@ Trivially needed symbols: EcuM_CheckWakeup/3 EcuM_ValidateWakeupEvent/2 EcuM_Set
 
 Initial Symbol table:
 
-EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
+EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06778700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -12,28 +12,28 @@ EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
   Function flags: body
   Called by: 
   Calls: 
-EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
+EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06778460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06868700
+  Aux: @06778700
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
+EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @067781c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06868460
+  Aux: @06778460
   References: EcuMLastWakeupEvent/0 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06864f78
+EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06774f78
   Type: variable definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @068681c0
+  Aux: @067781c0
   References: 
   Referring: EcuM_SetWakeupEvent/1 (write) 
   Availability: not-ready
@@ -43,7 +43,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
+EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06778700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -51,7 +51,7 @@ EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
   Function flags: body
   Called by: 
   Calls: 
-EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
+EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06778460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -59,7 +59,7 @@ EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
   Function flags: body
   Called by: 
   Calls: 
-EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
+EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @067781c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: EcuMLastWakeupEvent/0 (write) 
@@ -67,7 +67,7 @@ EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
   Function flags: body
   Called by: 
   Calls: 
-EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06864f78
+EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06774f78
   Type: variable definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -78,7 +78,7 @@ EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06864f78
 
 Initial Symbol table:
 
-EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
+EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06778700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -86,7 +86,7 @@ EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
   Function flags: body
   Called by: 
   Calls: 
-EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
+EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06778460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -94,7 +94,7 @@ EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
   Function flags: body
   Called by: 
   Calls: 
-EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
+EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @067781c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: EcuMLastWakeupEvent/0 (write) 
@@ -102,7 +102,7 @@ EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
   Function flags: body
   Called by: 
   Calls: 
-EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06864f78
+EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06774f78
   Type: variable definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -114,7 +114,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
+EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06778700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -122,7 +122,7 @@ EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
   Function flags: body
   Called by: 
   Calls: 
-EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
+EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06778460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -130,7 +130,7 @@ EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
   Function flags: body
   Called by: 
   Calls: 
-EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
+EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @067781c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: EcuMLastWakeupEvent/0 (write) 
@@ -138,7 +138,7 @@ EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
   Function flags: body
   Called by: 
   Calls: 
-EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06864f78
+EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06774f78
   Type: variable definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -151,7 +151,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
+EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06778700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -160,7 +160,7 @@ EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
   Function flags: body
   Called by: 
   Calls: 
-EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
+EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06778460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -169,7 +169,7 @@ EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
   Function flags: body
   Called by: 
   Calls: 
-EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
+EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @067781c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: EcuMLastWakeupEvent/0 (write) 
@@ -178,7 +178,7 @@ EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
   Function flags: body
   Called by: 
   Calls: 
-EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06864f78
+EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06774f78
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -196,7 +196,7 @@ Removing variables:
 
 Final Symbol table:
 
-EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
+EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06778700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.EcuM_CheckWakeup (implicit_section)
   References: 
@@ -205,7 +205,7 @@ EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
   Function flags:
   Called by: 
   Calls: 
-EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
+EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06778460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.EcuM_ValidateWakeupEvent (implicit_section)
   References: 
@@ -214,7 +214,7 @@ EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
   Function flags:
   Called by: 
   Calls: 
-EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
+EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @067781c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.EcuM_SetWakeupEvent (implicit_section)
   References: 
@@ -223,7 +223,7 @@ EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
   Function flags:
   Called by: 
   Calls: 
-EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06864f78
+EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06774f78
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.bss.EcuMLastWakeupEvent (implicit_section)
   Aux: @00000001

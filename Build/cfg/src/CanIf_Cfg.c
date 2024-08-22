@@ -100,18 +100,26 @@ extern "C"{
         /* .CanDrvId */
         (uint8)0U,
         /* .NumCanHoh */
-        (uint8)1U,
+        (uint8)3U,
         /* .CanApi */
         &Can_43_FLEXCAN_Driver_P2Func
     };
 
-    static const CanIf_CtrlPCConfigType CanIf_CtrlPCConfig[1U] =
+    static const CanIf_CtrlPCConfigType CanIf_CtrlPCConfig[2U] =
     {
         {
             /* .CanIfCtrlId */
             (uint8)0U,
             /* .CanCtrlId */
             (uint8)0U,
+            /* .CanDrvConfigPtr */
+            &Can_43_FLEXCAN_Driver_Config
+        },
+        {
+            /* .CanIfCtrlId */
+            (uint8)1U,
+            /* .CanCtrlId */
+            (uint8)1U,
             /* .CanDrvConfigPtr */
             &Can_43_FLEXCAN_Driver_Config
         }
@@ -122,7 +130,7 @@ extern "C"{
 const CanIf_PCConfigType CanIf_PCConfig = 
 {
     /* .NumOfCtrl */
-    (uint8)1U,
+    (uint8)2U,
     /* .CanIfCtrlConfigPtr */
     CanIf_CtrlPCConfig
 };

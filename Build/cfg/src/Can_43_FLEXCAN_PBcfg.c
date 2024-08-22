@@ -186,7 +186,24 @@ static const uint32 Can_au32HwBufferAddr_Ctrl0[2U]=
     (FLEXCAN_2_BASE + (uint32)0x0090U)
 };
 
+/**
+*   @brief  Hardware Buffer Address of FlexCan0
+*/
+static const uint32 Can_au32HwBufferAddr_Ctrl1[2U]=
+{
+    (FLEXCAN_0_BASE + (uint32)0x0080U),
+    (FLEXCAN_0_BASE + (uint32)0x0090U)
+};
 
+
+/**
+*   @brief  Hardware Filter of Mb0RxFlexCan0
+*/
+static const Can_43_FLEXCAN_HwFilterType Can_aHwFilter_Object0=
+{
+    (uint32)0x00000200U,
+    (uint32)0xdffc0000U
+};
 
 #define CAN_43_FLEXCAN_STOP_SEC_CONFIG_DATA_32
 #include "Can_43_FLEXCAN_MemMap.h"
@@ -197,7 +214,7 @@ static const uint32 Can_au32HwBufferAddr_Ctrl0[2U]=
 */
 static const uint8 Can_aCtrlOffsetToCtrlIDMap[CAN_43_FLEXCAN_HWCONTROLLER_SUPPORT]=
 {
-    (uint8)CAN_43_FLEXCAN_CONTROLLER_UNUSED,
+    (uint8)1,
     (uint8)CAN_43_FLEXCAN_CONTROLLER_UNUSED,
     (uint8)0
 };
@@ -207,7 +224,9 @@ static const uint8 Can_aCtrlOffsetToCtrlIDMap[CAN_43_FLEXCAN_HWCONTROLLER_SUPPOR
 */
 static const uint8 Can_aHwObjIDToCtrlIDMap[CAN_43_FLEXCAN_HWOBJECT_CONFIG_COUNT]=
 {
-    (uint8)0U
+    (uint8)1U,
+    (uint8)0U,
+    (uint8)1U
 };
 
 #define CAN_43_FLEXCAN_STOP_SEC_CONFIG_DATA_8
@@ -224,10 +243,41 @@ static const uint8 Can_aHwObjIDToCtrlIDMap[CAN_43_FLEXCAN_HWOBJECT_CONFIG_COUNT]
 /* @violates @ref Can_43_FLEXCAN_PBcfg_c_REF_5 MISRA 2012 Required Rule 8.4*/
 static const Can_43_FLEXCAN_HwObjectConfigType Can_aHwObjectConfig[CAN_43_FLEXCAN_HWOBJECT_CONFIG_COUNT]=
 {
-    /* MbsTxFlexCan2 of FlexCan2*/
+    /* Mb0RxFlexCan0 of FlexCan0*/
     {
         /* Hardware Object ID */
         (Can_HwHandleType)0U,
+        /* Hardware Object handle type */
+        CAN_RECEIVE,
+        /* ID Message type */
+        CAN_STANDARD,
+        /* Object uses polling */
+        (boolean)FALSE,
+        /* Object enable trigger transmit */
+        (boolean)FALSE,
+        /* Number of Hw Object used in one Hoh */
+        (uint8)1U,
+        /* MainFunction RW period reference */
+        (uint8)0xFFU,
+        /* Data Payload length */
+        (uint8)8U,
+        /* Padding value */
+        (uint8)0U,
+        /* Hardware Filter Count */
+        (uint8)1U,
+        /* Hw Filter Config */
+        &Can_aHwFilter_Object0,
+        /* Message Buffer is Rx normal */
+        CAN_RX_NORMAL,
+        /* Buffer Index in Message buffer ram */
+        (uint8)0U,
+        /* Message buffer address */
+        &Can_au32HwBufferAddr_Ctrl1[0U]
+    },
+    /* MbsTxFlexCan2 of FlexCan2*/
+    {
+        /* Hardware Object ID */
+        (Can_HwHandleType)1U,
         /* Hardware Object handle type */
         CAN_TRANSMIT,
         /* ID Message type */
@@ -254,6 +304,37 @@ static const Can_43_FLEXCAN_HwObjectConfigType Can_aHwObjectConfig[CAN_43_FLEXCA
         (uint8)0U,
         /* Message buffer address */
         &Can_au32HwBufferAddr_Ctrl0[0U]
+    },
+    /* MbsTxFlexCan0 of FlexCan0*/
+    {
+        /* Hardware Object ID */
+        (Can_HwHandleType)2U,
+        /* Hardware Object handle type */
+        CAN_TRANSMIT,
+        /* ID Message type */
+        CAN_STANDARD,
+        /* Object uses polling */
+        (boolean)FALSE,
+        /* Object enable trigger transmit */
+        (boolean)FALSE,
+        /* Number of Hw Object used in one Hoh */
+        (uint8)1U,
+        /* MainFunction RW period reference */
+        (uint8)0xFFU,
+        /* Data Payload length */
+        (uint8)8U,
+        /* Padding value */
+        (uint8)0U,
+        /* Hardware Filter Count */
+        (uint8)0U,
+        /* Hw Filter Config */
+        NULL_PTR,
+        /* Message Buffer is Tx normal */
+        CAN_TX_NORMAL,
+        /* Buffer Index in Message buffer ram */
+        (uint8)1U,
+        /* Message buffer address */
+        &Can_au32HwBufferAddr_Ctrl1[1U]
     }
 };
 
@@ -304,7 +385,57 @@ static const Can_43_FLEXCAN_BaudrateConfigType Can_aBaudrateConfig_Ctrl0[1U]=
 */
 static const Can_43_FLEXCAN_HwObjectConfigType * const Can_apHwObject_Ctrl0[1U]=
 {
-    &Can_aHwObjectConfig[0U]
+    &Can_aHwObjectConfig[1U]
+};
+/**
+*   @brief  Can Baudrate Config of FlexCan0
+*/
+static const Can_43_FLEXCAN_BaudrateConfigType Can_aBaudrateConfig_Ctrl1[1U]=
+{
+    {
+        /* Tx Bit Rate Switch */
+        (boolean)FALSE,
+        /* FD enable */
+        (boolean)FALSE,
+        /* Nominal bit rate */
+        {
+            (uint8)3U,
+            (uint8)6U,
+            (uint8)3U,
+            (uint16)29U,
+            #if (CAN_43_FLEXCAN_DUAL_CLOCK_MODE == STD_ON)
+            /* Alternative Baudrate Nominal Prescaler */
+            (uint16)9U,
+            #endif
+            (uint8)0U
+        },
+        
+        /* Data bit rate */
+        {
+        (uint8)0U,
+        (uint8)0U,
+        (uint8)0U,
+        (uint16)0U,
+        #if (CAN_43_FLEXCAN_DUAL_CLOCK_MODE == STD_ON)
+        (uint16)0U,
+        #endif
+        (uint8)0U
+        },
+        
+        /* Tx Arbitration Start delay */
+        (uint8)0U,
+        (boolean)FALSE,
+        (uint8)0U
+    }
+};
+
+/**
+*   @brief  HwObject's pointer structure of FlexCan0
+*/
+static const Can_43_FLEXCAN_HwObjectConfigType * const Can_apHwObject_Ctrl1[2U]=
+{
+    &Can_aHwObjectConfig[0U],
+    &Can_aHwObjectConfig[2U]
 };
 /* Inport external structure defined by IPW */
 CAN_43_FLEXCAN_IPW_EXT
@@ -323,7 +454,7 @@ static const Can_43_FLEXCAN_ControllerConfigType Can_aControllerConfig[CAN_43_FL
         /* Controller Base Address */
         FLEXCAN_2_BASE,
         /* Controller Activation */
-        (boolean)TRUE,
+        (boolean)FALSE,
         /* Bus Off uses polling */
         (boolean)FALSE,
         /* --- Default values when Legacy FIFO is not available --- */
@@ -356,6 +487,50 @@ static const Can_43_FLEXCAN_ControllerConfigType Can_aControllerConfig[CAN_43_FL
         #if (CAN_43_FLEXCAN_TIMESTAMP_ENABLE == STD_ON)
         ,(boolean)FALSE
         #endif /* (CAN_43_FLEXCAN_TIMESTAMP_ENABLE == STD_ON) */
+    },
+    {
+        /* Abstracted CanIf Controller ID */
+        (uint8)1U,
+        /* Controller ID */
+        (uint8)1U,
+        /* Controller Offset */
+        (uint8)0U,
+        /* Controller Base Address */
+        FLEXCAN_0_BASE,
+        /* Controller Activation */
+        (boolean)TRUE,
+        /* Bus Off uses polling */
+        (boolean)FALSE,
+        /* --- Default values when Legacy FIFO is not available --- */
+        /* Global mask of Legacy FIFO */
+        (uint32)0xFFFFFFFFU,
+        /* ID Acceptance Mode */
+        CAN_LEGACY_FIFO_FORMAT_A,
+        /* Legacy FIFO Warning Notification */
+        NULL_PTR,
+        /* Legacy FIFO Overflow Notification */
+        NULL_PTR,
+        #if (CAN_43_FLEXCAN_FEATURE_HAS_DMA_ENABLE == STD_ON)
+        /* FIFO Dma Error Notification is not used */
+        NULL_PTR,
+        /* DMA is not enabled */
+        NULL_PTR,
+        #endif /* (CAN_43_FLEXCAN_FEATURE_HAS_DMA_ENABLE == STD_ON) */
+        /* Default Baudrate ID */
+        (uint16)0U,
+        /* Baudrate config Count*/
+        (uint16)1U,
+        /* Baudrate config Pointer Structure */
+        Can_aBaudrateConfig_Ctrl1,
+        /* Pointer to IPW structure to IP config */
+        &Can_43_FLEXCANIpwHwChannelConfig1,
+        /* Hw Object reference count */
+        (uint8)2U,
+        /* Pointer point to Group of Hw Object that refer to Controller */
+        Can_apHwObject_Ctrl1
+        #if (CAN_43_FLEXCAN_TIMESTAMP_ENABLE == STD_ON)
+        ,(boolean)FALSE
+        #endif /* (CAN_43_FLEXCAN_TIMESTAMP_ENABLE == STD_ON) */
     }
 };
 
@@ -364,7 +539,8 @@ static const Can_43_FLEXCAN_ControllerConfigType Can_aControllerConfig[CAN_43_FL
 
 static const Can_43_FLEXCAN_ControllerConfigType * const Can_apController[CAN_43_FLEXCAN_CONTROLLER_CONFIG_COUNT]=
 {
-    &Can_aControllerConfig[0U]
+    &Can_aControllerConfig[0U],
+    &Can_aControllerConfig[1U]
 };
 /*==================================================================================================
 *                                      GLOBAL CONSTANTS
@@ -381,7 +557,7 @@ const Can_43_FLEXCAN_ConfigType Can_43_FLEXCAN_Config =
     /* Configuration Core ID */
     (uint32)0U,
     /* The HTH first Index after HRH consecutive */
-    (Can_HwHandleType)0U,
+    (Can_HwHandleType)1U,
     /* Mapping Controller ID to Controller Hw Offset */
     Can_aCtrlOffsetToCtrlIDMap,
     /* Mapping Controller ID to Hardware Object ID */

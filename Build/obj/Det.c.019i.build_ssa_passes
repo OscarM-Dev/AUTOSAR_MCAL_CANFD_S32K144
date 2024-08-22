@@ -9,7 +9,7 @@ Det_Start ()
 Det_ReportTransientFault (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 FaultId)
 {
   uint32 u32CoreId;
-  Std_ReturnType D.8825;
+  Std_ReturnType D.8831;
 
   <bb 2> :
   _1 = Sys_GetCoreID ();
@@ -18,11 +18,11 @@ Det_ReportTransientFault (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 
   Det_TransientInstanceId[u32CoreId] = InstanceId;
   Det_TransientApiId[u32CoreId] = ApiId;
   Det_TransientFaultId[u32CoreId] = FaultId;
-  D.8825 = 0;
+  D.8831 = 0;
 
   <bb 3> :
 <L0>:
-  return D.8825;
+  return D.8831;
 
 }
 
@@ -30,7 +30,7 @@ Det_ReportTransientFault (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 
 Det_ReportRuntimeError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
 {
   uint32 u32CoreId;
-  Std_ReturnType D.8823;
+  Std_ReturnType D.8829;
 
   <bb 2> :
   _1 = Sys_GetCoreID ();
@@ -39,11 +39,11 @@ Det_ReportRuntimeError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 Er
   Det_RuntimeInstanceId[u32CoreId] = InstanceId;
   Det_RuntimeApiId[u32CoreId] = ApiId;
   Det_RuntimeErrorId[u32CoreId] = ErrorId;
-  D.8823 = 0;
+  D.8829 = 0;
 
   <bb 3> :
 <L0>:
-  return D.8823;
+  return D.8829;
 
 }
 
@@ -52,7 +52,7 @@ Det_ReportError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
 {
   uint32 u32CoreId;
   const char * Strings_error[3];
-  Std_ReturnType D.8820;
+  Std_ReturnType D.8826;
 
   <bb 2> :
   _1 = Sys_GetCoreID ();
@@ -72,12 +72,12 @@ Det_ReportError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
   _7 = (int) InstanceId;
   _8 = Strings_error[2];
   SEGGER_RTT_printf (0, "Error: Error in %s in function %s with the instance %d, %s\n", _5, _6, _7, _8);
-  D.8820 = 0;
+  D.8826 = 0;
   Strings_error = {CLOBBER};
 
   <bb 3> :
 <L1>:
-  return D.8820;
+  return D.8826;
 
 }
 
@@ -86,7 +86,7 @@ Det_GetErrorMeaning (uint16 ModuleId, uint8 ErrorId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8818;
+  const char * D.8824;
 
   <bb 2> :
   i = 0;
@@ -120,11 +120,11 @@ Det_GetErrorMeaning (uint16 ModuleId, uint8 ErrorId)
     goto <bb 7>; [INV]
 
   <bb 7> :
-  D.8818 = StringPtr;
+  D.8824 = StringPtr;
 
   <bb 8> :
 <L5>:
-  return D.8818;
+  return D.8824;
 
 }
 
@@ -133,7 +133,7 @@ Det_GetApiName (uint16 ModuleId, uint8 ApiId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8814;
+  const char * D.8820;
 
   <bb 2> :
   i = 0;
@@ -167,11 +167,11 @@ Det_GetApiName (uint16 ModuleId, uint8 ApiId)
     goto <bb 7>; [INV]
 
   <bb 7> :
-  D.8814 = StringPtr;
+  D.8820 = StringPtr;
 
   <bb 8> :
 <L5>:
-  return D.8814;
+  return D.8820;
 
 }
 
@@ -180,7 +180,7 @@ Det_GetModuleName (uint16 ModuleId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8810;
+  const char * D.8816;
 
   <bb 2> :
   i = 0;
@@ -218,11 +218,11 @@ Det_GetModuleName (uint16 ModuleId)
     goto <bb 7>; [INV]
 
   <bb 7> :
-  D.8810 = StringPtr;
+  D.8816 = StringPtr;
 
   <bb 8> :
 <L5>:
-  return D.8810;
+  return D.8816;
 
 }
 
@@ -231,7 +231,7 @@ Det_SearchError (uint8 ModuleIndex, uint8 ErrorId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8806;
+  const char * D.8812;
 
   <bb 2> :
   i = 0;
@@ -282,11 +282,11 @@ Det_SearchError (uint8 ModuleIndex, uint8 ErrorId)
     goto <bb 7>; [INV]
 
   <bb 7> :
-  D.8806 = StringPtr;
+  D.8812 = StringPtr;
 
   <bb 8> :
 <L5>:
-  return D.8806;
+  return D.8812;
 
 }
 
@@ -295,7 +295,7 @@ Det_SearchApi (uint8 ModuleIndex, uint8 ApiId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8802;
+  const char * D.8808;
 
   <bb 2> :
   i = 0;
@@ -346,11 +346,11 @@ Det_SearchApi (uint8 ModuleIndex, uint8 ApiId)
     goto <bb 7>; [INV]
 
   <bb 7> :
-  D.8802 = StringPtr;
+  D.8808 = StringPtr;
 
   <bb 8> :
 <L5>:
-  return D.8802;
+  return D.8808;
 
 }
 

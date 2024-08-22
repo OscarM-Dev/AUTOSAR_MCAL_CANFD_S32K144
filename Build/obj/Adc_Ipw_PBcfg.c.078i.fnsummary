@@ -1,6 +1,6 @@
 Symbol table:
 
-PdbAdcIpConfig_1/6 (PdbAdcIpConfig_1) @06a1c558
+PdbAdcIpConfig_1/6 (PdbAdcIpConfig_1) @05c90558
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -8,7 +8,7 @@ PdbAdcIpConfig_1/6 (PdbAdcIpConfig_1) @06a1c558
   Referring: AdcIpwCfg/0 (addr) 
   Availability: not_available
   Varpool flags: read-only
-PdbAdcIpConfig_0/5 (PdbAdcIpConfig_0) @06a1c510
+PdbAdcIpConfig_0/5 (PdbAdcIpConfig_0) @05c90510
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -16,7 +16,7 @@ PdbAdcIpConfig_0/5 (PdbAdcIpConfig_0) @06a1c510
   Referring: AdcIpwCfg/0 (addr) 
   Availability: not_available
   Varpool flags: read-only
-AdcIpConfig_1/4 (AdcIpConfig_1) @06a1c4c8
+AdcIpConfig_1/4 (AdcIpConfig_1) @05c904c8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -24,7 +24,7 @@ AdcIpConfig_1/4 (AdcIpConfig_1) @06a1c4c8
   Referring: AdcIpwCfg/0 (addr) 
   Availability: not_available
   Varpool flags: read-only
-AdcIpConfig_0/3 (AdcIpConfig_0) @06a1c480
+AdcIpConfig_0/3 (AdcIpConfig_0) @05c90480
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -32,21 +32,21 @@ AdcIpConfig_0/3 (AdcIpConfig_0) @06a1c480
   Referring: AdcIpwCfg/0 (addr) 
   Availability: not_available
   Varpool flags: read-only
-AdcIpwGroupConfig_1/2 (AdcIpwGroupConfig_1) @06a1c360
+AdcIpwGroupConfig_1/2 (AdcIpwGroupConfig_1) @05c90360
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-AdcIpwGroupConfig_0/1 (AdcIpwGroupConfig_0) @06a1c2d0
+AdcIpwGroupConfig_0/1 (AdcIpwGroupConfig_0) @05c902d0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-AdcIpwCfg/0 (AdcIpwCfg) @06a1c240
+AdcIpwCfg/0 (AdcIpwCfg) @05c90240
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: AdcIpConfig_0/3 (addr) AdcIpConfig_1/4 (addr) PdbAdcIpConfig_0/5 (addr) PdbAdcIpConfig_1/6 (addr) 

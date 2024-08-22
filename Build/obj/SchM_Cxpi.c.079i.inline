@@ -17,7 +17,7 @@ Why inlining failed?
 IPA summary for Cxpi_schm_read_msr/0 is missing.
 Symbol table:
 
-Cxpi_schm_read_msr/0 (Cxpi_schm_read_msr) @06ae51c0
+Cxpi_schm_read_msr/0 (Cxpi_schm_read_msr) @05d471c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

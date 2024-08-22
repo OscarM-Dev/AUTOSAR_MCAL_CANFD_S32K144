@@ -341,7 +341,7 @@ const Clock_Ip_ClockConfigType Mcu_aClockConfigPB[1U] = {
             #if CLOCK_IP_SELECTORS_NO > 10U
             {
                 LPSPI1_CLK,                     /* Clock name associated to selector */
-                CLOCK_IS_OFF,                       /* Name of the selected input source */
+                SIRCDIV2_CLK,                       /* Name of the selected input source */
             },
             #endif
         
@@ -738,7 +738,7 @@ const Clock_Ip_ClockConfigType Mcu_aClockConfigPB[1U] = {
             #if CLOCK_IP_GATES_NO > 6U
             {
                 FLEXCAN0_CLK,                  /*!<     name;                    */
-                0U,                           /*!<     enable;                  */
+                1U,                           /*!<     enable;                  */
             },
             #endif
             #if CLOCK_IP_GATES_NO > 7U
@@ -810,7 +810,7 @@ const Clock_Ip_ClockConfigType Mcu_aClockConfigPB[1U] = {
             #if CLOCK_IP_GATES_NO > 18U
             {
                 LPSPI1_CLK,                  /*!<     name;                    */
-                0U,                           /*!<     enable;                  */
+                1U,                           /*!<     enable;                  */
             },
             #endif
             #if CLOCK_IP_GATES_NO > 19U

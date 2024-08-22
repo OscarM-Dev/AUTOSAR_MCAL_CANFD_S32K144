@@ -4,7 +4,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Symbol table:
 
-NVIC_SetPriority/3 (NVIC_SetPriority) @05f52460
+NVIC_SetPriority/3 (NVIC_SetPriority) @06002460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -13,7 +13,7 @@ NVIC_SetPriority/3 (NVIC_SetPriority) @05f52460
   Function flags: body
   Called by: 
   Calls: 
-NVIC_DisableIRQ/2 (NVIC_DisableIRQ) @05f521c0
+NVIC_DisableIRQ/2 (NVIC_DisableIRQ) @060021c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -22,7 +22,7 @@ NVIC_DisableIRQ/2 (NVIC_DisableIRQ) @05f521c0
   Function flags: body
   Called by: 
   Calls: 
-NVIC_EnableIRQ/1 (NVIC_EnableIRQ) @05f36ee0
+NVIC_EnableIRQ/1 (NVIC_EnableIRQ) @05fe6ee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -31,7 +31,7 @@ NVIC_EnableIRQ/1 (NVIC_EnableIRQ) @05f36ee0
   Function flags: body
   Called by: 
   Calls: 
-NVIC_SetPriorityGrouping/0 (NVIC_SetPriorityGrouping) @05f36e00
+NVIC_SetPriorityGrouping/0 (NVIC_SetPriorityGrouping) @05fe6e00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

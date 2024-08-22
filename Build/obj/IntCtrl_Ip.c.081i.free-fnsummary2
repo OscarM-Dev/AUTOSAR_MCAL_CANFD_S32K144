@@ -9,7 +9,7 @@ IntCtrl_Ip_ClearPending (IRQn_Type eIrqNumber)
 
 IntCtrl_Ip_GetPriority (IRQn_Type eIrqNumber)
 {
-  uint8 D.6144;
+  uint8 D.6150;
   uint8 _4;
 
   <bb 2> :
@@ -61,7 +61,7 @@ IntCtrl_Ip_InstallHandler (IRQn_Type eIrqNumber, void (*IntCtrl_Ip_IrqHandlerTyp
 IntCtrl_Ip_Init (const struct IntCtrl_Ip_CtrlConfigType * pIntCtrlCtrlConfig)
 {
   uint32 irqIdx;
-  IntCtrl_Ip_StatusType D.6142;
+  IntCtrl_Ip_StatusType D.6148;
   _Bool _1;
   long unsigned int _2;
   _Bool _3;
@@ -210,7 +210,7 @@ IntCtrl_Ip_GetPriorityPrivileged (IRQn_Type eIrqNumber)
 {
   uint8 shift;
   uint8 priority;
-  uint8 D.6137;
+  uint8 D.6143;
   _Bool _1;
   _Bool _2;
   struct S32_NVIC_Type * _3;

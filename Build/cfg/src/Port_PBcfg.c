@@ -140,6 +140,12 @@ static const uint32 au32Port_PinToPartitionMap[PORT_MAX_CONFIGURED_PADS_U16] =
     (uint32)0x00000001,
     (uint32)0x00000001,
     (uint32)0x00000001,
+    (uint32)0x00000001,
+    (uint32)0x00000001,
+    (uint32)0x00000001,
+    (uint32)0x00000001,
+    (uint32)0x00000001,
+    (uint32)0x00000001,
     (uint32)0x00000001
 };
 #define PORT_STOP_SEC_CONFIG_DATA_32
@@ -179,10 +185,6 @@ static const uint16 Port_au16NoUnUsedPadsArrayDefault[PORT_MAX_UNUSED_PADS_U16]=
     (uint16)42,
     (uint16)43,
     (uint16)44,
-    (uint16)46,
-    (uint16)47,
-    (uint16)48,
-    (uint16)49,
     (uint16)64,
     (uint16)65,
     (uint16)66,
@@ -212,8 +214,6 @@ static const uint16 Port_au16NoUnUsedPadsArrayDefault[PORT_MAX_UNUSED_PADS_U16]=
     (uint16)129,
     (uint16)130,
     (uint16)131,
-    (uint16)132,
-    (uint16)133,
     (uint16)134,
     (uint16)135,
     (uint16)136,
@@ -273,7 +273,19 @@ static const Port_PinConfigType Port_aPinConfigDefault[PORT_MAX_CONFIGURED_PADS_
     /* PCR Id, PCR Value, Output Level, Direction, IsGpio, Direction Configurable, Mode Changeable */
     {(uint16)80, (uint32)0x00000300, (uint8)0, (Port_PinDirectionType)1, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE},
     /* PCR Id, PCR Value, Output Level, Direction, IsGpio, Direction Configurable, Mode Changeable */
-    {(uint16)81, (uint32)0x00000300, (uint8)0, (Port_PinDirectionType)2, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE}
+    {(uint16)81, (uint32)0x00000300, (uint8)0, (Port_PinDirectionType)2, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE},
+    /* PCR Id, PCR Value, Output Level, Direction, IsGpio, Direction Configurable, Mode Changeable */
+    {(uint16)46, (uint32)0x00000300, (uint8)0, (Port_PinDirectionType)2, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE},
+    /* PCR Id, PCR Value, Output Level, Direction, IsGpio, Direction Configurable, Mode Changeable */
+    {(uint16)47, (uint32)0x00000300, (uint8)0, (Port_PinDirectionType)1, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE},
+    /* PCR Id, PCR Value, Output Level, Direction, IsGpio, Direction Configurable, Mode Changeable */
+    {(uint16)48, (uint32)0x00000300, (uint8)0, (Port_PinDirectionType)2, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE},
+    /* PCR Id, PCR Value, Output Level, Direction, IsGpio, Direction Configurable, Mode Changeable */
+    {(uint16)49, (uint32)0x00000300, (uint8)0, (Port_PinDirectionType)2, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE},
+    /* PCR Id, PCR Value, Output Level, Direction, IsGpio, Direction Configurable, Mode Changeable */
+    {(uint16)132, (uint32)0x00000500, (uint8)0, (Port_PinDirectionType)1, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE},
+    /* PCR Id, PCR Value, Output Level, Direction, IsGpio, Direction Configurable, Mode Changeable */
+    {(uint16)133, (uint32)0x00000500, (uint8)0, (Port_PinDirectionType)2, (boolean)FALSE, (boolean)FALSE, (boolean)TRUE}
 
 };
 

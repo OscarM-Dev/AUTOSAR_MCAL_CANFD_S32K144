@@ -12,6 +12,7 @@
 #include "OsIf.h"
 #include "Platform.h"
 #include "Port.h"
+#include "Spi.h"
 #include "Can_43_FLEXCAN.h"
 #include "CanIf.h"
 #include "CanIf_Cdd.h"

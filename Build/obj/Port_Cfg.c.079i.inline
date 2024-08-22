@@ -15,7 +15,7 @@ Overall time estimate: 0.000000 weighted by profile: 0.000000
 Why inlining failed?
 Symbol table:
 
-Port_au16PinDescription/1 (Port_au16PinDescription) @0698cf78
+Port_au16PinDescription/1 (Port_au16PinDescription) @05d8e1f8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

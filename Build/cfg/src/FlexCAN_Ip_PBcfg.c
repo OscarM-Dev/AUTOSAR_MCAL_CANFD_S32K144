@@ -122,9 +122,72 @@ extern "C"{
 #define CAN_43_FLEXCAN_START_SEC_CONFIG_DATA_UNSPECIFIED
 #include "Can_43_FLEXCAN_MemMap.h"
 
-const Flexcan_Ip_ConfigType Flexcan_aCtrlConfigPB[1U]=
+const Flexcan_Ip_ConfigType Flexcan_aCtrlConfigPB[2U]=
 {
     /* Can Hardware Channel FLEXCAN_2 */
+    {
+        /* Number Of Message Buffer used .max_num_mb */
+        (uint8)2U,
+        /*Can Hw filter count* .num_id_filters */
+        (Flexcan_Ip_RxFifoIdFilterNumType)0U,
+        /* Legacy FIFO ENABLED .is_rx_fifo_needed */
+        (boolean)FALSE,
+        #if (FLEXCAN_IP_FEATURE_HAS_ENHANCED_RX_FIFO == STD_ON)
+        /* The number of standard ID filter elements */
+        0U,
+        /* The number of extended ID filter elements */
+        0U,
+        /* The number of enhanced Rx FIFO watermark */
+        -1U,
+        /* The Enhanced Rx FIFO feature is enabled or not. */
+        (boolean)FALSE,
+        #endif
+        /* Loopback enabled .flexcanMode */
+        FLEXCAN_NORMAL_MODE,
+        /* Controller Options .ctrlOptions */
+        (uint32)(FLEXCAN_IP_EACEN_U32),
+        /* Can FD RamBlock specified .payload */
+        {
+            FLEXCAN_PAYLOAD_SIZE_8
+        },
+        /* Can FD enabled .fd_enable */
+        (boolean)FALSE,
+        #if (FLEXCAN_IP_FEATURE_HAS_PE_CLKSRC_SELECT == STD_ON)
+        /* Can PE clock selected .is_pe_clock */
+        (boolean)TRUE,
+        #endif
+        /* Cbt support .extCbtEnable */
+        (boolean)FALSE,
+        /*  BRS for FD .bitRateSwitch */
+        (boolean)FALSE,
+        /* Values for normal baudrate .bitrate */
+        {
+            (uint8)3U,
+            (uint8)6U,
+            (uint8)3U,
+            (uint16)29,
+            (uint8)0U
+        },
+        /* Values for CBT baudrate .bitrate_cbt */
+        {
+            (uint8)4U,
+            (uint8)6U,
+            (uint8)3U,
+            (uint16)29U,
+            (uint8)0U
+        },
+        /* Fifo Transfer Type .transfer_type */
+        FLEXCAN_RXFIFO_USING_INTERRUPTS,
+        #if (FLEXCAN_IP_FEATURE_HAS_DMA_ENABLE == STD_ON)
+        /* DMA channel number used for transfers. */
+        (uint8)0U,
+        #endif
+        /* Controller Callback .Callback */
+        Can_43_FLEXCAN_CommonIrqCallback,
+        /* Error Callback .ErrorCallback */
+        Can_43_FLEXCAN_ErrorIrqCallback
+    },
+    /* Can Hardware Channel FLEXCAN_0 */
     {
         /* Number Of Message Buffer used .max_num_mb */
         (uint8)2U,

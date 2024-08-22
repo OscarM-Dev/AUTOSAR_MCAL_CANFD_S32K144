@@ -92,7 +92,7 @@ extern "C" {
 /** 
 * @brief This constant used for other modules to check if ADC is present in the project.   
 */
-#define USE_ADC_MODULE              (STD_OFF)
+#define USE_ADC_MODULE              (STD_ON)
 
 /** 
 * @brief This constant used for other modules to check if CAN is present in the project.   

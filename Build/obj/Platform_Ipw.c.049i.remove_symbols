@@ -4,7 +4,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Symbol table:
 
-IntCtrl_Ip_DisableIrq/11 (IntCtrl_Ip_DisableIrq) @06d3b7e0
+IntCtrl_Ip_DisableIrq/11 (IntCtrl_Ip_DisableIrq) @061b0b60
   Type: function
   Visibility: external public
   References: 
@@ -13,7 +13,7 @@ IntCtrl_Ip_DisableIrq/11 (IntCtrl_Ip_DisableIrq) @06d3b7e0
   Function flags:
   Called by: Platform_Ipw_InitIntCtrl/5 
   Calls: 
-IntCtrl_Ip_EnableIrq/10 (IntCtrl_Ip_EnableIrq) @06d3b700
+IntCtrl_Ip_EnableIrq/10 (IntCtrl_Ip_EnableIrq) @061b0a80
   Type: function
   Visibility: external public
   References: 
@@ -22,7 +22,7 @@ IntCtrl_Ip_EnableIrq/10 (IntCtrl_Ip_EnableIrq) @06d3b700
   Function flags:
   Called by: Platform_Ipw_InitIntCtrl/5 
   Calls: 
-IntCtrl_Ip_InstallHandler/9 (IntCtrl_Ip_InstallHandler) @06d3b620
+IntCtrl_Ip_InstallHandler/9 (IntCtrl_Ip_InstallHandler) @061b09a0
   Type: function
   Visibility: external public
   References: 
@@ -31,7 +31,7 @@ IntCtrl_Ip_InstallHandler/9 (IntCtrl_Ip_InstallHandler) @06d3b620
   Function flags:
   Called by: Platform_Ipw_InitIntCtrl/5 
   Calls: 
-IntCtrl_Ip_SetPriority/8 (IntCtrl_Ip_SetPriority) @06d3b540
+IntCtrl_Ip_SetPriority/8 (IntCtrl_Ip_SetPriority) @061b08c0
   Type: function
   Visibility: external public
   References: 
@@ -40,7 +40,7 @@ IntCtrl_Ip_SetPriority/8 (IntCtrl_Ip_SetPriority) @06d3b540
   Function flags:
   Called by: Platform_Ipw_InitIntCtrl/5 
   Calls: 
-IntCtrl_Ip_ClearPending/7 (IntCtrl_Ip_ClearPending) @06d3b460
+IntCtrl_Ip_ClearPending/7 (IntCtrl_Ip_ClearPending) @061b07e0
   Type: function
   Visibility: external public
   References: 
@@ -49,7 +49,7 @@ IntCtrl_Ip_ClearPending/7 (IntCtrl_Ip_ClearPending) @06d3b460
   Function flags:
   Called by: Platform_Ipw_InitIntCtrl/5 
   Calls: 
-Platform_Ipw_Init/6 (Platform_Ipw_Init) @06d3b000
+Platform_Ipw_Init/6 (Platform_Ipw_Init) @061b0380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -58,7 +58,7 @@ Platform_Ipw_Init/6 (Platform_Ipw_Init) @06d3b000
   Function flags: body
   Called by: 
   Calls: Platform_Ipw_InitIntCtrl/5 
-Platform_Ipw_InitIntCtrl/5 (Platform_Ipw_InitIntCtrl) @06d35ee0
+Platform_Ipw_InitIntCtrl/5 (Platform_Ipw_InitIntCtrl) @061b00e0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
@@ -105,7 +105,7 @@ Platform_Ipw_Init (const struct Platform_Ipw_ConfigType * pConfig)
 Platform_Ipw_InitIntCtrl (const struct IntCtrl_Ip_CtrlConfigType * pIntCtrlCtrlConfig)
 {
   uint32 irqIdx;
-  Std_ReturnType D.6261;
+  Std_ReturnType D.6267;
   const struct IntCtrl_Ip_IrqConfigType * _1;
   long unsigned int _2;
   const struct IntCtrl_Ip_IrqConfigType * _3;

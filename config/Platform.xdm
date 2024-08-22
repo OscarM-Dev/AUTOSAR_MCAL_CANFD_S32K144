@@ -95,6 +95,30 @@
                       <d:var name="IsrHandler" type="FUNCTION-NAME" 
                              value="CAN2_ORED_0_15_MB_IRQHandler"/>
                     </d:ctr>
+                    <d:ctr name="FlexCan0_ISR0" type="IDENTIFIABLE">
+                      <d:var name="IsrName" type="ENUMERATION" 
+                             value="CAN0_ORed_IRQn"/>
+                      <d:var name="IsrEnabled" type="BOOLEAN" value="true"/>
+                      <d:var name="IsrPriority" type="INTEGER" value="15"/>
+                      <d:var name="IsrHandler" type="FUNCTION-NAME" 
+                             value="CAN0_ORED_IRQHandler"/>
+                    </d:ctr>
+                    <d:ctr name="FlexCan0_ISR1" type="IDENTIFIABLE">
+                      <d:var name="IsrName" type="ENUMERATION" 
+                             value="CAN0_Error_IRQn"/>
+                      <d:var name="IsrEnabled" type="BOOLEAN" value="true"/>
+                      <d:var name="IsrPriority" type="INTEGER" value="15"/>
+                      <d:var name="IsrHandler" type="FUNCTION-NAME" 
+                             value="CAN0_Error_IRQHandler"/>
+                    </d:ctr>
+                    <d:ctr name="FlexCan0_ISR2" type="IDENTIFIABLE">
+                      <d:var name="IsrName" type="ENUMERATION" 
+                             value="CAN0_ORed_0_15_MB_IRQn"/>
+                      <d:var name="IsrEnabled" type="BOOLEAN" value="true"/>
+                      <d:var name="IsrPriority" type="INTEGER" value="15"/>
+                      <d:var name="IsrHandler" type="FUNCTION-NAME" 
+                             value="CAN0_ORED_0_15_MB_IRQHandler"/>
+                    </d:ctr>
                   </d:lst>
                   <d:ref name="PlatformNvicEcucPartitionRef" type="REFERENCE" >
                     <a:a name="ENABLE" value="false"/>

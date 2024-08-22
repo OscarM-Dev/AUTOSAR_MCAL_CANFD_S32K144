@@ -34,7 +34,7 @@ IPA summary for Pwm_Ipw_InitInstance/4 is missing.
 IPA summary for Pwm_Ipw_Init/3 is missing.
 Symbol table:
 
-Ftm_Pwm_Ip_SwOutputControl/18 (Ftm_Pwm_Ip_SwOutputControl) @05d5a0e0
+Ftm_Pwm_Ip_SwOutputControl/18 (Ftm_Pwm_Ip_SwOutputControl) @06a710e0
   Type: function
   Visibility: external public
   References: 
@@ -43,7 +43,7 @@ Ftm_Pwm_Ip_SwOutputControl/18 (Ftm_Pwm_Ip_SwOutputControl) @05d5a0e0
   Function flags:
   Called by: Pwm_Ipw_SetOutputToIdle/9 
   Calls: 
-Ftm_Pwm_Ip_aChannelState/17 (Ftm_Pwm_Ip_aChannelState) @05d60a20
+Ftm_Pwm_Ip_aChannelState/17 (Ftm_Pwm_Ip_aChannelState) @06a77a20
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -51,7 +51,7 @@ Ftm_Pwm_Ip_aChannelState/17 (Ftm_Pwm_Ip_aChannelState) @05d60a20
   Referring: Pwm_Ipw_SetOutputToIdle/9 (read) Pwm_Ipw_SetOutputToIdle/9 (write) 
   Availability: not_available
   Varpool flags:
-Ftm_Pwm_Ip_UpdatePwmPeriodAndDuty/16 (Ftm_Pwm_Ip_UpdatePwmPeriodAndDuty) @05d5ae00
+Ftm_Pwm_Ip_UpdatePwmPeriodAndDuty/16 (Ftm_Pwm_Ip_UpdatePwmPeriodAndDuty) @06a71e00
   Type: function
   Visibility: external public
   References: 
@@ -60,7 +60,7 @@ Ftm_Pwm_Ip_UpdatePwmPeriodAndDuty/16 (Ftm_Pwm_Ip_UpdatePwmPeriodAndDuty) @05d5ae
   Function flags:
   Called by: Pwm_Ipw_SetPeriodAndDuty/8 
   Calls: 
-Ftm_Pwm_Ip_UpdatePwmDutyCycleChannel/15 (Ftm_Pwm_Ip_UpdatePwmDutyCycleChannel) @05d5ac40
+Ftm_Pwm_Ip_UpdatePwmDutyCycleChannel/15 (Ftm_Pwm_Ip_UpdatePwmDutyCycleChannel) @06a71c40
   Type: function
   Visibility: external public
   References: 
@@ -69,7 +69,7 @@ Ftm_Pwm_Ip_UpdatePwmDutyCycleChannel/15 (Ftm_Pwm_Ip_UpdatePwmDutyCycleChannel) @
   Function flags:
   Called by: Pwm_Ipw_SetDutyCycle/7 
   Calls: 
-Ftm_Pwm_Ip_aPeriod/14 (Ftm_Pwm_Ip_aPeriod) @05d60438
+Ftm_Pwm_Ip_aPeriod/14 (Ftm_Pwm_Ip_aPeriod) @06a77438
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -77,7 +77,7 @@ Ftm_Pwm_Ip_aPeriod/14 (Ftm_Pwm_Ip_aPeriod) @05d60438
   Referring: Pwm_Ipw_SetDutyCycle/7 (read) 
   Availability: not_available
   Varpool flags:
-Ftm_Pwm_Ip_DeInit/13 (Ftm_Pwm_Ip_DeInit) @05d5aa80
+Ftm_Pwm_Ip_DeInit/13 (Ftm_Pwm_Ip_DeInit) @06a71a80
   Type: function
   Visibility: external public
   References: 
@@ -86,7 +86,7 @@ Ftm_Pwm_Ip_DeInit/13 (Ftm_Pwm_Ip_DeInit) @05d5aa80
   Function flags:
   Called by: Pwm_Ipw_DeInitInstance/6 
   Calls: 
-Ftm_Pwm_Ip_Init/12 (Ftm_Pwm_Ip_Init) @05d5a7e0
+Ftm_Pwm_Ip_Init/12 (Ftm_Pwm_Ip_Init) @06a717e0
   Type: function
   Visibility: external public
   References: 
@@ -95,7 +95,7 @@ Ftm_Pwm_Ip_Init/12 (Ftm_Pwm_Ip_Init) @05d5a7e0
   Function flags:
   Called by: Pwm_Ipw_InitInstance/4 
   Calls: 
-Pwm_Ipw_GetMaxPeriodValue/11 (Pwm_Ipw_GetMaxPeriodValue) @05d5a2a0
+Pwm_Ipw_GetMaxPeriodValue/11 (Pwm_Ipw_GetMaxPeriodValue) @06a712a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -104,7 +104,7 @@ Pwm_Ipw_GetMaxPeriodValue/11 (Pwm_Ipw_GetMaxPeriodValue) @05d5a2a0
   Function flags: body
   Called by: 
   Calls: 
-Pwm_Ipw_ValidateSetOutPutToIdle/10 (Pwm_Ipw_ValidateSetOutPutToIdle) @05d5a000
+Pwm_Ipw_ValidateSetOutPutToIdle/10 (Pwm_Ipw_ValidateSetOutPutToIdle) @06a71000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -113,7 +113,7 @@ Pwm_Ipw_ValidateSetOutPutToIdle/10 (Pwm_Ipw_ValidateSetOutPutToIdle) @05d5a000
   Function flags: body
   Called by: 
   Calls: 
-Pwm_Ipw_SetOutputToIdle/9 (Pwm_Ipw_SetOutputToIdle) @05e8ca80
+Pwm_Ipw_SetOutputToIdle/9 (Pwm_Ipw_SetOutputToIdle) @06ba3a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Ftm_Pwm_Ip_aChannelState/17 (read) Ftm_Pwm_Ip_aChannelState/17 (write) Pwm_Ipw_aFtmDutyCycle/2 (write) 
@@ -122,7 +122,7 @@ Pwm_Ipw_SetOutputToIdle/9 (Pwm_Ipw_SetOutputToIdle) @05e8ca80
   Function flags: body
   Called by: 
   Calls: Ftm_Pwm_Ip_SwOutputControl/18 
-Pwm_Ipw_SetPeriodAndDuty/8 (Pwm_Ipw_SetPeriodAndDuty) @05e8c540
+Pwm_Ipw_SetPeriodAndDuty/8 (Pwm_Ipw_SetPeriodAndDuty) @06ba3540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Pwm_Ipw_aFtmDutyCycle/2 (write) 
@@ -131,7 +131,7 @@ Pwm_Ipw_SetPeriodAndDuty/8 (Pwm_Ipw_SetPeriodAndDuty) @05e8c540
   Function flags: body
   Called by: 
   Calls: Ftm_Pwm_Ip_UpdatePwmPeriodAndDuty/16 
-Pwm_Ipw_SetDutyCycle/7 (Pwm_Ipw_SetDutyCycle) @05e8cee0
+Pwm_Ipw_SetDutyCycle/7 (Pwm_Ipw_SetDutyCycle) @06ba3ee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Ftm_Pwm_Ip_aPeriod/14 (read) Pwm_Ipw_aFtmDutyCycle/2 (write) 
@@ -140,7 +140,7 @@ Pwm_Ipw_SetDutyCycle/7 (Pwm_Ipw_SetDutyCycle) @05e8cee0
   Function flags: body
   Called by: 
   Calls: Ftm_Pwm_Ip_UpdatePwmDutyCycleChannel/15 
-Pwm_Ipw_DeInitInstance/6 (Pwm_Ipw_DeInitInstance) @05e8cc40
+Pwm_Ipw_DeInitInstance/6 (Pwm_Ipw_DeInitInstance) @06ba3c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -149,7 +149,7 @@ Pwm_Ipw_DeInitInstance/6 (Pwm_Ipw_DeInitInstance) @05e8cc40
   Function flags: body
   Called by: 
   Calls: Ftm_Pwm_Ip_DeInit/13 
-Pwm_Ipw_DeInit/5 (Pwm_Ipw_DeInit) @05e8c9a0
+Pwm_Ipw_DeInit/5 (Pwm_Ipw_DeInit) @06ba39a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Pwm_Ipw_aFtmDutyCycle/2 (write) 
@@ -158,7 +158,7 @@ Pwm_Ipw_DeInit/5 (Pwm_Ipw_DeInit) @05e8c9a0
   Function flags: body
   Called by: 
   Calls: 
-Pwm_Ipw_InitInstance/4 (Pwm_Ipw_InitInstance) @05e8c700
+Pwm_Ipw_InitInstance/4 (Pwm_Ipw_InitInstance) @06ba3700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Ftm_Pwm_Ip_aPolarity/1 (write) 
@@ -167,7 +167,7 @@ Pwm_Ipw_InitInstance/4 (Pwm_Ipw_InitInstance) @05e8c700
   Function flags: body
   Called by: 
   Calls: Ftm_Pwm_Ip_Init/12 
-Pwm_Ipw_Init/3 (Pwm_Ipw_Init) @05e8c460
+Pwm_Ipw_Init/3 (Pwm_Ipw_Init) @06ba3460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Pwm_Ipw_aFtmDutyCycle/2 (write) 
@@ -176,14 +176,14 @@ Pwm_Ipw_Init/3 (Pwm_Ipw_Init) @05e8c460
   Function flags: body
   Called by: 
   Calls: 
-Pwm_Ipw_aFtmDutyCycle/2 (Pwm_Ipw_aFtmDutyCycle) @05e88948
+Pwm_Ipw_aFtmDutyCycle/2 (Pwm_Ipw_aFtmDutyCycle) @06b9f948
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Pwm_Ipw_SetDutyCycle/7 (write) Pwm_Ipw_SetPeriodAndDuty/8 (write) Pwm_Ipw_Init/3 (write) Pwm_Ipw_DeInit/5 (write) Pwm_Ipw_SetOutputToIdle/9 (write) 
   Availability: available
   Varpool flags:
-Ftm_Pwm_Ip_aPolarity/1 (Ftm_Pwm_Ip_aPolarity) @05e88870
+Ftm_Pwm_Ip_aPolarity/1 (Ftm_Pwm_Ip_aPolarity) @06b9f870
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

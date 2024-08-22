@@ -1,0 +1,10 @@
+Lpspi_Ip_LPSPI_1_IRQHandler ()
+{
+  <bb 2> :
+  Lpspi_Ip_IrqHandler (1);
+  __asm__ __volatile__(" DSB");
+  return;
+
+}
+
+

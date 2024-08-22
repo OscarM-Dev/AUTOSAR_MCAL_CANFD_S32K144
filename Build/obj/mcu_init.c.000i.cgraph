@@ -3,7 +3,7 @@ Trivially needed symbols: Delay/7 EcuM_Init/6 MCU_clocks/5
 
 Initial Symbol table:
 
-OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a450b60
   Type: function
   Visibility: external public
   References: 
@@ -11,7 +11,7 @@ OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
+OsIf_GetCounter/23 (OsIf_GetCounter) @0a450a80
   Type: function
   Visibility: external public
   References: 
@@ -19,7 +19,7 @@ OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4509a0
   Type: function
   Visibility: external public
   References: 
@@ -27,14 +27,14 @@ OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
   Function flags:
   Called by: Delay/7 
   Calls: 
-CanIf_Config/19 (CanIf_Config) @06766ea0
+CanIf_Config/21 (CanIf_Config) @0a44eab0
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-CanIf_Init/18 (CanIf_Init) @0676ba80
+CanIf_Init/20 (CanIf_Init) @0a4507e0
   Type: function
   Visibility: external public
   References: 
@@ -42,14 +42,14 @@ CanIf_Init/18 (CanIf_Init) @0676ba80
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Can_43_FLEXCAN_Config/17 (Can_43_FLEXCAN_Config) @06766e10
+Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0a44ea20
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
+Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a450700
   Type: function
   Visibility: external public
   References: 
@@ -57,14 +57,14 @@ Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Port_Config/15 (Port_Config) @06766d80
+Spi_Config/17 (Spi_Config) @0a44e990
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Port_Init/14 (Port_Init) @0676b8c0
+Spi_Init/16 (Spi_Init) @0a450620
   Type: function
   Visibility: external public
   References: 
@@ -72,7 +72,14 @@ Port_Init/14 (Port_Init) @0676b8c0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Platform_Init/13 (Platform_Init) @0676b7e0
+Port_Config/15 (Port_Config) @0a44e900
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: EcuM_Init/6 (addr) 
+  Availability: not-ready
+  Varpool flags: read-only
+Port_Init/14 (Port_Init) @0a450540
   Type: function
   Visibility: external public
   References: 
@@ -80,7 +87,7 @@ Platform_Init/13 (Platform_Init) @0676b7e0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-OsIf_Init/12 (OsIf_Init) @0676b700
+Platform_Init/13 (Platform_Init) @0a450460
   Type: function
   Visibility: external public
   References: 
@@ -88,7 +95,15 @@ OsIf_Init/12 (OsIf_Init) @0676b700
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Mcu_InitClock/11 (Mcu_InitClock) @0676b540
+OsIf_Init/12 (OsIf_Init) @0a450380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: EcuM_Init/6 
+  Calls: 
+Mcu_InitClock/11 (Mcu_InitClock) @0a4501c0
   Type: function
   Visibility: external public
   References: 
@@ -96,7 +111,7 @@ Mcu_InitClock/11 (Mcu_InitClock) @0676b540
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_SetMode/10 (Mcu_SetMode) @0676b460
+Mcu_SetMode/10 (Mcu_SetMode) @0a4500e0
   Type: function
   Visibility: external public
   References: 
@@ -104,14 +119,14 @@ Mcu_SetMode/10 (Mcu_SetMode) @0676b460
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_Config/9 (Mcu_Config) @06766a68
+Mcu_Config/9 (Mcu_Config) @0a44e5e8
   Type: variable
   Visibility: external public
   References: 
   Referring: MCU_clocks/5 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Mcu_Init/8 (Mcu_Init) @0676b380
+Mcu_Init/8 (Mcu_Init) @0a450000
   Type: function
   Visibility: external public
   References: 
@@ -119,7 +134,7 @@ Mcu_Init/8 (Mcu_Init) @0676b380
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Delay/7 (Delay) @06765d20
+Delay/7 (Delay) @0a44ce00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -127,26 +142,26 @@ Delay/7 (Delay) @06765d20
   Referring: 
   Function flags: body
   Called by: 
-  Calls: OsIf_GetElapsed/22 OsIf_GetCounter/21 OsIf_MicrosToTicks/20 
-EcuM_Init/6 (EcuM_Init) @06765ee0
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+EcuM_Init/6 (EcuM_Init) @0a44cb60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06765d20
-  References: Port_Config/15 (addr) Can_43_FLEXCAN_Config/17 (addr) CanIf_Config/19 (addr) 
+  Aux: @0a44ce00
+  References: Port_Config/15 (addr) Spi_Config/17 (addr) Can_43_FLEXCAN_Config/19 (addr) CanIf_Config/21 (addr) 
   Referring: 
   Function flags: body
   Called by: 
-  Calls: CanIf_Init/18 Can_43_FLEXCAN_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
-MCU_clocks/5 (MCU_clocks) @06765c40
+  Calls: CanIf_Init/20 Can_43_FLEXCAN_Init/18 Spi_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
+MCU_clocks/5 (MCU_clocks) @0a44c8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06765ee0
+  Aux: @0a44cb60
   References: Mcu_Config/9 (addr) 
   Referring: 
   Function flags: body
   Called by: EcuM_Init/6 
   Calls: Mcu_InitClock/11 Mcu_SetMode/10 Mcu_Init/8 
-Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @05f9f1c0
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @06c0f460
   Type: function definition
   Visibility: no_reorder
   References: 
@@ -154,7 +169,7 @@ Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @05f9f1c0
   Function flags:
   Called by: 
   Calls: 
-Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @05f99700
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @06c0f1c0
   Type: function definition
   Visibility: no_reorder
   References: 
@@ -162,7 +177,7 @@ Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @05f99700
   Function flags:
   Called by: 
   Calls: 
-Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @05f99d20
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @06c089a0
   Type: function definition
   Visibility: no_reorder
   References: 
@@ -170,7 +185,7 @@ Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @05f99d20
   Function flags:
   Called by: 
   Calls: 
-Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @05f99a80
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @06c08d20
   Type: function definition
   Visibility: no_reorder
   References: 
@@ -178,7 +193,7 @@ Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @05f99a80
   Function flags:
   Called by: 
   Calls: 
-DevAssert/0 (DevAssert) @06276b60
+DevAssert/0 (DevAssert) @06ee1b60
   Type: function definition
   Visibility: no_reorder
   References: 
@@ -191,7 +206,7 @@ Removing unused symbols: Platform_Ipw_InstallIrqHandler/4 Platform_Ipw_GetIrqPri
 
 Reclaimed Symbol table:
 
-OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a450b60
   Type: function
   Visibility: external public
   References: 
@@ -199,7 +214,7 @@ OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
+OsIf_GetCounter/23 (OsIf_GetCounter) @0a450a80
   Type: function
   Visibility: external public
   References: 
@@ -207,7 +222,7 @@ OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4509a0
   Type: function
   Visibility: external public
   References: 
@@ -215,14 +230,14 @@ OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
   Function flags:
   Called by: Delay/7 
   Calls: 
-CanIf_Config/19 (CanIf_Config) @06766ea0
+CanIf_Config/21 (CanIf_Config) @0a44eab0
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-CanIf_Init/18 (CanIf_Init) @0676ba80
+CanIf_Init/20 (CanIf_Init) @0a4507e0
   Type: function
   Visibility: external public
   References: 
@@ -230,14 +245,14 @@ CanIf_Init/18 (CanIf_Init) @0676ba80
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Can_43_FLEXCAN_Config/17 (Can_43_FLEXCAN_Config) @06766e10
+Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0a44ea20
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
+Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a450700
   Type: function
   Visibility: external public
   References: 
@@ -245,14 +260,14 @@ Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Port_Config/15 (Port_Config) @06766d80
+Spi_Config/17 (Spi_Config) @0a44e990
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Port_Init/14 (Port_Init) @0676b8c0
+Spi_Init/16 (Spi_Init) @0a450620
   Type: function
   Visibility: external public
   References: 
@@ -260,7 +275,14 @@ Port_Init/14 (Port_Init) @0676b8c0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Platform_Init/13 (Platform_Init) @0676b7e0
+Port_Config/15 (Port_Config) @0a44e900
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: EcuM_Init/6 (addr) 
+  Availability: not-ready
+  Varpool flags: read-only
+Port_Init/14 (Port_Init) @0a450540
   Type: function
   Visibility: external public
   References: 
@@ -268,7 +290,7 @@ Platform_Init/13 (Platform_Init) @0676b7e0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-OsIf_Init/12 (OsIf_Init) @0676b700
+Platform_Init/13 (Platform_Init) @0a450460
   Type: function
   Visibility: external public
   References: 
@@ -276,7 +298,15 @@ OsIf_Init/12 (OsIf_Init) @0676b700
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Mcu_InitClock/11 (Mcu_InitClock) @0676b540
+OsIf_Init/12 (OsIf_Init) @0a450380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: EcuM_Init/6 
+  Calls: 
+Mcu_InitClock/11 (Mcu_InitClock) @0a4501c0
   Type: function
   Visibility: external public
   References: 
@@ -284,7 +314,7 @@ Mcu_InitClock/11 (Mcu_InitClock) @0676b540
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_SetMode/10 (Mcu_SetMode) @0676b460
+Mcu_SetMode/10 (Mcu_SetMode) @0a4500e0
   Type: function
   Visibility: external public
   References: 
@@ -292,14 +322,14 @@ Mcu_SetMode/10 (Mcu_SetMode) @0676b460
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_Config/9 (Mcu_Config) @06766a68
+Mcu_Config/9 (Mcu_Config) @0a44e5e8
   Type: variable
   Visibility: external public
   References: 
   Referring: MCU_clocks/5 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Mcu_Init/8 (Mcu_Init) @0676b380
+Mcu_Init/8 (Mcu_Init) @0a450000
   Type: function
   Visibility: external public
   References: 
@@ -307,23 +337,23 @@ Mcu_Init/8 (Mcu_Init) @0676b380
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Delay/7 (Delay) @06765d20
+Delay/7 (Delay) @0a44ce00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
   Referring: 
   Function flags: body
   Called by: 
-  Calls: OsIf_GetElapsed/22 OsIf_GetCounter/21 OsIf_MicrosToTicks/20 
-EcuM_Init/6 (EcuM_Init) @06765ee0
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+EcuM_Init/6 (EcuM_Init) @0a44cb60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: Port_Config/15 (addr) Can_43_FLEXCAN_Config/17 (addr) CanIf_Config/19 (addr) 
+  References: Port_Config/15 (addr) Spi_Config/17 (addr) Can_43_FLEXCAN_Config/19 (addr) CanIf_Config/21 (addr) 
   Referring: 
   Function flags: body
   Called by: 
-  Calls: CanIf_Init/18 Can_43_FLEXCAN_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
-MCU_clocks/5 (MCU_clocks) @06765c40
+  Calls: CanIf_Init/20 Can_43_FLEXCAN_Init/18 Spi_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
+MCU_clocks/5 (MCU_clocks) @0a44c8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Mcu_Config/9 (addr) 
@@ -335,7 +365,7 @@ MCU_clocks/5 (MCU_clocks) @06765c40
 
 Initial Symbol table:
 
-OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a450b60
   Type: function
   Visibility: external public
   References: 
@@ -343,7 +373,7 @@ OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
+OsIf_GetCounter/23 (OsIf_GetCounter) @0a450a80
   Type: function
   Visibility: external public
   References: 
@@ -351,7 +381,7 @@ OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4509a0
   Type: function
   Visibility: external public
   References: 
@@ -359,14 +389,14 @@ OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
   Function flags:
   Called by: Delay/7 
   Calls: 
-CanIf_Config/19 (CanIf_Config) @06766ea0
+CanIf_Config/21 (CanIf_Config) @0a44eab0
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-CanIf_Init/18 (CanIf_Init) @0676ba80
+CanIf_Init/20 (CanIf_Init) @0a4507e0
   Type: function
   Visibility: external public
   References: 
@@ -374,14 +404,14 @@ CanIf_Init/18 (CanIf_Init) @0676ba80
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Can_43_FLEXCAN_Config/17 (Can_43_FLEXCAN_Config) @06766e10
+Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0a44ea20
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
+Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a450700
   Type: function
   Visibility: external public
   References: 
@@ -389,14 +419,14 @@ Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Port_Config/15 (Port_Config) @06766d80
+Spi_Config/17 (Spi_Config) @0a44e990
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Port_Init/14 (Port_Init) @0676b8c0
+Spi_Init/16 (Spi_Init) @0a450620
   Type: function
   Visibility: external public
   References: 
@@ -404,7 +434,14 @@ Port_Init/14 (Port_Init) @0676b8c0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Platform_Init/13 (Platform_Init) @0676b7e0
+Port_Config/15 (Port_Config) @0a44e900
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: EcuM_Init/6 (addr) 
+  Availability: not-ready
+  Varpool flags: read-only
+Port_Init/14 (Port_Init) @0a450540
   Type: function
   Visibility: external public
   References: 
@@ -412,7 +449,7 @@ Platform_Init/13 (Platform_Init) @0676b7e0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-OsIf_Init/12 (OsIf_Init) @0676b700
+Platform_Init/13 (Platform_Init) @0a450460
   Type: function
   Visibility: external public
   References: 
@@ -420,7 +457,15 @@ OsIf_Init/12 (OsIf_Init) @0676b700
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Mcu_InitClock/11 (Mcu_InitClock) @0676b540
+OsIf_Init/12 (OsIf_Init) @0a450380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: EcuM_Init/6 
+  Calls: 
+Mcu_InitClock/11 (Mcu_InitClock) @0a4501c0
   Type: function
   Visibility: external public
   References: 
@@ -428,7 +473,7 @@ Mcu_InitClock/11 (Mcu_InitClock) @0676b540
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_SetMode/10 (Mcu_SetMode) @0676b460
+Mcu_SetMode/10 (Mcu_SetMode) @0a4500e0
   Type: function
   Visibility: external public
   References: 
@@ -436,14 +481,14 @@ Mcu_SetMode/10 (Mcu_SetMode) @0676b460
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_Config/9 (Mcu_Config) @06766a68
+Mcu_Config/9 (Mcu_Config) @0a44e5e8
   Type: variable
   Visibility: external public
   References: 
   Referring: MCU_clocks/5 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Mcu_Init/8 (Mcu_Init) @0676b380
+Mcu_Init/8 (Mcu_Init) @0a450000
   Type: function
   Visibility: external public
   References: 
@@ -451,23 +496,23 @@ Mcu_Init/8 (Mcu_Init) @0676b380
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Delay/7 (Delay) @06765d20
+Delay/7 (Delay) @0a44ce00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
   Referring: 
   Function flags: body
   Called by: 
-  Calls: OsIf_GetElapsed/22 OsIf_GetCounter/21 OsIf_MicrosToTicks/20 
-EcuM_Init/6 (EcuM_Init) @06765ee0
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+EcuM_Init/6 (EcuM_Init) @0a44cb60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: Port_Config/15 (addr) Can_43_FLEXCAN_Config/17 (addr) CanIf_Config/19 (addr) 
+  References: Port_Config/15 (addr) Spi_Config/17 (addr) Can_43_FLEXCAN_Config/19 (addr) CanIf_Config/21 (addr) 
   Referring: 
   Function flags: body
   Called by: 
-  Calls: CanIf_Init/18 Can_43_FLEXCAN_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
-MCU_clocks/5 (MCU_clocks) @06765c40
+  Calls: CanIf_Init/20 Can_43_FLEXCAN_Init/18 Spi_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
+MCU_clocks/5 (MCU_clocks) @0a44c8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Mcu_Config/9 (addr) 
@@ -480,7 +525,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a450b60
   Type: function
   Visibility: external public
   References: 
@@ -488,7 +533,7 @@ OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
+OsIf_GetCounter/23 (OsIf_GetCounter) @0a450a80
   Type: function
   Visibility: external public
   References: 
@@ -496,7 +541,7 @@ OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4509a0
   Type: function
   Visibility: external public
   References: 
@@ -504,14 +549,14 @@ OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
   Function flags:
   Called by: Delay/7 
   Calls: 
-CanIf_Config/19 (CanIf_Config) @06766ea0
+CanIf_Config/21 (CanIf_Config) @0a44eab0
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-CanIf_Init/18 (CanIf_Init) @0676ba80
+CanIf_Init/20 (CanIf_Init) @0a4507e0
   Type: function
   Visibility: external public
   References: 
@@ -519,14 +564,14 @@ CanIf_Init/18 (CanIf_Init) @0676ba80
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Can_43_FLEXCAN_Config/17 (Can_43_FLEXCAN_Config) @06766e10
+Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0a44ea20
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
+Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a450700
   Type: function
   Visibility: external public
   References: 
@@ -534,14 +579,14 @@ Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Port_Config/15 (Port_Config) @06766d80
+Spi_Config/17 (Spi_Config) @0a44e990
   Type: variable
   Visibility: external public
   References: 
   Referring: EcuM_Init/6 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Port_Init/14 (Port_Init) @0676b8c0
+Spi_Init/16 (Spi_Init) @0a450620
   Type: function
   Visibility: external public
   References: 
@@ -549,7 +594,14 @@ Port_Init/14 (Port_Init) @0676b8c0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Platform_Init/13 (Platform_Init) @0676b7e0
+Port_Config/15 (Port_Config) @0a44e900
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: EcuM_Init/6 (addr) 
+  Availability: not-ready
+  Varpool flags: read-only
+Port_Init/14 (Port_Init) @0a450540
   Type: function
   Visibility: external public
   References: 
@@ -557,7 +609,7 @@ Platform_Init/13 (Platform_Init) @0676b7e0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-OsIf_Init/12 (OsIf_Init) @0676b700
+Platform_Init/13 (Platform_Init) @0a450460
   Type: function
   Visibility: external public
   References: 
@@ -565,7 +617,15 @@ OsIf_Init/12 (OsIf_Init) @0676b700
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Mcu_InitClock/11 (Mcu_InitClock) @0676b540
+OsIf_Init/12 (OsIf_Init) @0a450380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags:
+  Called by: EcuM_Init/6 
+  Calls: 
+Mcu_InitClock/11 (Mcu_InitClock) @0a4501c0
   Type: function
   Visibility: external public
   References: 
@@ -573,7 +633,7 @@ Mcu_InitClock/11 (Mcu_InitClock) @0676b540
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_SetMode/10 (Mcu_SetMode) @0676b460
+Mcu_SetMode/10 (Mcu_SetMode) @0a4500e0
   Type: function
   Visibility: external public
   References: 
@@ -581,14 +641,14 @@ Mcu_SetMode/10 (Mcu_SetMode) @0676b460
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_Config/9 (Mcu_Config) @06766a68
+Mcu_Config/9 (Mcu_Config) @0a44e5e8
   Type: variable
   Visibility: external public
   References: 
   Referring: MCU_clocks/5 (addr) 
   Availability: not-ready
   Varpool flags: read-only
-Mcu_Init/8 (Mcu_Init) @0676b380
+Mcu_Init/8 (Mcu_Init) @0a450000
   Type: function
   Visibility: external public
   References: 
@@ -596,23 +656,23 @@ Mcu_Init/8 (Mcu_Init) @0676b380
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Delay/7 (Delay) @06765d20
+Delay/7 (Delay) @0a44ce00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
   Referring: 
   Function flags: body
   Called by: 
-  Calls: OsIf_GetElapsed/22 OsIf_GetCounter/21 OsIf_MicrosToTicks/20 
-EcuM_Init/6 (EcuM_Init) @06765ee0
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+EcuM_Init/6 (EcuM_Init) @0a44cb60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: Port_Config/15 (addr) Can_43_FLEXCAN_Config/17 (addr) CanIf_Config/19 (addr) 
+  References: Port_Config/15 (addr) Spi_Config/17 (addr) Can_43_FLEXCAN_Config/19 (addr) CanIf_Config/21 (addr) 
   Referring: 
   Function flags: body
   Called by: 
-  Calls: CanIf_Init/18 Can_43_FLEXCAN_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
-MCU_clocks/5 (MCU_clocks) @06765c40
+  Calls: CanIf_Init/20 Can_43_FLEXCAN_Init/18 Spi_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
+MCU_clocks/5 (MCU_clocks) @0a44c8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Mcu_Config/9 (addr) 
@@ -626,7 +686,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a450b60
   Type: function
   Visibility: external public
   References: 
@@ -635,7 +695,7 @@ OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
+OsIf_GetCounter/23 (OsIf_GetCounter) @0a450a80
   Type: function
   Visibility: external public
   References: 
@@ -644,7 +704,7 @@ OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4509a0
   Type: function
   Visibility: external public
   References: 
@@ -653,7 +713,7 @@ OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
   Function flags:
   Called by: Delay/7 
   Calls: 
-CanIf_Config/19 (CanIf_Config) @06766ea0
+CanIf_Config/21 (CanIf_Config) @0a44eab0
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -661,7 +721,7 @@ CanIf_Config/19 (CanIf_Config) @06766ea0
   Referring: EcuM_Init/6 (addr) 
   Availability: not_available
   Varpool flags: read-only
-CanIf_Init/18 (CanIf_Init) @0676ba80
+CanIf_Init/20 (CanIf_Init) @0a4507e0
   Type: function
   Visibility: external public
   References: 
@@ -670,7 +730,7 @@ CanIf_Init/18 (CanIf_Init) @0676ba80
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Can_43_FLEXCAN_Config/17 (Can_43_FLEXCAN_Config) @06766e10
+Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0a44ea20
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -678,7 +738,7 @@ Can_43_FLEXCAN_Config/17 (Can_43_FLEXCAN_Config) @06766e10
   Referring: EcuM_Init/6 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
+Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a450700
   Type: function
   Visibility: external public
   References: 
@@ -687,7 +747,7 @@ Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Port_Config/15 (Port_Config) @06766d80
+Spi_Config/17 (Spi_Config) @0a44e990
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -695,7 +755,7 @@ Port_Config/15 (Port_Config) @06766d80
   Referring: EcuM_Init/6 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Port_Init/14 (Port_Init) @0676b8c0
+Spi_Init/16 (Spi_Init) @0a450620
   Type: function
   Visibility: external public
   References: 
@@ -704,7 +764,15 @@ Port_Init/14 (Port_Init) @0676b8c0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Platform_Init/13 (Platform_Init) @0676b7e0
+Port_Config/15 (Port_Config) @0a44e900
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: EcuM_Init/6 (addr) 
+  Availability: not_available
+  Varpool flags: read-only
+Port_Init/14 (Port_Init) @0a450540
   Type: function
   Visibility: external public
   References: 
@@ -713,7 +781,7 @@ Platform_Init/13 (Platform_Init) @0676b7e0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-OsIf_Init/12 (OsIf_Init) @0676b700
+Platform_Init/13 (Platform_Init) @0a450460
   Type: function
   Visibility: external public
   References: 
@@ -722,7 +790,16 @@ OsIf_Init/12 (OsIf_Init) @0676b700
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Mcu_InitClock/11 (Mcu_InitClock) @0676b540
+OsIf_Init/12 (OsIf_Init) @0a450380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: EcuM_Init/6 
+  Calls: 
+Mcu_InitClock/11 (Mcu_InitClock) @0a4501c0
   Type: function
   Visibility: external public
   References: 
@@ -731,7 +808,7 @@ Mcu_InitClock/11 (Mcu_InitClock) @0676b540
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_SetMode/10 (Mcu_SetMode) @0676b460
+Mcu_SetMode/10 (Mcu_SetMode) @0a4500e0
   Type: function
   Visibility: external public
   References: 
@@ -740,7 +817,7 @@ Mcu_SetMode/10 (Mcu_SetMode) @0676b460
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_Config/9 (Mcu_Config) @06766a68
+Mcu_Config/9 (Mcu_Config) @0a44e5e8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -748,7 +825,7 @@ Mcu_Config/9 (Mcu_Config) @06766a68
   Referring: MCU_clocks/5 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Mcu_Init/8 (Mcu_Init) @0676b380
+Mcu_Init/8 (Mcu_Init) @0a450000
   Type: function
   Visibility: external public
   References: 
@@ -757,7 +834,7 @@ Mcu_Init/8 (Mcu_Init) @0676b380
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Delay/7 (Delay) @06765d20
+Delay/7 (Delay) @0a44ce00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -765,17 +842,17 @@ Delay/7 (Delay) @06765d20
   Availability: available
   Function flags: body
   Called by: 
-  Calls: OsIf_GetElapsed/22 OsIf_GetCounter/21 OsIf_MicrosToTicks/20 
-EcuM_Init/6 (EcuM_Init) @06765ee0
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+EcuM_Init/6 (EcuM_Init) @0a44cb60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
-  References: Port_Config/15 (addr) Can_43_FLEXCAN_Config/17 (addr) CanIf_Config/19 (addr) 
+  References: Port_Config/15 (addr) Spi_Config/17 (addr) Can_43_FLEXCAN_Config/19 (addr) CanIf_Config/21 (addr) 
   Referring: 
   Availability: available
   Function flags: body
   Called by: 
-  Calls: CanIf_Init/18 Can_43_FLEXCAN_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
-MCU_clocks/5 (MCU_clocks) @06765c40
+  Calls: CanIf_Init/20 Can_43_FLEXCAN_Init/18 Spi_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
+MCU_clocks/5 (MCU_clocks) @0a44c8c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Mcu_Config/9 (addr) 
@@ -795,7 +872,7 @@ Removing variables:
 
 Final Symbol table:
 
-OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a450b60
   Type: function
   Visibility: external public
   References: 
@@ -804,7 +881,7 @@ OsIf_GetElapsed/22 (OsIf_GetElapsed) @0676be00
   Function flags:
   Called by: 
   Calls: 
-OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
+OsIf_GetCounter/23 (OsIf_GetCounter) @0a450a80
   Type: function
   Visibility: external public
   References: 
@@ -813,7 +890,7 @@ OsIf_GetCounter/21 (OsIf_GetCounter) @0676bd20
   Function flags:
   Called by: 
   Calls: 
-OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4509a0
   Type: function
   Visibility: external public
   References: 
@@ -822,7 +899,7 @@ OsIf_MicrosToTicks/20 (OsIf_MicrosToTicks) @0676bc40
   Function flags:
   Called by: 
   Calls: 
-CanIf_Config/19 (CanIf_Config) @06766ea0
+CanIf_Config/21 (CanIf_Config) @0a44eab0
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -830,7 +907,7 @@ CanIf_Config/19 (CanIf_Config) @06766ea0
   Referring: 
   Availability: not_available
   Varpool flags: read-only
-CanIf_Init/18 (CanIf_Init) @0676ba80
+CanIf_Init/20 (CanIf_Init) @0a4507e0
   Type: function
   Visibility: external public
   References: 
@@ -839,7 +916,7 @@ CanIf_Init/18 (CanIf_Init) @0676ba80
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Config/17 (Can_43_FLEXCAN_Config) @06766e10
+Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0a44ea20
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -847,7 +924,7 @@ Can_43_FLEXCAN_Config/17 (Can_43_FLEXCAN_Config) @06766e10
   Referring: 
   Availability: not_available
   Varpool flags: read-only
-Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
+Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a450700
   Type: function
   Visibility: external public
   References: 
@@ -856,7 +933,7 @@ Can_43_FLEXCAN_Init/16 (Can_43_FLEXCAN_Init) @0676b9a0
   Function flags:
   Called by: 
   Calls: 
-Port_Config/15 (Port_Config) @06766d80
+Spi_Config/17 (Spi_Config) @0a44e990
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -864,7 +941,7 @@ Port_Config/15 (Port_Config) @06766d80
   Referring: 
   Availability: not_available
   Varpool flags: read-only
-Port_Init/14 (Port_Init) @0676b8c0
+Spi_Init/16 (Spi_Init) @0a450620
   Type: function
   Visibility: external public
   References: 
@@ -873,43 +950,7 @@ Port_Init/14 (Port_Init) @0676b8c0
   Function flags:
   Called by: 
   Calls: 
-Platform_Init/13 (Platform_Init) @0676b7e0
-  Type: function
-  Visibility: external public
-  References: 
-  Referring: 
-  Availability: not_available
-  Function flags:
-  Called by: 
-  Calls: 
-OsIf_Init/12 (OsIf_Init) @0676b700
-  Type: function
-  Visibility: external public
-  References: 
-  Referring: 
-  Availability: not_available
-  Function flags:
-  Called by: 
-  Calls: 
-Mcu_InitClock/11 (Mcu_InitClock) @0676b540
-  Type: function
-  Visibility: external public
-  References: 
-  Referring: 
-  Availability: not_available
-  Function flags:
-  Called by: 
-  Calls: 
-Mcu_SetMode/10 (Mcu_SetMode) @0676b460
-  Type: function
-  Visibility: external public
-  References: 
-  Referring: 
-  Availability: not_available
-  Function flags:
-  Called by: 
-  Calls: 
-Mcu_Config/9 (Mcu_Config) @06766a68
+Port_Config/15 (Port_Config) @0a44e900
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -917,7 +958,7 @@ Mcu_Config/9 (Mcu_Config) @06766a68
   Referring: 
   Availability: not_available
   Varpool flags: read-only
-Mcu_Init/8 (Mcu_Init) @0676b380
+Port_Init/14 (Port_Init) @0a450540
   Type: function
   Visibility: external public
   References: 
@@ -926,7 +967,60 @@ Mcu_Init/8 (Mcu_Init) @0676b380
   Function flags:
   Called by: 
   Calls: 
-Delay/7 (Delay) @06765d20
+Platform_Init/13 (Platform_Init) @0a450460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+OsIf_Init/12 (OsIf_Init) @0a450380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_InitClock/11 (Mcu_InitClock) @0a4501c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_SetMode/10 (Mcu_SetMode) @0a4500e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Mcu_Config/9 (Mcu_Config) @0a44e5e8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags: read-only
+Mcu_Init/8 (Mcu_Init) @0a450000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: 
+  Calls: 
+Delay/7 (Delay) @0a44ce00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Delay (implicit_section)
   References: 
@@ -935,7 +1029,7 @@ Delay/7 (Delay) @06765d20
   Function flags:
   Called by: 
   Calls: 
-EcuM_Init/6 (EcuM_Init) @06765ee0
+EcuM_Init/6 (EcuM_Init) @0a44cb60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.EcuM_Init (implicit_section)
   References: 
@@ -944,7 +1038,7 @@ EcuM_Init/6 (EcuM_Init) @06765ee0
   Function flags:
   Called by: 
   Calls: 
-MCU_clocks/5 (MCU_clocks) @06765c40
+MCU_clocks/5 (MCU_clocks) @0a44c8c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.MCU_clocks (implicit_section)
   References: 

@@ -9,7 +9,7 @@ Det_Start ()
 Det_ReportTransientFault (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 FaultId)
 {
   uint32 u32CoreId;
-  Std_ReturnType D.8825;
+  Std_ReturnType D.8831;
   unsigned char _1;
   Std_ReturnType _13;
 
@@ -32,7 +32,7 @@ Det_ReportTransientFault (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 
 Det_ReportRuntimeError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
 {
   uint32 u32CoreId;
-  Std_ReturnType D.8823;
+  Std_ReturnType D.8829;
   unsigned char _1;
   Std_ReturnType _13;
 
@@ -56,7 +56,7 @@ Det_ReportError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
 {
   uint32 u32CoreId;
   const char * Strings_error[3];
-  Std_ReturnType D.8820;
+  Std_ReturnType D.8826;
   unsigned char _1;
   const char * _2;
   const char * _3;
@@ -99,7 +99,7 @@ Det_GetErrorMeaning (uint16 ModuleId, uint8 ErrorId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8818;
+  const char * D.8824;
   const struct DetStrings * ModuleStrings_Ptr.13_1;
   unsigned int _2;
   unsigned int _3;
@@ -155,7 +155,7 @@ Det_GetApiName (uint16 ModuleId, uint8 ApiId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8814;
+  const char * D.8820;
   const struct DetStrings * ModuleStrings_Ptr.11_1;
   unsigned int _2;
   unsigned int _3;
@@ -211,7 +211,7 @@ Det_GetModuleName (uint16 ModuleId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8810;
+  const char * D.8816;
   const struct DetStrings * ModuleStrings_Ptr.8_1;
   unsigned int _2;
   unsigned int _3;
@@ -275,7 +275,7 @@ Det_SearchError (uint8 ModuleIndex, uint8 ErrorId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8806;
+  const char * D.8812;
   const struct DetStrings * ModuleStrings_Ptr.4_1;
   unsigned int _2;
   unsigned int _3;
@@ -365,7 +365,7 @@ Det_SearchApi (uint8 ModuleIndex, uint8 ApiId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8802;
+  const char * D.8808;
   const struct DetStrings * ModuleStrings_Ptr.0_1;
   unsigned int _2;
   unsigned int _3;

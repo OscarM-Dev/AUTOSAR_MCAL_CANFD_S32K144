@@ -15,21 +15,21 @@ Overall time estimate: 0.000000 weighted by profile: 0.000000
 Why inlining failed?
 Symbol table:
 
-ButtonsControl_Ptr/2 (ButtonsControl_Ptr) @068db900
+ButtonsControl_Ptr/2 (ButtonsControl_Ptr) @0681c900
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ButtonsCtrl/1 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized
-ButtonsCtrl/1 (ButtonsCtrl) @068db8b8
+ButtonsCtrl/1 (ButtonsCtrl) @0681c8b8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ButtonsControl_Ptr/2 (addr) 
   Availability: available
   Varpool flags:
-ButtonsCfg/0 (ButtonsCfg) @068db870
+ButtonsCfg/0 (ButtonsCfg) @0681c870
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

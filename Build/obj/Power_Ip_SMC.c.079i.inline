@@ -22,7 +22,7 @@ IPA summary for Power_Ip_SMC_ModeCheckEntry/1 is missing.
 IPA summary for Power_Ip_SMC_AllowedModesConfig/0 is missing.
 Symbol table:
 
-Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
+Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a76000
   Type: function
   Visibility: external public
   References: 
@@ -31,7 +31,7 @@ Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
+Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @0696b7e0
   Type: function
   Visibility: external public
   References: 
@@ -40,7 +40,7 @@ Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
+Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @0696b540
   Type: function
   Visibility: external public
   References: 
@@ -49,7 +49,7 @@ Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
+Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @0696b9a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -58,7 +58,7 @@ Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
   Function flags: body
   Called by: 
   Calls: Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 
-Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
+Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @0696b700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -67,7 +67,7 @@ Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @06926460
+Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @0696b460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

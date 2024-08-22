@@ -134,6 +134,11 @@ const Can_43_FLEXCAN_Ipw_HwChannelConfigType Can_43_FLEXCANIpwHwChannelConfig0 =
     /* Here should be included the structure from FLEXCAN_IP_CFg*/
     &Flexcan_aCtrlConfigPB[0U]
 };
+const Can_43_FLEXCAN_Ipw_HwChannelConfigType Can_43_FLEXCANIpwHwChannelConfig1 =
+{
+    /* Here should be included the structure from FLEXCAN_IP_CFg*/
+    &Flexcan_aCtrlConfigPB[1U]
+};
 
 /* PN configuration wrapper */
 

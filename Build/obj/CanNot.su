@@ -1,5 +1,0 @@
-Dev/src/CanNot.c:16:6:Delay	32	static
-Dev/src/CanNot.c:32:6:CanIf_ControllerBusOff	8	static
-Dev/src/CanNot.c:43:6:CanIf_ControllerModeIndication	8	static
-Dev/src/CanNot.c:54:6:CanIf_TxConfirmation	8	static
-Dev/src/CanNot.c:67:6:CanIf_RxIndication	8	static

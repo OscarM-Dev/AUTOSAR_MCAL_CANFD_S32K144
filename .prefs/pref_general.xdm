@@ -75,7 +75,7 @@
           <a:a name="IMPORTER_INFO" value="@DEF"/>
         </d:var>
         <d:var name="ModuleId" value="Adc_TS_T40D2M20I0R0"/>
-        <d:var name="Enabled" value="FALSE"/>
+        <d:var name="Enabled" value="TRUE"/>
         <d:var name="Generate" value="TRUE"/>
         <d:var name="LoadExistingConfigurationFile" value="FALSE"/>
         <d:var name="SoftwareVersion" value="2.0.0 P04_D2404"/>
@@ -222,7 +222,7 @@
       </d:ctr>
       <d:ctr name="Pwm">
         <d:var name="ModuleId" value="Pwm_TS_T40D2M20I0R0"/>
-        <d:var name="Enabled" value="FALSE"/>
+        <d:var name="Enabled" value="TRUE"/>
         <d:var name="Generate" value="TRUE"/>
         <d:var name="LoadExistingConfigurationFile" value="FALSE"/>
         <d:var name="SoftwareVersion" value="2.0.0 P04_D2404"/>
@@ -255,6 +255,24 @@
         <d:var name="Generate" value="TRUE"/>
         <d:var name="LoadExistingConfigurationFile" value="FALSE"/>
         <d:var name="SoftwareVersion" value="2.0.0 P04_D2404"/>
+      </d:ctr>
+      <d:ctr name="Spi">
+        <d:var name="ModuleId" value="Spi_TS_T40D2M20I0R0"/>
+        <d:var name="Enabled" value="TRUE"/>
+        <d:var name="Generate" value="TRUE"/>
+        <d:var name="LoadExistingConfigurationFile" value="FALSE"/>
+        <d:var name="SoftwareVersion" value="2.0.0 P04_D2404"/>
+        <d:var name="ConfigurationFileURL" value="config\Spi.xdm"/>
+        <d:var name="ConfigurationFormat" value="xdm"/>
+        <d:var name="GenerationPath" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="PreConfig" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
+        <d:var name="RecConfig" >
+          <a:a name="IMPORTER_INFO" value="@DEF"/>
+        </d:var>
       </d:ctr>
     </d:lst>
     <d:lst name="AutoconfigureTriggers" type="MAP"/>

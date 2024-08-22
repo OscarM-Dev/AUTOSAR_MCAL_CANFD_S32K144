@@ -17,7 +17,7 @@ Why inlining failed?
 IPA summary for Crc_schm_read_msr/0 is missing.
 Symbol table:
 
-Crc_schm_read_msr/0 (Crc_schm_read_msr) @06a951c0
+Crc_schm_read_msr/0 (Crc_schm_read_msr) @069351c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

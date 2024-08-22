@@ -32,7 +32,7 @@ Platform_Ipw_Init (const struct Platform_Ipw_ConfigType * pConfig)
 Platform_Ipw_InitIntCtrl (const struct IntCtrl_Ip_CtrlConfigType * pIntCtrlCtrlConfig)
 {
   uint32 irqIdx;
-  Std_ReturnType D.6261;
+  Std_ReturnType D.6267;
 
   <bb 2> :
   irqIdx = 0;
@@ -97,11 +97,11 @@ Platform_Ipw_InitIntCtrl (const struct IntCtrl_Ip_CtrlConfigType * pIntCtrlCtrlC
     goto <bb 8>; [INV]
 
   <bb 8> :
-  D.6261 = 0;
+  D.6267 = 0;
 
   <bb 9> :
 <L6>:
-  return D.6261;
+  return D.6267;
 
 }
 

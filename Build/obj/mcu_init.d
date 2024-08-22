@@ -119,6 +119,17 @@ Build/obj/mcu_init.o: Dev/src/mcu_init.c Dev/include/Mcu_init.h \
  Build/cfg/include/Port_Ci_Port_Ip_Cfg.h \
  Build/cfg/include/Port_Ci_Port_Ip_PBcfg.h \
  Autosar/Mcal/Port/include/Port_Ci_Port_Ip_Types.h \
+ Autosar/Mcal/Spi/include/Spi.h Build/cfg/include/Spi_Cfg.h \
+ Build/cfg/include/Spi_PBcfg.h Build/cfg/include/Spi_Ipw_Cfg.h \
+ Autosar/Mcal/Spi/include/Spi_Ipw_Types.h \
+ Autosar/Mcal/Spi/include/Lpspi_Ip_Types.h \
+ Build/cfg/include/Lpspi_Ip_Cfg.h Build/cfg/include/Lpspi_Ip_PBcfg.h \
+ Autosar/Mcal/Base/header/S32K144_LPSPI.h \
+ Autosar/Mcal/Spi/include/Flexio_Spi_Ip_Types.h \
+ Build/cfg/include/Flexio_Spi_Ip_Cfg.h \
+ Build/cfg/include/Flexio_Spi_Ip_PBcfg.h \
+ Autosar/Mcal/Base/header/S32K144_FLEXIO.h \
+ Build/cfg/include/Spi_Ipw_Cfg.h Autosar/Mcal/Base/include/Spi_MemMap.h \
  Autosar/Mcal/Can/include/Can_43_FLEXCAN.h \
  Autosar/Mcal/Base/include/ComStackTypes.h \
  Autosar/Mcal/Base/include/ComStack_Types.h \
@@ -321,6 +332,21 @@ Autosar/Mcal/Port/include/Port_Ci_Port_Ip.h:
 Build/cfg/include/Port_Ci_Port_Ip_Cfg.h:
 Build/cfg/include/Port_Ci_Port_Ip_PBcfg.h:
 Autosar/Mcal/Port/include/Port_Ci_Port_Ip_Types.h:
+Autosar/Mcal/Spi/include/Spi.h:
+Build/cfg/include/Spi_Cfg.h:
+Build/cfg/include/Spi_PBcfg.h:
+Build/cfg/include/Spi_Ipw_Cfg.h:
+Autosar/Mcal/Spi/include/Spi_Ipw_Types.h:
+Autosar/Mcal/Spi/include/Lpspi_Ip_Types.h:
+Build/cfg/include/Lpspi_Ip_Cfg.h:
+Build/cfg/include/Lpspi_Ip_PBcfg.h:
+Autosar/Mcal/Base/header/S32K144_LPSPI.h:
+Autosar/Mcal/Spi/include/Flexio_Spi_Ip_Types.h:
+Build/cfg/include/Flexio_Spi_Ip_Cfg.h:
+Build/cfg/include/Flexio_Spi_Ip_PBcfg.h:
+Autosar/Mcal/Base/header/S32K144_FLEXIO.h:
+Build/cfg/include/Spi_Ipw_Cfg.h:
+Autosar/Mcal/Base/include/Spi_MemMap.h:
 Autosar/Mcal/Can/include/Can_43_FLEXCAN.h:
 Autosar/Mcal/Base/include/ComStackTypes.h:
 Autosar/Mcal/Base/include/ComStack_Types.h:

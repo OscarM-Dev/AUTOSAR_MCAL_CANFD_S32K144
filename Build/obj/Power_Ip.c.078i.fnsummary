@@ -1,6 +1,6 @@
 Symbol table:
 
-Power_Ip_CM4_EnableSleepOnExit/20 (Power_Ip_CM4_EnableSleepOnExit) @06b06380
+Power_Ip_CM4_EnableSleepOnExit/20 (Power_Ip_CM4_EnableSleepOnExit) @05e73380
   Type: function
   Visibility: external public
   References: 
@@ -9,7 +9,7 @@ Power_Ip_CM4_EnableSleepOnExit/20 (Power_Ip_CM4_EnableSleepOnExit) @06b06380
   Function flags:
   Called by: Power_Ip_EnableSleepOnExit/8 
   Calls: 
-Power_Ip_CM4_DisableSleepOnExit/19 (Power_Ip_CM4_DisableSleepOnExit) @06b061c0
+Power_Ip_CM4_DisableSleepOnExit/19 (Power_Ip_CM4_DisableSleepOnExit) @05e731c0
   Type: function
   Visibility: external public
   References: 
@@ -18,7 +18,7 @@ Power_Ip_CM4_DisableSleepOnExit/19 (Power_Ip_CM4_DisableSleepOnExit) @06b061c0
   Function flags:
   Called by: Power_Ip_DisableSleepOnExit/7 
   Calls: 
-Power_Ip_SMC_AllowedModesConfig/18 (Power_Ip_SMC_AllowedModesConfig) @06b06000
+Power_Ip_SMC_AllowedModesConfig/18 (Power_Ip_SMC_AllowedModesConfig) @05e73000
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ Power_Ip_SMC_AllowedModesConfig/18 (Power_Ip_SMC_AllowedModesConfig) @06b06000
   Function flags:
   Called by: Power_Ip_Init/6 
   Calls: 
-Power_Ip_PMC_PowerInit/17 (Power_Ip_PMC_PowerInit) @068fc000
+Power_Ip_PMC_PowerInit/17 (Power_Ip_PMC_PowerInit) @05c6d000
   Type: function
   Visibility: external public
   References: 
@@ -36,7 +36,7 @@ Power_Ip_PMC_PowerInit/17 (Power_Ip_PMC_PowerInit) @068fc000
   Function flags:
   Called by: Power_Ip_Init/6 
   Calls: 
-Power_Ip_RCM_ResetInit/16 (Power_Ip_RCM_ResetInit) @068fcee0
+Power_Ip_RCM_ResetInit/16 (Power_Ip_RCM_ResetInit) @05c6dee0
   Type: function
   Visibility: external public
   References: 
@@ -45,7 +45,7 @@ Power_Ip_RCM_ResetInit/16 (Power_Ip_RCM_ResetInit) @068fcee0
   Function flags:
   Called by: Power_Ip_Init/6 
   Calls: 
-Power_Ip_RCM_GetResetRawValue/15 (Power_Ip_RCM_GetResetRawValue) @068fcd20
+Power_Ip_RCM_GetResetRawValue/15 (Power_Ip_RCM_GetResetRawValue) @05c6dd20
   Type: function
   Visibility: external public
   References: 
@@ -54,7 +54,7 @@ Power_Ip_RCM_GetResetRawValue/15 (Power_Ip_RCM_GetResetRawValue) @068fcd20
   Function flags:
   Called by: Power_Ip_GetResetRawValue/5 
   Calls: 
-Power_Ip_RCM_GetResetReason/14 (Power_Ip_RCM_GetResetReason) @068fcb60
+Power_Ip_RCM_GetResetReason/14 (Power_Ip_RCM_GetResetReason) @05c6db60
   Type: function
   Visibility: external public
   References: 
@@ -63,7 +63,7 @@ Power_Ip_RCM_GetResetReason/14 (Power_Ip_RCM_GetResetReason) @068fcb60
   Function flags:
   Called by: Power_Ip_GetResetReason/4 
   Calls: 
-Power_Ip_ReportPowerErrors/13 (Power_Ip_ReportPowerErrors) @068fc8c0
+Power_Ip_ReportPowerErrors/13 (Power_Ip_ReportPowerErrors) @05c6d8c0
   Type: function
   Visibility: external public
   References: 
@@ -72,7 +72,7 @@ Power_Ip_ReportPowerErrors/13 (Power_Ip_ReportPowerErrors) @068fc8c0
   Function flags:
   Called by: Power_Ip_SetMode/2 
   Calls: 
-Power_Ip_SMC_ModeConfig/12 (Power_Ip_SMC_ModeConfig) @068fc7e0
+Power_Ip_SMC_ModeConfig/12 (Power_Ip_SMC_ModeConfig) @05c6d7e0
   Type: function
   Visibility: external public
   References: 
@@ -81,7 +81,7 @@ Power_Ip_SMC_ModeConfig/12 (Power_Ip_SMC_ModeConfig) @068fc7e0
   Function flags:
   Called by: Power_Ip_SetMode/2 
   Calls: 
-Power_Ip_SMC_ModeCheckEntry/11 (Power_Ip_SMC_ModeCheckEntry) @068fc700
+Power_Ip_SMC_ModeCheckEntry/11 (Power_Ip_SMC_ModeCheckEntry) @05c6d700
   Type: function
   Visibility: external public
   References: 
@@ -90,7 +90,7 @@ Power_Ip_SMC_ModeCheckEntry/11 (Power_Ip_SMC_ModeCheckEntry) @068fc700
   Function flags:
   Called by: Power_Ip_SetMode/2 
   Calls: 
-Power_Ip_ReportPowerErrorsEmptyCallback/10 (Power_Ip_ReportPowerErrorsEmptyCallback) @068fc2a0
+Power_Ip_ReportPowerErrorsEmptyCallback/10 (Power_Ip_ReportPowerErrorsEmptyCallback) @05c6d2a0
   Type: function
   Visibility: external public
   Address is taken.
@@ -100,7 +100,7 @@ Power_Ip_ReportPowerErrorsEmptyCallback/10 (Power_Ip_ReportPowerErrorsEmptyCallb
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_InstallNotificationsCallback/9 (Power_Ip_InstallNotificationsCallback) @068fc1c0
+Power_Ip_InstallNotificationsCallback/9 (Power_Ip_InstallNotificationsCallback) @05c6d1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Power_Ip_pfReportErrorsCallback/1 (write) 
@@ -109,7 +109,7 @@ Power_Ip_InstallNotificationsCallback/9 (Power_Ip_InstallNotificationsCallback) 
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_EnableSleepOnExit/8 (Power_Ip_EnableSleepOnExit) @068f7e00
+Power_Ip_EnableSleepOnExit/8 (Power_Ip_EnableSleepOnExit) @05c68e00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -118,7 +118,7 @@ Power_Ip_EnableSleepOnExit/8 (Power_Ip_EnableSleepOnExit) @068f7e00
   Function flags: body
   Called by: 
   Calls: Power_Ip_CM4_EnableSleepOnExit/20 
-Power_Ip_DisableSleepOnExit/7 (Power_Ip_DisableSleepOnExit) @068f78c0
+Power_Ip_DisableSleepOnExit/7 (Power_Ip_DisableSleepOnExit) @05c688c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -127,7 +127,7 @@ Power_Ip_DisableSleepOnExit/7 (Power_Ip_DisableSleepOnExit) @068f78c0
   Function flags: body
   Called by: 
   Calls: Power_Ip_CM4_DisableSleepOnExit/19 
-Power_Ip_Init/6 (Power_Ip_Init) @068f7380
+Power_Ip_Init/6 (Power_Ip_Init) @05c68380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -136,7 +136,7 @@ Power_Ip_Init/6 (Power_Ip_Init) @068f7380
   Function flags: body
   Called by: 
   Calls: Power_Ip_SMC_AllowedModesConfig/18 Power_Ip_PMC_PowerInit/17 Power_Ip_RCM_ResetInit/16 
-Power_Ip_GetResetRawValue/5 (Power_Ip_GetResetRawValue) @068f7d20
+Power_Ip_GetResetRawValue/5 (Power_Ip_GetResetRawValue) @05c68d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -145,7 +145,7 @@ Power_Ip_GetResetRawValue/5 (Power_Ip_GetResetRawValue) @068f7d20
   Function flags: body
   Called by: 
   Calls: Power_Ip_RCM_GetResetRawValue/15 
-Power_Ip_GetResetReason/4 (Power_Ip_GetResetReason) @068f7a80
+Power_Ip_GetResetReason/4 (Power_Ip_GetResetReason) @05c68a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -154,7 +154,7 @@ Power_Ip_GetResetReason/4 (Power_Ip_GetResetReason) @068f7a80
   Function flags: body
   Called by: 
   Calls: Power_Ip_ConvertIntergeToResetType/3 Power_Ip_RCM_GetResetReason/14 
-Power_Ip_ConvertIntergeToResetType/3 (Power_Ip_ConvertIntergeToResetType) @068f77e0
+Power_Ip_ConvertIntergeToResetType/3 (Power_Ip_ConvertIntergeToResetType) @05c687e0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: ResetReasonArray/0 (read) ResetReasonArray/0 (read) 
@@ -163,7 +163,7 @@ Power_Ip_ConvertIntergeToResetType/3 (Power_Ip_ConvertIntergeToResetType) @068f7
   Function flags: body
   Called by: Power_Ip_GetResetReason/4 
   Calls: 
-Power_Ip_SetMode/2 (Power_Ip_SetMode) @068f7540
+Power_Ip_SetMode/2 (Power_Ip_SetMode) @05c68540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -172,14 +172,14 @@ Power_Ip_SetMode/2 (Power_Ip_SetMode) @068f7540
   Function flags: body
   Called by: 
   Calls: Power_Ip_ReportPowerErrors/13 Power_Ip_SMC_ModeConfig/12 Power_Ip_SMC_ModeCheckEntry/11 
-Power_Ip_pfReportErrorsCallback/1 (Power_Ip_pfReportErrorsCallback) @068f1e10
+Power_Ip_pfReportErrorsCallback/1 (Power_Ip_pfReportErrorsCallback) @05c62e10
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Power_Ip_ReportPowerErrorsEmptyCallback/10 (addr) 
   Referring: Power_Ip_InstallNotificationsCallback/9 (write) 
   Availability: available
   Varpool flags: initialized
-ResetReasonArray/0 (ResetReasonArray) @068f1dc8
+ResetReasonArray/0 (ResetReasonArray) @05c62dc8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 

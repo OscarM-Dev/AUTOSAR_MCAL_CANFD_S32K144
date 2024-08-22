@@ -74,7 +74,7 @@ IPA summary for Clock_Ip_SetScgAsyncDiv1/1 is missing.
 IPA summary for Clock_Ip_Callback_DividerEmpty/0 is missing.
 Symbol table:
 
-Clock_Ip_apxScgPeriphAsyncDivs/32 (Clock_Ip_apxScgPeriphAsyncDivs) @06b33bd0
+Clock_Ip_apxScgPeriphAsyncDivs/32 (Clock_Ip_apxScgPeriphAsyncDivs) @06a68bd0
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -82,7 +82,7 @@ Clock_Ip_apxScgPeriphAsyncDivs/32 (Clock_Ip_apxScgPeriphAsyncDivs) @06b33bd0
   Referring: Clock_Ip_SetScgAsyncDiv1_TrustedCall/15 (read) Clock_Ip_SetScgAsyncDiv1_TrustedCall/15 (read) Clock_Ip_SetScgAsyncDiv2_TrustedCall/16 (read) Clock_Ip_SetScgAsyncDiv2_TrustedCall/16 (read) 
   Availability: not_available
   Varpool flags: read-only
-Clock_Ip_au8DividerValueHardwareValue/31 (Clock_Ip_au8DividerValueHardwareValue) @06b33b88
+Clock_Ip_au8DividerValueHardwareValue/31 (Clock_Ip_au8DividerValueHardwareValue) @06a68b88
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -90,7 +90,7 @@ Clock_Ip_au8DividerValueHardwareValue/31 (Clock_Ip_au8DividerValueHardwareValue)
   Referring: Clock_Ip_SetScgAsyncDiv1_TrustedCall/15 (read) Clock_Ip_SetScgAsyncDiv2_TrustedCall/16 (read) 
   Availability: not_available
   Varpool flags: read-only
-Clock_Ip_au8ClockFeatures/30 (Clock_Ip_au8ClockFeatures) @06b33b40
+Clock_Ip_au8ClockFeatures/30 (Clock_Ip_au8ClockFeatures) @06a68b40
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -98,14 +98,14 @@ Clock_Ip_au8ClockFeatures/30 (Clock_Ip_au8ClockFeatures) @06b33b40
   Referring: Clock_Ip_SetScgAsyncDiv1_TrustedCall/15 (read) Clock_Ip_SetScgAsyncDiv2_TrustedCall/16 (read) Clock_Ip_SetPccPcdDivFrac_TrustedCall/27 (read) Clock_Ip_SetPccPcdDivFrac_TrustedCall/27 (read) 
   Availability: not_available
   Varpool flags: read-only
-Clock_Ip_axDividerCallbacks/29 (Clock_Ip_axDividerCallbacks) @06a77f78
+Clock_Ip_axDividerCallbacks/29 (Clock_Ip_axDividerCallbacks) @069acf78
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Clock_Ip_Callback_DividerEmpty/0 (addr) Clock_Ip_SetScgAsyncDiv1/1 (addr) Clock_Ip_SetScgAsyncDiv2/2 (addr) Clock_Ip_SetScgRunDivcore/3 (addr) Clock_Ip_SetScgRunDivbus/4 (addr) Clock_Ip_SetScgRunDivslow/5 (addr) Clock_Ip_SetScgVlprDivcore/6 (addr) Clock_Ip_SetScgVlprDivbus/7 (addr) Clock_Ip_SetScgVlprDivslow/8 (addr) Clock_Ip_SetScgHsrunDivcore/9 (addr) Clock_Ip_SetScgHsrunDivbus/10 (addr) Clock_Ip_SetScgHsrunDivslow/11 (addr) Clock_Ip_SetSimClkoutDiv/12 (addr) Clock_Ip_SetPccPcdDivFrac/13 (addr) Clock_Ip_SetSimTraceDivMul/14 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Clock_Ip_SetSimTraceDivMul_TrustedCall/28 (Clock_Ip_SetSimTraceDivMul_TrustedCall) @06b29380
+Clock_Ip_SetSimTraceDivMul_TrustedCall/28 (Clock_Ip_SetSimTraceDivMul_TrustedCall) @06a5e380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -114,7 +114,7 @@ Clock_Ip_SetSimTraceDivMul_TrustedCall/28 (Clock_Ip_SetSimTraceDivMul_TrustedCal
   Function flags: body
   Called by: Clock_Ip_SetSimTraceDivMul/14 
   Calls: 
-Clock_Ip_SetPccPcdDivFrac_TrustedCall/27 (Clock_Ip_SetPccPcdDivFrac_TrustedCall) @06b290e0
+Clock_Ip_SetPccPcdDivFrac_TrustedCall/27 (Clock_Ip_SetPccPcdDivFrac_TrustedCall) @06a5e0e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Clock_Ip_au8ClockFeatures/30 (read) Clock_Ip_au8ClockFeatures/30 (read) 
@@ -123,7 +123,7 @@ Clock_Ip_SetPccPcdDivFrac_TrustedCall/27 (Clock_Ip_SetPccPcdDivFrac_TrustedCall)
   Function flags: body
   Called by: Clock_Ip_SetPccPcdDivFrac/13 
   Calls: 
-Clock_Ip_SetSimClkoutDiv_TrustedCall/26 (Clock_Ip_SetSimClkoutDiv_TrustedCall) @06b25a80
+Clock_Ip_SetSimClkoutDiv_TrustedCall/26 (Clock_Ip_SetSimClkoutDiv_TrustedCall) @06a5aa80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -132,7 +132,7 @@ Clock_Ip_SetSimClkoutDiv_TrustedCall/26 (Clock_Ip_SetSimClkoutDiv_TrustedCall) @
   Function flags: body
   Called by: Clock_Ip_SetSimClkoutDiv/12 
   Calls: 
-Clock_Ip_SetScgHsrunDivslow_TrustedCall/25 (Clock_Ip_SetScgHsrunDivslow_TrustedCall) @06b252a0
+Clock_Ip_SetScgHsrunDivslow_TrustedCall/25 (Clock_Ip_SetScgHsrunDivslow_TrustedCall) @06a5a2a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -141,7 +141,7 @@ Clock_Ip_SetScgHsrunDivslow_TrustedCall/25 (Clock_Ip_SetScgHsrunDivslow_TrustedC
   Function flags: body
   Called by: Clock_Ip_SetScgHsrunDivslow/11 
   Calls: 
-Clock_Ip_SetScgHsrunDivbus_TrustedCall/24 (Clock_Ip_SetScgHsrunDivbus_TrustedCall) @06b25ee0
+Clock_Ip_SetScgHsrunDivbus_TrustedCall/24 (Clock_Ip_SetScgHsrunDivbus_TrustedCall) @06a5aee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -150,7 +150,7 @@ Clock_Ip_SetScgHsrunDivbus_TrustedCall/24 (Clock_Ip_SetScgHsrunDivbus_TrustedCal
   Function flags: body
   Called by: Clock_Ip_SetScgHsrunDivbus/10 
   Calls: 
-Clock_Ip_SetScgHsrunDivcore_TrustedCall/23 (Clock_Ip_SetScgHsrunDivcore_TrustedCall) @06b25c40
+Clock_Ip_SetScgHsrunDivcore_TrustedCall/23 (Clock_Ip_SetScgHsrunDivcore_TrustedCall) @06a5ac40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -159,7 +159,7 @@ Clock_Ip_SetScgHsrunDivcore_TrustedCall/23 (Clock_Ip_SetScgHsrunDivcore_TrustedC
   Function flags: body
   Called by: Clock_Ip_SetScgHsrunDivcore/9 
   Calls: 
-Clock_Ip_SetScgVlprDivslow_TrustedCall/22 (Clock_Ip_SetScgVlprDivslow_TrustedCall) @06b259a0
+Clock_Ip_SetScgVlprDivslow_TrustedCall/22 (Clock_Ip_SetScgVlprDivslow_TrustedCall) @06a5a9a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -168,7 +168,7 @@ Clock_Ip_SetScgVlprDivslow_TrustedCall/22 (Clock_Ip_SetScgVlprDivslow_TrustedCal
   Function flags: body
   Called by: Clock_Ip_SetScgVlprDivslow/8 
   Calls: 
-Clock_Ip_SetScgVlprDivbus_TrustedCall/21 (Clock_Ip_SetScgVlprDivbus_TrustedCall) @06b25700
+Clock_Ip_SetScgVlprDivbus_TrustedCall/21 (Clock_Ip_SetScgVlprDivbus_TrustedCall) @06a5a700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -177,7 +177,7 @@ Clock_Ip_SetScgVlprDivbus_TrustedCall/21 (Clock_Ip_SetScgVlprDivbus_TrustedCall)
   Function flags: body
   Called by: Clock_Ip_SetScgVlprDivbus/7 
   Calls: 
-Clock_Ip_SetScgVlprDivcore_TrustedCall/20 (Clock_Ip_SetScgVlprDivcore_TrustedCall) @06b25460
+Clock_Ip_SetScgVlprDivcore_TrustedCall/20 (Clock_Ip_SetScgVlprDivcore_TrustedCall) @06a5a460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -186,7 +186,7 @@ Clock_Ip_SetScgVlprDivcore_TrustedCall/20 (Clock_Ip_SetScgVlprDivcore_TrustedCal
   Function flags: body
   Called by: Clock_Ip_SetScgVlprDivcore/6 
   Calls: 
-Clock_Ip_SetScgRunDivslow_TrustedCall/19 (Clock_Ip_SetScgRunDivslow_TrustedCall) @06b251c0
+Clock_Ip_SetScgRunDivslow_TrustedCall/19 (Clock_Ip_SetScgRunDivslow_TrustedCall) @06a5a1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -195,7 +195,7 @@ Clock_Ip_SetScgRunDivslow_TrustedCall/19 (Clock_Ip_SetScgRunDivslow_TrustedCall)
   Function flags: body
   Called by: Clock_Ip_SetScgRunDivslow/5 
   Calls: 
-Clock_Ip_SetScgRunDivbus_TrustedCall/18 (Clock_Ip_SetScgRunDivbus_TrustedCall) @06a7fd20
+Clock_Ip_SetScgRunDivbus_TrustedCall/18 (Clock_Ip_SetScgRunDivbus_TrustedCall) @069b4d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -204,7 +204,7 @@ Clock_Ip_SetScgRunDivbus_TrustedCall/18 (Clock_Ip_SetScgRunDivbus_TrustedCall) @
   Function flags: body
   Called by: Clock_Ip_SetScgRunDivbus/4 
   Calls: 
-Clock_Ip_SetScgRunDivcore_TrustedCall/17 (Clock_Ip_SetScgRunDivcore_TrustedCall) @06a7f7e0
+Clock_Ip_SetScgRunDivcore_TrustedCall/17 (Clock_Ip_SetScgRunDivcore_TrustedCall) @069b47e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -213,7 +213,7 @@ Clock_Ip_SetScgRunDivcore_TrustedCall/17 (Clock_Ip_SetScgRunDivcore_TrustedCall)
   Function flags: body
   Called by: Clock_Ip_SetScgRunDivcore/3 
   Calls: 
-Clock_Ip_SetScgAsyncDiv2_TrustedCall/16 (Clock_Ip_SetScgAsyncDiv2_TrustedCall) @06a7f2a0
+Clock_Ip_SetScgAsyncDiv2_TrustedCall/16 (Clock_Ip_SetScgAsyncDiv2_TrustedCall) @069b42a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Clock_Ip_au8ClockFeatures/30 (read) Clock_Ip_au8DividerValueHardwareValue/31 (read) Clock_Ip_apxScgPeriphAsyncDivs/32 (read) Clock_Ip_apxScgPeriphAsyncDivs/32 (read) 
@@ -222,7 +222,7 @@ Clock_Ip_SetScgAsyncDiv2_TrustedCall/16 (Clock_Ip_SetScgAsyncDiv2_TrustedCall) @
   Function flags: body
   Called by: Clock_Ip_SetScgAsyncDiv2/2 
   Calls: 
-Clock_Ip_SetScgAsyncDiv1_TrustedCall/15 (Clock_Ip_SetScgAsyncDiv1_TrustedCall) @06a7fee0
+Clock_Ip_SetScgAsyncDiv1_TrustedCall/15 (Clock_Ip_SetScgAsyncDiv1_TrustedCall) @069b4ee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Clock_Ip_au8ClockFeatures/30 (read) Clock_Ip_au8DividerValueHardwareValue/31 (read) Clock_Ip_apxScgPeriphAsyncDivs/32 (read) Clock_Ip_apxScgPeriphAsyncDivs/32 (read) 
@@ -231,7 +231,7 @@ Clock_Ip_SetScgAsyncDiv1_TrustedCall/15 (Clock_Ip_SetScgAsyncDiv1_TrustedCall) @
   Function flags: body
   Called by: Clock_Ip_SetScgAsyncDiv1/1 
   Calls: 
-Clock_Ip_SetSimTraceDivMul/14 (Clock_Ip_SetSimTraceDivMul) @06a7fc40
+Clock_Ip_SetSimTraceDivMul/14 (Clock_Ip_SetSimTraceDivMul) @069b4c40
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -241,7 +241,7 @@ Clock_Ip_SetSimTraceDivMul/14 (Clock_Ip_SetSimTraceDivMul) @06a7fc40
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetSimTraceDivMul_TrustedCall/28 
-Clock_Ip_SetPccPcdDivFrac/13 (Clock_Ip_SetPccPcdDivFrac) @06a7f9a0
+Clock_Ip_SetPccPcdDivFrac/13 (Clock_Ip_SetPccPcdDivFrac) @069b49a0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -251,7 +251,7 @@ Clock_Ip_SetPccPcdDivFrac/13 (Clock_Ip_SetPccPcdDivFrac) @06a7f9a0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetPccPcdDivFrac_TrustedCall/27 
-Clock_Ip_SetSimClkoutDiv/12 (Clock_Ip_SetSimClkoutDiv) @06a7f700
+Clock_Ip_SetSimClkoutDiv/12 (Clock_Ip_SetSimClkoutDiv) @069b4700
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -261,7 +261,7 @@ Clock_Ip_SetSimClkoutDiv/12 (Clock_Ip_SetSimClkoutDiv) @06a7f700
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetSimClkoutDiv_TrustedCall/26 
-Clock_Ip_SetScgHsrunDivslow/11 (Clock_Ip_SetScgHsrunDivslow) @06a7f460
+Clock_Ip_SetScgHsrunDivslow/11 (Clock_Ip_SetScgHsrunDivslow) @069b4460
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -271,7 +271,7 @@ Clock_Ip_SetScgHsrunDivslow/11 (Clock_Ip_SetScgHsrunDivslow) @06a7f460
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgHsrunDivslow_TrustedCall/25 
-Clock_Ip_SetScgHsrunDivbus/10 (Clock_Ip_SetScgHsrunDivbus) @06a7f1c0
+Clock_Ip_SetScgHsrunDivbus/10 (Clock_Ip_SetScgHsrunDivbus) @069b41c0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -281,7 +281,7 @@ Clock_Ip_SetScgHsrunDivbus/10 (Clock_Ip_SetScgHsrunDivbus) @06a7f1c0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgHsrunDivbus_TrustedCall/24 
-Clock_Ip_SetScgHsrunDivcore/9 (Clock_Ip_SetScgHsrunDivcore) @06a7bd20
+Clock_Ip_SetScgHsrunDivcore/9 (Clock_Ip_SetScgHsrunDivcore) @069b0d20
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -291,7 +291,7 @@ Clock_Ip_SetScgHsrunDivcore/9 (Clock_Ip_SetScgHsrunDivcore) @06a7bd20
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgHsrunDivcore_TrustedCall/23 
-Clock_Ip_SetScgVlprDivslow/8 (Clock_Ip_SetScgVlprDivslow) @06a7b7e0
+Clock_Ip_SetScgVlprDivslow/8 (Clock_Ip_SetScgVlprDivslow) @069b07e0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -301,7 +301,7 @@ Clock_Ip_SetScgVlprDivslow/8 (Clock_Ip_SetScgVlprDivslow) @06a7b7e0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgVlprDivslow_TrustedCall/22 
-Clock_Ip_SetScgVlprDivbus/7 (Clock_Ip_SetScgVlprDivbus) @06a7b2a0
+Clock_Ip_SetScgVlprDivbus/7 (Clock_Ip_SetScgVlprDivbus) @069b02a0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -311,7 +311,7 @@ Clock_Ip_SetScgVlprDivbus/7 (Clock_Ip_SetScgVlprDivbus) @06a7b2a0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgVlprDivbus_TrustedCall/21 
-Clock_Ip_SetScgVlprDivcore/6 (Clock_Ip_SetScgVlprDivcore) @06a7bee0
+Clock_Ip_SetScgVlprDivcore/6 (Clock_Ip_SetScgVlprDivcore) @069b0ee0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -321,7 +321,7 @@ Clock_Ip_SetScgVlprDivcore/6 (Clock_Ip_SetScgVlprDivcore) @06a7bee0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgVlprDivcore_TrustedCall/20 
-Clock_Ip_SetScgRunDivslow/5 (Clock_Ip_SetScgRunDivslow) @06a7bc40
+Clock_Ip_SetScgRunDivslow/5 (Clock_Ip_SetScgRunDivslow) @069b0c40
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -331,7 +331,7 @@ Clock_Ip_SetScgRunDivslow/5 (Clock_Ip_SetScgRunDivslow) @06a7bc40
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgRunDivslow_TrustedCall/19 
-Clock_Ip_SetScgRunDivbus/4 (Clock_Ip_SetScgRunDivbus) @06a7b9a0
+Clock_Ip_SetScgRunDivbus/4 (Clock_Ip_SetScgRunDivbus) @069b09a0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -341,7 +341,7 @@ Clock_Ip_SetScgRunDivbus/4 (Clock_Ip_SetScgRunDivbus) @06a7b9a0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgRunDivbus_TrustedCall/18 
-Clock_Ip_SetScgRunDivcore/3 (Clock_Ip_SetScgRunDivcore) @06a7b700
+Clock_Ip_SetScgRunDivcore/3 (Clock_Ip_SetScgRunDivcore) @069b0700
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -351,7 +351,7 @@ Clock_Ip_SetScgRunDivcore/3 (Clock_Ip_SetScgRunDivcore) @06a7b700
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgRunDivcore_TrustedCall/17 
-Clock_Ip_SetScgAsyncDiv2/2 (Clock_Ip_SetScgAsyncDiv2) @06a7b460
+Clock_Ip_SetScgAsyncDiv2/2 (Clock_Ip_SetScgAsyncDiv2) @069b0460
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -361,7 +361,7 @@ Clock_Ip_SetScgAsyncDiv2/2 (Clock_Ip_SetScgAsyncDiv2) @06a7b460
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgAsyncDiv2_TrustedCall/16 
-Clock_Ip_SetScgAsyncDiv1/1 (Clock_Ip_SetScgAsyncDiv1) @06a7b1c0
+Clock_Ip_SetScgAsyncDiv1/1 (Clock_Ip_SetScgAsyncDiv1) @069b01c0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -371,7 +371,7 @@ Clock_Ip_SetScgAsyncDiv1/1 (Clock_Ip_SetScgAsyncDiv1) @06a7b1c0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetScgAsyncDiv1_TrustedCall/15 
-Clock_Ip_Callback_DividerEmpty/0 (Clock_Ip_Callback_DividerEmpty) @06a79e00
+Clock_Ip_Callback_DividerEmpty/0 (Clock_Ip_Callback_DividerEmpty) @069aee00
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.

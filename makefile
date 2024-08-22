@@ -3,7 +3,7 @@ TARGET = temp
 #Application user files to compile
 SRCS  = main.c
 #Mcal Modules to use
-MCAL_SRCS = Platform Base Rte Mcu Port Dio Adc Pwm Can
+MCAL_SRCS = Platform Base Rte Mcu Port Dio Adc Pwm Spi Can
 #BSW Modules to use
 BSW_SRCS = EcuM Rte Det Os IoHwAbs CanIf
 #BSW Modules to use

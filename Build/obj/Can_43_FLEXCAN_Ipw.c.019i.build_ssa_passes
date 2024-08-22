@@ -167,7 +167,7 @@ Can_43_FLEXCAN_Ipw_Write (const struct Can_43_FLEXCAN_ControllerConfigType * Can
   struct Flexcan_Ip_DataInfoType DataInfo;
   Flexcan_Ip_StatusType eRetVal;
   Std_ReturnType iftmp.9;
-  Std_ReturnType D.7077;
+  Std_ReturnType D.7078;
 
   <bb 2> :
   eRetVal = 1;
@@ -297,46 +297,46 @@ Can_43_FLEXCAN_Ipw_Write (const struct Can_43_FLEXCAN_ControllerConfigType * Can
   iftmp.9 = 2;
 
   <bb 17> :
-  D.7077 = iftmp.9;
+  D.7078 = iftmp.9;
   DataInfo = {CLOBBER};
 
   <bb 18> :
 <L18>:
-  return D.7077;
+  return D.7078;
 
 }
 
 
 Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter (const struct Can_43_FLEXCAN_ControllerConfigType * Can_pControllerConfig, uint8 * pValue)
 {
-  Std_ReturnType D.7063;
+  Std_ReturnType D.7064;
 
   <bb 2> :
   _1 = Can_pControllerConfig->Can_u8ControllerOffset;
   _2 = FlexCAN_Ip_GetControllerRxErrorCounter (_1);
   *pValue = _2;
-  D.7063 = 0;
+  D.7064 = 0;
 
   <bb 3> :
 <L0>:
-  return D.7063;
+  return D.7064;
 
 }
 
 
 Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter (const struct Can_43_FLEXCAN_ControllerConfigType * Can_pControllerConfig, uint8 * pValue)
 {
-  Std_ReturnType D.7061;
+  Std_ReturnType D.7062;
 
   <bb 2> :
   _1 = Can_pControllerConfig->Can_u8ControllerOffset;
   _2 = FlexCAN_Ip_GetControllerTxErrorCounter (_1);
   *pValue = _2;
-  D.7061 = 0;
+  D.7062 = 0;
 
   <bb 3> :
 <L0>:
-  return D.7061;
+  return D.7062;
 
 }
 
@@ -344,7 +344,7 @@ Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter (const struct Can_43_FLEXCAN_Cont
 Can_43_FLEXCAN_Ipw_GetControllerErrorState (const struct Can_43_FLEXCAN_ControllerConfigType * Can_pControllerConfig, uint8 * pValue)
 {
   uint32 Error;
-  Std_ReturnType D.7059;
+  Std_ReturnType D.7060;
 
   <bb 2> :
   Error = 0;
@@ -354,11 +354,11 @@ Can_43_FLEXCAN_Ipw_GetControllerErrorState (const struct Can_43_FLEXCAN_Controll
   _3 = (unsigned char) _2;
   _4 = _3 & 3;
   *pValue = _4;
-  D.7059 = 0;
+  D.7060 = 0;
 
   <bb 3> :
 <L0>:
-  return D.7059;
+  return D.7060;
 
 }
 
@@ -440,7 +440,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode (const struct Can_43_FLEXCAN_Controll
   const struct Can_43_FLEXCAN_HwObjectConfigType * Can_pHwObject;
   uint8 u8HwObjRefIdx;
   Std_ReturnType eReturnValue;
-  Std_ReturnType D.7049;
+  Std_ReturnType D.7050;
 
   <bb 2> :
   u8HwObjRefIdx = 0;
@@ -533,11 +533,11 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode (const struct Can_43_FLEXCAN_Controll
   eReturnValue = 1;
 
   <bb 15> :
-  D.7049 = eReturnValue;
+  D.7050 = eReturnValue;
 
   <bb 16> :
 <L15>:
-  return D.7049;
+  return D.7050;
 
 }
 
@@ -547,7 +547,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode (const struct Can_43_FLEXCAN_Control
   Flexcan_Ip_StatusType eRetVal;
   const struct Can_43_FLEXCAN_HwObjectConfigType * Can_pHwObject;
   uint8 u8HwObjRefIdx;
-  Std_ReturnType D.7037;
+  Std_ReturnType D.7038;
 
   <bb 2> :
   u8HwObjRefIdx = 0;
@@ -555,7 +555,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode (const struct Can_43_FLEXCAN_Control
   _1 = Can_pControllerConfig->Can_u8ControllerOffset;
   _2 = Can_pControllerConfig->Can_u8ControllerID;
   _3 = (int) _2;
-  _4 = &Can_Ipw_xStatus0;
+  _4 = Can_Ipw_apxStatus[_3];
   _5 = Can_pControllerConfig->HwChannelIpConfig;
   _6 = _5->pFlexcanIpHwConfig;
   eRetVal = FlexCAN_Ip_Init_Privileged (_1, _4, _6);
@@ -623,11 +623,11 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode (const struct Can_43_FLEXCAN_Control
   eRetVal = (Flexcan_Ip_StatusType) _22;
 
   <bb 12> :
-  D.7037 = (Std_ReturnType) eRetVal;
+  D.7038 = (Std_ReturnType) eRetVal;
 
   <bb 13> :
 <L12>:
-  return D.7037;
+  return D.7038;
 
 }
 
@@ -635,7 +635,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode (const struct Can_43_FLEXCAN_Control
 Can_43_FLEXCAN_Ipw_SetControlerErrorInit (const struct Can_43_FLEXCAN_ControllerConfigType * Can_pControllerConfig)
 {
   Flexcan_Ip_StatusType eRetVal;
-  Std_ReturnType D.7031;
+  Std_ReturnType D.7032;
 
   <bb 2> :
   eRetVal = 0;
@@ -666,11 +666,11 @@ Can_43_FLEXCAN_Ipw_SetControlerErrorInit (const struct Can_43_FLEXCAN_Controller
   <bb 6> :
   _8 = Can_pControllerConfig->Can_u8ControllerOffset;
   eRetVal = FlexCAN_Ip_SetStartMode_Privileged (_8);
-  D.7031 = (Std_ReturnType) eRetVal;
+  D.7032 = (Std_ReturnType) eRetVal;
 
   <bb 7> :
 <L4>:
-  return D.7031;
+  return D.7032;
 
 }
 
@@ -692,7 +692,7 @@ Can_43_FLEXCAN_Ipw_Init (const struct Can_43_FLEXCAN_ControllerConfigType * Can_
   uint8 u8ObjIdx;
   uint8 u8HwObjRefIdx;
   Std_ReturnType eRetVal;
-  Std_ReturnType D.7025;
+  Std_ReturnType D.7026;
 
   <bb 2> :
   eRetVal = 1;
@@ -703,7 +703,7 @@ Can_43_FLEXCAN_Ipw_Init (const struct Can_43_FLEXCAN_ControllerConfigType * Can_
   _1 = Can_pControllerConfig->Can_u8ControllerOffset;
   _2 = Can_pControllerConfig->Can_u8ControllerID;
   _3 = (int) _2;
-  _4 = &Can_Ipw_xStatus0;
+  _4 = Can_Ipw_apxStatus[_3];
   _5 = Can_pControllerConfig->HwChannelIpConfig;
   _6 = _5->pFlexcanIpHwConfig;
   _7 = FlexCAN_Ip_Init_Privileged (_1, _4, _6);
@@ -861,11 +861,11 @@ Can_43_FLEXCAN_Ipw_Init (const struct Can_43_FLEXCAN_ControllerConfigType * Can_
   _73 = Can_pControllerConfig->Can_u8ControllerOffset;
   _74 = FlexCAN_Ip_SetStopMode_Privileged (_73);
   eRetVal = (Std_ReturnType) _74;
-  D.7025 = eRetVal;
+  D.7026 = eRetVal;
 
   <bb 21> :
 <L18>:
-  return D.7025;
+  return D.7026;
 
 }
 
@@ -915,7 +915,7 @@ Can_43_FLEXCAN_Ipw_ProcessRxMesgBuffer (const struct Can_43_FLEXCAN_ControllerCo
   <bb 5> :
   _12 = Can_pControllerConfig->Can_u8ControllerID;
   _13 = (int) _12;
-  _14 = &Can_Ipw_xStatus0;
+  _14 = Can_Ipw_apxStatus[_13];
   _15 = Can_pHwObject->Can_u8HwBufferIndex;
   _16 = (int) _15;
   pReceivedDataBuffer = _14->mbs[_16].pMBmessage;
@@ -973,7 +973,7 @@ Can_43_FLEXCAN_Ipw_ProcessRxMesgBuffer (const struct Can_43_FLEXCAN_ControllerCo
   <bb 13> :
   _25 = Can_pControllerConfig->Can_u8ControllerID;
   _26 = (int) _25;
-  _27 = &Can_Ipw_xStatus0;
+  _27 = Can_Ipw_apxStatus[_26];
   _28 = Can_pHwObject->Can_u8HwBufferIndex;
   _29 = (int) _28;
   pReceivedDataBuffer = _27->mbs[_29].pMBmessage;

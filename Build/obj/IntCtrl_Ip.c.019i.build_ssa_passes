@@ -9,14 +9,14 @@ IntCtrl_Ip_ClearPending (IRQn_Type eIrqNumber)
 
 IntCtrl_Ip_GetPriority (IRQn_Type eIrqNumber)
 {
-  uint8 D.6144;
+  uint8 D.6150;
 
   <bb 2> :
-  D.6144 = IntCtrl_Ip_GetPriorityPrivileged (eIrqNumber);
+  D.6150 = IntCtrl_Ip_GetPriorityPrivileged (eIrqNumber);
 
   <bb 3> :
 <L0>:
-  return D.6144;
+  return D.6150;
 
 }
 
@@ -60,7 +60,7 @@ IntCtrl_Ip_InstallHandler (IRQn_Type eIrqNumber, void (*IntCtrl_Ip_IrqHandlerTyp
 IntCtrl_Ip_Init (const struct IntCtrl_Ip_CtrlConfigType * pIntCtrlCtrlConfig)
 {
   uint32 irqIdx;
-  IntCtrl_Ip_StatusType D.6142;
+  IntCtrl_Ip_StatusType D.6148;
 
   <bb 2> :
   _1 = pIntCtrlCtrlConfig != 0B;
@@ -130,11 +130,11 @@ IntCtrl_Ip_Init (const struct IntCtrl_Ip_CtrlConfigType * pIntCtrlCtrlConfig)
     goto <bb 8>; [INV]
 
   <bb 8> :
-  D.6142 = 0;
+  D.6148 = 0;
 
   <bb 9> :
 <L6>:
-  return D.6142;
+  return D.6148;
 
 }
 
@@ -162,7 +162,7 @@ IntCtrl_Ip_GetPriorityPrivileged (IRQn_Type eIrqNumber)
 {
   uint8 shift;
   uint8 priority;
-  uint8 D.6137;
+  uint8 D.6143;
 
   <bb 2> :
   _1 = eIrqNumber >= 0;
@@ -177,11 +177,11 @@ IntCtrl_Ip_GetPriorityPrivileged (IRQn_Type eIrqNumber)
   _7 = (int) shift;
   _8 = _6 >> _7;
   priority = (uint8) _8;
-  D.6137 = priority;
+  D.6143 = priority;
 
   <bb 3> :
 <L0>:
-  return D.6137;
+  return D.6143;
 
 }
 

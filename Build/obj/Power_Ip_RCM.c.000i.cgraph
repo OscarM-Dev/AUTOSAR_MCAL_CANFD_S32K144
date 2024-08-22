@@ -3,7 +3,7 @@ Trivially needed symbols: Power_Ip_RCM_GetResetRawValue/3 Power_Ip_RCM_GetResetR
 
 Initial Symbol table:
 
-Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
+Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @069988c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -12,28 +12,28 @@ Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
+Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @06998620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @068b28c0
+  Aux: @069988c0
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
+Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @06998380
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @068b2620
+  Aux: @06998620
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @068b13f0
+Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @069973f0
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @068b2380
+  Aux: @06998380
   References: 
   Referring: Power_Ip_RCM_GetResetReason/2 (write) Power_Ip_RCM_GetResetReason/2 (read) Power_Ip_RCM_GetResetRawValue/3 (write) Power_Ip_RCM_GetResetRawValue/3 (read) 
   Availability: not-ready
@@ -43,7 +43,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
+Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @069988c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
@@ -51,7 +51,7 @@ Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
+Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @06998620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
@@ -59,7 +59,7 @@ Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
+Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @06998380
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -67,7 +67,7 @@ Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @068b13f0
+Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @069973f0
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -78,7 +78,7 @@ Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @068b13f0
 
 Initial Symbol table:
 
-Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
+Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @069988c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
@@ -86,7 +86,7 @@ Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
+Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @06998620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
@@ -94,7 +94,7 @@ Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
+Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @06998380
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -102,7 +102,7 @@ Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @068b13f0
+Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @069973f0
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -114,7 +114,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
+Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @069988c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
@@ -122,7 +122,7 @@ Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
+Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @06998620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
@@ -130,7 +130,7 @@ Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
+Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @06998380
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -138,7 +138,7 @@ Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @068b13f0
+Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @069973f0
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -151,7 +151,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
+Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @069988c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
@@ -160,7 +160,7 @@ Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
+Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @06998620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Power_Ip_u32ResetStatus/0 (write) Power_Ip_u32ResetStatus/0 (read) 
@@ -169,7 +169,7 @@ Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
+Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @06998380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -178,7 +178,7 @@ Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @068b13f0
+Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @069973f0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
@@ -196,7 +196,7 @@ Removing variables:
 
 Final Symbol table:
 
-Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
+Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @069988c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Power_Ip_RCM_GetResetRawValue (implicit_section)
   References: 
@@ -205,7 +205,7 @@ Power_Ip_RCM_GetResetRawValue/3 (Power_Ip_RCM_GetResetRawValue) @068b28c0
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
+Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @06998620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Power_Ip_RCM_GetResetReason (implicit_section)
   References: 
@@ -214,7 +214,7 @@ Power_Ip_RCM_GetResetReason/2 (Power_Ip_RCM_GetResetReason) @068b2620
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
+Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @06998380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Power_Ip_RCM_ResetInit (implicit_section)
   References: 
@@ -223,7 +223,7 @@ Power_Ip_RCM_ResetInit/1 (Power_Ip_RCM_ResetInit) @068b2380
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @068b13f0
+Power_Ip_u32ResetStatus/0 (Power_Ip_u32ResetStatus) @069973f0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Power_Ip_u32ResetStatus (implicit_section)
   Aux: @00000001

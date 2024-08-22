@@ -82,6 +82,9 @@ extern void Adc_1_Isr(void);
 extern void CAN2_ORED_IRQHandler(void);
 extern void CAN2_Error_IRQHandler(void);
 extern void CAN2_ORED_0_15_MB_IRQHandler(void);
+extern void CAN0_ORED_IRQHandler(void);
+extern void CAN0_Error_IRQHandler(void);
+extern void CAN0_ORED_0_15_MB_IRQHandler(void);
 
 
 #define PLATFORM_STOP_SEC_CONFIG_DATA_UNSPECIFIED

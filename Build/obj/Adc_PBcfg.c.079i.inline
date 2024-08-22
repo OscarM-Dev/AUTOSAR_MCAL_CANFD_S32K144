@@ -15,7 +15,7 @@ Overall time estimate: 0.000000 weighted by profile: 0.000000
 Why inlining failed?
 Symbol table:
 
-AdcIpwCfg/8 (AdcIpwCfg) @0686d5a0
+AdcIpwCfg/8 (AdcIpwCfg) @05c725a0
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -23,7 +23,7 @@ AdcIpwCfg/8 (AdcIpwCfg) @0686d5a0
   Referring: Adc_Config/5 (addr) 
   Availability: not_available
   Varpool flags: read-only
-AdcIpwGroupConfig_1/7 (AdcIpwGroupConfig_1) @0686d558
+AdcIpwGroupConfig_1/7 (AdcIpwGroupConfig_1) @05c72558
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -31,7 +31,7 @@ AdcIpwGroupConfig_1/7 (AdcIpwGroupConfig_1) @0686d558
   Referring: Adc_GroupsCfg/2 (addr) 
   Availability: not_available
   Varpool flags: read-only
-AdcIpwGroupConfig_0/6 (AdcIpwGroupConfig_0) @0686d510
+AdcIpwGroupConfig_0/6 (AdcIpwGroupConfig_0) @05c72510
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -39,42 +39,42 @@ AdcIpwGroupConfig_0/6 (AdcIpwGroupConfig_0) @0686d510
   Referring: Adc_GroupsCfg/2 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Adc_Config/5 (Adc_Config) @0686d3f0
+Adc_Config/5 (Adc_Config) @05c723f0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: AdcIpwCfg/8 (addr) Adc_GroupsCfg/2 (addr) Adc_au16GroupIdToIndexMap/3 (addr) Adc_Partition_Assignment/4 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Adc_Partition_Assignment/4 (Adc_Partition_Assignment) @0686d360
+Adc_Partition_Assignment/4 (Adc_Partition_Assignment) @05c72360
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: Adc_Config/5 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Adc_au16GroupIdToIndexMap/3 (Adc_au16GroupIdToIndexMap) @0686d2d0
+Adc_au16GroupIdToIndexMap/3 (Adc_au16GroupIdToIndexMap) @05c722d0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: Adc_Config/5 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Adc_GroupsCfg/2 (Adc_GroupsCfg) @067a2438
+Adc_GroupsCfg/2 (Adc_GroupsCfg) @05bb1438
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: Adc_Group0_Assignment_0/0 (addr) AdcIpwGroupConfig_0/6 (addr) Adc_Group1_Assignment_1/1 (addr) AdcIpwGroupConfig_1/7 (addr) 
   Referring: Adc_Config/5 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Adc_Group1_Assignment_1/1 (Adc_Group1_Assignment_1) @0686d168
+Adc_Group1_Assignment_1/1 (Adc_Group1_Assignment_1) @05c72168
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: Adc_GroupsCfg/2 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Adc_Group0_Assignment_0/0 (Adc_Group0_Assignment_0) @0686d0d8
+Adc_Group0_Assignment_0/0 (Adc_Group0_Assignment_0) @05c720d8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 

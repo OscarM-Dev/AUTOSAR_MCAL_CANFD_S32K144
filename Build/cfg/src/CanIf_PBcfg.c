@@ -82,7 +82,7 @@ extern "C"{
 
 
 /* Here is the TxPdu configuration */
-static const CanIf_TxPduType CanIf_TxPdu[2U] =
+static const CanIf_TxPduType CanIf_TxPdu[3U] =
 {
     {
         /* .PduIdType */
@@ -92,7 +92,7 @@ static const CanIf_TxPduType CanIf_TxPdu[2U] =
         /* .CanFrameType */
         CANIF_STANDARD_CAN,
         /* .Can_HwHandleType */
-        (Can_HwHandleType)0U,
+        (Can_HwHandleType)1U,
         /* .CanIfCtrlId */
         (uint8)0U,
         /* .UserTxConfirmation */
@@ -106,19 +106,51 @@ static const CanIf_TxPduType CanIf_TxPdu[2U] =
         /* .CanFrameType */
         CANIF_STANDARD_CAN,
         /* .Can_HwHandleType */
-        (Can_HwHandleType)0U,
+        (Can_HwHandleType)1U,
         /* .CanIfCtrlId */
         (uint8)0U,
         /* .UserTxConfirmation */
         CDD_UserTxConfirmation_Can_2
+    },
+    {
+        /* .PduIdType */
+        (uint8)2U,
+        /* .CanId */
+        (Can_IdType)256U,
+        /* .CanFrameType */
+        CANIF_STANDARD_CAN,
+        /* .Can_HwHandleType */
+        (Can_HwHandleType)2U,
+        /* .CanIfCtrlId */
+        (uint8)1U,
+        /* .UserTxConfirmation */
+        CDD_UserTxConfirmation_Can_0
+    }
+};
+
+/* Here is the RxPdu configuration */
+static const CanIf_RxPduType CanIf_RxPdu[1U] =
+{
+    {
+        /* .PduId */
+        (uint8)0U,
+        /* .PduLengthCheck */
+        (boolean)TRUE,
+        /* .PduLength */
+        (uint16)1U,
+        /* .CanIfCtrlId */
+        (uint8)1U,
+        /* .UserRxIndication */
+        CDD_UserRxIndication_Can_0
     }
 };
 
 
-
 /* Here is the configuration related to Can_43_FLEXCAN Driver */
-static const CanIf_RxPduType * const CanIf_Can_43_FLEXCAN_HohToRxPduMapping[1U] = 
+static const CanIf_RxPduType * const CanIf_Can_43_FLEXCAN_HohToRxPduMapping[3U] = 
 {
+    &CanIf_RxPdu[0U],
+    NULL_PTR,
     NULL_PTR
 };
 
@@ -137,12 +169,12 @@ static const CanIf_CanDrvConfigType * const CanIf_CanDrvConfig[1U] =
 const CanIf_ConfigType CanIf_Config =
 {
     /* .NumRxPdu */
-    (uint8)0U,
+    (uint8)1U,
     /* .NumTxPdu */
-    (uint8)2U,
+    (uint8)3U,
     CanIf_CanDrvConfig,
     /* .CanIf_RxPduConfigPtr */
-    NULL_PTR,
+    CanIf_RxPdu,
     /* .CanIf_TxPduConfigPtr */
     CanIf_TxPdu
 };

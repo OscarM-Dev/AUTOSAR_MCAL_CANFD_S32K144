@@ -1,13 +1,13 @@
 Symbol table:
 
-count.0/6 (count) @06a7f8b8
+count.0/6 (count) @05da08b8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: HwIoAb_Buttons_MainFunction/2 (write) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (write) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (write) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (write) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (write) HwIoAb_Buttons_MainFunction/2 (read) 
   Availability: available
   Varpool flags: initialized
-Dio_ReadChannel/5 (Dio_ReadChannel) @06a2ce00
+Dio_ReadChannel/5 (Dio_ReadChannel) @05d1de00
   Type: function
   Visibility: external public
   References: 
@@ -16,7 +16,7 @@ Dio_ReadChannel/5 (Dio_ReadChannel) @06a2ce00
   Function flags:
   Called by: HwIoAb_Buttons_MainFunction/2 HwIoAb_Buttons_MainFunction/2 HwIoAb_Buttons_MainFunction/2 HwIoAb_Buttons_MainFunction/2 HwIoAb_Buttons_MainFunction/2 
   Calls: 
-ButtonsControl_Ptr/4 (ButtonsControl_Ptr) @06a341f8
+ButtonsControl_Ptr/4 (ButtonsControl_Ptr) @05d251f8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -24,7 +24,7 @@ ButtonsControl_Ptr/4 (ButtonsControl_Ptr) @06a341f8
   Referring: HwIoAb_Buttons_Init/0 (read) HwIoAb_Buttons_Init/0 (read) HwIoAb_Buttons_Init/0 (read) HwIoAb_Buttons_Init/0 (read) HwIoAb_Buttons_Init/0 (read) HwIoAb_Buttons_Init/0 (read) HwIoAb_Buttons_GetEvent/1 (read) HwIoAb_Buttons_GetEvent/1 (read) HwIoAb_Buttons_GetEvent/1 (read) HwIoAb_Buttons_GetEvent/1 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) HwIoAb_Buttons_MainFunction/2 (read) 
   Availability: not_available
   Varpool flags:
-Det_ReportError/3 (Det_ReportError) @06a2c8c0
+Det_ReportError/3 (Det_ReportError) @05d1d8c0
   Type: function
   Visibility: external public
   References: 
@@ -33,7 +33,7 @@ Det_ReportError/3 (Det_ReportError) @06a2c8c0
   Function flags:
   Called by: HwIoAb_Buttons_MainFunction/2 HwIoAb_Buttons_MainFunction/2 HwIoAb_Buttons_GetEvent/1 HwIoAb_Buttons_GetEvent/1 HwIoAb_Buttons_Init/0 
   Calls: 
-HwIoAb_Buttons_MainFunction/2 (HwIoAb_Buttons_MainFunction) @06a2c460
+HwIoAb_Buttons_MainFunction/2 (HwIoAb_Buttons_MainFunction) @05d1d460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) count.0/6 (write) ButtonsControl_Ptr/4 (read) count.0/6 (read) count.0/6 (write) count.0/6 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) count.0/6 (read) count.0/6 (write) count.0/6 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) count.0/6 (write) ButtonsControl_Ptr/4 (read) count.0/6 (read) count.0/6 (write) count.0/6 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) 
@@ -42,7 +42,7 @@ HwIoAb_Buttons_MainFunction/2 (HwIoAb_Buttons_MainFunction) @06a2c460
   Function flags: body
   Called by: 
   Calls: Det_ReportError/3 Dio_ReadChannel/5 Dio_ReadChannel/5 Dio_ReadChannel/5 Dio_ReadChannel/5 Dio_ReadChannel/5 Det_ReportError/3 
-HwIoAb_Buttons_GetEvent/1 (HwIoAb_Buttons_GetEvent) @06a2c1c0
+HwIoAb_Buttons_GetEvent/1 (HwIoAb_Buttons_GetEvent) @05d1d1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) 
@@ -51,7 +51,7 @@ HwIoAb_Buttons_GetEvent/1 (HwIoAb_Buttons_GetEvent) @06a2c1c0
   Function flags: body
   Called by: 
   Calls: Det_ReportError/3 Det_ReportError/3 
-HwIoAb_Buttons_Init/0 (HwIoAb_Buttons_Init) @06a18b60
+HwIoAb_Buttons_Init/0 (HwIoAb_Buttons_Init) @05bedb60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) ButtonsControl_Ptr/4 (read) 

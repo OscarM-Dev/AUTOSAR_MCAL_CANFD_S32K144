@@ -13,7 +13,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Symbol table:
 
-Can_43_FLEXCAN_GetControllerTxErrorCounter/11 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06ca1ee0
+Can_43_FLEXCAN_GetControllerTxErrorCounter/11 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06dc80e0
   Type: function
   Visibility: external public
   Address is taken.
@@ -23,7 +23,7 @@ Can_43_FLEXCAN_GetControllerTxErrorCounter/11 (Can_43_FLEXCAN_GetControllerTxErr
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerRxErrorCounter/10 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06ca1e00
+Can_43_FLEXCAN_GetControllerRxErrorCounter/10 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06dc8000
   Type: function
   Visibility: external public
   Address is taken.
@@ -33,7 +33,7 @@ Can_43_FLEXCAN_GetControllerRxErrorCounter/10 (Can_43_FLEXCAN_GetControllerRxErr
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerMode/9 (Can_43_FLEXCAN_GetControllerMode) @06ca1d20
+Can_43_FLEXCAN_GetControllerMode/9 (Can_43_FLEXCAN_GetControllerMode) @06da0ee0
   Type: function
   Visibility: external public
   Address is taken.
@@ -43,7 +43,7 @@ Can_43_FLEXCAN_GetControllerMode/9 (Can_43_FLEXCAN_GetControllerMode) @06ca1d20
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerErrorState/8 (Can_43_FLEXCAN_GetControllerErrorState) @06ca1b60
+Can_43_FLEXCAN_GetControllerErrorState/8 (Can_43_FLEXCAN_GetControllerErrorState) @06da0d20
   Type: function
   Visibility: external public
   Address is taken.
@@ -53,7 +53,7 @@ Can_43_FLEXCAN_GetControllerErrorState/8 (Can_43_FLEXCAN_GetControllerErrorState
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_DisableControllerInterrupts/7 (Can_43_FLEXCAN_DisableControllerInterrupts) @06ca1a80
+Can_43_FLEXCAN_DisableControllerInterrupts/7 (Can_43_FLEXCAN_DisableControllerInterrupts) @06da0c40
   Type: function
   Visibility: external public
   Address is taken.
@@ -63,7 +63,7 @@ Can_43_FLEXCAN_DisableControllerInterrupts/7 (Can_43_FLEXCAN_DisableControllerIn
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_EnableControllerInterrupts/6 (Can_43_FLEXCAN_EnableControllerInterrupts) @06ca19a0
+Can_43_FLEXCAN_EnableControllerInterrupts/6 (Can_43_FLEXCAN_EnableControllerInterrupts) @06da0b60
   Type: function
   Visibility: external public
   Address is taken.
@@ -73,7 +73,7 @@ Can_43_FLEXCAN_EnableControllerInterrupts/6 (Can_43_FLEXCAN_EnableControllerInte
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_SetControllerMode/5 (Can_43_FLEXCAN_SetControllerMode) @06ca18c0
+Can_43_FLEXCAN_SetControllerMode/5 (Can_43_FLEXCAN_SetControllerMode) @06da0a80
   Type: function
   Visibility: external public
   Address is taken.
@@ -83,7 +83,7 @@ Can_43_FLEXCAN_SetControllerMode/5 (Can_43_FLEXCAN_SetControllerMode) @06ca18c0
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Write/4 (Can_43_FLEXCAN_Write) @06ca17e0
+Can_43_FLEXCAN_Write/4 (Can_43_FLEXCAN_Write) @06da09a0
   Type: function
   Visibility: external public
   Address is taken.
@@ -93,28 +93,28 @@ Can_43_FLEXCAN_Write/4 (Can_43_FLEXCAN_Write) @06ca17e0
   Function flags:
   Called by: 
   Calls: 
-CanIf_PCConfig/3 (CanIf_PCConfig) @06ca6870
+CanIf_PCConfig/3 (CanIf_PCConfig) @06da5990
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_CtrlPCConfig/2 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-CanIf_CtrlPCConfig/2 (CanIf_CtrlPCConfig) @06ca67e0
+CanIf_CtrlPCConfig/2 (CanIf_CtrlPCConfig) @06da5900
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
-  References: Can_43_FLEXCAN_Driver_Config/1 (addr) 
+  References: Can_43_FLEXCAN_Driver_Config/1 (addr) Can_43_FLEXCAN_Driver_Config/1 (addr) 
   Referring: CanIf_PCConfig/3 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Can_43_FLEXCAN_Driver_Config/1 (Can_43_FLEXCAN_Driver_Config) @06ca6750
+Can_43_FLEXCAN_Driver_Config/1 (Can_43_FLEXCAN_Driver_Config) @06da5870
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: Can_43_FLEXCAN_Driver_P2Func/0 (addr) 
-  Referring: CanIf_CtrlPCConfig/2 (addr) 
+  Referring: CanIf_CtrlPCConfig/2 (addr) CanIf_CtrlPCConfig/2 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Can_43_FLEXCAN_Driver_P2Func/0 (Can_43_FLEXCAN_Driver_P2Func) @06ca66c0
+Can_43_FLEXCAN_Driver_P2Func/0 (Can_43_FLEXCAN_Driver_P2Func) @06da57e0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: Can_43_FLEXCAN_Write/4 (addr) Can_43_FLEXCAN_SetControllerMode/5 (addr) Can_43_FLEXCAN_EnableControllerInterrupts/6 (addr) Can_43_FLEXCAN_DisableControllerInterrupts/7 (addr) Can_43_FLEXCAN_GetControllerErrorState/8 (addr) Can_43_FLEXCAN_GetControllerMode/9 (addr) Can_43_FLEXCAN_GetControllerRxErrorCounter/10 (addr) Can_43_FLEXCAN_GetControllerTxErrorCounter/11 (addr) 

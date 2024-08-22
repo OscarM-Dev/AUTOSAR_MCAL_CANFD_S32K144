@@ -17,7 +17,7 @@ Why inlining failed?
 IPA summary for Power_Ip_PMC_PowerInit/0 is missing.
 Symbol table:
 
-Power_Ip_PMC_PowerInit/0 (Power_Ip_PMC_PowerInit) @068587e0
+Power_Ip_PMC_PowerInit/0 (Power_Ip_PMC_PowerInit) @05d587e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

@@ -76,11 +76,14 @@ extern "C" {
         {CAN2_ORed_IRQn, (boolean)TRUE, 15U, CAN2_ORED_IRQHandler},
         {CAN2_Error_IRQn, (boolean)TRUE, 15U, CAN2_Error_IRQHandler},
         {CAN2_ORed_0_15_MB_IRQn, (boolean)TRUE, 15U, CAN2_ORED_0_15_MB_IRQHandler},
+        {CAN0_ORed_IRQn, (boolean)TRUE, 15U, CAN0_ORED_IRQHandler},
+        {CAN0_Error_IRQn, (boolean)TRUE, 15U, CAN0_Error_IRQHandler},
+        {CAN0_ORed_0_15_MB_IRQn, (boolean)TRUE, 15U, CAN0_ORED_0_15_MB_IRQHandler},
     };
 
 /* Configuration structure for interrupt controller */
 const IntCtrl_Ip_CtrlConfigType intCtrlConfig = {
-    5U,
+    8U,
     
     
     aIrqConfiguration

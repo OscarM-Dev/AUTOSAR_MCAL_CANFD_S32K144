@@ -4,7 +4,7 @@ Trivially needed symbols: _aV2C/6
 
 Initial Symbol table:
 
-__builtin_va_end/8 (__builtin_va_end) @06940a80
+__builtin_va_end/8 (__builtin_va_end) @06959a80
   Type: function
   Visibility: external public
   References: 
@@ -12,7 +12,7 @@ __builtin_va_end/8 (__builtin_va_end) @06940a80
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-__builtin_va_start/7 (__builtin_va_start) @06940000
+__builtin_va_start/7 (__builtin_va_start) @06959000
   Type: function
   Visibility: external public
   References: 
@@ -20,15 +20,15 @@ __builtin_va_start/7 (__builtin_va_start) @06940000
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-_aV2C/6 (_aV2C) @06945510
+_aV2C/6 (_aV2C) @0695e510
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06909d20
+  Aux: @06926d20
   References: 
   Referring: _PrintUnsigned/1 (read) 
   Availability: not-ready
   Varpool flags: initialized read-only const-value-known
-SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
+SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06959620
   Type: function
   Visibility: external public
   References: 
@@ -36,7 +36,7 @@ SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
   Function flags:
   Called by: SEGGER_RTT_vprintf/3 _StoreChar/0 
   Calls: 
-SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
+SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069591c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -45,37 +45,37 @@ SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
   Function flags: body
   Called by: 
   Calls: __builtin_va_end/8 SEGGER_RTT_vprintf/3 __builtin_va_start/7 
-SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
+SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06926e00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @069401c0
+  Aux: @069591c0
   References: 
   Referring: 
   Function flags: body
   Called by: SEGGER_RTT_printf/4 
   Calls: SEGGER_RTT_Write/5 _StoreChar/0 _StoreChar/0 _PrintUnsigned/1 _StoreChar/0 _PrintUnsigned/1 _PrintUnsigned/1 _PrintInt/2 _StoreChar/0 
-_PrintInt/2 (_PrintInt) @06909d20
+_PrintInt/2 (_PrintInt) @06926d20
   Type: function definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06909e00
+  Aux: @06926e00
   References: 
   Referring: 
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 
   Calls: _PrintUnsigned/1 _StoreChar/0 _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_PrintUnsigned/1 (_PrintUnsigned) @06909a80
+_PrintUnsigned/1 (_PrintUnsigned) @06926a80
   Type: function definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06909d20
+  Aux: @06926d20
   References: _aV2C/6 (read) 
   Referring: 
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 _PrintInt/2 
   Calls: _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_StoreChar/0 (_StoreChar) @06909700
+_StoreChar/0 (_StoreChar) @06926700
   Type: function definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06909a80
+  Aux: @06926a80
   References: 
   Referring: 
   Function flags: body
@@ -86,7 +86,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-__builtin_va_end/8 (__builtin_va_end) @06940a80
+__builtin_va_end/8 (__builtin_va_end) @06959a80
   Type: function
   Visibility: external public
   References: 
@@ -94,7 +94,7 @@ __builtin_va_end/8 (__builtin_va_end) @06940a80
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-__builtin_va_start/7 (__builtin_va_start) @06940000
+__builtin_va_start/7 (__builtin_va_start) @06959000
   Type: function
   Visibility: external public
   References: 
@@ -102,14 +102,14 @@ __builtin_va_start/7 (__builtin_va_start) @06940000
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-_aV2C/6 (_aV2C) @06945510
+_aV2C/6 (_aV2C) @0695e510
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: _PrintUnsigned/1 (read) 
   Availability: not-ready
   Varpool flags: initialized read-only const-value-known
-SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
+SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06959620
   Type: function
   Visibility: external public
   References: 
@@ -117,7 +117,7 @@ SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
   Function flags:
   Called by: SEGGER_RTT_vprintf/3 _StoreChar/0 
   Calls: 
-SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
+SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069591c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -125,7 +125,7 @@ SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
   Function flags: body
   Called by: 
   Calls: __builtin_va_end/8 SEGGER_RTT_vprintf/3 __builtin_va_start/7 
-SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
+SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06926e00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -133,7 +133,7 @@ SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
   Function flags: body
   Called by: SEGGER_RTT_printf/4 
   Calls: SEGGER_RTT_Write/5 _StoreChar/0 _StoreChar/0 _PrintUnsigned/1 _StoreChar/0 _PrintUnsigned/1 _PrintUnsigned/1 _PrintInt/2 _StoreChar/0 
-_PrintInt/2 (_PrintInt) @06909d20
+_PrintInt/2 (_PrintInt) @06926d20
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -141,7 +141,7 @@ _PrintInt/2 (_PrintInt) @06909d20
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 
   Calls: _PrintUnsigned/1 _StoreChar/0 _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_PrintUnsigned/1 (_PrintUnsigned) @06909a80
+_PrintUnsigned/1 (_PrintUnsigned) @06926a80
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: _aV2C/6 (read) 
@@ -149,7 +149,7 @@ _PrintUnsigned/1 (_PrintUnsigned) @06909a80
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 _PrintInt/2 
   Calls: _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_StoreChar/0 (_StoreChar) @06909700
+_StoreChar/0 (_StoreChar) @06926700
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -161,7 +161,7 @@ _StoreChar/0 (_StoreChar) @06909700
 
 Initial Symbol table:
 
-__builtin_va_end/8 (__builtin_va_end) @06940a80
+__builtin_va_end/8 (__builtin_va_end) @06959a80
   Type: function
   Visibility: external public
   References: 
@@ -169,7 +169,7 @@ __builtin_va_end/8 (__builtin_va_end) @06940a80
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-__builtin_va_start/7 (__builtin_va_start) @06940000
+__builtin_va_start/7 (__builtin_va_start) @06959000
   Type: function
   Visibility: external public
   References: 
@@ -177,14 +177,14 @@ __builtin_va_start/7 (__builtin_va_start) @06940000
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-_aV2C.0/6 (_aV2C) @06945510
+_aV2C.0/6 (_aV2C) @0695e510
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: _PrintUnsigned/1 (read) 
   Availability: not-ready
   Varpool flags: initialized read-only const-value-known
-SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
+SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06959620
   Type: function
   Visibility: external public
   References: 
@@ -192,7 +192,7 @@ SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
   Function flags:
   Called by: SEGGER_RTT_vprintf/3 _StoreChar/0 
   Calls: 
-SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
+SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069591c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -200,7 +200,7 @@ SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
   Function flags: body
   Called by: 
   Calls: __builtin_va_end/8 SEGGER_RTT_vprintf/3 __builtin_va_start/7 
-SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
+SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06926e00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -208,7 +208,7 @@ SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
   Function flags: body
   Called by: SEGGER_RTT_printf/4 
   Calls: SEGGER_RTT_Write/5 _StoreChar/0 _StoreChar/0 _PrintUnsigned/1 _StoreChar/0 _PrintUnsigned/1 _PrintUnsigned/1 _PrintInt/2 _StoreChar/0 
-_PrintInt/2 (_PrintInt) @06909d20
+_PrintInt/2 (_PrintInt) @06926d20
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -216,7 +216,7 @@ _PrintInt/2 (_PrintInt) @06909d20
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 
   Calls: _PrintUnsigned/1 _StoreChar/0 _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_PrintUnsigned/1 (_PrintUnsigned) @06909a80
+_PrintUnsigned/1 (_PrintUnsigned) @06926a80
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: _aV2C.0/6 (read) 
@@ -224,7 +224,7 @@ _PrintUnsigned/1 (_PrintUnsigned) @06909a80
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 _PrintInt/2 
   Calls: _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_StoreChar/0 (_StoreChar) @06909700
+_StoreChar/0 (_StoreChar) @06926700
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -237,7 +237,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-__builtin_va_end/8 (__builtin_va_end) @06940a80
+__builtin_va_end/8 (__builtin_va_end) @06959a80
   Type: function
   Visibility: external public
   References: 
@@ -245,7 +245,7 @@ __builtin_va_end/8 (__builtin_va_end) @06940a80
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-__builtin_va_start/7 (__builtin_va_start) @06940000
+__builtin_va_start/7 (__builtin_va_start) @06959000
   Type: function
   Visibility: external public
   References: 
@@ -253,14 +253,14 @@ __builtin_va_start/7 (__builtin_va_start) @06940000
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-_aV2C.0/6 (_aV2C) @06945510
+_aV2C.0/6 (_aV2C) @0695e510
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: _PrintUnsigned/1 (read) 
   Availability: not-ready
   Varpool flags: initialized read-only const-value-known
-SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
+SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06959620
   Type: function
   Visibility: external public
   References: 
@@ -268,7 +268,7 @@ SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
   Function flags:
   Called by: SEGGER_RTT_vprintf/3 _StoreChar/0 
   Calls: 
-SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
+SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069591c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -276,7 +276,7 @@ SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
   Function flags: body
   Called by: 
   Calls: __builtin_va_end/8 SEGGER_RTT_vprintf/3 __builtin_va_start/7 
-SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
+SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06926e00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -284,7 +284,7 @@ SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
   Function flags: body
   Called by: SEGGER_RTT_printf/4 
   Calls: SEGGER_RTT_Write/5 _StoreChar/0 _StoreChar/0 _PrintUnsigned/1 _StoreChar/0 _PrintUnsigned/1 _PrintUnsigned/1 _PrintInt/2 _StoreChar/0 
-_PrintInt/2 (_PrintInt) @06909d20
+_PrintInt/2 (_PrintInt) @06926d20
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -292,7 +292,7 @@ _PrintInt/2 (_PrintInt) @06909d20
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 
   Calls: _PrintUnsigned/1 _StoreChar/0 _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_PrintUnsigned/1 (_PrintUnsigned) @06909a80
+_PrintUnsigned/1 (_PrintUnsigned) @06926a80
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: _aV2C.0/6 (read) 
@@ -300,7 +300,7 @@ _PrintUnsigned/1 (_PrintUnsigned) @06909a80
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 _PrintInt/2 
   Calls: _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_StoreChar/0 (_StoreChar) @06909700
+_StoreChar/0 (_StoreChar) @06926700
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -314,7 +314,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-__builtin_va_end/8 (__builtin_va_end) @06940a80
+__builtin_va_end/8 (__builtin_va_end) @06959a80
   Type: function
   Visibility: external public
   References: 
@@ -323,7 +323,7 @@ __builtin_va_end/8 (__builtin_va_end) @06940a80
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-__builtin_va_start/7 (__builtin_va_start) @06940000
+__builtin_va_start/7 (__builtin_va_start) @06959000
   Type: function
   Visibility: external public
   References: 
@@ -332,14 +332,14 @@ __builtin_va_start/7 (__builtin_va_start) @06940000
   Function flags:
   Called by: SEGGER_RTT_printf/4 
   Calls: 
-_aV2C.0/6 (_aV2C) @06945510
+_aV2C.0/6 (_aV2C) @0695e510
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: _PrintUnsigned/1 (read) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
+SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06959620
   Type: function
   Visibility: external public
   References: 
@@ -348,7 +348,7 @@ SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
   Function flags:
   Called by: SEGGER_RTT_vprintf/3 _StoreChar/0 
   Calls: 
-SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
+SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069591c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -357,7 +357,7 @@ SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
   Function flags: body
   Called by: 
   Calls: __builtin_va_end/8 SEGGER_RTT_vprintf/3 __builtin_va_start/7 
-SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
+SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06926e00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -366,7 +366,7 @@ SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
   Function flags: body
   Called by: SEGGER_RTT_printf/4 
   Calls: SEGGER_RTT_Write/5 _StoreChar/0 _StoreChar/0 _PrintUnsigned/1 _StoreChar/0 _PrintUnsigned/1 _PrintUnsigned/1 _PrintInt/2 _StoreChar/0 
-_PrintInt/2 (_PrintInt) @06909d20
+_PrintInt/2 (_PrintInt) @06926d20
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
@@ -375,7 +375,7 @@ _PrintInt/2 (_PrintInt) @06909d20
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 
   Calls: _PrintUnsigned/1 _StoreChar/0 _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_PrintUnsigned/1 (_PrintUnsigned) @06909a80
+_PrintUnsigned/1 (_PrintUnsigned) @06926a80
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: _aV2C.0/6 (read) 
@@ -384,7 +384,7 @@ _PrintUnsigned/1 (_PrintUnsigned) @06909a80
   Function flags: body
   Called by: SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 SEGGER_RTT_vprintf/3 _PrintInt/2 
   Calls: _StoreChar/0 _StoreChar/0 _StoreChar/0 
-_StoreChar/0 (_StoreChar) @06909700
+_StoreChar/0 (_StoreChar) @06926700
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
@@ -404,7 +404,7 @@ Removing variables:
 
 Final Symbol table:
 
-__builtin_va_end/8 (__builtin_va_end) @06940a80
+__builtin_va_end/8 (__builtin_va_end) @06959a80
   Type: function
   Visibility: external public
   References: 
@@ -413,7 +413,7 @@ __builtin_va_end/8 (__builtin_va_end) @06940a80
   Function flags:
   Called by: 
   Calls: 
-__builtin_va_start/7 (__builtin_va_start) @06940000
+__builtin_va_start/7 (__builtin_va_start) @06959000
   Type: function
   Visibility: external public
   References: 
@@ -422,7 +422,7 @@ __builtin_va_start/7 (__builtin_va_start) @06940000
   Function flags:
   Called by: 
   Calls: 
-_aV2C.0/6 (_aV2C) @06945510
+_aV2C.0/6 (_aV2C) @0695e510
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.rodata._aV2C.0 (implicit_section)
   Aux: @00000001
@@ -430,7 +430,7 @@ _aV2C.0/6 (_aV2C) @06945510
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
+SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06959620
   Type: function
   Visibility: external public
   References: 
@@ -439,7 +439,7 @@ SEGGER_RTT_Write/5 (SEGGER_RTT_Write) @06940620
   Function flags:
   Called by: 
   Calls: 
-SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
+SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069591c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.SEGGER_RTT_printf (implicit_section)
   References: 
@@ -448,7 +448,7 @@ SEGGER_RTT_printf/4 (SEGGER_RTT_printf) @069401c0
   Function flags:
   Called by: 
   Calls: 
-SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
+SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06926e00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.SEGGER_RTT_vprintf (implicit_section)
   References: 
@@ -457,7 +457,7 @@ SEGGER_RTT_vprintf/3 (SEGGER_RTT_vprintf) @06909e00
   Function flags:
   Called by: 
   Calls: 
-_PrintInt/2 (_PrintInt) @06909d20
+_PrintInt/2 (_PrintInt) @06926d20
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text._PrintInt (implicit_section)
   References: 
@@ -466,7 +466,7 @@ _PrintInt/2 (_PrintInt) @06909d20
   Function flags:
   Called by: 
   Calls: 
-_PrintUnsigned/1 (_PrintUnsigned) @06909a80
+_PrintUnsigned/1 (_PrintUnsigned) @06926a80
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text._PrintUnsigned (implicit_section)
   References: 
@@ -475,7 +475,7 @@ _PrintUnsigned/1 (_PrintUnsigned) @06909a80
   Function flags:
   Called by: 
   Calls: 
-_StoreChar/0 (_StoreChar) @06909700
+_StoreChar/0 (_StoreChar) @06926700
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text._StoreChar (implicit_section)
   References: 

@@ -3,7 +3,7 @@ Trivially needed symbols: Port_GetVersionInfo/6 Port_RefreshPortDirection/5 Port
 
 Initial Symbol table:
 
-Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
+Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @05fa10e0
   Type: function
   Visibility: external public
   References: 
@@ -11,7 +11,7 @@ Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
   Function flags:
   Called by: Port_RefreshPortDirection/5 
   Calls: 
-Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
+Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @05fa1e00
   Type: function
   Visibility: external public
   References: 
@@ -19,7 +19,7 @@ Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
   Function flags:
   Called by: Port_SetPinMode/4 
   Calls: 
-Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
+Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @05fa1c40
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
   Function flags:
   Called by: Port_SetPinDirection/3 
   Calls: 
-Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
+Port_Ipw_Init/8 (Port_Ipw_Init) @05fa1a80
   Type: function
   Visibility: external public
   References: 
@@ -35,7 +35,7 @@ Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
   Function flags:
   Called by: Port_Init/2 
   Calls: 
-Det_ReportError/7 (Det_ReportError) @06a5b9a0
+Det_ReportError/7 (Det_ReportError) @05fa19a0
   Type: function
   Visibility: external public
   References: 
@@ -43,7 +43,7 @@ Det_ReportError/7 (Det_ReportError) @06a5b9a0
   Function flags:
   Called by: Port_GetVersionInfo/6 Port_RefreshPortDirection/5 Port_RefreshPortDirection/5 Port_SetPinMode/4 Port_SetPinMode/4 Port_SetPinDirection/3 Port_SetPinDirection/3 Port_Init/2 Port_Init/2 
   Calls: 
-Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
+Port_GetVersionInfo/6 (Port_GetVersionInfo) @05fa1540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -52,51 +52,51 @@ Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 
-Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
+Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @05fa12a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06a5b540
+  Aux: @05fa1540
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Port_Ipw_RefreshPortDirection/11 Det_ReportError/7 Det_ReportError/7 
-Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
+Port_SetPinMode/4 (Port_SetPinMode) @05fa1000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06a5b2a0
+  Aux: @05fa12a0
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinMode/10 Det_ReportError/7 
-Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
+Port_SetPinDirection/3 (Port_SetPinDirection) @05f952a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06a5b000
+  Aux: @05fa1000
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinDirection/9 Det_ReportError/7 
-Port_Init/2 (Port_Init) @06a4f000
+Port_Init/2 (Port_Init) @05f95000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06a4f2a0
+  Aux: @05f952a0
   References: Port_pConfigPtr/1 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Port_Ipw_Init/8 Det_ReportError/7 Det_ReportError/7 
-Port_pConfigPtr/1 (Port_pConfigPtr) @06a54090
+Port_pConfigPtr/1 (Port_pConfigPtr) @05f9a240
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06a4f000
+  Aux: @05f95000
   References: 
   Referring: Port_Init/2 (write) Port_SetPinDirection/3 (read) Port_SetPinDirection/3 (read) Port_SetPinMode/4 (read) Port_SetPinMode/4 (read) Port_RefreshPortDirection/5 (read) Port_RefreshPortDirection/5 (read) Port_RefreshPortDirection/5 (read) 
   Availability: not-ready
   Varpool flags:
-DevAssert/0 (DevAssert) @06829540
+DevAssert/0 (DevAssert) @05e62540
   Type: function definition
   Visibility: no_reorder
   References: 
@@ -109,7 +109,7 @@ Removing unused symbols: DevAssert/0
 
 Reclaimed Symbol table:
 
-Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
+Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @05fa10e0
   Type: function
   Visibility: external public
   References: 
@@ -117,7 +117,7 @@ Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
   Function flags:
   Called by: Port_RefreshPortDirection/5 
   Calls: 
-Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
+Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @05fa1e00
   Type: function
   Visibility: external public
   References: 
@@ -125,7 +125,7 @@ Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
   Function flags:
   Called by: Port_SetPinMode/4 
   Calls: 
-Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
+Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @05fa1c40
   Type: function
   Visibility: external public
   References: 
@@ -133,7 +133,7 @@ Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
   Function flags:
   Called by: Port_SetPinDirection/3 
   Calls: 
-Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
+Port_Ipw_Init/8 (Port_Ipw_Init) @05fa1a80
   Type: function
   Visibility: external public
   References: 
@@ -141,7 +141,7 @@ Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
   Function flags:
   Called by: Port_Init/2 
   Calls: 
-Det_ReportError/7 (Det_ReportError) @06a5b9a0
+Det_ReportError/7 (Det_ReportError) @05fa19a0
   Type: function
   Visibility: external public
   References: 
@@ -149,7 +149,7 @@ Det_ReportError/7 (Det_ReportError) @06a5b9a0
   Function flags:
   Called by: Port_GetVersionInfo/6 Port_RefreshPortDirection/5 Port_RefreshPortDirection/5 Port_SetPinMode/4 Port_SetPinMode/4 Port_SetPinDirection/3 Port_SetPinDirection/3 Port_Init/2 Port_Init/2 
   Calls: 
-Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
+Port_GetVersionInfo/6 (Port_GetVersionInfo) @05fa1540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -157,7 +157,7 @@ Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 
-Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
+Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @05fa12a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -165,7 +165,7 @@ Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
   Function flags: body
   Called by: 
   Calls: Port_Ipw_RefreshPortDirection/11 Det_ReportError/7 Det_ReportError/7 
-Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
+Port_SetPinMode/4 (Port_SetPinMode) @05fa1000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -173,7 +173,7 @@ Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinMode/10 Det_ReportError/7 
-Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
+Port_SetPinDirection/3 (Port_SetPinDirection) @05f952a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -181,7 +181,7 @@ Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinDirection/9 Det_ReportError/7 
-Port_Init/2 (Port_Init) @06a4f000
+Port_Init/2 (Port_Init) @05f95000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (write) 
@@ -189,7 +189,7 @@ Port_Init/2 (Port_Init) @06a4f000
   Function flags: body
   Called by: 
   Calls: Port_Ipw_Init/8 Det_ReportError/7 Det_ReportError/7 
-Port_pConfigPtr/1 (Port_pConfigPtr) @06a54090
+Port_pConfigPtr/1 (Port_pConfigPtr) @05f9a240
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -200,7 +200,7 @@ Port_pConfigPtr/1 (Port_pConfigPtr) @06a54090
 
 Initial Symbol table:
 
-Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
+Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @05fa10e0
   Type: function
   Visibility: external public
   References: 
@@ -208,7 +208,7 @@ Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
   Function flags:
   Called by: Port_RefreshPortDirection/5 
   Calls: 
-Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
+Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @05fa1e00
   Type: function
   Visibility: external public
   References: 
@@ -216,7 +216,7 @@ Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
   Function flags:
   Called by: Port_SetPinMode/4 
   Calls: 
-Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
+Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @05fa1c40
   Type: function
   Visibility: external public
   References: 
@@ -224,7 +224,7 @@ Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
   Function flags:
   Called by: Port_SetPinDirection/3 
   Calls: 
-Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
+Port_Ipw_Init/8 (Port_Ipw_Init) @05fa1a80
   Type: function
   Visibility: external public
   References: 
@@ -232,7 +232,7 @@ Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
   Function flags:
   Called by: Port_Init/2 
   Calls: 
-Det_ReportError/7 (Det_ReportError) @06a5b9a0
+Det_ReportError/7 (Det_ReportError) @05fa19a0
   Type: function
   Visibility: external public
   References: 
@@ -240,7 +240,7 @@ Det_ReportError/7 (Det_ReportError) @06a5b9a0
   Function flags:
   Called by: Port_GetVersionInfo/6 Port_RefreshPortDirection/5 Port_RefreshPortDirection/5 Port_SetPinMode/4 Port_SetPinMode/4 Port_SetPinDirection/3 Port_SetPinDirection/3 Port_Init/2 Port_Init/2 
   Calls: 
-Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
+Port_GetVersionInfo/6 (Port_GetVersionInfo) @05fa1540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -248,7 +248,7 @@ Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 
-Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
+Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @05fa12a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -256,7 +256,7 @@ Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
   Function flags: body
   Called by: 
   Calls: Port_Ipw_RefreshPortDirection/11 Det_ReportError/7 Det_ReportError/7 
-Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
+Port_SetPinMode/4 (Port_SetPinMode) @05fa1000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -264,7 +264,7 @@ Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinMode/10 Det_ReportError/7 
-Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
+Port_SetPinDirection/3 (Port_SetPinDirection) @05f952a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -272,7 +272,7 @@ Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinDirection/9 Det_ReportError/7 
-Port_Init/2 (Port_Init) @06a4f000
+Port_Init/2 (Port_Init) @05f95000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (write) 
@@ -280,7 +280,7 @@ Port_Init/2 (Port_Init) @06a4f000
   Function flags: body
   Called by: 
   Calls: Port_Ipw_Init/8 Det_ReportError/7 Det_ReportError/7 
-Port_pConfigPtr/1 (Port_pConfigPtr) @06a54090
+Port_pConfigPtr/1 (Port_pConfigPtr) @05f9a240
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -292,7 +292,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
+Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @05fa10e0
   Type: function
   Visibility: external public
   References: 
@@ -300,7 +300,7 @@ Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
   Function flags:
   Called by: Port_RefreshPortDirection/5 
   Calls: 
-Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
+Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @05fa1e00
   Type: function
   Visibility: external public
   References: 
@@ -308,7 +308,7 @@ Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
   Function flags:
   Called by: Port_SetPinMode/4 
   Calls: 
-Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
+Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @05fa1c40
   Type: function
   Visibility: external public
   References: 
@@ -316,7 +316,7 @@ Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
   Function flags:
   Called by: Port_SetPinDirection/3 
   Calls: 
-Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
+Port_Ipw_Init/8 (Port_Ipw_Init) @05fa1a80
   Type: function
   Visibility: external public
   References: 
@@ -324,7 +324,7 @@ Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
   Function flags:
   Called by: Port_Init/2 
   Calls: 
-Det_ReportError/7 (Det_ReportError) @06a5b9a0
+Det_ReportError/7 (Det_ReportError) @05fa19a0
   Type: function
   Visibility: external public
   References: 
@@ -332,7 +332,7 @@ Det_ReportError/7 (Det_ReportError) @06a5b9a0
   Function flags:
   Called by: Port_GetVersionInfo/6 Port_RefreshPortDirection/5 Port_RefreshPortDirection/5 Port_SetPinMode/4 Port_SetPinMode/4 Port_SetPinDirection/3 Port_SetPinDirection/3 Port_Init/2 Port_Init/2 
   Calls: 
-Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
+Port_GetVersionInfo/6 (Port_GetVersionInfo) @05fa1540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -340,7 +340,7 @@ Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 
-Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
+Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @05fa12a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -348,7 +348,7 @@ Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
   Function flags: body
   Called by: 
   Calls: Port_Ipw_RefreshPortDirection/11 Det_ReportError/7 Det_ReportError/7 
-Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
+Port_SetPinMode/4 (Port_SetPinMode) @05fa1000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -356,7 +356,7 @@ Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinMode/10 Det_ReportError/7 
-Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
+Port_SetPinDirection/3 (Port_SetPinDirection) @05f952a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -364,7 +364,7 @@ Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinDirection/9 Det_ReportError/7 
-Port_Init/2 (Port_Init) @06a4f000
+Port_Init/2 (Port_Init) @05f95000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Port_pConfigPtr/1 (write) 
@@ -372,7 +372,7 @@ Port_Init/2 (Port_Init) @06a4f000
   Function flags: body
   Called by: 
   Calls: Port_Ipw_Init/8 Det_ReportError/7 Det_ReportError/7 
-Port_pConfigPtr/1 (Port_pConfigPtr) @06a54090
+Port_pConfigPtr/1 (Port_pConfigPtr) @05f9a240
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -385,7 +385,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
+Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @05fa10e0
   Type: function
   Visibility: external public
   References: 
@@ -394,7 +394,7 @@ Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
   Function flags:
   Called by: Port_RefreshPortDirection/5 
   Calls: 
-Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
+Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @05fa1e00
   Type: function
   Visibility: external public
   References: 
@@ -403,7 +403,7 @@ Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
   Function flags:
   Called by: Port_SetPinMode/4 
   Calls: 
-Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
+Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @05fa1c40
   Type: function
   Visibility: external public
   References: 
@@ -412,7 +412,7 @@ Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
   Function flags:
   Called by: Port_SetPinDirection/3 
   Calls: 
-Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
+Port_Ipw_Init/8 (Port_Ipw_Init) @05fa1a80
   Type: function
   Visibility: external public
   References: 
@@ -421,7 +421,7 @@ Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
   Function flags:
   Called by: Port_Init/2 
   Calls: 
-Det_ReportError/7 (Det_ReportError) @06a5b9a0
+Det_ReportError/7 (Det_ReportError) @05fa19a0
   Type: function
   Visibility: external public
   References: 
@@ -430,7 +430,7 @@ Det_ReportError/7 (Det_ReportError) @06a5b9a0
   Function flags:
   Called by: Port_GetVersionInfo/6 Port_RefreshPortDirection/5 Port_RefreshPortDirection/5 Port_SetPinMode/4 Port_SetPinMode/4 Port_SetPinDirection/3 Port_SetPinDirection/3 Port_Init/2 Port_Init/2 
   Calls: 
-Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
+Port_GetVersionInfo/6 (Port_GetVersionInfo) @05fa1540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -439,7 +439,7 @@ Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 
-Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
+Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @05fa12a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -448,7 +448,7 @@ Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
   Function flags: body
   Called by: 
   Calls: Port_Ipw_RefreshPortDirection/11 Det_ReportError/7 Det_ReportError/7 
-Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
+Port_SetPinMode/4 (Port_SetPinMode) @05fa1000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -457,7 +457,7 @@ Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinMode/10 Det_ReportError/7 
-Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
+Port_SetPinDirection/3 (Port_SetPinDirection) @05f952a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Port_pConfigPtr/1 (read) Port_pConfigPtr/1 (read) 
@@ -466,7 +466,7 @@ Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
   Function flags: body
   Called by: 
   Calls: Det_ReportError/7 Port_Ipw_SetPinDirection/9 Det_ReportError/7 
-Port_Init/2 (Port_Init) @06a4f000
+Port_Init/2 (Port_Init) @05f95000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Port_pConfigPtr/1 (write) 
@@ -475,7 +475,7 @@ Port_Init/2 (Port_Init) @06a4f000
   Function flags: body
   Called by: 
   Calls: Port_Ipw_Init/8 Det_ReportError/7 Det_ReportError/7 
-Port_pConfigPtr/1 (Port_pConfigPtr) @06a54090
+Port_pConfigPtr/1 (Port_pConfigPtr) @05f9a240
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
@@ -493,7 +493,7 @@ Removing variables:
 
 Final Symbol table:
 
-Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
+Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @05fa10e0
   Type: function
   Visibility: external public
   References: 
@@ -502,7 +502,7 @@ Port_Ipw_RefreshPortDirection/11 (Port_Ipw_RefreshPortDirection) @06a5b0e0
   Function flags:
   Called by: 
   Calls: 
-Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
+Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @05fa1e00
   Type: function
   Visibility: external public
   References: 
@@ -511,7 +511,7 @@ Port_Ipw_SetPinMode/10 (Port_Ipw_SetPinMode) @06a5be00
   Function flags:
   Called by: 
   Calls: 
-Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
+Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @05fa1c40
   Type: function
   Visibility: external public
   References: 
@@ -520,7 +520,7 @@ Port_Ipw_SetPinDirection/9 (Port_Ipw_SetPinDirection) @06a5bc40
   Function flags:
   Called by: 
   Calls: 
-Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
+Port_Ipw_Init/8 (Port_Ipw_Init) @05fa1a80
   Type: function
   Visibility: external public
   References: 
@@ -529,7 +529,7 @@ Port_Ipw_Init/8 (Port_Ipw_Init) @06a5ba80
   Function flags:
   Called by: 
   Calls: 
-Det_ReportError/7 (Det_ReportError) @06a5b9a0
+Det_ReportError/7 (Det_ReportError) @05fa19a0
   Type: function
   Visibility: external public
   References: 
@@ -538,7 +538,7 @@ Det_ReportError/7 (Det_ReportError) @06a5b9a0
   Function flags:
   Called by: 
   Calls: 
-Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
+Port_GetVersionInfo/6 (Port_GetVersionInfo) @05fa1540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Port_GetVersionInfo (implicit_section)
   References: 
@@ -547,7 +547,7 @@ Port_GetVersionInfo/6 (Port_GetVersionInfo) @06a5b540
   Function flags:
   Called by: 
   Calls: 
-Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
+Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @05fa12a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Port_RefreshPortDirection (implicit_section)
   References: 
@@ -556,7 +556,7 @@ Port_RefreshPortDirection/5 (Port_RefreshPortDirection) @06a5b2a0
   Function flags:
   Called by: 
   Calls: 
-Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
+Port_SetPinMode/4 (Port_SetPinMode) @05fa1000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Port_SetPinMode (implicit_section)
   References: 
@@ -565,7 +565,7 @@ Port_SetPinMode/4 (Port_SetPinMode) @06a5b000
   Function flags:
   Called by: 
   Calls: 
-Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
+Port_SetPinDirection/3 (Port_SetPinDirection) @05f952a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Port_SetPinDirection (implicit_section)
   References: 
@@ -574,7 +574,7 @@ Port_SetPinDirection/3 (Port_SetPinDirection) @06a4f2a0
   Function flags:
   Called by: 
   Calls: 
-Port_Init/2 (Port_Init) @06a4f000
+Port_Init/2 (Port_Init) @05f95000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Port_Init (implicit_section)
   References: 
@@ -583,7 +583,7 @@ Port_Init/2 (Port_Init) @06a4f000
   Function flags:
   Called by: 
   Calls: 
-Port_pConfigPtr/1 (Port_pConfigPtr) @06a54090
+Port_pConfigPtr/1 (Port_pConfigPtr) @05f9a240
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Port_pConfigPtr (implicit_section)
   Aux: @00000001

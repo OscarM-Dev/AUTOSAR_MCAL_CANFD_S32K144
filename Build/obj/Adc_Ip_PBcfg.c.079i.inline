@@ -15,7 +15,7 @@ Overall time estimate: 0.000000 weighted by profile: 0.000000
 Why inlining failed?
 Symbol table:
 
-Adc_Ipw_Adc1EndConversionNotification/5 (Adc_Ipw_Adc1EndConversionNotification) @0693a700
+Adc_Ipw_Adc1EndConversionNotification/5 (Adc_Ipw_Adc1EndConversionNotification) @06802700
   Type: function
   Visibility: external public
   Address is taken.
@@ -25,7 +25,7 @@ Adc_Ipw_Adc1EndConversionNotification/5 (Adc_Ipw_Adc1EndConversionNotification) 
   Function flags:
   Called by: 
   Calls: 
-Adc_Ipw_Adc0EndConversionNotification/4 (Adc_Ipw_Adc0EndConversionNotification) @0693a620
+Adc_Ipw_Adc0EndConversionNotification/4 (Adc_Ipw_Adc0EndConversionNotification) @06802620
   Type: function
   Visibility: external public
   Address is taken.
@@ -35,28 +35,28 @@ Adc_Ipw_Adc0EndConversionNotification/4 (Adc_Ipw_Adc0EndConversionNotification) 
   Function flags:
   Called by: 
   Calls: 
-AdcIpConfig_1/3 (AdcIpConfig_1) @06938360
+AdcIpConfig_1/3 (AdcIpConfig_1) @06800360
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: AdcIpChansConfig_1/1 (addr) Adc_Ipw_Adc1EndConversionNotification/5 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-AdcIpConfig_0/2 (AdcIpConfig_0) @069382d0
+AdcIpConfig_0/2 (AdcIpConfig_0) @068002d0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: AdcIpChansConfig_0/0 (addr) Adc_Ipw_Adc0EndConversionNotification/4 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-AdcIpChansConfig_1/1 (AdcIpChansConfig_1) @06938240
+AdcIpChansConfig_1/1 (AdcIpChansConfig_1) @06800240
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: AdcIpConfig_1/3 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-AdcIpChansConfig_0/0 (AdcIpChansConfig_0) @068aec18
+AdcIpChansConfig_0/0 (AdcIpChansConfig_0) @0676cc18
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 

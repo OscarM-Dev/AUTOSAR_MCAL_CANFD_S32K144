@@ -330,6 +330,21 @@
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
                     <ECUC-CONTAINER-VALUE>
+                      <SHORT-NAME>SIRCDIV2_CLK</SHORT-NAME>
+                      <INDEX>2</INDEX>
+                      <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuClockReferencePoint</DEFINITION-REF>
+                      <PARAMETER-VALUES>
+                        <ECUC-TEXTUAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuClockReferencePoint/McuClockFrequencySelect</DEFINITION-REF>
+                          <VALUE>SIRCDIV2_CLK</VALUE>
+                        </ECUC-TEXTUAL-PARAM-VALUE>
+                        <ECUC-NUMERICAL-PARAM-VALUE>
+                          <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuClockReferencePoint/McuClockReferencePointFrequency</DEFINITION-REF>
+                          <VALUE>8000000.0</VALUE>
+                        </ECUC-NUMERICAL-PARAM-VALUE>
+                      </PARAMETER-VALUES>
+                    </ECUC-CONTAINER-VALUE>
+                    <ECUC-CONTAINER-VALUE>
                       <SHORT-NAME>McuFIRCClockConfig</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuFIRCClockConfig</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -502,7 +517,7 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                         <ECUC-NUMERICAL-PARAM-VALUE>
                           <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig/McuPeripheralClockEnable</DEFINITION-REF>
-                          <VALUE>0</VALUE>
+                          <VALUE>1</VALUE>
                         </ECUC-NUMERICAL-PARAM-VALUE>
                         <ECUC-NUMERICAL-PARAM-VALUE>
                           <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig/McuPeripheralClockFrequency</DEFINITION-REF>
@@ -712,15 +727,15 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                         <ECUC-NUMERICAL-PARAM-VALUE>
                           <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig/McuPeripheralClockEnable</DEFINITION-REF>
-                          <VALUE>0</VALUE>
+                          <VALUE>1</VALUE>
                         </ECUC-NUMERICAL-PARAM-VALUE>
                         <ECUC-NUMERICAL-PARAM-VALUE>
                           <DEFINITION-REF DEST="ECUC-FLOAT-PARAM-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig/McuPeripheralClockFrequency</DEFINITION-REF>
-                          <VALUE>0.0</VALUE>
+                          <VALUE>8000000.0</VALUE>
                         </ECUC-NUMERICAL-PARAM-VALUE>
                         <ECUC-TEXTUAL-PARAM-VALUE>
                           <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig/McuPeripheralClockSelect</DEFINITION-REF>
-                          <VALUE>CLOCK_IS_OFF</VALUE>
+                          <VALUE>SIRC</VALUE>
                         </ECUC-TEXTUAL-PARAM-VALUE>
                         <ECUC-NUMERICAL-PARAM-VALUE>
                           <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T40D2M20I0R0/Mcu/McuModuleConfiguration/McuClockSettingConfig/McuPeripheralClockConfig/McuPeripheralClockUnderMcuControl</DEFINITION-REF>

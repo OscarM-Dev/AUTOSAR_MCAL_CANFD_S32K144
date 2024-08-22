@@ -3,7 +3,7 @@ Delay (uint32 ms)
   uint32 ElapsedTime;
   uint32 SeedTick;
   uint32 Timeout;
-  long unsigned int D.9007;
+  long unsigned int D.9249;
   long unsigned int _1;
   long unsigned int _2;
   long unsigned int _13;
@@ -38,6 +38,7 @@ EcuM_Init ()
   OsIf_Init (0B);
   Platform_Init (0B);
   Port_Init (&Port_Config);
+  Spi_Init (&Spi_Config);
   Can_43_FLEXCAN_Init (&Can_43_FLEXCAN_Config);
   CanIf_Init (&CanIf_Config);
   return;

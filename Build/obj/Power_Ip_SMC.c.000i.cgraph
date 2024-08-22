@@ -3,7 +3,7 @@ Trivially needed symbols: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeCheckEntry/
 
 Initial Symbol table:
 
-Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
+Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a76000
   Type: function
   Visibility: external public
   References: 
@@ -11,7 +11,7 @@ Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
+Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @0696b7e0
   Type: function
   Visibility: external public
   References: 
@@ -19,7 +19,7 @@ Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
+Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @0696b540
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
+Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @0696b9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -36,19 +36,19 @@ Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
   Function flags: body
   Called by: 
   Calls: Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 
-Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
+Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @0696b700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @069269a0
+  Aux: @0696b9a0
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @06926460
+Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @0696b460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06926700
+  Aux: @0696b700
   References: 
   Referring: 
   Function flags: body
@@ -59,7 +59,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
+Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a76000
   Type: function
   Visibility: external public
   References: 
@@ -67,7 +67,7 @@ Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
+Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @0696b7e0
   Type: function
   Visibility: external public
   References: 
@@ -75,7 +75,7 @@ Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
+Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @0696b540
   Type: function
   Visibility: external public
   References: 
@@ -83,7 +83,7 @@ Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
+Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @0696b9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -91,7 +91,7 @@ Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
   Function flags: body
   Called by: 
   Calls: Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 
-Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
+Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @0696b700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -99,7 +99,7 @@ Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @06926460
+Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @0696b460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -111,7 +111,7 @@ Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @06926460
 
 Initial Symbol table:
 
-Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
+Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a76000
   Type: function
   Visibility: external public
   References: 
@@ -119,7 +119,7 @@ Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
+Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @0696b7e0
   Type: function
   Visibility: external public
   References: 
@@ -127,7 +127,7 @@ Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
+Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @0696b540
   Type: function
   Visibility: external public
   References: 
@@ -135,7 +135,7 @@ Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
+Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @0696b9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -143,7 +143,7 @@ Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
   Function flags: body
   Called by: 
   Calls: Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 
-Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
+Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @0696b700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -151,7 +151,7 @@ Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @06926460
+Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @0696b460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -164,7 +164,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
+Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a76000
   Type: function
   Visibility: external public
   References: 
@@ -172,7 +172,7 @@ Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
+Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @0696b7e0
   Type: function
   Visibility: external public
   References: 
@@ -180,7 +180,7 @@ Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
+Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @0696b540
   Type: function
   Visibility: external public
   References: 
@@ -188,7 +188,7 @@ Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
+Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @0696b9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -196,7 +196,7 @@ Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
   Function flags: body
   Called by: 
   Calls: Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 
-Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
+Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @0696b700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -204,7 +204,7 @@ Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @06926460
+Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @0696b460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -218,7 +218,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
+Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a76000
   Type: function
   Visibility: external public
   References: 
@@ -227,7 +227,7 @@ Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
+Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @0696b7e0
   Type: function
   Visibility: external public
   References: 
@@ -236,7 +236,7 @@ Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
+Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @0696b540
   Type: function
   Visibility: external public
   References: 
@@ -245,7 +245,7 @@ Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
   Function flags:
   Called by: Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 Power_Ip_SMC_ModeConfig/2 
   Calls: 
-Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
+Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @0696b9a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -254,7 +254,7 @@ Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
   Function flags: body
   Called by: 
   Calls: Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 Power_Ip_ReportPowerErrors/5 Power_Ip_TimeoutExpired/4 Power_Ip_StartTimeout/3 
-Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
+Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @0696b700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -263,7 +263,7 @@ Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
   Function flags: body
   Called by: 
   Calls: 
-Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @06926460
+Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @0696b460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -283,7 +283,7 @@ Removing variables:
 
 Final Symbol table:
 
-Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
+Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a76000
   Type: function
   Visibility: external public
   References: 
@@ -292,7 +292,7 @@ Power_Ip_ReportPowerErrors/5 (Power_Ip_ReportPowerErrors) @06a25000
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
+Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @0696b7e0
   Type: function
   Visibility: external public
   References: 
@@ -301,7 +301,7 @@ Power_Ip_TimeoutExpired/4 (Power_Ip_TimeoutExpired) @069267e0
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
+Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @0696b540
   Type: function
   Visibility: external public
   References: 
@@ -310,7 +310,7 @@ Power_Ip_StartTimeout/3 (Power_Ip_StartTimeout) @06926540
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
+Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @0696b9a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Power_Ip_SMC_ModeConfig (implicit_section)
   References: 
@@ -319,7 +319,7 @@ Power_Ip_SMC_ModeConfig/2 (Power_Ip_SMC_ModeConfig) @069269a0
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
+Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @0696b700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Power_Ip_SMC_ModeCheckEntry (implicit_section)
   References: 
@@ -328,7 +328,7 @@ Power_Ip_SMC_ModeCheckEntry/1 (Power_Ip_SMC_ModeCheckEntry) @06926700
   Function flags:
   Called by: 
   Calls: 
-Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @06926460
+Power_Ip_SMC_AllowedModesConfig/0 (Power_Ip_SMC_AllowedModesConfig) @0696b460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Power_Ip_SMC_AllowedModesConfig (implicit_section)
   References: 

@@ -75,6 +75,7 @@
     "hwioab_3_buzzer.h": "c",
     "bfx.h": "c",
     "det_memmap.h": "c",
-    "can_43_flexcan_ipw_types.h": "c"
+    "can_43_flexcan_ipw_types.h": "c",
+    "canif_cdd.h": "c"
   }
 }

@@ -1,6 +1,6 @@
 Symbol table:
 
-SEGGER_RTT_printf/103 (SEGGER_RTT_printf) @0a3212a0
+SEGGER_RTT_printf/103 (SEGGER_RTT_printf) @096ef0e0
   Type: function
   Visibility: external public
   References: 
@@ -9,7 +9,7 @@ SEGGER_RTT_printf/103 (SEGGER_RTT_printf) @0a3212a0
   Function flags:
   Called by: Det_ReportError/97 
   Calls: 
-Sys_GetCoreID/102 (Sys_GetCoreID) @0a321000
+Sys_GetCoreID/102 (Sys_GetCoreID) @096ef000
   Type: function
   Visibility: external public
   References: 
@@ -18,7 +18,7 @@ Sys_GetCoreID/102 (Sys_GetCoreID) @0a321000
   Function flags:
   Called by: Det_ReportTransientFault/99 Det_ReportRuntimeError/98 Det_ReportError/97 
   Calls: 
-SEGGER_RTT_Init/101 (SEGGER_RTT_Init) @0a3219a0
+SEGGER_RTT_Init/101 (SEGGER_RTT_Init) @0678ed20
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ SEGGER_RTT_Init/101 (SEGGER_RTT_Init) @0a3219a0
   Function flags:
   Called by: Det_Init/91 
   Calls: 
-Det_Start/100 (Det_Start) @0a321460
+Det_Start/100 (Det_Start) @0678e7e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -36,7 +36,7 @@ Det_Start/100 (Det_Start) @0a321460
   Function flags: body
   Called by: 
   Calls: 
-Det_ReportTransientFault/99 (Det_ReportTransientFault) @0a3211c0
+Det_ReportTransientFault/99 (Det_ReportTransientFault) @0678e540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_TransientModuleId/88 (write) Det_TransientInstanceId/85 (write) Det_TransientApiId/86 (write) Det_TransientFaultId/87 (write) 
@@ -45,7 +45,7 @@ Det_ReportTransientFault/99 (Det_ReportTransientFault) @0a3211c0
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/102 
-Det_ReportRuntimeError/98 (Det_ReportRuntimeError) @073d4ee0
+Det_ReportRuntimeError/98 (Det_ReportRuntimeError) @0678e2a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_RuntimeModuleId/90 (write) Det_RuntimeInstanceId/82 (write) Det_RuntimeApiId/83 (write) Det_RuntimeErrorId/84 (write) 
@@ -54,7 +54,7 @@ Det_ReportRuntimeError/98 (Det_ReportRuntimeError) @073d4ee0
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/102 
-Det_ReportError/97 (Det_ReportError) @073d49a0
+Det_ReportError/97 (Det_ReportError) @0678e000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_ModuleId/89 (write) Det_InstanceId/79 (write) Det_ApiId/80 (write) Det_ErrorId/81 (write) 
@@ -63,7 +63,7 @@ Det_ReportError/97 (Det_ReportError) @073d49a0
   Function flags: body
   Called by: 
   Calls: SEGGER_RTT_printf/103 Det_GetErrorMeaning/96 Det_GetApiName/95 Det_GetModuleName/94 Sys_GetCoreID/102 
-Det_GetErrorMeaning/96 (Det_GetErrorMeaning) @073d4460
+Det_GetErrorMeaning/96 (Det_GetErrorMeaning) @06788c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ModuleStrings/77 (addr) 
@@ -72,7 +72,7 @@ Det_GetErrorMeaning/96 (Det_GetErrorMeaning) @073d4460
   Function flags: body
   Called by: Det_ReportError/97 
   Calls: Det_SearchError/93 
-Det_GetApiName/95 (Det_GetApiName) @073d4e00
+Det_GetApiName/95 (Det_GetApiName) @06788700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ModuleStrings/77 (addr) 
@@ -81,7 +81,7 @@ Det_GetApiName/95 (Det_GetApiName) @073d4e00
   Function flags: body
   Called by: Det_ReportError/97 
   Calls: Det_SearchApi/92 
-Det_GetModuleName/94 (Det_GetModuleName) @073d4b60
+Det_GetModuleName/94 (Det_GetModuleName) @06788e00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ModuleStrings/77 (addr) ModuleStrings/77 (addr) 
@@ -90,7 +90,7 @@ Det_GetModuleName/94 (Det_GetModuleName) @073d4b60
   Function flags: body
   Called by: Det_ReportError/97 
   Calls: 
-Det_SearchError/93 (Det_SearchError) @073d48c0
+Det_SearchError/93 (Det_SearchError) @06788b60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ModuleStrings/77 (addr) ModuleStrings/77 (addr) ModuleStrings/77 (addr) 
@@ -99,7 +99,7 @@ Det_SearchError/93 (Det_SearchError) @073d48c0
   Function flags: body
   Called by: Det_GetErrorMeaning/96 
   Calls: 
-Det_SearchApi/92 (Det_SearchApi) @073d4620
+Det_SearchApi/92 (Det_SearchApi) @067888c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ModuleStrings/77 (addr) ModuleStrings/77 (addr) ModuleStrings/77 (addr) 
@@ -108,7 +108,7 @@ Det_SearchApi/92 (Det_SearchApi) @073d4620
   Function flags: body
   Called by: Det_GetApiName/95 
   Calls: 
-Det_Init/91 (Det_Init) @073d4380
+Det_Init/91 (Det_Init) @06788620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -117,252 +117,252 @@ Det_Init/91 (Det_Init) @073d4380
   Function flags: body
   Called by: 
   Calls: SEGGER_RTT_Init/101 
-Det_RuntimeModuleId/90 (Det_RuntimeModuleId) @073d30d8
+Det_RuntimeModuleId/90 (Det_RuntimeModuleId) @06787360
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportRuntimeError/98 (write) 
   Availability: available
   Varpool flags:
-Det_ModuleId/89 (Det_ModuleId) @073d3090
+Det_ModuleId/89 (Det_ModuleId) @06787318
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportError/97 (write) 
   Availability: available
   Varpool flags:
-Det_TransientModuleId/88 (Det_TransientModuleId) @073d3048
+Det_TransientModuleId/88 (Det_TransientModuleId) @067872d0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportTransientFault/99 (write) 
   Availability: available
   Varpool flags:
-Det_TransientFaultId/87 (Det_TransientFaultId) @073d3000
+Det_TransientFaultId/87 (Det_TransientFaultId) @06787288
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportTransientFault/99 (write) 
   Availability: available
   Varpool flags:
-Det_TransientApiId/86 (Det_TransientApiId) @073bbbd0
+Det_TransientApiId/86 (Det_TransientApiId) @06787240
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportTransientFault/99 (write) 
   Availability: available
   Varpool flags:
-Det_TransientInstanceId/85 (Det_TransientInstanceId) @073bb678
+Det_TransientInstanceId/85 (Det_TransientInstanceId) @067871f8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportTransientFault/99 (write) 
   Availability: available
   Varpool flags:
-Det_RuntimeErrorId/84 (Det_RuntimeErrorId) @073bb480
+Det_RuntimeErrorId/84 (Det_RuntimeErrorId) @067871b0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportRuntimeError/98 (write) 
   Availability: available
   Varpool flags:
-Det_RuntimeApiId/83 (Det_RuntimeApiId) @073bbf78
+Det_RuntimeApiId/83 (Det_RuntimeApiId) @06787168
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportRuntimeError/98 (write) 
   Availability: available
   Varpool flags:
-Det_RuntimeInstanceId/82 (Det_RuntimeInstanceId) @073bbf30
+Det_RuntimeInstanceId/82 (Det_RuntimeInstanceId) @06787120
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportRuntimeError/98 (write) 
   Availability: available
   Varpool flags:
-Det_ErrorId/81 (Det_ErrorId) @073bbee8
+Det_ErrorId/81 (Det_ErrorId) @067870d8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportError/97 (write) 
   Availability: available
   Varpool flags:
-Det_ApiId/80 (Det_ApiId) @073bbea0
+Det_ApiId/80 (Det_ApiId) @06787090
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportError/97 (write) 
   Availability: available
   Varpool flags:
-Det_InstanceId/79 (Det_InstanceId) @073bbe58
+Det_InstanceId/79 (Det_InstanceId) @06787048
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: Det_ReportError/97 (write) 
   Availability: available
   Varpool flags:
-ModuleStrings_Ptr/78 (ModuleStrings_Ptr) @073bbe10
+ModuleStrings_Ptr/78 (ModuleStrings_Ptr) @06787000
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ModuleStrings/77 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-ModuleStrings/77 (ModuleStrings) @073bbdc8
+ModuleStrings/77 (ModuleStrings) @06010e58
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: McuApis/55 (addr) McuErrors/56 (addr) PlatformApis/57 (addr) PlatformErrors/58 (addr) PortApis/59 (addr) PortErrors/60 (addr) DioApis/61 (addr) DioErrors/62 (addr) PwmApis/63 (addr) PwmErrors/64 (addr) AdcApis/65 (addr) AdcErrors/66 (addr) SchedulerApis/67 (addr) SchedulerErrors/68 (addr) HwIoAb_ButtonsApis/69 (addr) HwIoAb_ButtonsErrors/70 (addr) HwIoAb_LedsApis/71 (addr) HwIoAb_LedsErrors/72 (addr) HwIoAb_PotsApis/73 (addr) HwIoAb_PotsErrors/74 (addr) HwIoAb_BuzzerApis/75 (addr) HwIoAb_BuzzerErrors/76 (addr) 
   Referring: ModuleStrings_Ptr/78 (addr) Det_SearchApi/92 (addr) Det_SearchError/93 (addr) Det_GetModuleName/94 (addr) Det_SearchApi/92 (addr) Det_SearchError/93 (addr) Det_GetApiName/95 (addr) Det_SearchApi/92 (addr) Det_SearchError/93 (addr) Det_GetModuleName/94 (addr) Det_GetErrorMeaning/96 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-HwIoAb_BuzzerErrors/76 (HwIoAb_BuzzerErrors) @073bba20
+HwIoAb_BuzzerErrors/76 (HwIoAb_BuzzerErrors) @06010ca8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-HwIoAb_BuzzerApis/75 (HwIoAb_BuzzerApis) @073bb9d8
+HwIoAb_BuzzerApis/75 (HwIoAb_BuzzerApis) @06010c60
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-HwIoAb_PotsErrors/74 (HwIoAb_PotsErrors) @073bb990
+HwIoAb_PotsErrors/74 (HwIoAb_PotsErrors) @06010c18
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-HwIoAb_PotsApis/73 (HwIoAb_PotsApis) @073bb948
+HwIoAb_PotsApis/73 (HwIoAb_PotsApis) @06010bd0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-HwIoAb_LedsErrors/72 (HwIoAb_LedsErrors) @073bb900
+HwIoAb_LedsErrors/72 (HwIoAb_LedsErrors) @06010b88
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-HwIoAb_LedsApis/71 (HwIoAb_LedsApis) @073bb8b8
+HwIoAb_LedsApis/71 (HwIoAb_LedsApis) @06010b40
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-HwIoAb_ButtonsErrors/70 (HwIoAb_ButtonsErrors) @073bb870
+HwIoAb_ButtonsErrors/70 (HwIoAb_ButtonsErrors) @06010af8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-HwIoAb_ButtonsApis/69 (HwIoAb_ButtonsApis) @073bb828
+HwIoAb_ButtonsApis/69 (HwIoAb_ButtonsApis) @06010ab0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-SchedulerErrors/68 (SchedulerErrors) @073bb7e0
+SchedulerErrors/68 (SchedulerErrors) @06010a68
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-SchedulerApis/67 (SchedulerApis) @073bb6c0
+SchedulerApis/67 (SchedulerApis) @06010948
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-AdcErrors/66 (AdcErrors) @073bb630
+AdcErrors/66 (AdcErrors) @060108b8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-AdcApis/65 (AdcApis) @073bb4c8
+AdcApis/65 (AdcApis) @06010750
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-PwmErrors/64 (PwmErrors) @073bb438
+PwmErrors/64 (PwmErrors) @060106c0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-PwmApis/63 (PwmApis) @073bb318
+PwmApis/63 (PwmApis) @060105a0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-DioErrors/62 (DioErrors) @073bb288
+DioErrors/62 (DioErrors) @06010510
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-DioApis/61 (DioApis) @073bb1f8
+DioApis/61 (DioApis) @06010480
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-PortErrors/60 (PortErrors) @073bb168
+PortErrors/60 (PortErrors) @060103f0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-PortApis/59 (PortApis) @073bb0d8
+PortApis/59 (PortApis) @06010360
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-PlatformErrors/58 (PlatformErrors) @073bb048
+PlatformErrors/58 (PlatformErrors) @060102d0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-PlatformApis/57 (PlatformApis) @06c6af30
+PlatformApis/57 (PlatformApis) @060101f8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-McuErrors/56 (McuErrors) @06c6aea0
+McuErrors/56 (McuErrors) @06010168
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: ModuleStrings/77 (addr) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-McuApis/55 (McuApis) @06c6ae10
+McuApis/55 (McuApis) @060100d8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -380,7 +380,7 @@ Det_Start ()
 Det_ReportTransientFault (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 FaultId)
 {
   uint32 u32CoreId;
-  Std_ReturnType D.8825;
+  Std_ReturnType D.8831;
   unsigned char _1;
   Std_ReturnType _13;
 
@@ -403,7 +403,7 @@ Det_ReportTransientFault (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 
 Det_ReportRuntimeError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
 {
   uint32 u32CoreId;
-  Std_ReturnType D.8823;
+  Std_ReturnType D.8829;
   unsigned char _1;
   Std_ReturnType _13;
 
@@ -427,7 +427,7 @@ Det_ReportError (uint16 ModuleId, uint8 InstanceId, uint8 ApiId, uint8 ErrorId)
 {
   uint32 u32CoreId;
   const char * Strings_error[3];
-  Std_ReturnType D.8820;
+  Std_ReturnType D.8826;
   unsigned char _1;
   const char * _2;
   const char * _3;
@@ -470,7 +470,7 @@ Det_GetErrorMeaning (uint16 ModuleId, uint8 ErrorId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8818;
+  const char * D.8824;
   const struct DetStrings * ModuleStrings_Ptr.13_1;
   unsigned int _2;
   unsigned int _3;
@@ -526,7 +526,7 @@ Det_GetApiName (uint16 ModuleId, uint8 ApiId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8814;
+  const char * D.8820;
   const struct DetStrings * ModuleStrings_Ptr.11_1;
   unsigned int _2;
   unsigned int _3;
@@ -582,7 +582,7 @@ Det_GetModuleName (uint16 ModuleId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8810;
+  const char * D.8816;
   const struct DetStrings * ModuleStrings_Ptr.8_1;
   unsigned int _2;
   unsigned int _3;
@@ -646,7 +646,7 @@ Det_SearchError (uint8 ModuleIndex, uint8 ErrorId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8806;
+  const char * D.8812;
   const struct DetStrings * ModuleStrings_Ptr.4_1;
   unsigned int _2;
   unsigned int _3;
@@ -736,7 +736,7 @@ Det_SearchApi (uint8 ModuleIndex, uint8 ApiId)
 {
   const char * StringPtr;
   uint8 i;
-  const char * D.8802;
+  const char * D.8808;
   const struct DetStrings * ModuleStrings_Ptr.0_1;
   unsigned int _2;
   unsigned int _3;

@@ -26,7 +26,7 @@ IPA summary for Task2_callback/52 is missing.
 IPA summary for Task1_callback/51 is missing.
 Symbol table:
 
-ButtonsControl_Ptr/58 (ButtonsControl_Ptr) @06e21af8
+ButtonsControl_Ptr/58 (ButtonsControl_Ptr) @061f9af8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -34,7 +34,7 @@ ButtonsControl_Ptr/58 (ButtonsControl_Ptr) @06e21af8
   Referring: Task2_callback/52 (read) 
   Availability: not_available
   Varpool flags:
-HwIoAb_Buttons_GetEvent/57 (HwIoAb_Buttons_GetEvent) @06e240e0
+HwIoAb_Buttons_GetEvent/57 (HwIoAb_Buttons_GetEvent) @061fc0e0
   Type: function
   Visibility: external public
   References: 
@@ -43,7 +43,7 @@ HwIoAb_Buttons_GetEvent/57 (HwIoAb_Buttons_GetEvent) @06e240e0
   Function flags:
   Called by: Task2_callback/52 
   Calls: 
-HwIoAb_Buttons_MainFunction/56 (HwIoAb_Buttons_MainFunction) @06e1a7e0
+HwIoAb_Buttons_MainFunction/56 (HwIoAb_Buttons_MainFunction) @061f27e0
   Type: function
   Visibility: external public
   References: 
@@ -52,7 +52,7 @@ HwIoAb_Buttons_MainFunction/56 (HwIoAb_Buttons_MainFunction) @06e1a7e0
   Function flags:
   Called by: Task1_callback/51 
   Calls: 
-Timer3_callback/55 (Timer3_callback) @06e1a2a0
+Timer3_callback/55 (Timer3_callback) @061f22a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -61,7 +61,7 @@ Timer3_callback/55 (Timer3_callback) @06e1a2a0
   Function flags: body
   Called by: 
   Calls: 
-Timer2_callback/54 (Timer2_callback) @06e1aee0
+Timer2_callback/54 (Timer2_callback) @061f2ee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -70,7 +70,7 @@ Timer2_callback/54 (Timer2_callback) @06e1aee0
   Function flags: body
   Called by: 
   Calls: 
-Timer1_callback/53 (Timer1_callback) @06e1ac40
+Timer1_callback/53 (Timer1_callback) @061f2c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -79,7 +79,7 @@ Timer1_callback/53 (Timer1_callback) @06e1ac40
   Function flags: body
   Called by: 
   Calls: 
-Task2_callback/52 (Task2_callback) @06e1a9a0
+Task2_callback/52 (Task2_callback) @061f29a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ButtonsControl_Ptr/58 (read) 
@@ -88,7 +88,7 @@ Task2_callback/52 (Task2_callback) @06e1a9a0
   Function flags: body
   Called by: 
   Calls: HwIoAb_Buttons_GetEvent/57 
-Task1_callback/51 (Task1_callback) @06e1a700
+Task1_callback/51 (Task1_callback) @061f2700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

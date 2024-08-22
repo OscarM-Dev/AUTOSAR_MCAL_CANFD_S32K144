@@ -13,7 +13,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Symbol table:
 
-EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
+EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06778700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -22,7 +22,7 @@ EcuM_CheckWakeup/3 (EcuM_CheckWakeup) @06868700
   Function flags: body
   Called by: 
   Calls: 
-EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
+EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06778460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -31,7 +31,7 @@ EcuM_ValidateWakeupEvent/2 (EcuM_ValidateWakeupEvent) @06868460
   Function flags: body
   Called by: 
   Calls: 
-EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
+EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @067781c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: EcuMLastWakeupEvent/0 (write) 
@@ -40,7 +40,7 @@ EcuM_SetWakeupEvent/1 (EcuM_SetWakeupEvent) @068681c0
   Function flags: body
   Called by: 
   Calls: 
-EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06864f78
+EcuMLastWakeupEvent/0 (EcuMLastWakeupEvent) @06774f78
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

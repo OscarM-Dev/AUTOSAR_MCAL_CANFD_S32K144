@@ -95,7 +95,7 @@ IPA summary for SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 is missing.
 IPA summary for I2s_schm_read_msr/38 is missing.
 Symbol table:
 
-Sys_GetCoreID/77 (Sys_GetCoreID) @05d291c0
+Sys_GetCoreID/77 (Sys_GetCoreID) @06a1d1c0
   Type: function
   Visibility: external public
   References: 
@@ -104,7 +104,7 @@ Sys_GetCoreID/77 (Sys_GetCoreID) @05d291c0
   Function flags:
   Called by: SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18/76 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17/74 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16/72 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15/70 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14/68 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13/66 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12/64 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11/62 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10/60 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09/58 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08/56 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07/54 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06/52 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05/50 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04/48 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03/46 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02/44 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01/42 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00/40 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 
   Calls: 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18/76 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18) @05d20380
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18/76 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18) @06a14380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_18/37 (read) reentry_guard_I2S_EXCLUSIVE_AREA_18/37 (write) msr_I2S_EXCLUSIVE_AREA_18/36 (read) reentry_guard_I2S_EXCLUSIVE_AREA_18/37 (read) 
@@ -113,7 +113,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18/76 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18) @05d20ee0
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18) @06a14ee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_18/37 (read) msr_I2S_EXCLUSIVE_AREA_18/36 (write) reentry_guard_I2S_EXCLUSIVE_AREA_18/37 (read) reentry_guard_I2S_EXCLUSIVE_AREA_18/37 (write) 
@@ -122,7 +122,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17/74 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17) @05d20b60
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17/74 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17) @06a14b60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_17/35 (read) reentry_guard_I2S_EXCLUSIVE_AREA_17/35 (write) msr_I2S_EXCLUSIVE_AREA_17/34 (read) reentry_guard_I2S_EXCLUSIVE_AREA_17/35 (read) 
@@ -131,7 +131,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17/74 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17) @05d208c0
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17) @06a148c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_17/35 (read) msr_I2S_EXCLUSIVE_AREA_17/34 (write) reentry_guard_I2S_EXCLUSIVE_AREA_17/35 (read) reentry_guard_I2S_EXCLUSIVE_AREA_17/35 (write) 
@@ -140,7 +140,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16/72 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16) @05d20540
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16/72 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16) @06a14540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_16/33 (read) reentry_guard_I2S_EXCLUSIVE_AREA_16/33 (write) msr_I2S_EXCLUSIVE_AREA_16/32 (read) reentry_guard_I2S_EXCLUSIVE_AREA_16/33 (read) 
@@ -149,7 +149,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16/72 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16) @05d202a0
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16) @06a142a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_16/33 (read) msr_I2S_EXCLUSIVE_AREA_16/32 (write) reentry_guard_I2S_EXCLUSIVE_AREA_16/33 (read) reentry_guard_I2S_EXCLUSIVE_AREA_16/33 (write) 
@@ -158,7 +158,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15/70 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15) @05d1ad20
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15/70 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15) @06a0ed20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_15/31 (read) reentry_guard_I2S_EXCLUSIVE_AREA_15/31 (write) msr_I2S_EXCLUSIVE_AREA_15/30 (read) reentry_guard_I2S_EXCLUSIVE_AREA_15/31 (read) 
@@ -167,7 +167,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15/70 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15) @05d1a700
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15) @06a0e700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_15/31 (read) msr_I2S_EXCLUSIVE_AREA_15/30 (write) reentry_guard_I2S_EXCLUSIVE_AREA_15/31 (read) reentry_guard_I2S_EXCLUSIVE_AREA_15/31 (write) 
@@ -176,7 +176,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14/68 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14) @05d1aee0
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14/68 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14) @06a0eee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_14/29 (read) reentry_guard_I2S_EXCLUSIVE_AREA_14/29 (write) msr_I2S_EXCLUSIVE_AREA_14/28 (read) reentry_guard_I2S_EXCLUSIVE_AREA_14/29 (read) 
@@ -185,7 +185,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14/68 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14) @05d1ac40
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14) @06a0ec40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_14/29 (read) msr_I2S_EXCLUSIVE_AREA_14/28 (write) reentry_guard_I2S_EXCLUSIVE_AREA_14/29 (read) reentry_guard_I2S_EXCLUSIVE_AREA_14/29 (write) 
@@ -194,7 +194,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13/66 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13) @05d1a8c0
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13/66 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13) @06a0e8c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_13/27 (read) reentry_guard_I2S_EXCLUSIVE_AREA_13/27 (write) msr_I2S_EXCLUSIVE_AREA_13/26 (read) reentry_guard_I2S_EXCLUSIVE_AREA_13/27 (read) 
@@ -203,7 +203,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13/66 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13) @05d1a620
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13) @06a0e620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_13/27 (read) msr_I2S_EXCLUSIVE_AREA_13/26 (write) reentry_guard_I2S_EXCLUSIVE_AREA_13/27 (read) reentry_guard_I2S_EXCLUSIVE_AREA_13/27 (write) 
@@ -212,7 +212,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12/64 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12) @05d1a2a0
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12/64 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12) @06a0e2a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_12/25 (read) reentry_guard_I2S_EXCLUSIVE_AREA_12/25 (write) msr_I2S_EXCLUSIVE_AREA_12/24 (read) reentry_guard_I2S_EXCLUSIVE_AREA_12/25 (read) 
@@ -221,7 +221,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12/64 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12) @05d1a000
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12) @06a0e000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_12/25 (read) msr_I2S_EXCLUSIVE_AREA_12/24 (write) reentry_guard_I2S_EXCLUSIVE_AREA_12/25 (read) reentry_guard_I2S_EXCLUSIVE_AREA_12/25 (write) 
@@ -230,7 +230,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11/62 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11) @05d15700
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11/62 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11) @06a09700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_11/23 (read) reentry_guard_I2S_EXCLUSIVE_AREA_11/23 (write) msr_I2S_EXCLUSIVE_AREA_11/22 (read) reentry_guard_I2S_EXCLUSIVE_AREA_11/23 (read) 
@@ -239,7 +239,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11/62 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11) @05d150e0
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11) @06a090e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_11/23 (read) msr_I2S_EXCLUSIVE_AREA_11/22 (write) reentry_guard_I2S_EXCLUSIVE_AREA_11/23 (read) reentry_guard_I2S_EXCLUSIVE_AREA_11/23 (write) 
@@ -248,7 +248,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10/60 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10) @05d15c40
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10/60 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10) @06a09c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_10/21 (read) reentry_guard_I2S_EXCLUSIVE_AREA_10/21 (write) msr_I2S_EXCLUSIVE_AREA_10/20 (read) reentry_guard_I2S_EXCLUSIVE_AREA_10/21 (read) 
@@ -257,7 +257,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10/60 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10) @05d159a0
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10) @06a099a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_10/21 (read) msr_I2S_EXCLUSIVE_AREA_10/20 (write) reentry_guard_I2S_EXCLUSIVE_AREA_10/21 (read) reentry_guard_I2S_EXCLUSIVE_AREA_10/21 (write) 
@@ -266,7 +266,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09/58 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09) @05d15620
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09/58 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09) @06a09620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_09/19 (read) reentry_guard_I2S_EXCLUSIVE_AREA_09/19 (write) msr_I2S_EXCLUSIVE_AREA_09/18 (read) reentry_guard_I2S_EXCLUSIVE_AREA_09/19 (read) 
@@ -275,7 +275,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09/58 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09) @05d15380
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09) @06a09380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_09/19 (read) msr_I2S_EXCLUSIVE_AREA_09/18 (write) reentry_guard_I2S_EXCLUSIVE_AREA_09/19 (read) reentry_guard_I2S_EXCLUSIVE_AREA_09/19 (write) 
@@ -284,7 +284,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08/56 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08) @05d15000
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08/56 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08) @06a09000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_08/17 (read) reentry_guard_I2S_EXCLUSIVE_AREA_08/17 (write) msr_I2S_EXCLUSIVE_AREA_08/16 (read) reentry_guard_I2S_EXCLUSIVE_AREA_08/17 (read) 
@@ -293,7 +293,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08/56 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08) @05bfda80
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08) @068fba80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_08/17 (read) msr_I2S_EXCLUSIVE_AREA_08/16 (write) reentry_guard_I2S_EXCLUSIVE_AREA_08/17 (read) reentry_guard_I2S_EXCLUSIVE_AREA_08/17 (write) 
@@ -302,7 +302,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07/54 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07) @05bfd1c0
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07/54 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07) @068fb1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_07/15 (read) reentry_guard_I2S_EXCLUSIVE_AREA_07/15 (write) msr_I2S_EXCLUSIVE_AREA_07/14 (read) reentry_guard_I2S_EXCLUSIVE_AREA_07/15 (read) 
@@ -311,7 +311,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07/54 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07) @05bfdd20
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07) @068fbd20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_07/15 (read) msr_I2S_EXCLUSIVE_AREA_07/14 (write) reentry_guard_I2S_EXCLUSIVE_AREA_07/15 (read) reentry_guard_I2S_EXCLUSIVE_AREA_07/15 (write) 
@@ -320,7 +320,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06/52 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06) @05bfd9a0
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06/52 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06) @068fb9a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_06/13 (read) reentry_guard_I2S_EXCLUSIVE_AREA_06/13 (write) msr_I2S_EXCLUSIVE_AREA_06/12 (read) reentry_guard_I2S_EXCLUSIVE_AREA_06/13 (read) 
@@ -329,7 +329,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06/52 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06) @05bfd700
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06) @068fb700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_06/13 (read) msr_I2S_EXCLUSIVE_AREA_06/12 (write) reentry_guard_I2S_EXCLUSIVE_AREA_06/13 (read) reentry_guard_I2S_EXCLUSIVE_AREA_06/13 (write) 
@@ -338,7 +338,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05/50 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05) @05bfd380
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05/50 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05) @068fb380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_05/11 (read) reentry_guard_I2S_EXCLUSIVE_AREA_05/11 (write) msr_I2S_EXCLUSIVE_AREA_05/10 (read) reentry_guard_I2S_EXCLUSIVE_AREA_05/11 (read) 
@@ -347,7 +347,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05/50 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05) @05bfd0e0
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05) @068fb0e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_05/11 (read) msr_I2S_EXCLUSIVE_AREA_05/10 (write) reentry_guard_I2S_EXCLUSIVE_AREA_05/11 (read) reentry_guard_I2S_EXCLUSIVE_AREA_05/11 (write) 
@@ -356,7 +356,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04/48 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04) @05bf6c40
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04/48 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04) @068f4c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_04/9 (read) reentry_guard_I2S_EXCLUSIVE_AREA_04/9 (write) msr_I2S_EXCLUSIVE_AREA_04/8 (read) reentry_guard_I2S_EXCLUSIVE_AREA_04/9 (read) 
@@ -365,7 +365,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04/48 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04) @05bf6620
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04) @068f4620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_04/9 (read) msr_I2S_EXCLUSIVE_AREA_04/8 (write) reentry_guard_I2S_EXCLUSIVE_AREA_04/9 (read) reentry_guard_I2S_EXCLUSIVE_AREA_04/9 (write) 
@@ -374,7 +374,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03/46 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03) @05bf6e00
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03/46 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03) @068f4e00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_03/7 (read) reentry_guard_I2S_EXCLUSIVE_AREA_03/7 (write) msr_I2S_EXCLUSIVE_AREA_03/6 (read) reentry_guard_I2S_EXCLUSIVE_AREA_03/7 (read) 
@@ -383,7 +383,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03/46 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03) @05bf6b60
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03) @068f4b60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_03/7 (read) msr_I2S_EXCLUSIVE_AREA_03/6 (write) reentry_guard_I2S_EXCLUSIVE_AREA_03/7 (read) reentry_guard_I2S_EXCLUSIVE_AREA_03/7 (write) 
@@ -392,7 +392,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02/44 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02) @05bf67e0
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02/44 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02) @068f47e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_02/5 (read) reentry_guard_I2S_EXCLUSIVE_AREA_02/5 (write) msr_I2S_EXCLUSIVE_AREA_02/4 (read) reentry_guard_I2S_EXCLUSIVE_AREA_02/5 (read) 
@@ -401,7 +401,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02/44 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02) @05bf6540
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02) @068f4540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_02/5 (read) msr_I2S_EXCLUSIVE_AREA_02/4 (write) reentry_guard_I2S_EXCLUSIVE_AREA_02/5 (read) reentry_guard_I2S_EXCLUSIVE_AREA_02/5 (write) 
@@ -410,7 +410,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01/42 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01) @05bf61c0
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01/42 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01) @068f41c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_01/3 (read) reentry_guard_I2S_EXCLUSIVE_AREA_01/3 (write) msr_I2S_EXCLUSIVE_AREA_01/2 (read) reentry_guard_I2S_EXCLUSIVE_AREA_01/3 (read) 
@@ -419,7 +419,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01/42 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01) @05c9dd20
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01) @06995d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_01/3 (read) msr_I2S_EXCLUSIVE_AREA_01/2 (write) reentry_guard_I2S_EXCLUSIVE_AREA_01/3 (read) reentry_guard_I2S_EXCLUSIVE_AREA_01/3 (write) 
@@ -428,7 +428,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00/40 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00) @05c9dee0
+SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00/40 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00) @06995ee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_00/1 (read) reentry_guard_I2S_EXCLUSIVE_AREA_00/1 (write) msr_I2S_EXCLUSIVE_AREA_00/0 (read) reentry_guard_I2S_EXCLUSIVE_AREA_00/1 (read) 
@@ -437,7 +437,7 @@ SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00/40 (SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00) @05
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/77 
-SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00) @05c9dc40
+SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00) @06995c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: reentry_guard_I2S_EXCLUSIVE_AREA_00/1 (read) msr_I2S_EXCLUSIVE_AREA_00/0 (write) reentry_guard_I2S_EXCLUSIVE_AREA_00/1 (read) reentry_guard_I2S_EXCLUSIVE_AREA_00/1 (write) 
@@ -446,7 +446,7 @@ SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 (SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00) @
   Function flags: body
   Called by: 
   Calls: I2s_schm_read_msr/38 Sys_GetCoreID/77 
-I2s_schm_read_msr/38 (I2s_schm_read_msr) @05c9d8c0
+I2s_schm_read_msr/38 (I2s_schm_read_msr) @069958c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -455,266 +455,266 @@ I2s_schm_read_msr/38 (I2s_schm_read_msr) @05c9d8c0
   Function flags: body
   Called by: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 
   Calls: 
-reentry_guard_I2S_EXCLUSIVE_AREA_18/37 (reentry_guard_I2S_EXCLUSIVE_AREA_18) @05c9e048
+reentry_guard_I2S_EXCLUSIVE_AREA_18/37 (reentry_guard_I2S_EXCLUSIVE_AREA_18) @06996048
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18/76 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18/76 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18/76 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_18/36 (msr_I2S_EXCLUSIVE_AREA_18) @05c9af78
+msr_I2S_EXCLUSIVE_AREA_18/36 (msr_I2S_EXCLUSIVE_AREA_18) @06992f78
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_18/75 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_18/76 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_17/35 (reentry_guard_I2S_EXCLUSIVE_AREA_17) @05c9aee8
+reentry_guard_I2S_EXCLUSIVE_AREA_17/35 (reentry_guard_I2S_EXCLUSIVE_AREA_17) @06992ee8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17/74 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17/74 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17/74 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_17/34 (msr_I2S_EXCLUSIVE_AREA_17) @05c9ae58
+msr_I2S_EXCLUSIVE_AREA_17/34 (msr_I2S_EXCLUSIVE_AREA_17) @06992e58
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_17/73 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_17/74 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_16/33 (reentry_guard_I2S_EXCLUSIVE_AREA_16) @05c9adc8
+reentry_guard_I2S_EXCLUSIVE_AREA_16/33 (reentry_guard_I2S_EXCLUSIVE_AREA_16) @06992dc8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16/72 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16/72 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16/72 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_16/32 (msr_I2S_EXCLUSIVE_AREA_16) @05c9ad38
+msr_I2S_EXCLUSIVE_AREA_16/32 (msr_I2S_EXCLUSIVE_AREA_16) @06992d38
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_16/71 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_16/72 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_15/31 (reentry_guard_I2S_EXCLUSIVE_AREA_15) @05c9aca8
+reentry_guard_I2S_EXCLUSIVE_AREA_15/31 (reentry_guard_I2S_EXCLUSIVE_AREA_15) @06992ca8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15/70 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15/70 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15/70 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_15/30 (msr_I2S_EXCLUSIVE_AREA_15) @05c9ac18
+msr_I2S_EXCLUSIVE_AREA_15/30 (msr_I2S_EXCLUSIVE_AREA_15) @06992c18
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_15/69 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_15/70 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_14/29 (reentry_guard_I2S_EXCLUSIVE_AREA_14) @05c9ab88
+reentry_guard_I2S_EXCLUSIVE_AREA_14/29 (reentry_guard_I2S_EXCLUSIVE_AREA_14) @06992b88
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14/68 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14/68 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14/68 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_14/28 (msr_I2S_EXCLUSIVE_AREA_14) @05c9aaf8
+msr_I2S_EXCLUSIVE_AREA_14/28 (msr_I2S_EXCLUSIVE_AREA_14) @06992af8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_14/67 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_14/68 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_13/27 (reentry_guard_I2S_EXCLUSIVE_AREA_13) @05c9aa68
+reentry_guard_I2S_EXCLUSIVE_AREA_13/27 (reentry_guard_I2S_EXCLUSIVE_AREA_13) @06992a68
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13/66 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13/66 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13/66 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_13/26 (msr_I2S_EXCLUSIVE_AREA_13) @05c9a9d8
+msr_I2S_EXCLUSIVE_AREA_13/26 (msr_I2S_EXCLUSIVE_AREA_13) @069929d8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_13/65 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_13/66 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_12/25 (reentry_guard_I2S_EXCLUSIVE_AREA_12) @05c9a948
+reentry_guard_I2S_EXCLUSIVE_AREA_12/25 (reentry_guard_I2S_EXCLUSIVE_AREA_12) @06992948
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12/64 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12/64 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12/64 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_12/24 (msr_I2S_EXCLUSIVE_AREA_12) @05c9a8b8
+msr_I2S_EXCLUSIVE_AREA_12/24 (msr_I2S_EXCLUSIVE_AREA_12) @069928b8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_12/63 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_12/64 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_11/23 (reentry_guard_I2S_EXCLUSIVE_AREA_11) @05c9a828
+reentry_guard_I2S_EXCLUSIVE_AREA_11/23 (reentry_guard_I2S_EXCLUSIVE_AREA_11) @06992828
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11/62 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11/62 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11/62 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_11/22 (msr_I2S_EXCLUSIVE_AREA_11) @05c9a798
+msr_I2S_EXCLUSIVE_AREA_11/22 (msr_I2S_EXCLUSIVE_AREA_11) @06992798
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_11/61 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_11/62 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_10/21 (reentry_guard_I2S_EXCLUSIVE_AREA_10) @05c9a708
+reentry_guard_I2S_EXCLUSIVE_AREA_10/21 (reentry_guard_I2S_EXCLUSIVE_AREA_10) @06992708
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10/60 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10/60 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10/60 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_10/20 (msr_I2S_EXCLUSIVE_AREA_10) @05c9a678
+msr_I2S_EXCLUSIVE_AREA_10/20 (msr_I2S_EXCLUSIVE_AREA_10) @06992678
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_10/59 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_10/60 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_09/19 (reentry_guard_I2S_EXCLUSIVE_AREA_09) @05c9a5e8
+reentry_guard_I2S_EXCLUSIVE_AREA_09/19 (reentry_guard_I2S_EXCLUSIVE_AREA_09) @069925e8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09/58 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09/58 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09/58 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_09/18 (msr_I2S_EXCLUSIVE_AREA_09) @05c9a558
+msr_I2S_EXCLUSIVE_AREA_09/18 (msr_I2S_EXCLUSIVE_AREA_09) @06992558
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_09/57 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_09/58 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_08/17 (reentry_guard_I2S_EXCLUSIVE_AREA_08) @05c9a4c8
+reentry_guard_I2S_EXCLUSIVE_AREA_08/17 (reentry_guard_I2S_EXCLUSIVE_AREA_08) @069924c8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08/56 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08/56 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08/56 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_08/16 (msr_I2S_EXCLUSIVE_AREA_08) @05c9a438
+msr_I2S_EXCLUSIVE_AREA_08/16 (msr_I2S_EXCLUSIVE_AREA_08) @06992438
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_08/55 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_08/56 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_07/15 (reentry_guard_I2S_EXCLUSIVE_AREA_07) @05c9a3a8
+reentry_guard_I2S_EXCLUSIVE_AREA_07/15 (reentry_guard_I2S_EXCLUSIVE_AREA_07) @069923a8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07/54 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07/54 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07/54 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_07/14 (msr_I2S_EXCLUSIVE_AREA_07) @05c9a318
+msr_I2S_EXCLUSIVE_AREA_07/14 (msr_I2S_EXCLUSIVE_AREA_07) @06992318
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_07/53 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_07/54 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_06/13 (reentry_guard_I2S_EXCLUSIVE_AREA_06) @05c9a288
+reentry_guard_I2S_EXCLUSIVE_AREA_06/13 (reentry_guard_I2S_EXCLUSIVE_AREA_06) @06992288
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06/52 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06/52 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06/52 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_06/12 (msr_I2S_EXCLUSIVE_AREA_06) @05c9a1f8
+msr_I2S_EXCLUSIVE_AREA_06/12 (msr_I2S_EXCLUSIVE_AREA_06) @069921f8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_06/51 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_06/52 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_05/11 (reentry_guard_I2S_EXCLUSIVE_AREA_05) @05c9a168
+reentry_guard_I2S_EXCLUSIVE_AREA_05/11 (reentry_guard_I2S_EXCLUSIVE_AREA_05) @06992168
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05/50 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05/50 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05/50 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_05/10 (msr_I2S_EXCLUSIVE_AREA_05) @05c9a0d8
+msr_I2S_EXCLUSIVE_AREA_05/10 (msr_I2S_EXCLUSIVE_AREA_05) @069920d8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_05/49 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_05/50 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_04/9 (reentry_guard_I2S_EXCLUSIVE_AREA_04) @05c9a048
+reentry_guard_I2S_EXCLUSIVE_AREA_04/9 (reentry_guard_I2S_EXCLUSIVE_AREA_04) @06992048
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04/48 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04/48 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04/48 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_04/8 (msr_I2S_EXCLUSIVE_AREA_04) @05c93f78
+msr_I2S_EXCLUSIVE_AREA_04/8 (msr_I2S_EXCLUSIVE_AREA_04) @0698bf78
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_04/47 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_04/48 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_03/7 (reentry_guard_I2S_EXCLUSIVE_AREA_03) @05c93ee8
+reentry_guard_I2S_EXCLUSIVE_AREA_03/7 (reentry_guard_I2S_EXCLUSIVE_AREA_03) @0698bee8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03/46 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03/46 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03/46 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_03/6 (msr_I2S_EXCLUSIVE_AREA_03) @05c93e58
+msr_I2S_EXCLUSIVE_AREA_03/6 (msr_I2S_EXCLUSIVE_AREA_03) @0698be58
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_03/45 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_03/46 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_02/5 (reentry_guard_I2S_EXCLUSIVE_AREA_02) @05c93dc8
+reentry_guard_I2S_EXCLUSIVE_AREA_02/5 (reentry_guard_I2S_EXCLUSIVE_AREA_02) @0698bdc8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02/44 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02/44 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02/44 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_02/4 (msr_I2S_EXCLUSIVE_AREA_02) @05c93d38
+msr_I2S_EXCLUSIVE_AREA_02/4 (msr_I2S_EXCLUSIVE_AREA_02) @0698bd38
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_02/43 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_02/44 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_01/3 (reentry_guard_I2S_EXCLUSIVE_AREA_01) @05c93ca8
+reentry_guard_I2S_EXCLUSIVE_AREA_01/3 (reentry_guard_I2S_EXCLUSIVE_AREA_01) @0698bca8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01/42 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01/42 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01/42 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_01/2 (msr_I2S_EXCLUSIVE_AREA_01) @05c93c18
+msr_I2S_EXCLUSIVE_AREA_01/2 (msr_I2S_EXCLUSIVE_AREA_01) @0698bc18
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_01/41 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_01/42 (read) 
   Availability: available
   Varpool flags:
-reentry_guard_I2S_EXCLUSIVE_AREA_00/1 (reentry_guard_I2S_EXCLUSIVE_AREA_00) @05c93b88
+reentry_guard_I2S_EXCLUSIVE_AREA_00/1 (reentry_guard_I2S_EXCLUSIVE_AREA_00) @0698bb88
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 (read) SchM_Enter_I2s_I2S_EXCLUSIVE_AREA_00/39 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00/40 (read) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00/40 (write) SchM_Exit_I2s_I2S_EXCLUSIVE_AREA_00/40 (read) 
   Availability: available
   Varpool flags:
-msr_I2S_EXCLUSIVE_AREA_00/0 (msr_I2S_EXCLUSIVE_AREA_00) @05c93af8
+msr_I2S_EXCLUSIVE_AREA_00/0 (msr_I2S_EXCLUSIVE_AREA_00) @0698baf8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 

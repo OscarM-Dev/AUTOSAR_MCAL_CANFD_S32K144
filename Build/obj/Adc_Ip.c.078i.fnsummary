@@ -1,6 +1,6 @@
 Symbol table:
 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_25/87 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_25) @060bf1c0
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_25/87 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_25) @0618f1c0
   Type: function
   Visibility: external public
   References: 
@@ -9,7 +9,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_25/87 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_25) @06
   Function flags:
   Called by: Adc_Ip_ClearTrigErrReg/38 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_25/86 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_25) @060bf0e0
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_25/86 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_25) @0618f0e0
   Type: function
   Visibility: external public
   References: 
@@ -18,7 +18,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_25/86 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_25) @
   Function flags:
   Called by: Adc_Ip_ClearTrigErrReg/38 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_20/85 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_20) @060b5ee0
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_20/85 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_20) @06185ee0
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_20/85 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_20) @06
   Function flags:
   Called by: Adc_Ip_DisableChannelNotification/37 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_20/84 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_20) @060b5e00
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_20/84 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_20) @06185e00
   Type: function
   Visibility: external public
   References: 
@@ -36,7 +36,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_20/84 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_20) @
   Function flags:
   Called by: Adc_Ip_DisableChannelNotification/37 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_19/83 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_19) @060b5c40
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_19/83 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_19) @06185c40
   Type: function
   Visibility: external public
   References: 
@@ -45,7 +45,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_19/83 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_19) @06
   Function flags:
   Called by: Adc_Ip_EnableChannelNotification/36 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_19/82 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_19) @060b5b60
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_19/82 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_19) @06185b60
   Type: function
   Visibility: external public
   References: 
@@ -54,7 +54,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_19/82 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_19) @
   Function flags:
   Called by: Adc_Ip_EnableChannelNotification/36 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_12/81 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_12) @060b59a0
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_12/81 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_12) @061859a0
   Type: function
   Visibility: external public
   References: 
@@ -63,7 +63,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_12/81 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_12) @06
   Function flags:
   Called by: Adc_Ip_ClearLatchedTriggers/35 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_12/80 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_12) @060b58c0
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_12/80 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_12) @061858c0
   Type: function
   Visibility: external public
   References: 
@@ -72,7 +72,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_12/80 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_12) @
   Function flags:
   Called by: Adc_Ip_ClearLatchedTriggers/35 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_13/79 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_13) @060b5700
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_13/79 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_13) @06185700
   Type: function
   Visibility: external public
   References: 
@@ -81,7 +81,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_13/79 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_13) @06
   Function flags:
   Called by: ADC_DoCalibration_SetParams/16 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_13/78 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_13) @060b5620
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_13/78 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_13) @06185620
   Type: function
   Visibility: external public
   References: 
@@ -90,7 +90,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_13/78 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_13) @
   Function flags:
   Called by: ADC_DoCalibration_SetParams/16 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_15/77 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_15) @060b5540
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_15/77 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_15) @06185540
   Type: function
   Visibility: external public
   References: 
@@ -99,7 +99,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_15/77 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_15) @06
   Function flags:
   Called by: ADC_DoCalibration_SetParams/16 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_15/76 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_15) @060b5460
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_15/76 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_15) @06185460
   Type: function
   Visibility: external public
   References: 
@@ -108,7 +108,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_15/76 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_15) @
   Function flags:
   Called by: ADC_DoCalibration_SetParams/16 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_24/75 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_24) @060b5380
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_24/75 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_24) @06185380
   Type: function
   Visibility: external public
   References: 
@@ -117,7 +117,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_24/75 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_24) @06
   Function flags:
   Called by: ADC_DoCalibration_SetParams/16 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_24/74 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_24) @060b52a0
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_24/74 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_24) @061852a0
   Type: function
   Visibility: external public
   References: 
@@ -126,7 +126,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_24/74 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_24) @
   Function flags:
   Called by: ADC_DoCalibration_SetParams/16 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_29/73 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_29) @060a9d20
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_29/73 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_29) @06179d20
   Type: function
   Visibility: external public
   References: 
@@ -135,7 +135,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_29/73 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_29) @06
   Function flags:
   Called by: Adc_Ip_DoCalibration/34 ADC_DoCalibration_SetParams/16 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_29/72 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_29) @060a9c40
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_29/72 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_29) @06179c40
   Type: function
   Visibility: external public
   References: 
@@ -144,7 +144,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_29/72 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_29) @
   Function flags:
   Called by: Adc_Ip_DoCalibration/34 ADC_DoCalibration_SetParams/16 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_18/71 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_18) @060a9460
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_18/71 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_18) @06179460
   Type: function
   Visibility: external public
   References: 
@@ -153,7 +153,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_18/71 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_18) @06
   Function flags:
   Called by: Adc_Ip_StartConversion/29 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_18/70 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_18) @060a9380
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_18/70 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_18) @06179380
   Type: function
   Visibility: external public
   References: 
@@ -162,7 +162,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_18/70 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_18) @
   Function flags:
   Called by: Adc_Ip_StartConversion/29 
   Calls: 
-OsIf_GetElapsed/69 (OsIf_GetElapsed) @060a91c0
+OsIf_GetElapsed/69 (OsIf_GetElapsed) @061791c0
   Type: function
   Visibility: external public
   References: 
@@ -171,7 +171,7 @@ OsIf_GetElapsed/69 (OsIf_GetElapsed) @060a91c0
   Function flags:
   Called by: Adc_Ip_ClearLatchedTriggers/35 Adc_Ip_DoCalibration/34 Adc_Ip_SetDisabledChannel/28 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_17/68 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_17) @060a90e0
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_17/68 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_17) @061790e0
   Type: function
   Visibility: external public
   References: 
@@ -180,7 +180,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_17/68 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_17) @06
   Function flags:
   Called by: Adc_Ip_SetDisabledChannel/28 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_17/67 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_17) @060a9000
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_17/67 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_17) @06179000
   Type: function
   Visibility: external public
   References: 
@@ -189,7 +189,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_17/67 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_17) @
   Function flags:
   Called by: Adc_Ip_SetDisabledChannel/28 
   Calls: 
-OsIf_GetCounter/66 (OsIf_GetCounter) @060a2ee0
+OsIf_GetCounter/66 (OsIf_GetCounter) @06172ee0
   Type: function
   Visibility: external public
   References: 
@@ -198,7 +198,7 @@ OsIf_GetCounter/66 (OsIf_GetCounter) @060a2ee0
   Function flags:
   Called by: Adc_Ip_ClearLatchedTriggers/35 Adc_Ip_DoCalibration/34 Adc_Ip_SetDisabledChannel/28 
   Calls: 
-OsIf_MicrosToTicks/65 (OsIf_MicrosToTicks) @060a2e00
+OsIf_MicrosToTicks/65 (OsIf_MicrosToTicks) @06172e00
   Type: function
   Visibility: external public
   References: 
@@ -207,7 +207,7 @@ OsIf_MicrosToTicks/65 (OsIf_MicrosToTicks) @060a2e00
   Function flags:
   Called by: Adc_Ip_ClearLatchedTriggers/35 Adc_Ip_DoCalibration/34 Adc_Ip_SetDisabledChannel/28 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_21/64 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_21) @060a2b60
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_21/64 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_21) @06172b60
   Type: function
   Visibility: external public
   References: 
@@ -216,7 +216,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_21/64 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_21) @06
   Function flags:
   Called by: Adc_Ip_ConfigChannel/27 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_21/63 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_21) @060a2a80
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_21/63 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_21) @06172a80
   Type: function
   Visibility: external public
   References: 
@@ -225,7 +225,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_21/63 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_21) @
   Function flags:
   Called by: Adc_Ip_ConfigChannel/27 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_28/62 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_28) @060a28c0
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_28/62 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_28) @061728c0
   Type: function
   Visibility: external public
   References: 
@@ -234,7 +234,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_28/62 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_28) @06
   Function flags:
   Called by: Adc_Ip_SetClockMode/26 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_28/61 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_28) @060a27e0
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_28/61 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_28) @061727e0
   Type: function
   Visibility: external public
   References: 
@@ -243,7 +243,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_28/61 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_28) @
   Function flags:
   Called by: Adc_Ip_SetClockMode/26 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_14/60 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_14) @060a2700
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_14/60 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_14) @06172700
   Type: function
   Visibility: external public
   References: 
@@ -252,7 +252,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_14/60 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_14) @06
   Function flags:
   Called by: Adc_Ip_SetClockMode/26 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_14/59 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_14) @060a2620
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_14/59 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_14) @06172620
   Type: function
   Visibility: external public
   References: 
@@ -261,7 +261,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_14/59 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_14) @
   Function flags:
   Called by: Adc_Ip_SetClockMode/26 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_11/58 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_11) @060a2540
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_11/58 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_11) @06172540
   Type: function
   Visibility: external public
   References: 
@@ -270,7 +270,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_11/58 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_11) @06
   Function flags:
   Called by: Adc_Ip_SetClockMode/26 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_11/57 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_11) @060a2460
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_11/57 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_11) @06172460
   Type: function
   Visibility: external public
   References: 
@@ -279,7 +279,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_11/57 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_11) @
   Function flags:
   Called by: Adc_Ip_SetClockMode/26 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_10/56 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_10) @060a22a0
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_10/56 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_10) @061722a0
   Type: function
   Visibility: external public
   References: 
@@ -288,7 +288,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_10/56 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_10) @06
   Function flags:
   Called by: Adc_Ip_SetResolution/25 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_10/55 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_10) @060a21c0
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_10/55 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_10) @061721c0
   Type: function
   Visibility: external public
   References: 
@@ -297,7 +297,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_10/55 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_10) @
   Function flags:
   Called by: Adc_Ip_SetResolution/25 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_30/54 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_30) @060a2000
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_30/54 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_30) @06172000
   Type: function
   Visibility: external public
   References: 
@@ -306,7 +306,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_30/54 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_30) @06
   Function flags:
   Called by: Adc_Ip_SetContinuousMode/24 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_30/53 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_30) @05f63ee0
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_30/53 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_30) @05f23ee0
   Type: function
   Visibility: external public
   References: 
@@ -315,7 +315,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_30/53 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_30) @
   Function flags:
   Called by: Adc_Ip_SetContinuousMode/24 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_23/52 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_23) @05f63c40
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_23/52 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_23) @05f23c40
   Type: function
   Visibility: external public
   References: 
@@ -324,7 +324,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_23/52 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_23) @05
   Function flags:
   Called by: Adc_Ip_SetTriggerMode/23 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_23/51 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_23) @05f63b60
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_23/51 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_23) @05f23b60
   Type: function
   Visibility: external public
   References: 
@@ -333,7 +333,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_23/51 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_23) @
   Function flags:
   Called by: Adc_Ip_SetTriggerMode/23 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_22/50 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_22) @05f639a0
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_22/50 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_22) @05f239a0
   Type: function
   Visibility: external public
   References: 
@@ -342,7 +342,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_22/50 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_22) @05
   Function flags:
   Called by: Adc_Ip_DisableDma/22 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_22/49 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_22) @05f638c0
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_22/49 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_22) @05f238c0
   Type: function
   Visibility: external public
   References: 
@@ -351,7 +351,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_22/49 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_22) @
   Function flags:
   Called by: Adc_Ip_DisableDma/22 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_26/48 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_26) @05f63700
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_26/48 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_26) @05f23700
   Type: function
   Visibility: external public
   References: 
@@ -360,7 +360,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_26/48 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_26) @05
   Function flags:
   Called by: Adc_Ip_EnableDma/21 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_26/47 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_26) @05f63620
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_26/47 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_26) @05f23620
   Type: function
   Visibility: external public
   References: 
@@ -369,7 +369,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_26/47 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_26) @
   Function flags:
   Called by: Adc_Ip_EnableDma/21 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_16/46 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_16) @05f63460
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_16/46 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_16) @05f23460
   Type: function
   Visibility: external public
   References: 
@@ -378,7 +378,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_16/46 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_16) @05
   Function flags:
   Called by: Adc_Ip_SetSampleTime/20 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_16/45 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_16) @05f63380
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_16/45 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_16) @05f23380
   Type: function
   Visibility: external public
   References: 
@@ -387,7 +387,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_16/45 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_16) @
   Function flags:
   Called by: Adc_Ip_SetSampleTime/20 
   Calls: 
-SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_27/44 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_27) @05f631c0
+SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_27/44 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_27) @05f231c0
   Type: function
   Visibility: external public
   References: 
@@ -396,7 +396,7 @@ SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_27/44 (SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_27) @05
   Function flags:
   Called by: Adc_Ip_SetAveraging/19 
   Calls: 
-SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_27/43 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_27) @05f630e0
+SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_27/43 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_27) @05f230e0
   Type: function
   Visibility: external public
   References: 
@@ -405,7 +405,7 @@ SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_27/43 (SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_27) @
   Function flags:
   Called by: Adc_Ip_SetAveraging/19 
   Calls: 
-Adc_Ip_IRQHandler/42 (Adc_Ip_IRQHandler) @05f518c0
+Adc_Ip_IRQHandler/42 (Adc_Ip_IRQHandler) @05f118c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_axState/15 (read) Adc_Ip_axState/15 (read) Adc_Ip_apxBase/14 (read) Adc_Ip_axState/15 (read) Adc_Ip_apxBase/14 (read) 
@@ -415,7 +415,7 @@ Adc_Ip_IRQHandler/42 (Adc_Ip_IRQHandler) @05f518c0
   Called by: 
   Calls: Adc_HwAcc_GetData/13 Adc_HwAcc_GetCOCO/12 Adc_HwAcc_GetAIEN/11 
    Indirect call Num speculative call targets: 0
-Adc_Ip_GetChanData/41 (Adc_Ip_GetChanData) @05f51540
+Adc_Ip_GetChanData/41 (Adc_Ip_GetChanData) @05f11540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) Adc_Ip_axState/15 (read) 
@@ -424,7 +424,7 @@ Adc_Ip_GetChanData/41 (Adc_Ip_GetChanData) @05f51540
   Function flags: body
   Called by: 
   Calls: 
-Adc_Ip_GetDataAddress/40 (Adc_Ip_GetDataAddress) @05f512a0
+Adc_Ip_GetDataAddress/40 (Adc_Ip_GetDataAddress) @05f112a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -433,7 +433,7 @@ Adc_Ip_GetDataAddress/40 (Adc_Ip_GetDataAddress) @05f512a0
   Function flags: body
   Called by: 
   Calls: 
-Adc_Ip_GetTrigErrReg/39 (Adc_Ip_GetTrigErrReg) @05f4be00
+Adc_Ip_GetTrigErrReg/39 (Adc_Ip_GetTrigErrReg) @05f0be00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -442,7 +442,7 @@ Adc_Ip_GetTrigErrReg/39 (Adc_Ip_GetTrigErrReg) @05f4be00
   Function flags: body
   Called by: 
   Calls: 
-Adc_Ip_ClearTrigErrReg/38 (Adc_Ip_ClearTrigErrReg) @05f4b7e0
+Adc_Ip_ClearTrigErrReg/38 (Adc_Ip_ClearTrigErrReg) @05f0b7e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -451,7 +451,7 @@ Adc_Ip_ClearTrigErrReg/38 (Adc_Ip_ClearTrigErrReg) @05f4b7e0
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_25/87 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_25/86 
-Adc_Ip_DisableChannelNotification/37 (Adc_Ip_DisableChannelNotification) @05f4b1c0
+Adc_Ip_DisableChannelNotification/37 (Adc_Ip_DisableChannelNotification) @05f0b1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -460,7 +460,7 @@ Adc_Ip_DisableChannelNotification/37 (Adc_Ip_DisableChannelNotification) @05f4b1
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_20/85 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_20/84 
-Adc_Ip_EnableChannelNotification/36 (Adc_Ip_EnableChannelNotification) @05f4bd20
+Adc_Ip_EnableChannelNotification/36 (Adc_Ip_EnableChannelNotification) @05f0bd20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -469,7 +469,7 @@ Adc_Ip_EnableChannelNotification/36 (Adc_Ip_EnableChannelNotification) @05f4bd20
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_19/83 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_19/82 
-Adc_Ip_ClearLatchedTriggers/35 (Adc_Ip_ClearLatchedTriggers) @05f4ba80
+Adc_Ip_ClearLatchedTriggers/35 (Adc_Ip_ClearLatchedTriggers) @05f0ba80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -478,7 +478,7 @@ Adc_Ip_ClearLatchedTriggers/35 (Adc_Ip_ClearLatchedTriggers) @05f4ba80
   Function flags: body
   Called by: 
   Calls: OsIf_GetElapsed/69 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_12/81 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_12/80 OsIf_GetCounter/66 OsIf_MicrosToTicks/65 
-Adc_Ip_DoCalibration/34 (Adc_Ip_DoCalibration) @05f4b700
+Adc_Ip_DoCalibration/34 (Adc_Ip_DoCalibration) @05f0b700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) Adc_Ip_axState/15 (read) 
@@ -487,7 +487,7 @@ Adc_Ip_DoCalibration/34 (Adc_Ip_DoCalibration) @05f4b700
   Function flags: body
   Called by: 
   Calls: ADC_DoCalibration_SetParams/16 OsIf_GetElapsed/69 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_29/73 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_29/72 ADC_DoCalibration_SetParams/16 Adc_HwAcc_GetInputClock/3 Adc_HwAcc_GetClockDivide/2 Adc_HwAcc_GetTriggerMode/8 Adc_HwAcc_GetAverageSelect/6 OsIf_GetCounter/66 OsIf_MicrosToTicks/65 
-Adc_Ip_GetConvData/33 (Adc_Ip_GetConvData) @05f4b380
+Adc_Ip_GetConvData/33 (Adc_Ip_GetConvData) @05f0b380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -496,7 +496,7 @@ Adc_Ip_GetConvData/33 (Adc_Ip_GetConvData) @05f4b380
   Function flags: body
   Called by: 
   Calls: Adc_HwAcc_GetData/13 
-Adc_Ip_GetConvCompleteFlag/32 (Adc_Ip_GetConvCompleteFlag) @05f4b0e0
+Adc_Ip_GetConvCompleteFlag/32 (Adc_Ip_GetConvCompleteFlag) @05f0b0e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -505,7 +505,7 @@ Adc_Ip_GetConvCompleteFlag/32 (Adc_Ip_GetConvCompleteFlag) @05f4b0e0
   Function flags: body
   Called by: 
   Calls: Adc_HwAcc_GetCOCO/12 
-Adc_Ip_GetChanInterrupt/31 (Adc_Ip_GetChanInterrupt) @05f42c40
+Adc_Ip_GetChanInterrupt/31 (Adc_Ip_GetChanInterrupt) @05f02c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -514,7 +514,7 @@ Adc_Ip_GetChanInterrupt/31 (Adc_Ip_GetChanInterrupt) @05f42c40
   Function flags: body
   Called by: 
   Calls: Adc_HwAcc_GetAIEN/11 
-Adc_Ip_GetConvActiveFlag/30 (Adc_Ip_GetConvActiveFlag) @05f42460
+Adc_Ip_GetConvActiveFlag/30 (Adc_Ip_GetConvActiveFlag) @05f02460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -523,7 +523,7 @@ Adc_Ip_GetConvActiveFlag/30 (Adc_Ip_GetConvActiveFlag) @05f42460
   Function flags: body
   Called by: 
   Calls: 
-Adc_Ip_StartConversion/29 (Adc_Ip_StartConversion) @05f42e00
+Adc_Ip_StartConversion/29 (Adc_Ip_StartConversion) @05f02e00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -532,7 +532,7 @@ Adc_Ip_StartConversion/29 (Adc_Ip_StartConversion) @05f42e00
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_18/71 Adc_HwAcc_SetChannel/9 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_18/70 
-Adc_Ip_SetDisabledChannel/28 (Adc_Ip_SetDisabledChannel) @05f42b60
+Adc_Ip_SetDisabledChannel/28 (Adc_Ip_SetDisabledChannel) @05f02b60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -541,7 +541,7 @@ Adc_Ip_SetDisabledChannel/28 (Adc_Ip_SetDisabledChannel) @05f42b60
   Function flags: body
   Called by: 
   Calls: OsIf_GetElapsed/69 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_17/68 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_17/67 OsIf_GetCounter/66 OsIf_MicrosToTicks/65 
-Adc_Ip_ConfigChannel/27 (Adc_Ip_ConfigChannel) @05f428c0
+Adc_Ip_ConfigChannel/27 (Adc_Ip_ConfigChannel) @05f028c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) Adc_Ip_axState/15 (write) 
@@ -550,7 +550,7 @@ Adc_Ip_ConfigChannel/27 (Adc_Ip_ConfigChannel) @05f428c0
   Function flags: body
   Called by: Adc_Ip_Init/17 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_21/64 Adc_HwAcc_SetChannel/9 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_21/63 
-Adc_Ip_SetClockMode/26 (Adc_Ip_SetClockMode) @05f42620
+Adc_Ip_SetClockMode/26 (Adc_Ip_SetClockMode) @05f02620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -559,7 +559,7 @@ Adc_Ip_SetClockMode/26 (Adc_Ip_SetClockMode) @05f42620
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_28/62 Adc_HwAcc_SetAveraging/5 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_28/61 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_14/60 Adc_HwAcc_SetSampleTime/4 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_14/59 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_11/58 Adc_HwAcc_SetClock/1 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_11/57 
-Adc_Ip_SetResolution/25 (Adc_Ip_SetResolution) @05f42380
+Adc_Ip_SetResolution/25 (Adc_Ip_SetResolution) @05f02380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -568,7 +568,7 @@ Adc_Ip_SetResolution/25 (Adc_Ip_SetResolution) @05f42380
   Function flags: body
   Called by: Adc_Ip_Init/17 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_10/56 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_10/55 
-Adc_Ip_SetContinuousMode/24 (Adc_Ip_SetContinuousMode) @05f42000
+Adc_Ip_SetContinuousMode/24 (Adc_Ip_SetContinuousMode) @05f02000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -577,7 +577,7 @@ Adc_Ip_SetContinuousMode/24 (Adc_Ip_SetContinuousMode) @05f42000
   Function flags: body
   Called by: Adc_Ip_Init/17 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_30/54 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_30/53 
-Adc_Ip_SetTriggerMode/23 (Adc_Ip_SetTriggerMode) @05f388c0
+Adc_Ip_SetTriggerMode/23 (Adc_Ip_SetTriggerMode) @05ef88c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -586,7 +586,7 @@ Adc_Ip_SetTriggerMode/23 (Adc_Ip_SetTriggerMode) @05f388c0
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_23/52 Adc_HwAcc_SetTriggerMode/7 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_23/51 
-Adc_Ip_DisableDma/22 (Adc_Ip_DisableDma) @05f38380
+Adc_Ip_DisableDma/22 (Adc_Ip_DisableDma) @05ef8380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -595,7 +595,7 @@ Adc_Ip_DisableDma/22 (Adc_Ip_DisableDma) @05f38380
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_22/50 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_22/49 
-Adc_Ip_EnableDma/21 (Adc_Ip_EnableDma) @05f38d20
+Adc_Ip_EnableDma/21 (Adc_Ip_EnableDma) @05ef8d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -604,7 +604,7 @@ Adc_Ip_EnableDma/21 (Adc_Ip_EnableDma) @05f38d20
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_26/48 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_26/47 
-Adc_Ip_SetSampleTime/20 (Adc_Ip_SetSampleTime) @05f38a80
+Adc_Ip_SetSampleTime/20 (Adc_Ip_SetSampleTime) @05ef8a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -613,7 +613,7 @@ Adc_Ip_SetSampleTime/20 (Adc_Ip_SetSampleTime) @05f38a80
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_16/46 Adc_HwAcc_SetSampleTime/4 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_16/45 
-Adc_Ip_SetAveraging/19 (Adc_Ip_SetAveraging) @05f387e0
+Adc_Ip_SetAveraging/19 (Adc_Ip_SetAveraging) @05ef87e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) 
@@ -622,7 +622,7 @@ Adc_Ip_SetAveraging/19 (Adc_Ip_SetAveraging) @05f387e0
   Function flags: body
   Called by: 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_27/44 Adc_HwAcc_SetAveraging/5 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_27/43 
-Adc_Ip_DeInit/18 (Adc_Ip_DeInit) @05f38540
+Adc_Ip_DeInit/18 (Adc_Ip_DeInit) @05ef8540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_axState/15 (write) 
@@ -631,7 +631,7 @@ Adc_Ip_DeInit/18 (Adc_Ip_DeInit) @05f38540
   Function flags: body
   Called by: 
   Calls: Adc_Ip_Init/17 
-Adc_Ip_Init/17 (Adc_Ip_Init) @05f382a0
+Adc_Ip_Init/17 (Adc_Ip_Init) @05ef82a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Adc_Ip_apxBase/14 (read) Adc_Ip_axState/15 (write) Adc_Ip_axState/15 (write) Adc_Ip_axState/15 (write) 
@@ -640,7 +640,7 @@ Adc_Ip_Init/17 (Adc_Ip_Init) @05f382a0
   Function flags: body
   Called by: Adc_Ip_DeInit/18 
   Calls: Adc_Ip_ConfigChannel/27 Adc_Ip_SetContinuousMode/24 Adc_HwAcc_SetUserGainAndOffset/10 Adc_HwAcc_SetSC2Reg/0 Adc_Ip_SetResolution/25 Adc_HwAcc_SetAveraging/5 Adc_HwAcc_SetSampleTime/4 Adc_HwAcc_SetClock/1 
-ADC_DoCalibration_SetParams/16 (ADC_DoCalibration_SetParams) @05e72e00
+ADC_DoCalibration_SetParams/16 (ADC_DoCalibration_SetParams) @05e30e00
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -649,21 +649,21 @@ ADC_DoCalibration_SetParams/16 (ADC_DoCalibration_SetParams) @05e72e00
   Function flags: body local
   Called by: Adc_Ip_DoCalibration/34 Adc_Ip_DoCalibration/34 
   Calls: SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_13/79 Adc_HwAcc_SetClock/1 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_13/78 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_15/77 Adc_HwAcc_SetSampleTime/4 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_15/76 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_24/75 Adc_HwAcc_SetTriggerMode/7 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_24/74 SchM_Exit_Adc_ADC_EXCLUSIVE_AREA_29/73 Adc_HwAcc_SetAveraging/5 SchM_Enter_Adc_ADC_EXCLUSIVE_AREA_29/72 
-Adc_Ip_axState/15 (Adc_Ip_axState) @05e707e0
+Adc_Ip_axState/15 (Adc_Ip_axState) @05e2e7e0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: Adc_Ip_Init/17 (write) Adc_Ip_Init/17 (write) Adc_Ip_GetChanData/41 (read) Adc_Ip_ConfigChannel/27 (write) Adc_Ip_DoCalibration/34 (read) Adc_Ip_Init/17 (write) Adc_Ip_DeInit/18 (write) Adc_Ip_IRQHandler/42 (read) Adc_Ip_IRQHandler/42 (read) Adc_Ip_IRQHandler/42 (read) 
   Availability: available
   Varpool flags:
-Adc_Ip_apxBase/14 (Adc_Ip_apxBase) @05e70750
+Adc_Ip_apxBase/14 (Adc_Ip_apxBase) @05e2e750
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: Adc_Ip_SetClockMode/26 (read) Adc_Ip_GetDataAddress/40 (read) Adc_Ip_GetChanData/41 (read) Adc_Ip_SetAveraging/19 (read) Adc_Ip_SetSampleTime/20 (read) Adc_Ip_EnableDma/21 (read) Adc_Ip_DisableDma/22 (read) Adc_Ip_SetTriggerMode/23 (read) Adc_Ip_SetContinuousMode/24 (read) Adc_Ip_SetResolution/25 (read) Adc_Ip_ConfigChannel/27 (read) Adc_Ip_Init/17 (read) Adc_Ip_SetDisabledChannel/28 (read) Adc_Ip_StartConversion/29 (read) Adc_Ip_GetConvActiveFlag/30 (read) Adc_Ip_GetChanInterrupt/31 (read) Adc_Ip_GetConvCompleteFlag/32 (read) Adc_Ip_GetConvData/33 (read) Adc_Ip_DoCalibration/34 (read) Adc_Ip_ClearLatchedTriggers/35 (read) Adc_Ip_EnableChannelNotification/36 (read) Adc_Ip_DisableChannelNotification/37 (read) Adc_Ip_ClearTrigErrReg/38 (read) Adc_Ip_GetTrigErrReg/39 (read) Adc_Ip_IRQHandler/42 (read) Adc_Ip_IRQHandler/42 (read) 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Adc_HwAcc_GetData/13 (Adc_HwAcc_GetData) @05e5f460
+Adc_HwAcc_GetData/13 (Adc_HwAcc_GetData) @05e1d460
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -672,7 +672,7 @@ Adc_HwAcc_GetData/13 (Adc_HwAcc_GetData) @05e5f460
   Function flags: body local
   Called by: Adc_Ip_IRQHandler/42 Adc_Ip_GetConvData/33 
   Calls: 
-Adc_HwAcc_GetCOCO/12 (Adc_HwAcc_GetCOCO) @05e5f1c0
+Adc_HwAcc_GetCOCO/12 (Adc_HwAcc_GetCOCO) @05e1d1c0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -681,7 +681,7 @@ Adc_HwAcc_GetCOCO/12 (Adc_HwAcc_GetCOCO) @05e5f1c0
   Function flags: body local
   Called by: Adc_Ip_IRQHandler/42 Adc_Ip_GetConvCompleteFlag/32 
   Calls: 
-Adc_HwAcc_GetAIEN/11 (Adc_HwAcc_GetAIEN) @05e5cee0
+Adc_HwAcc_GetAIEN/11 (Adc_HwAcc_GetAIEN) @05e1aee0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -690,7 +690,7 @@ Adc_HwAcc_GetAIEN/11 (Adc_HwAcc_GetAIEN) @05e5cee0
   Function flags: body local
   Called by: Adc_Ip_IRQHandler/42 Adc_Ip_GetChanInterrupt/31 
   Calls: 
-Adc_HwAcc_SetUserGainAndOffset/10 (Adc_HwAcc_SetUserGainAndOffset) @05e5cc40
+Adc_HwAcc_SetUserGainAndOffset/10 (Adc_HwAcc_SetUserGainAndOffset) @05e1ac40
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -699,7 +699,7 @@ Adc_HwAcc_SetUserGainAndOffset/10 (Adc_HwAcc_SetUserGainAndOffset) @05e5cc40
   Function flags: body local
   Called by: Adc_Ip_Init/17 
   Calls: 
-Adc_HwAcc_SetChannel/9 (Adc_HwAcc_SetChannel) @05e5c7e0
+Adc_HwAcc_SetChannel/9 (Adc_HwAcc_SetChannel) @05e1a7e0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -708,7 +708,7 @@ Adc_HwAcc_SetChannel/9 (Adc_HwAcc_SetChannel) @05e5c7e0
   Function flags: body local
   Called by: Adc_Ip_StartConversion/29 Adc_Ip_ConfigChannel/27 
   Calls: 
-Adc_HwAcc_GetTriggerMode/8 (Adc_HwAcc_GetTriggerMode) @05e5c380
+Adc_HwAcc_GetTriggerMode/8 (Adc_HwAcc_GetTriggerMode) @05e1a380
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -717,7 +717,7 @@ Adc_HwAcc_GetTriggerMode/8 (Adc_HwAcc_GetTriggerMode) @05e5c380
   Function flags: body local
   Called by: Adc_Ip_DoCalibration/34 
   Calls: 
-Adc_HwAcc_SetTriggerMode/7 (Adc_HwAcc_SetTriggerMode) @05e5c0e0
+Adc_HwAcc_SetTriggerMode/7 (Adc_HwAcc_SetTriggerMode) @05e1a0e0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -726,7 +726,7 @@ Adc_HwAcc_SetTriggerMode/7 (Adc_HwAcc_SetTriggerMode) @05e5c0e0
   Function flags: body local
   Called by: Adc_Ip_SetTriggerMode/23 ADC_DoCalibration_SetParams/16 
   Calls: 
-Adc_HwAcc_GetAverageSelect/6 (Adc_HwAcc_GetAverageSelect) @05e57d20
+Adc_HwAcc_GetAverageSelect/6 (Adc_HwAcc_GetAverageSelect) @05e15d20
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -735,7 +735,7 @@ Adc_HwAcc_GetAverageSelect/6 (Adc_HwAcc_GetAverageSelect) @05e57d20
   Function flags: body local
   Called by: Adc_Ip_DoCalibration/34 
   Calls: 
-Adc_HwAcc_SetAveraging/5 (Adc_HwAcc_SetAveraging) @05e57a80
+Adc_HwAcc_SetAveraging/5 (Adc_HwAcc_SetAveraging) @05e15a80
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -744,7 +744,7 @@ Adc_HwAcc_SetAveraging/5 (Adc_HwAcc_SetAveraging) @05e57a80
   Function flags: body local
   Called by: Adc_Ip_Init/17 Adc_Ip_SetClockMode/26 Adc_Ip_SetAveraging/19 ADC_DoCalibration_SetParams/16 
   Calls: 
-Adc_HwAcc_SetSampleTime/4 (Adc_HwAcc_SetSampleTime) @05e57620
+Adc_HwAcc_SetSampleTime/4 (Adc_HwAcc_SetSampleTime) @05e15620
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -753,7 +753,7 @@ Adc_HwAcc_SetSampleTime/4 (Adc_HwAcc_SetSampleTime) @05e57620
   Function flags: body local
   Called by: Adc_Ip_Init/17 Adc_Ip_SetClockMode/26 Adc_Ip_SetSampleTime/20 ADC_DoCalibration_SetParams/16 
   Calls: 
-Adc_HwAcc_GetInputClock/3 (Adc_HwAcc_GetInputClock) @05e572a0
+Adc_HwAcc_GetInputClock/3 (Adc_HwAcc_GetInputClock) @05e152a0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -762,7 +762,7 @@ Adc_HwAcc_GetInputClock/3 (Adc_HwAcc_GetInputClock) @05e572a0
   Function flags: body local
   Called by: Adc_Ip_DoCalibration/34 
   Calls: 
-Adc_HwAcc_GetClockDivide/2 (Adc_HwAcc_GetClockDivide) @05e57000
+Adc_HwAcc_GetClockDivide/2 (Adc_HwAcc_GetClockDivide) @05e15000
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -771,7 +771,7 @@ Adc_HwAcc_GetClockDivide/2 (Adc_HwAcc_GetClockDivide) @05e57000
   Function flags: body local
   Called by: Adc_Ip_DoCalibration/34 
   Calls: 
-Adc_HwAcc_SetClock/1 (Adc_HwAcc_SetClock) @05dc9d20
+Adc_HwAcc_SetClock/1 (Adc_HwAcc_SetClock) @05d7fd20
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -780,7 +780,7 @@ Adc_HwAcc_SetClock/1 (Adc_HwAcc_SetClock) @05dc9d20
   Function flags: body local
   Called by: Adc_Ip_Init/17 Adc_Ip_SetClockMode/26 ADC_DoCalibration_SetParams/16 
   Calls: 
-Adc_HwAcc_SetSC2Reg/0 (Adc_HwAcc_SetSC2Reg) @05dc98c0
+Adc_HwAcc_SetSC2Reg/0 (Adc_HwAcc_SetSC2Reg) @05d7f8c0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 

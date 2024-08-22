@@ -44,7 +44,7 @@ IPA summary for IntCtrl_Ip_InstallHandlerPrivileged/1 is missing.
 IPA summary for DevAssert/0 is missing.
 Symbol table:
 
-__INT_SRAM_START/14 (__INT_SRAM_START) @06d40558
+__INT_SRAM_START/14 (__INT_SRAM_START) @06103630
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -52,7 +52,7 @@ __INT_SRAM_START/14 (__INT_SRAM_START) @06d40558
   Referring: IntCtrl_Ip_InstallHandlerPrivileged/1 (addr) 
   Availability: not_available
   Varpool flags:
-IntCtrl_Ip_ClearPending/13 (IntCtrl_Ip_ClearPending) @06d399a0
+IntCtrl_Ip_ClearPending/13 (IntCtrl_Ip_ClearPending) @06104000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -61,7 +61,7 @@ IntCtrl_Ip_ClearPending/13 (IntCtrl_Ip_ClearPending) @06d399a0
   Function flags: body
   Called by: IntCtrl_Ip_Init/7 
   Calls: IntCtrl_Ip_ClearPendingPrivileged/6 
-IntCtrl_Ip_GetPriority/12 (IntCtrl_Ip_GetPriority) @06d39380
+IntCtrl_Ip_GetPriority/12 (IntCtrl_Ip_GetPriority) @060fcb60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -70,7 +70,7 @@ IntCtrl_Ip_GetPriority/12 (IntCtrl_Ip_GetPriority) @06d39380
   Function flags: body
   Called by: 
   Calls: IntCtrl_Ip_GetPriorityPrivileged/5 
-IntCtrl_Ip_SetPriority/11 (IntCtrl_Ip_SetPriority) @06d39e00
+IntCtrl_Ip_SetPriority/11 (IntCtrl_Ip_SetPriority) @060fc540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -79,7 +79,7 @@ IntCtrl_Ip_SetPriority/11 (IntCtrl_Ip_SetPriority) @06d39e00
   Function flags: body
   Called by: IntCtrl_Ip_Init/7 
   Calls: IntCtrl_Ip_SetPriorityPrivileged/4 
-IntCtrl_Ip_DisableIrq/10 (IntCtrl_Ip_DisableIrq) @06d39b60
+IntCtrl_Ip_DisableIrq/10 (IntCtrl_Ip_DisableIrq) @060fc000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -88,7 +88,7 @@ IntCtrl_Ip_DisableIrq/10 (IntCtrl_Ip_DisableIrq) @06d39b60
   Function flags: body
   Called by: IntCtrl_Ip_Init/7 
   Calls: IntCtrl_Ip_DisableIrqPrivileged/3 
-IntCtrl_Ip_EnableIrq/9 (IntCtrl_Ip_EnableIrq) @06d398c0
+IntCtrl_Ip_EnableIrq/9 (IntCtrl_Ip_EnableIrq) @060fcd20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -97,7 +97,7 @@ IntCtrl_Ip_EnableIrq/9 (IntCtrl_Ip_EnableIrq) @06d398c0
   Function flags: body
   Called by: IntCtrl_Ip_Init/7 
   Calls: IntCtrl_Ip_EnableIrqPrivileged/2 
-IntCtrl_Ip_InstallHandler/8 (IntCtrl_Ip_InstallHandler) @06d39620
+IntCtrl_Ip_InstallHandler/8 (IntCtrl_Ip_InstallHandler) @060fca80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -106,7 +106,7 @@ IntCtrl_Ip_InstallHandler/8 (IntCtrl_Ip_InstallHandler) @06d39620
   Function flags: body
   Called by: IntCtrl_Ip_Init/7 
   Calls: IntCtrl_Ip_InstallHandlerPrivileged/1 
-IntCtrl_Ip_Init/7 (IntCtrl_Ip_Init) @06d392a0
+IntCtrl_Ip_Init/7 (IntCtrl_Ip_Init) @060fc700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -115,7 +115,7 @@ IntCtrl_Ip_Init/7 (IntCtrl_Ip_Init) @06d392a0
   Function flags: body
   Called by: 
   Calls: IntCtrl_Ip_DisableIrq/10 IntCtrl_Ip_EnableIrq/9 IntCtrl_Ip_InstallHandler/8 IntCtrl_Ip_SetPriority/11 IntCtrl_Ip_ClearPending/13 DevAssert/0 DevAssert/0 
-IntCtrl_Ip_ClearPendingPrivileged/6 (IntCtrl_Ip_ClearPendingPrivileged) @06d39000
+IntCtrl_Ip_ClearPendingPrivileged/6 (IntCtrl_Ip_ClearPendingPrivileged) @060fc460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -124,7 +124,7 @@ IntCtrl_Ip_ClearPendingPrivileged/6 (IntCtrl_Ip_ClearPendingPrivileged) @06d3900
   Function flags: body
   Called by: IntCtrl_Ip_ClearPending/13 
   Calls: DevAssert/0 DevAssert/0 
-IntCtrl_Ip_GetPriorityPrivileged/5 (IntCtrl_Ip_GetPriorityPrivileged) @06c6eb60
+IntCtrl_Ip_GetPriorityPrivileged/5 (IntCtrl_Ip_GetPriorityPrivileged) @060fc1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -133,7 +133,7 @@ IntCtrl_Ip_GetPriorityPrivileged/5 (IntCtrl_Ip_GetPriorityPrivileged) @06c6eb60
   Function flags: body
   Called by: IntCtrl_Ip_GetPriority/12 
   Calls: DevAssert/0 DevAssert/0 
-IntCtrl_Ip_SetPriorityPrivileged/4 (IntCtrl_Ip_SetPriorityPrivileged) @06c6e620
+IntCtrl_Ip_SetPriorityPrivileged/4 (IntCtrl_Ip_SetPriorityPrivileged) @0602dee0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -142,7 +142,7 @@ IntCtrl_Ip_SetPriorityPrivileged/4 (IntCtrl_Ip_SetPriorityPrivileged) @06c6e620
   Function flags: body
   Called by: IntCtrl_Ip_SetPriority/11 
   Calls: DevAssert/0 DevAssert/0 DevAssert/0 
-IntCtrl_Ip_DisableIrqPrivileged/3 (IntCtrl_Ip_DisableIrqPrivileged) @06c6ed20
+IntCtrl_Ip_DisableIrqPrivileged/3 (IntCtrl_Ip_DisableIrqPrivileged) @0602d9a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -151,7 +151,7 @@ IntCtrl_Ip_DisableIrqPrivileged/3 (IntCtrl_Ip_DisableIrqPrivileged) @06c6ed20
   Function flags: body
   Called by: IntCtrl_Ip_DisableIrq/10 
   Calls: DevAssert/0 DevAssert/0 
-IntCtrl_Ip_EnableIrqPrivileged/2 (IntCtrl_Ip_EnableIrqPrivileged) @06c6ea80
+IntCtrl_Ip_EnableIrqPrivileged/2 (IntCtrl_Ip_EnableIrqPrivileged) @0602de00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -160,7 +160,7 @@ IntCtrl_Ip_EnableIrqPrivileged/2 (IntCtrl_Ip_EnableIrqPrivileged) @06c6ea80
   Function flags: body
   Called by: IntCtrl_Ip_EnableIrq/9 
   Calls: DevAssert/0 DevAssert/0 
-IntCtrl_Ip_InstallHandlerPrivileged/1 (IntCtrl_Ip_InstallHandlerPrivileged) @06c6e7e0
+IntCtrl_Ip_InstallHandlerPrivileged/1 (IntCtrl_Ip_InstallHandlerPrivileged) @0602db60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: __INT_SRAM_START/14 (addr) 
@@ -169,7 +169,7 @@ IntCtrl_Ip_InstallHandlerPrivileged/1 (IntCtrl_Ip_InstallHandlerPrivileged) @06c
   Function flags: body
   Called by: IntCtrl_Ip_InstallHandler/8 
   Calls: DevAssert/0 DevAssert/0 DevAssert/0 
-DevAssert/0 (DevAssert) @06c65620
+DevAssert/0 (DevAssert) @05ffa8c0
   Type: function definition analyzed
   Visibility: no_reorder prevailing_def_ironly
   References: 
@@ -179,7 +179,7 @@ DevAssert/0 (DevAssert) @06c65620
   Called by: IntCtrl_Ip_Init/7 IntCtrl_Ip_Init/7 IntCtrl_Ip_ClearPendingPrivileged/6 IntCtrl_Ip_ClearPendingPrivileged/6 IntCtrl_Ip_GetPriorityPrivileged/5 IntCtrl_Ip_GetPriorityPrivileged/5 IntCtrl_Ip_SetPriorityPrivileged/4 IntCtrl_Ip_SetPriorityPrivileged/4 IntCtrl_Ip_SetPriorityPrivileged/4 IntCtrl_Ip_DisableIrqPrivileged/3 IntCtrl_Ip_DisableIrqPrivileged/3 IntCtrl_Ip_EnableIrqPrivileged/2 IntCtrl_Ip_EnableIrqPrivileged/2 IntCtrl_Ip_InstallHandlerPrivileged/1 IntCtrl_Ip_InstallHandlerPrivileged/1 IntCtrl_Ip_InstallHandlerPrivileged/1 
   Calls: 
 
-;; Function DevAssert (DevAssert, funcdef_no=0, decl_uid=6038, cgraph_uid=1, symbol_order=0)
+;; Function DevAssert (DevAssert, funcdef_no=0, decl_uid=6044, cgraph_uid=1, symbol_order=0)
 
 DevAssert (volatile boolean x)
 {
@@ -203,7 +203,7 @@ DevAssert (volatile boolean x)
 
 
 
-;; Function IntCtrl_Ip_InstallHandlerPrivileged (IntCtrl_Ip_InstallHandlerPrivileged, funcdef_no=1, decl_uid=6062, cgraph_uid=2, symbol_order=1)
+;; Function IntCtrl_Ip_InstallHandlerPrivileged (IntCtrl_Ip_InstallHandlerPrivileged, funcdef_no=1, decl_uid=6068, cgraph_uid=2, symbol_order=1)
 
 IntCtrl_Ip_InstallHandlerPrivileged (IRQn_Type eIrqNumber, void (*IntCtrl_Ip_IrqHandlerType) (void) pfNewHandler, void (*IntCtrl_Ip_IrqHandlerType) (void) * const pfOldHandler)
 {
@@ -268,7 +268,7 @@ IntCtrl_Ip_InstallHandlerPrivileged (IRQn_Type eIrqNumber, void (*IntCtrl_Ip_Irq
 
 
 
-;; Function IntCtrl_Ip_EnableIrqPrivileged (IntCtrl_Ip_EnableIrqPrivileged, funcdef_no=2, decl_uid=6064, cgraph_uid=3, symbol_order=2)
+;; Function IntCtrl_Ip_EnableIrqPrivileged (IntCtrl_Ip_EnableIrqPrivileged, funcdef_no=2, decl_uid=6070, cgraph_uid=3, symbol_order=2)
 
 IntCtrl_Ip_EnableIrqPrivileged (IRQn_Type eIrqNumber)
 {
@@ -299,7 +299,7 @@ IntCtrl_Ip_EnableIrqPrivileged (IRQn_Type eIrqNumber)
 
 
 
-;; Function IntCtrl_Ip_DisableIrqPrivileged (IntCtrl_Ip_DisableIrqPrivileged, funcdef_no=3, decl_uid=6066, cgraph_uid=4, symbol_order=3)
+;; Function IntCtrl_Ip_DisableIrqPrivileged (IntCtrl_Ip_DisableIrqPrivileged, funcdef_no=3, decl_uid=6072, cgraph_uid=4, symbol_order=3)
 
 IntCtrl_Ip_DisableIrqPrivileged (IRQn_Type eIrqNumber)
 {
@@ -330,7 +330,7 @@ IntCtrl_Ip_DisableIrqPrivileged (IRQn_Type eIrqNumber)
 
 
 
-;; Function IntCtrl_Ip_SetPriorityPrivileged (IntCtrl_Ip_SetPriorityPrivileged, funcdef_no=4, decl_uid=6069, cgraph_uid=5, symbol_order=4)
+;; Function IntCtrl_Ip_SetPriorityPrivileged (IntCtrl_Ip_SetPriorityPrivileged, funcdef_no=4, decl_uid=6075, cgraph_uid=5, symbol_order=4)
 
 IntCtrl_Ip_SetPriorityPrivileged (IRQn_Type eIrqNumber, uint8 u8Priority)
 {
@@ -366,13 +366,13 @@ IntCtrl_Ip_SetPriorityPrivileged (IRQn_Type eIrqNumber, uint8 u8Priority)
 
 
 
-;; Function IntCtrl_Ip_GetPriorityPrivileged (IntCtrl_Ip_GetPriorityPrivileged, funcdef_no=5, decl_uid=6071, cgraph_uid=6, symbol_order=5)
+;; Function IntCtrl_Ip_GetPriorityPrivileged (IntCtrl_Ip_GetPriorityPrivileged, funcdef_no=5, decl_uid=6077, cgraph_uid=6, symbol_order=5)
 
 IntCtrl_Ip_GetPriorityPrivileged (IRQn_Type eIrqNumber)
 {
   uint8 shift;
   uint8 priority;
-  uint8 D.6137;
+  uint8 D.6143;
   _Bool _1;
   _Bool _2;
   struct S32_NVIC_Type * _3;
@@ -406,7 +406,7 @@ IntCtrl_Ip_GetPriorityPrivileged (IRQn_Type eIrqNumber)
 
 
 
-;; Function IntCtrl_Ip_ClearPendingPrivileged (IntCtrl_Ip_ClearPendingPrivileged, funcdef_no=6, decl_uid=6073, cgraph_uid=7, symbol_order=6)
+;; Function IntCtrl_Ip_ClearPendingPrivileged (IntCtrl_Ip_ClearPendingPrivileged, funcdef_no=6, decl_uid=6079, cgraph_uid=7, symbol_order=6)
 
 IntCtrl_Ip_ClearPendingPrivileged (IRQn_Type eIrqNumber)
 {
@@ -437,12 +437,12 @@ IntCtrl_Ip_ClearPendingPrivileged (IRQn_Type eIrqNumber)
 
 
 
-;; Function IntCtrl_Ip_Init (IntCtrl_Ip_Init, funcdef_no=7, decl_uid=6042, cgraph_uid=8, symbol_order=7)
+;; Function IntCtrl_Ip_Init (IntCtrl_Ip_Init, funcdef_no=7, decl_uid=6048, cgraph_uid=8, symbol_order=7)
 
 IntCtrl_Ip_Init (const struct IntCtrl_Ip_CtrlConfigType * pIntCtrlCtrlConfig)
 {
   uint32 irqIdx;
-  IntCtrl_Ip_StatusType D.6142;
+  IntCtrl_Ip_StatusType D.6148;
   _Bool _1;
   long unsigned int _2;
   _Bool _3;
@@ -560,7 +560,7 @@ IntCtrl_Ip_Init (const struct IntCtrl_Ip_CtrlConfigType * pIntCtrlCtrlConfig)
 
 
 
-;; Function IntCtrl_Ip_InstallHandler (IntCtrl_Ip_InstallHandler, funcdef_no=8, decl_uid=6046, cgraph_uid=9, symbol_order=8)
+;; Function IntCtrl_Ip_InstallHandler (IntCtrl_Ip_InstallHandler, funcdef_no=8, decl_uid=6052, cgraph_uid=9, symbol_order=8)
 
 IntCtrl_Ip_InstallHandler (IRQn_Type eIrqNumber, void (*IntCtrl_Ip_IrqHandlerType) (void) pfNewHandler, void (*IntCtrl_Ip_IrqHandlerType) (void) * const pfOldHandler)
 {
@@ -572,7 +572,7 @@ IntCtrl_Ip_InstallHandler (IRQn_Type eIrqNumber, void (*IntCtrl_Ip_IrqHandlerTyp
 
 
 
-;; Function IntCtrl_Ip_EnableIrq (IntCtrl_Ip_EnableIrq, funcdef_no=9, decl_uid=6048, cgraph_uid=10, symbol_order=9)
+;; Function IntCtrl_Ip_EnableIrq (IntCtrl_Ip_EnableIrq, funcdef_no=9, decl_uid=6054, cgraph_uid=10, symbol_order=9)
 
 IntCtrl_Ip_EnableIrq (IRQn_Type eIrqNumber)
 {
@@ -584,7 +584,7 @@ IntCtrl_Ip_EnableIrq (IRQn_Type eIrqNumber)
 
 
 
-;; Function IntCtrl_Ip_DisableIrq (IntCtrl_Ip_DisableIrq, funcdef_no=10, decl_uid=6050, cgraph_uid=11, symbol_order=10)
+;; Function IntCtrl_Ip_DisableIrq (IntCtrl_Ip_DisableIrq, funcdef_no=10, decl_uid=6056, cgraph_uid=11, symbol_order=10)
 
 IntCtrl_Ip_DisableIrq (IRQn_Type eIrqNumber)
 {
@@ -596,7 +596,7 @@ IntCtrl_Ip_DisableIrq (IRQn_Type eIrqNumber)
 
 
 
-;; Function IntCtrl_Ip_SetPriority (IntCtrl_Ip_SetPriority, funcdef_no=11, decl_uid=6053, cgraph_uid=12, symbol_order=11)
+;; Function IntCtrl_Ip_SetPriority (IntCtrl_Ip_SetPriority, funcdef_no=11, decl_uid=6059, cgraph_uid=12, symbol_order=11)
 
 IntCtrl_Ip_SetPriority (IRQn_Type eIrqNumber, uint8 u8Priority)
 {
@@ -608,11 +608,11 @@ IntCtrl_Ip_SetPriority (IRQn_Type eIrqNumber, uint8 u8Priority)
 
 
 
-;; Function IntCtrl_Ip_GetPriority (IntCtrl_Ip_GetPriority, funcdef_no=12, decl_uid=6055, cgraph_uid=13, symbol_order=12)
+;; Function IntCtrl_Ip_GetPriority (IntCtrl_Ip_GetPriority, funcdef_no=12, decl_uid=6061, cgraph_uid=13, symbol_order=12)
 
 IntCtrl_Ip_GetPriority (IRQn_Type eIrqNumber)
 {
-  uint8 D.6144;
+  uint8 D.6150;
   uint8 _4;
 
   <bb 2> :
@@ -626,7 +626,7 @@ IntCtrl_Ip_GetPriority (IRQn_Type eIrqNumber)
 
 
 
-;; Function IntCtrl_Ip_ClearPending (IntCtrl_Ip_ClearPending, funcdef_no=13, decl_uid=6057, cgraph_uid=14, symbol_order=13)
+;; Function IntCtrl_Ip_ClearPending (IntCtrl_Ip_ClearPending, funcdef_no=13, decl_uid=6063, cgraph_uid=14, symbol_order=13)
 
 IntCtrl_Ip_ClearPending (IRQn_Type eIrqNumber)
 {

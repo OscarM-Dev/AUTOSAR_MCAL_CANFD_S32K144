@@ -50,6 +50,7 @@ void EcuM_Init( void ) {
     OsIf_Init( NULL_PTR );  //Init Osif timer.
     Platform_Init( NULL_PTR );  //Init platform driver and configuration.
     Port_Init( &Port_Config );  //Init port driver and configuration.
+    Spi_Init( &Spi_Config );    //Init spi driver and configuration.
     Can_43_FLEXCAN_Init( &Can_43_FLEXCAN_Config );  //Init FlexCan driver
     CanIf_Init( &CanIf_Config );    //Init CanIf driver.
 }

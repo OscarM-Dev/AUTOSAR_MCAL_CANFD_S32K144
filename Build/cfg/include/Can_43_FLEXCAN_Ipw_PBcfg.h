@@ -78,7 +78,8 @@ extern "C"{
 *                                      DEFINES AND MACROS
 ==================================================================================================*/
 #define CAN_43_FLEXCAN_IPW_CONFIG_PB \
-    extern const Can_43_FLEXCAN_Ipw_HwChannelConfigType Can_43_FLEXCANIpwHwChannelConfig0;
+    extern const Can_43_FLEXCAN_Ipw_HwChannelConfigType Can_43_FLEXCANIpwHwChannelConfig0;\
+    extern const Can_43_FLEXCAN_Ipw_HwChannelConfigType Can_43_FLEXCANIpwHwChannelConfig1;
 
 
 

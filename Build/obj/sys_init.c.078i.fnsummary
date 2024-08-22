@@ -1,6 +1,6 @@
 Symbol table:
 
-Sys_GetCoreID/13 (Sys_GetCoreID) @06c74d20
+Sys_GetCoreID/13 (Sys_GetCoreID) @0607ed20
   Type: function
   Visibility: external public
   References: 
@@ -9,7 +9,7 @@ Sys_GetCoreID/13 (Sys_GetCoreID) @06c74d20
   Function flags:
   Called by: EUnit_GetCoreID/9 
   Calls: 
-NVIC_EnableIRQ/12 (NVIC_EnableIRQ) @06c74700
+NVIC_EnableIRQ/12 (NVIC_EnableIRQ) @0607e700
   Type: function
   Visibility: external public
   References: 
@@ -18,7 +18,7 @@ NVIC_EnableIRQ/12 (NVIC_EnableIRQ) @06c74700
   Function flags:
   Called by: sys_enableIsrSource/3 
   Calls: 
-NVIC_SetPriority/11 (NVIC_SetPriority) @06c74620
+NVIC_SetPriority/11 (NVIC_SetPriority) @0607e620
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ NVIC_SetPriority/11 (NVIC_SetPriority) @06c74620
   Function flags:
   Called by: sys_enableIsrSource/3 
   Calls: 
-NVIC_DisableIRQ/10 (NVIC_DisableIRQ) @06c74460
+NVIC_DisableIRQ/10 (NVIC_DisableIRQ) @0607e460
   Type: function
   Visibility: external public
   References: 
@@ -36,7 +36,7 @@ NVIC_DisableIRQ/10 (NVIC_DisableIRQ) @06c74460
   Function flags:
   Called by: sys_disableIsrSource/2 
   Calls: 
-EUnit_GetCoreID/9 (EUnit_GetCoreID) @06c54b60
+EUnit_GetCoreID/9 (EUnit_GetCoreID) @0605fb60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -45,7 +45,7 @@ EUnit_GetCoreID/9 (EUnit_GetCoreID) @06c54b60
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/13 
-sys_stop/8 (sys_stop) @06c548c0
+sys_stop/8 (sys_stop) @0605f8c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -54,7 +54,7 @@ sys_stop/8 (sys_stop) @06c548c0
   Function flags: body
   Called by: 
   Calls: 
-sys_halt/7 (sys_halt) @06c54380
+sys_halt/7 (sys_halt) @0605f380
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -63,7 +63,7 @@ sys_halt/7 (sys_halt) @06c54380
   Function flags: body
   Called by: 
   Calls: 
-sys_init/6 (sys_init) @06c54d20
+sys_init/6 (sys_init) @0605fd20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public section:.systeminit
   References: 
@@ -72,7 +72,7 @@ sys_init/6 (sys_init) @06c54d20
   Function flags: body
   Called by: 
   Calls: 
-sys_registerIsrHandler/4 (sys_registerIsrHandler) @06c54a80
+sys_registerIsrHandler/4 (sys_registerIsrHandler) @0605fa80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -81,7 +81,7 @@ sys_registerIsrHandler/4 (sys_registerIsrHandler) @06c54a80
   Function flags: body
   Called by: 
   Calls: 
-sys_enableIsrSource/3 (sys_enableIsrSource) @06c547e0
+sys_enableIsrSource/3 (sys_enableIsrSource) @0605f7e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -90,7 +90,7 @@ sys_enableIsrSource/3 (sys_enableIsrSource) @06c547e0
   Function flags: body
   Called by: 
   Calls: NVIC_EnableIRQ/12 NVIC_SetPriority/11 
-sys_disableIsrSource/2 (sys_disableIsrSource) @06c54540
+sys_disableIsrSource/2 (sys_disableIsrSource) @0605f540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -99,7 +99,7 @@ sys_disableIsrSource/2 (sys_disableIsrSource) @06c54540
   Function flags: body
   Called by: 
   Calls: NVIC_DisableIRQ/10 
-sys_disableAllInterrupts/1 (sys_disableAllInterrupts) @06c542a0
+sys_disableAllInterrupts/1 (sys_disableAllInterrupts) @0605f2a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -108,7 +108,7 @@ sys_disableAllInterrupts/1 (sys_disableAllInterrupts) @06c542a0
   Function flags: body
   Called by: 
   Calls: 
-sys_enableAllInterrupts/0 (sys_enableAllInterrupts) @06c54000
+sys_enableAllInterrupts/0 (sys_enableAllInterrupts) @0605f000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

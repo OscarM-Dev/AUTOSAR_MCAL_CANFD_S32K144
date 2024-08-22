@@ -1,6 +1,6 @@
 Symbol table:
 
-HwIoAb_Buzzer_Init/8 (HwIoAb_Buzzer_Init) @06dcf7e0
+HwIoAb_Buzzer_Init/8 (HwIoAb_Buzzer_Init) @06dc27e0
   Type: function
   Visibility: external public
   References: 
@@ -9,7 +9,7 @@ HwIoAb_Buzzer_Init/8 (HwIoAb_Buzzer_Init) @06dcf7e0
   Function flags:
   Called by: IoHwAb_Init0/1 
   Calls: 
-HwIoAb_Pots_Init/7 (HwIoAb_Pots_Init) @06dcf540
+HwIoAb_Pots_Init/7 (HwIoAb_Pots_Init) @06dc2540
   Type: function
   Visibility: external public
   References: 
@@ -18,7 +18,7 @@ HwIoAb_Pots_Init/7 (HwIoAb_Pots_Init) @06dcf540
   Function flags:
   Called by: IoHwAb_Init0/1 
   Calls: 
-LedsCfg/6 (LedsCfg) @06dcd8b8
+LedsCfg/6 (LedsCfg) @06dc08b8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -26,7 +26,7 @@ LedsCfg/6 (LedsCfg) @06dcd8b8
   Referring: IoHwAb_Init0/1 (addr) 
   Availability: not_available
   Varpool flags: read-only
-HwIoAb_Leds_Init/5 (HwIoAb_Leds_Init) @06dcfee0
+HwIoAb_Leds_Init/5 (HwIoAb_Leds_Init) @06dc2ee0
   Type: function
   Visibility: external public
   References: 
@@ -35,7 +35,7 @@ HwIoAb_Leds_Init/5 (HwIoAb_Leds_Init) @06dcfee0
   Function flags:
   Called by: IoHwAb_Init0/1 
   Calls: 
-ButtonsCfg/4 (ButtonsCfg) @06dcd828
+ButtonsCfg/4 (ButtonsCfg) @06dc0828
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -43,7 +43,7 @@ ButtonsCfg/4 (ButtonsCfg) @06dcd828
   Referring: IoHwAb_Init0/1 (addr) 
   Availability: not_available
   Varpool flags: read-only
-HwIoAb_Buttons_Init/3 (HwIoAb_Buttons_Init) @06dcfe00
+HwIoAb_Buttons_Init/3 (HwIoAb_Buttons_Init) @06dc2e00
   Type: function
   Visibility: external public
   References: 
@@ -52,7 +52,7 @@ HwIoAb_Buttons_Init/3 (HwIoAb_Buttons_Init) @06dcfe00
   Function flags:
   Called by: IoHwAb_Init0/1 
   Calls: 
-IoHwAb_GetVersionInfo/2 (IoHwAb_GetVersionInfo) @06dcf9a0
+IoHwAb_GetVersionInfo/2 (IoHwAb_GetVersionInfo) @06dc29a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -61,7 +61,7 @@ IoHwAb_GetVersionInfo/2 (IoHwAb_GetVersionInfo) @06dcf9a0
   Function flags: body
   Called by: 
   Calls: 
-IoHwAb_Init0/1 (IoHwAb_Init0) @06dcf700
+IoHwAb_Init0/1 (IoHwAb_Init0) @06dc2700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: ButtonsCfg/4 (addr) LedsCfg/6 (addr) 

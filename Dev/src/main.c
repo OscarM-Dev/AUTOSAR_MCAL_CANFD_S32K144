@@ -11,6 +11,8 @@
 
 //Global data.
 QueueMessage Queue1[ SCHEDULER_QUEUE1_ELEMENTS ];
+boolean CanIf_Can0_bTxFlag;   ///< Flag for transmision of PDU of FlexCan0 controller.
+boolean CanIf_Can0_bRxFlag;   ///< Flag for reception of PDU of FlexCan0 controller.
 boolean CanIf_Can2_bTxFlag;   ///< Flag for transmision of PDU of FlexCan2 controller.
 boolean CanIf_Can2_bRxFlag;   ///< Flag for reception of PDU of FlexCan2 controller.
 
@@ -24,38 +26,44 @@ boolean CanIf_Can2_bRxFlag;   ///< Flag for reception of PDU of FlexCan2 control
 */
 int main( void ) {
     //local data.
-    //Transmit message (PDU) 0 (Message ID 0x123) for Can 2 controller.
-    uint8 Message0_SDU[8] = { 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08 }; //Data payload for message.
-    PduInfoType Message0 = {
-        .SduLength = 8,
-        .SduDataPtr = Message0_SDU,
-        .MetaDataPtr = NULL_PTR
-    };
+    //Transmision and reception buffers for Spi1Cs3 channels.
+    uint8 Control = 0;  //Transmit buffer for control channel.
+    uint8 RxDataBuffer = 50; //Receive buffer for data channel.
 
-    //Transmit message (PDU) 1 (Message ID 0x124) for Can 2 controller.
-    uint8 Message1_SDU[8] = { 0x00, 0x10, 0x20, 0x30, 0x40, 0x50, 0x60, 0x70 }; //Data payload for message.
-    PduInfoType Message1 = {
-        .SduLength = 8,
-        .SduDataPtr = Message1_SDU,
+    //Transmit message (PDU) 2 (Message ID 0x100) for Can 0 controller.
+    uint8 Message2_SDU = 0x01; //Data payload for message.
+    PduInfoType Message2 = {
+        .SduLength = 1,
+        .SduDataPtr = &Message2_SDU,
         .MetaDataPtr = NULL_PTR
     };
 
     EcuM_Init();    //MCU configuration.
-    CanIf_SetControllerMode( CanIfFlexCan2 , CAN_CS_STARTED );   //Can 2 controller active in Can Bus.
+    CanIf_SetControllerMode( CanIfFlexCan0 , CAN_CS_STARTED );   //Can 0 controller active in Can Bus.
+    
+    
+    //Sending a single register read instruction to SBC.
+    //Defining control channel.
+    Control = 0x74; //Register ID.
+    Control <<= 1;
+    Control += 1;
+    
+    //Setup of external buffers.
+    Spi_SetupEB( SpiConf_SpiChannel_Spi1Cs3_Control, &Control, NULL, 1 );
+    Spi_SetupEB( SpiConf_SpiChannel_Spi1Cs3_Data, NULL , &RxDataBuffer , 1 );
+
+    Spi_SyncTransmit( SpiConf_SpiSequence_Spi1Cs3_Sequence_W_R );   //Transmiting instruction.
+    
 
     while( 1u ) {
         //Transmit messages every 5s.
-        CanIf_Transmit( CanIfTxPDU_0, &Message0 );   //Writing in Can 2 message buffer 0.
-        CanIf_Transmit( CanIfTxPDU_1, &Message1 );  //Writing in Can 2 message buffer 1.
+        CanIf_Transmit( CanIfTxPDU_2, &Message2 );   //Writing in Can 0 message buffer 1.
 
-        while( CanIf_Can2_bTxFlag == FALSE ); //Waiting until messages are transmitted.
-        CanIf_Can2_bTxFlag = FALSE;  //Clearing transmit flag.
+        while( CanIf_Can0_bTxFlag == FALSE ); //Waiting until messages are transmitted.
+        CanIf_Can0_bTxFlag = FALSE;  //Clearing transmit flag.
 
         //Changing SDUs.
-        Message0_SDU[0]++;
-        Message0_SDU[7]++;
-        Message1_SDU[0]++;
-        Message1_SDU[7]++;
+        Message2_SDU++;
 
         Delay( 5000 );  //Waiting 5s for next transmission.
     }

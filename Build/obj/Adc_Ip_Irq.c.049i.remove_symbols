@@ -4,7 +4,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Symbol table:
 
-Adc_Ip_IRQHandler/2 (Adc_Ip_IRQHandler) @0682a620
+Adc_Ip_IRQHandler/2 (Adc_Ip_IRQHandler) @0692a620
   Type: function
   Visibility: external public
   References: 
@@ -13,7 +13,7 @@ Adc_Ip_IRQHandler/2 (Adc_Ip_IRQHandler) @0682a620
   Function flags:
   Called by: Adc_1_Isr/1 Adc_0_Isr/0 
   Calls: 
-Adc_1_Isr/1 (Adc_1_Isr) @0682a1c0
+Adc_1_Isr/1 (Adc_1_Isr) @0692a1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -22,7 +22,7 @@ Adc_1_Isr/1 (Adc_1_Isr) @0682a1c0
   Function flags: body
   Called by: 
   Calls: Adc_Ip_IRQHandler/2 
-Adc_0_Isr/0 (Adc_0_Isr) @06804e00
+Adc_0_Isr/0 (Adc_0_Isr) @06904e00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 

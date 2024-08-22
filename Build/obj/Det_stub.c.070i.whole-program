@@ -13,7 +13,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Symbol table:
 
-Det_TransientFaultId/18 (Det_TransientFaultId) @06902a20
+Det_TransientFaultId/18 (Det_TransientFaultId) @05db1a20
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -21,7 +21,7 @@ Det_TransientFaultId/18 (Det_TransientFaultId) @06902a20
   Referring: Det_TestLastReportTransientFault/2 (read) Det_TestLastReportTransientFault/2 (write) Det_TestNoTransientFault/5 (read) Det_TestNoTransientFault/5 (write) 
   Availability: not_available
   Varpool flags:
-Det_TransientApiId/17 (Det_TransientApiId) @069029d8
+Det_TransientApiId/17 (Det_TransientApiId) @05db19d8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -29,7 +29,7 @@ Det_TransientApiId/17 (Det_TransientApiId) @069029d8
   Referring: Det_TestLastReportTransientFault/2 (read) Det_TestLastReportTransientFault/2 (write) Det_TestNoTransientFault/5 (read) Det_TestNoTransientFault/5 (write) 
   Availability: not_available
   Varpool flags:
-Det_TransientInstanceId/16 (Det_TransientInstanceId) @06902990
+Det_TransientInstanceId/16 (Det_TransientInstanceId) @05db1990
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -37,7 +37,7 @@ Det_TransientInstanceId/16 (Det_TransientInstanceId) @06902990
   Referring: Det_TestLastReportTransientFault/2 (read) Det_TestLastReportTransientFault/2 (write) Det_TestNoTransientFault/5 (read) Det_TestNoTransientFault/5 (write) 
   Availability: not_available
   Varpool flags:
-Det_TransientModuleId/15 (Det_TransientModuleId) @06902948
+Det_TransientModuleId/15 (Det_TransientModuleId) @05db1948
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -45,7 +45,7 @@ Det_TransientModuleId/15 (Det_TransientModuleId) @06902948
   Referring: Det_TestLastReportTransientFault/2 (read) Det_TestLastReportTransientFault/2 (write) Det_TestNoTransientFault/5 (read) Det_TestNoTransientFault/5 (write) 
   Availability: not_available
   Varpool flags:
-Det_RuntimeErrorId/14 (Det_RuntimeErrorId) @06902558
+Det_RuntimeErrorId/14 (Det_RuntimeErrorId) @05db1558
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -53,7 +53,7 @@ Det_RuntimeErrorId/14 (Det_RuntimeErrorId) @06902558
   Referring: Det_TestLastReportRuntimeError/1 (read) Det_TestLastReportRuntimeError/1 (write) Det_TestNoRuntimeError/4 (read) Det_TestNoRuntimeError/4 (write) 
   Availability: not_available
   Varpool flags:
-Det_RuntimeApiId/13 (Det_RuntimeApiId) @06902510
+Det_RuntimeApiId/13 (Det_RuntimeApiId) @05db1510
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -61,7 +61,7 @@ Det_RuntimeApiId/13 (Det_RuntimeApiId) @06902510
   Referring: Det_TestLastReportRuntimeError/1 (read) Det_TestLastReportRuntimeError/1 (write) Det_TestNoRuntimeError/4 (read) Det_TestNoRuntimeError/4 (write) 
   Availability: not_available
   Varpool flags:
-Det_RuntimeInstanceId/12 (Det_RuntimeInstanceId) @069024c8
+Det_RuntimeInstanceId/12 (Det_RuntimeInstanceId) @05db14c8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -69,7 +69,7 @@ Det_RuntimeInstanceId/12 (Det_RuntimeInstanceId) @069024c8
   Referring: Det_TestLastReportRuntimeError/1 (read) Det_TestLastReportRuntimeError/1 (write) Det_TestNoRuntimeError/4 (read) Det_TestNoRuntimeError/4 (write) 
   Availability: not_available
   Varpool flags:
-Det_RuntimeModuleId/11 (Det_RuntimeModuleId) @06902480
+Det_RuntimeModuleId/11 (Det_RuntimeModuleId) @05db1480
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -77,7 +77,7 @@ Det_RuntimeModuleId/11 (Det_RuntimeModuleId) @06902480
   Referring: Det_TestLastReportRuntimeError/1 (read) Det_TestLastReportRuntimeError/1 (write) Det_TestNoRuntimeError/4 (read) Det_TestNoRuntimeError/4 (write) 
   Availability: not_available
   Varpool flags:
-Det_ErrorId/10 (Det_ErrorId) @06902090
+Det_ErrorId/10 (Det_ErrorId) @05db1090
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -85,7 +85,7 @@ Det_ErrorId/10 (Det_ErrorId) @06902090
   Referring: Det_TestLastReportError/0 (read) Det_TestLastReportError/0 (write) Det_TestNoError/3 (read) Det_TestNoError/3 (write) 
   Availability: not_available
   Varpool flags:
-Det_ApiId/9 (Det_ApiId) @06902048
+Det_ApiId/9 (Det_ApiId) @05db1048
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -93,7 +93,7 @@ Det_ApiId/9 (Det_ApiId) @06902048
   Referring: Det_TestLastReportError/0 (read) Det_TestLastReportError/0 (write) Det_TestNoError/3 (read) Det_TestNoError/3 (write) 
   Availability: not_available
   Varpool flags:
-Det_InstanceId/8 (Det_InstanceId) @06902000
+Det_InstanceId/8 (Det_InstanceId) @05db1000
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -101,7 +101,7 @@ Det_InstanceId/8 (Det_InstanceId) @06902000
   Referring: Det_TestLastReportError/0 (read) Det_TestLastReportError/0 (write) Det_TestNoError/3 (read) Det_TestNoError/3 (write) 
   Availability: not_available
   Varpool flags:
-Det_ModuleId/7 (Det_ModuleId) @0689cf78
+Det_ModuleId/7 (Det_ModuleId) @05d50f78
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -109,7 +109,7 @@ Det_ModuleId/7 (Det_ModuleId) @0689cf78
   Referring: Det_TestLastReportError/0 (read) Det_TestLastReportError/0 (write) Det_TestNoError/3 (read) Det_TestNoError/3 (write) 
   Availability: not_available
   Varpool flags:
-Sys_GetCoreID/6 (Sys_GetCoreID) @068a5e00
+Sys_GetCoreID/6 (Sys_GetCoreID) @05d59e00
   Type: function
   Visibility: external public
   References: 
@@ -118,7 +118,7 @@ Sys_GetCoreID/6 (Sys_GetCoreID) @068a5e00
   Function flags:
   Called by: Det_TestNoTransientFault/5 Det_TestNoRuntimeError/4 Det_TestNoError/3 Det_TestLastReportTransientFault/2 Det_TestLastReportRuntimeError/1 Det_TestLastReportError/0 
   Calls: 
-Det_TestNoTransientFault/5 (Det_TestNoTransientFault) @068a50e0
+Det_TestNoTransientFault/5 (Det_TestNoTransientFault) @05d590e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_TransientModuleId/15 (read) Det_TransientInstanceId/16 (read) Det_TransientApiId/17 (read) Det_TransientFaultId/18 (read) Det_TransientModuleId/15 (write) Det_TransientInstanceId/16 (write) Det_TransientApiId/17 (write) Det_TransientFaultId/18 (write) 
@@ -127,7 +127,7 @@ Det_TestNoTransientFault/5 (Det_TestNoTransientFault) @068a50e0
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/6 
-Det_TestNoRuntimeError/4 (Det_TestNoRuntimeError) @068a5d20
+Det_TestNoRuntimeError/4 (Det_TestNoRuntimeError) @05d59d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_RuntimeModuleId/11 (read) Det_RuntimeInstanceId/12 (read) Det_RuntimeApiId/13 (read) Det_RuntimeErrorId/14 (read) Det_RuntimeModuleId/11 (write) Det_RuntimeInstanceId/12 (write) Det_RuntimeApiId/13 (write) Det_RuntimeErrorId/14 (write) 
@@ -136,7 +136,7 @@ Det_TestNoRuntimeError/4 (Det_TestNoRuntimeError) @068a5d20
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/6 
-Det_TestNoError/3 (Det_TestNoError) @068a5a80
+Det_TestNoError/3 (Det_TestNoError) @05d59a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_ModuleId/7 (read) Det_InstanceId/8 (read) Det_ApiId/9 (read) Det_ErrorId/10 (read) Det_ModuleId/7 (write) Det_InstanceId/8 (write) Det_ApiId/9 (write) Det_ErrorId/10 (write) 
@@ -145,7 +145,7 @@ Det_TestNoError/3 (Det_TestNoError) @068a5a80
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/6 
-Det_TestLastReportTransientFault/2 (Det_TestLastReportTransientFault) @068a57e0
+Det_TestLastReportTransientFault/2 (Det_TestLastReportTransientFault) @05d597e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_TransientModuleId/15 (read) Det_TransientInstanceId/16 (read) Det_TransientApiId/17 (read) Det_TransientFaultId/18 (read) Det_TransientModuleId/15 (write) Det_TransientInstanceId/16 (write) Det_TransientApiId/17 (write) Det_TransientFaultId/18 (write) 
@@ -154,7 +154,7 @@ Det_TestLastReportTransientFault/2 (Det_TestLastReportTransientFault) @068a57e0
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/6 
-Det_TestLastReportRuntimeError/1 (Det_TestLastReportRuntimeError) @068a5540
+Det_TestLastReportRuntimeError/1 (Det_TestLastReportRuntimeError) @05d59540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_RuntimeModuleId/11 (read) Det_RuntimeInstanceId/12 (read) Det_RuntimeApiId/13 (read) Det_RuntimeErrorId/14 (read) Det_RuntimeModuleId/11 (write) Det_RuntimeInstanceId/12 (write) Det_RuntimeApiId/13 (write) Det_RuntimeErrorId/14 (write) 
@@ -163,7 +163,7 @@ Det_TestLastReportRuntimeError/1 (Det_TestLastReportRuntimeError) @068a5540
   Function flags: body
   Called by: 
   Calls: Sys_GetCoreID/6 
-Det_TestLastReportError/0 (Det_TestLastReportError) @068a52a0
+Det_TestLastReportError/0 (Det_TestLastReportError) @05d592a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Det_ModuleId/7 (read) Det_InstanceId/8 (read) Det_ApiId/9 (read) Det_ErrorId/10 (read) Det_ModuleId/7 (write) Det_InstanceId/8 (write) Det_ApiId/9 (write) Det_ErrorId/10 (write) 

@@ -3,7 +3,7 @@ Trivially needed symbols: Clock_Ip_axExtOscCallbacks/11 Clock_Ip_EnableSOSC_Trus
 
 Initial Symbol table:
 
-Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
+Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e49540
   Type: function
   Visibility: external public
   References: 
@@ -11,7 +11,7 @@ Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
+Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e49460
   Type: function
   Visibility: external public
   References: 
@@ -19,7 +19,7 @@ Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
+Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e49380
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05dbb6c0
+Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05d7a6c0
   Type: variable definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -35,107 +35,107 @@ Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05dbb6c0
   Referring: 
   Availability: not-ready
   Varpool flags: initialized read-only const-value-known
-Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
+Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05d85c40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @05dbb6c0
+  Aux: @05d7a6c0
   References: 
   Referring: 
   Function flags: body
   Called by: Clock_Ip_EnableSOSC/6 
   Calls: 
-Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
+Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05d859a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @05dc6c40
+  Aux: @05d85c40
   References: 
   Referring: 
   Function flags: body
   Called by: Clock_Ip_DisableSOSC/5 
   Calls: 
-Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
+Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05d85700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @05dc69a0
+  Aux: @05d859a0
   References: 
   Referring: 
   Function flags: body
   Called by: Clock_Ip_SetSOSC/3 
   Calls: 
-Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
+Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05d7dc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @05dc6700
+  Aux: @05d85700
   References: 
   Referring: 
   Function flags: body
   Called by: Clock_Ip_ResetSOSC/2 
   Calls: 
-Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
+Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05d7d9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
-  Aux: @05dbec40
+  Aux: @05d7dc40
   References: 
   Referring: Clock_Ip_axExtOscCallbacks/11 (addr) 
   Function flags: body
   Called by: 
   Calls: Clock_Ip_EnableSOSC_TrustedCall/10 
-Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
+Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05d7d700
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
-  Aux: @05dbe9a0
+  Aux: @05d7d9a0
   References: 
   Referring: Clock_Ip_axExtOscCallbacks/11 (addr) 
   Function flags: body
   Called by: 
   Calls: Clock_Ip_DisableSOSC_TrustedCall/9 
-Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
+Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05d7d460
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
-  Aux: @05dbe700
+  Aux: @05d7d700
   References: 
   Referring: Clock_Ip_axExtOscCallbacks/11 (addr) 
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ReportClockErrors/14 Clock_Ip_TimeoutExpired/13 Clock_Ip_StartTimeout/12 
-Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
+Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05d7d1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
-  Aux: @05dbe460
+  Aux: @05d7d460
   References: 
   Referring: Clock_Ip_axExtOscCallbacks/11 (addr) 
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetSOSC_TrustedCall/8 
-Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
+Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05d76d20
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
-  Aux: @05dbe1c0
+  Aux: @05d7d1c0
   References: 
   Referring: Clock_Ip_axExtOscCallbacks/11 (addr) 
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ResetSOSC_TrustedCall/7 
-Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05db7ee0
+Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05d76ee0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
-  Aux: @05db7d20
+  Aux: @05d76d20
   References: 
   Referring: Clock_Ip_axExtOscCallbacks/11 (addr) 
   Function flags: body
   Called by: 
   Calls: 
-Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05db7c40
+Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05d76c40
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
-  Aux: @05db7ee0
+  Aux: @05d76ee0
   References: 
   Referring: Clock_Ip_axExtOscCallbacks/11 (addr) Clock_Ip_axExtOscCallbacks/11 (addr) Clock_Ip_axExtOscCallbacks/11 (addr) Clock_Ip_axExtOscCallbacks/11 (addr) 
   Function flags: body
@@ -146,7 +146,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
+Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e49540
   Type: function
   Visibility: external public
   References: 
@@ -154,7 +154,7 @@ Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
+Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e49460
   Type: function
   Visibility: external public
   References: 
@@ -162,7 +162,7 @@ Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
+Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e49380
   Type: function
   Visibility: external public
   References: 
@@ -170,14 +170,14 @@ Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05dbb6c0
+Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05d7a6c0
   Type: variable definition analyzed
   Visibility: force_output no_reorder public
   References: Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ResetSOSC/2 (addr) Clock_Ip_SetSOSC/3 (addr) Clock_Ip_CompleteSOSC/4 (addr) Clock_Ip_DisableSOSC/5 (addr) Clock_Ip_EnableSOSC/6 (addr) 
   Referring: 
   Availability: not-ready
   Varpool flags: initialized read-only const-value-known
-Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
+Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05d85c40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -185,7 +185,7 @@ Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
   Function flags: body
   Called by: Clock_Ip_EnableSOSC/6 
   Calls: 
-Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
+Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05d859a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -193,7 +193,7 @@ Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
   Function flags: body
   Called by: Clock_Ip_DisableSOSC/5 
   Calls: 
-Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
+Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05d85700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -201,7 +201,7 @@ Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
   Function flags: body
   Called by: Clock_Ip_SetSOSC/3 
   Calls: 
-Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
+Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05d7dc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -209,7 +209,7 @@ Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
   Function flags: body
   Called by: Clock_Ip_ResetSOSC/2 
   Calls: 
-Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
+Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05d7d9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -218,7 +218,7 @@ Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_EnableSOSC_TrustedCall/10 
-Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
+Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05d7d700
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -227,7 +227,7 @@ Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
   Function flags: body
   Called by: 
   Calls: Clock_Ip_DisableSOSC_TrustedCall/9 
-Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
+Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05d7d460
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -236,7 +236,7 @@ Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ReportClockErrors/14 Clock_Ip_TimeoutExpired/13 Clock_Ip_StartTimeout/12 
-Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
+Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05d7d1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -245,7 +245,7 @@ Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetSOSC_TrustedCall/8 
-Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
+Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05d76d20
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -254,7 +254,7 @@ Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ResetSOSC_TrustedCall/7 
-Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05db7ee0
+Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05d76ee0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -263,7 +263,7 @@ Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExterna
   Function flags: body
   Called by: 
   Calls: 
-Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05db7c40
+Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05d76c40
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -276,7 +276,7 @@ Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05db7c40
 
 Initial Symbol table:
 
-Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
+Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e49540
   Type: function
   Visibility: external public
   References: 
@@ -284,7 +284,7 @@ Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
+Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e49460
   Type: function
   Visibility: external public
   References: 
@@ -292,7 +292,7 @@ Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
+Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e49380
   Type: function
   Visibility: external public
   References: 
@@ -300,14 +300,14 @@ Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05dbb6c0
+Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05d7a6c0
   Type: variable definition analyzed
   Visibility: force_output no_reorder public
   References: Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ResetSOSC/2 (addr) Clock_Ip_SetSOSC/3 (addr) Clock_Ip_CompleteSOSC/4 (addr) Clock_Ip_DisableSOSC/5 (addr) Clock_Ip_EnableSOSC/6 (addr) 
   Referring: 
   Availability: not-ready
   Varpool flags: initialized read-only const-value-known
-Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
+Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05d85c40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -315,7 +315,7 @@ Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
   Function flags: body
   Called by: Clock_Ip_EnableSOSC/6 
   Calls: 
-Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
+Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05d859a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -323,7 +323,7 @@ Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
   Function flags: body
   Called by: Clock_Ip_DisableSOSC/5 
   Calls: 
-Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
+Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05d85700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -331,7 +331,7 @@ Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
   Function flags: body
   Called by: Clock_Ip_SetSOSC/3 
   Calls: 
-Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
+Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05d7dc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -339,7 +339,7 @@ Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
   Function flags: body
   Called by: Clock_Ip_ResetSOSC/2 
   Calls: 
-Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
+Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05d7d9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -348,7 +348,7 @@ Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_EnableSOSC_TrustedCall/10 
-Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
+Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05d7d700
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -357,7 +357,7 @@ Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
   Function flags: body
   Called by: 
   Calls: Clock_Ip_DisableSOSC_TrustedCall/9 
-Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
+Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05d7d460
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -366,7 +366,7 @@ Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ReportClockErrors/14 Clock_Ip_TimeoutExpired/13 Clock_Ip_StartTimeout/12 
-Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
+Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05d7d1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -375,7 +375,7 @@ Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetSOSC_TrustedCall/8 
-Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
+Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05d76d20
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -384,7 +384,7 @@ Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ResetSOSC_TrustedCall/7 
-Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05db7ee0
+Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05d76ee0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -393,7 +393,7 @@ Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExterna
   Function flags: body
   Called by: 
   Calls: 
-Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05db7c40
+Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05d76c40
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -407,7 +407,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
+Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e49540
   Type: function
   Visibility: external public
   References: 
@@ -415,7 +415,7 @@ Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
+Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e49460
   Type: function
   Visibility: external public
   References: 
@@ -423,7 +423,7 @@ Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
+Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e49380
   Type: function
   Visibility: external public
   References: 
@@ -431,14 +431,14 @@ Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05dbb6c0
+Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05d7a6c0
   Type: variable definition analyzed
   Visibility: force_output no_reorder public
   References: Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ResetSOSC/2 (addr) Clock_Ip_SetSOSC/3 (addr) Clock_Ip_CompleteSOSC/4 (addr) Clock_Ip_DisableSOSC/5 (addr) Clock_Ip_EnableSOSC/6 (addr) 
   Referring: 
   Availability: not-ready
   Varpool flags: initialized read-only const-value-known
-Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
+Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05d85c40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -446,7 +446,7 @@ Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
   Function flags: body
   Called by: Clock_Ip_EnableSOSC/6 
   Calls: 
-Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
+Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05d859a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -454,7 +454,7 @@ Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
   Function flags: body
   Called by: Clock_Ip_DisableSOSC/5 
   Calls: 
-Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
+Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05d85700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -462,7 +462,7 @@ Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
   Function flags: body
   Called by: Clock_Ip_SetSOSC/3 
   Calls: 
-Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
+Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05d7dc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -470,7 +470,7 @@ Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
   Function flags: body
   Called by: Clock_Ip_ResetSOSC/2 
   Calls: 
-Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
+Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05d7d9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -479,7 +479,7 @@ Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_EnableSOSC_TrustedCall/10 
-Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
+Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05d7d700
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -488,7 +488,7 @@ Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
   Function flags: body
   Called by: 
   Calls: Clock_Ip_DisableSOSC_TrustedCall/9 
-Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
+Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05d7d460
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -497,7 +497,7 @@ Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ReportClockErrors/14 Clock_Ip_TimeoutExpired/13 Clock_Ip_StartTimeout/12 
-Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
+Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05d7d1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -506,7 +506,7 @@ Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetSOSC_TrustedCall/8 
-Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
+Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05d76d20
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -515,7 +515,7 @@ Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ResetSOSC_TrustedCall/7 
-Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05db7ee0
+Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05d76ee0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -524,7 +524,7 @@ Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExterna
   Function flags: body
   Called by: 
   Calls: 
-Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05db7c40
+Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05d76c40
   Type: function definition analyzed
   Visibility: force_output no_reorder
   Address is taken.
@@ -539,7 +539,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
+Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e49540
   Type: function
   Visibility: external public
   References: 
@@ -548,7 +548,7 @@ Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
+Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e49460
   Type: function
   Visibility: external public
   References: 
@@ -557,7 +557,7 @@ Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
+Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e49380
   Type: function
   Visibility: external public
   References: 
@@ -566,14 +566,14 @@ Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
   Function flags:
   Called by: Clock_Ip_CompleteSOSC/4 
   Calls: 
-Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05dbb6c0
+Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05d7a6c0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (addr) Clock_Ip_ExternalOscillatorEmpty/0 (addr) Clock_Ip_ResetSOSC/2 (addr) Clock_Ip_SetSOSC/3 (addr) Clock_Ip_CompleteSOSC/4 (addr) Clock_Ip_DisableSOSC/5 (addr) Clock_Ip_EnableSOSC/6 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
+Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05d85c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -582,7 +582,7 @@ Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
   Function flags: body
   Called by: Clock_Ip_EnableSOSC/6 
   Calls: 
-Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
+Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05d859a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -591,7 +591,7 @@ Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
   Function flags: body
   Called by: Clock_Ip_DisableSOSC/5 
   Calls: 
-Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
+Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05d85700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -600,7 +600,7 @@ Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
   Function flags: body
   Called by: Clock_Ip_SetSOSC/3 
   Calls: 
-Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
+Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05d7dc40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -609,7 +609,7 @@ Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
   Function flags: body
   Called by: Clock_Ip_ResetSOSC/2 
   Calls: 
-Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
+Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05d7d9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -619,7 +619,7 @@ Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_EnableSOSC_TrustedCall/10 
-Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
+Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05d7d700
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -629,7 +629,7 @@ Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
   Function flags: body
   Called by: 
   Calls: Clock_Ip_DisableSOSC_TrustedCall/9 
-Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
+Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05d7d460
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -639,7 +639,7 @@ Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ReportClockErrors/14 Clock_Ip_TimeoutExpired/13 Clock_Ip_StartTimeout/12 
-Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
+Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05d7d1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -649,7 +649,7 @@ Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
   Function flags: body
   Called by: 
   Calls: Clock_Ip_SetSOSC_TrustedCall/8 
-Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
+Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05d76d20
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -659,7 +659,7 @@ Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
   Function flags: body
   Called by: 
   Calls: Clock_Ip_ResetSOSC_TrustedCall/7 
-Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05db7ee0
+Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05d76ee0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -669,7 +669,7 @@ Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExterna
   Function flags: body
   Called by: 
   Calls: 
-Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05db7c40
+Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05d76c40
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   Address is taken.
@@ -690,7 +690,7 @@ Removing variables:
 
 Final Symbol table:
 
-Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
+Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e49540
   Type: function
   Visibility: external public
   References: 
@@ -699,7 +699,7 @@ Clock_Ip_ReportClockErrors/14 (Clock_Ip_ReportClockErrors) @05e8a540
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
+Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e49460
   Type: function
   Visibility: external public
   References: 
@@ -708,7 +708,7 @@ Clock_Ip_TimeoutExpired/13 (Clock_Ip_TimeoutExpired) @05e8a460
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
+Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e49380
   Type: function
   Visibility: external public
   References: 
@@ -717,7 +717,7 @@ Clock_Ip_StartTimeout/12 (Clock_Ip_StartTimeout) @05e8a380
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05dbb6c0
+Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05d7a6c0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.rodata.Clock_Ip_axExtOscCallbacks (implicit_section)
   Aux: @00000001
@@ -725,7 +725,7 @@ Clock_Ip_axExtOscCallbacks/11 (Clock_Ip_axExtOscCallbacks) @05dbb6c0
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
+Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05d85c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Clock_Ip_EnableSOSC_TrustedCall (implicit_section)
   References: 
@@ -734,7 +734,7 @@ Clock_Ip_EnableSOSC_TrustedCall/10 (Clock_Ip_EnableSOSC_TrustedCall) @05dc6c40
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
+Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05d859a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Clock_Ip_DisableSOSC_TrustedCall (implicit_section)
   References: 
@@ -743,7 +743,7 @@ Clock_Ip_DisableSOSC_TrustedCall/9 (Clock_Ip_DisableSOSC_TrustedCall) @05dc69a0
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
+Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05d85700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Clock_Ip_SetSOSC_TrustedCall (implicit_section)
   References: 
@@ -752,7 +752,7 @@ Clock_Ip_SetSOSC_TrustedCall/8 (Clock_Ip_SetSOSC_TrustedCall) @05dc6700
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
+Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05d7dc40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Clock_Ip_ResetSOSC_TrustedCall (implicit_section)
   References: 
@@ -761,7 +761,7 @@ Clock_Ip_ResetSOSC_TrustedCall/7 (Clock_Ip_ResetSOSC_TrustedCall) @05dbec40
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
+Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05d7d9a0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Clock_Ip_EnableSOSC (implicit_section)
   Address is taken.
@@ -771,7 +771,7 @@ Clock_Ip_EnableSOSC/6 (Clock_Ip_EnableSOSC) @05dbe9a0
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
+Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05d7d700
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Clock_Ip_DisableSOSC (implicit_section)
   Address is taken.
@@ -781,7 +781,7 @@ Clock_Ip_DisableSOSC/5 (Clock_Ip_DisableSOSC) @05dbe700
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
+Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05d7d460
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Clock_Ip_CompleteSOSC (implicit_section)
   Address is taken.
@@ -791,7 +791,7 @@ Clock_Ip_CompleteSOSC/4 (Clock_Ip_CompleteSOSC) @05dbe460
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
+Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05d7d1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Clock_Ip_SetSOSC (implicit_section)
   Address is taken.
@@ -801,7 +801,7 @@ Clock_Ip_SetSOSC/3 (Clock_Ip_SetSOSC) @05dbe1c0
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
+Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05d76d20
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Clock_Ip_ResetSOSC (implicit_section)
   Address is taken.
@@ -811,7 +811,7 @@ Clock_Ip_ResetSOSC/2 (Clock_Ip_ResetSOSC) @05db7d20
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05db7ee0
+Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExternalOscillatorEmpty) @05d76ee0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Clock_Ip_DisableClockIpExternalOscillatorEmpty (implicit_section)
   Address is taken.
@@ -821,7 +821,7 @@ Clock_Ip_DisableClockIpExternalOscillatorEmpty/1 (Clock_Ip_DisableClockIpExterna
   Function flags:
   Called by: 
   Calls: 
-Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05db7c40
+Clock_Ip_ExternalOscillatorEmpty/0 (Clock_Ip_ExternalOscillatorEmpty) @05d76c40
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Clock_Ip_ExternalOscillatorEmpty (implicit_section)
   Address is taken.

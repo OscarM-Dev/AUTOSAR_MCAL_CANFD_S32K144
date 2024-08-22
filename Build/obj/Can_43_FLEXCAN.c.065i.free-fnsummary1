@@ -179,7 +179,7 @@ Can_43_FLEXCAN_MainFunction_Mode ()
 
   <bb 8> :
   # u8ControllerID_11 = PHI <u8ControllerID_15(3), u8ControllerID_22(7)>
-  if (u8ControllerID_11 == 0)
+  if (u8ControllerID_11 <= 1)
     goto <bb 4>; [INV]
   else
     goto <bb 9>; [INV]
@@ -751,7 +751,7 @@ Can_43_FLEXCAN_DeInit ()
 
   <bb 7> :
   # u8ControllerID_11 = PHI <u8ControllerID_18(2), u8ControllerID_21(6)>
-  if (u8ControllerID_11 == 0)
+  if (u8ControllerID_11 <= 1)
     goto <bb 3>; [INV]
   else
     goto <bb 8>; [INV]
@@ -862,7 +862,7 @@ Can_DeInitControllers (uint32 u32CoreId)
 
   <bb 7> :
   # u8ControllerID_15 = PHI <u8ControllerID_20(2), u8ControllerID_26(6)>
-  if (u8ControllerID_15 == 0)
+  if (u8ControllerID_15 <= 1)
     goto <bb 3>; [INV]
   else
     goto <bb 8>; [INV]
@@ -959,7 +959,7 @@ Can_InitControllers (uint32 u32CoreId)
 
   <bb 9> :
   # u8ControllerID_26 = PHI <u8ControllerID_37(2), u8ControllerID_45(8)>
-  if (u8ControllerID_26 == 0)
+  if (u8ControllerID_26 <= 1)
     goto <bb 3>; [INV]
   else
     goto <bb 10>; [INV]
@@ -997,7 +997,7 @@ Can_InitControllers (uint32 u32CoreId)
 
   <bb 15> :
   # u8ControllerID_27 = PHI <u8ControllerID_46(11), u8ControllerID_48(14)>
-  if (u8ControllerID_27 == 0)
+  if (u8ControllerID_27 <= 1)
     goto <bb 12>; [INV]
   else
     goto <bb 16>; [INV]
@@ -1060,7 +1060,7 @@ Can_IsControllersBusy (uint32 u32CoreId)
 
   <bb 7> :
   # u8ControllerID_11 = PHI <u8ControllerID_14(2), u8ControllerID_18(6)>
-  if (u8ControllerID_11 == 0)
+  if (u8ControllerID_11 <= 1)
     goto <bb 3>; [INV]
   else
     goto <bb 8>; [INV]
