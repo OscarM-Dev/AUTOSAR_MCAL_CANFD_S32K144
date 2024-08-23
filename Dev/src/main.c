@@ -19,17 +19,13 @@ boolean CanIf_Can2_bRxFlag;   ///< Flag for reception of PDU of FlexCan2 control
 /**
  * @brief This is the main function of the project
  * 
- * This example transmits 2 8 byte data PDUs every 5s using CAN 2 at a bitrate of 100Kbps.
- * In this case only one HTH is used with two message buffers.
+ * This example transmits a 1 byte data PDU every 5s using CAN 0 at a bitrate of 100Kbps.
+ * In this case only one HTH is used with one message buffer.
  * 
  * @return Always zero
 */
 int main( void ) {
     //local data.
-    //Transmision and reception buffers for Spi1Cs3 channels.
-    uint8 Control = 0;  //Transmit buffer for control channel.
-    uint8 RxDataBuffer = 50; //Receive buffer for data channel.
-
     //Transmit message (PDU) 2 (Message ID 0x100) for Can 0 controller.
     uint8 Message2_SDU = 0x01; //Data payload for message.
     PduInfoType Message2 = {
@@ -39,21 +35,10 @@ int main( void ) {
     };
 
     EcuM_Init();    //MCU configuration.
-    CanIf_SetControllerMode( CanIfFlexCan0 , CAN_CS_STARTED );   //Can 0 controller active in Can Bus.
-    
-    
-    //Sending a single register read instruction to SBC.
-    //Defining control channel.
-    Control = 0x74; //Register ID.
-    Control <<= 1;
-    Control += 1;
-    
-    //Setup of external buffers.
-    Spi_SetupEB( SpiConf_SpiChannel_Spi1Cs3_Control, &Control, NULL, 1 );
-    Spi_SetupEB( SpiConf_SpiChannel_Spi1Cs3_Data, NULL , &RxDataBuffer , 1 );
 
-    Spi_SyncTransmit( SpiConf_SpiSequence_Spi1Cs3_Sequence_W_R );   //Transmiting instruction.
-    
+    //SBC by default is in force normal mode so the CAN transceiver is already active.
+
+    CanIf_SetControllerMode( CanIfFlexCan0 , CAN_CS_STARTED );   //Can 0 controller active in Can Bus.
 
     while( 1u ) {
         //Transmit messages every 5s.

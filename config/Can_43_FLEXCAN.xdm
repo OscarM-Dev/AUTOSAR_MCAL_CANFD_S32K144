@@ -107,7 +107,7 @@
                     <d:var name="CanHwChannel" type="ENUMERATION" 
                            value="FLEXCAN_2"/>
                     <d:var name="CanControllerActivation" type="BOOLEAN" 
-                           value="false"/>
+                           value="true"/>
                     <d:var name="CanControllerBaseAddress" type="INTEGER" 
                            value="0">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>

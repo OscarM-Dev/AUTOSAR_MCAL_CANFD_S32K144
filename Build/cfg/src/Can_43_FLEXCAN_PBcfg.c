@@ -454,7 +454,7 @@ static const Can_43_FLEXCAN_ControllerConfigType Can_aControllerConfig[CAN_43_FL
         /* Controller Base Address */
         FLEXCAN_2_BASE,
         /* Controller Activation */
-        (boolean)FALSE,
+        (boolean)TRUE,
         /* Bus Off uses polling */
         (boolean)FALSE,
         /* --- Default values when Legacy FIFO is not available --- */

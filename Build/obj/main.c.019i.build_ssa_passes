@@ -2,47 +2,33 @@ main ()
 {
   struct PduInfoType Message2;
   uint8 Message2_SDU;
-  uint8 RxDataBuffer;
-  uint8 Control;
-  int D.9639;
+  int D.9637;
 
   <bb 2> :
-  Control = 0;
-  RxDataBuffer = 50;
   Message2_SDU = 1;
   Message2.SduDataPtr = &Message2_SDU;
   Message2.MetaDataPtr = 0B;
   Message2.SduLength = 1;
   EcuM_Init ();
   CanIf_SetControllerMode (1, 1);
-  Control = 116;
-  Control.0_1 = Control;
-  _2 = Control.0_1 << 1;
-  Control = _2;
-  Control.1_3 = Control;
-  _4 = Control.1_3 + 1;
-  Control = _4;
-  Spi_SetupEB (0, &Control, 0B, 1);
-  Spi_SetupEB (1, 0B, &RxDataBuffer, 1);
-  Spi_SyncTransmit (0);
 
   <bb 3> :
   CanIf_Transmit (2, &Message2);
 
   <bb 4> :
-  CanIf_Can0_bTxFlag.2_5 = CanIf_Can0_bTxFlag;
-  _6 = ~CanIf_Can0_bTxFlag.2_5;
-  if (_6 != 0)
+  CanIf_Can0_bTxFlag.0_1 = CanIf_Can0_bTxFlag;
+  _2 = ~CanIf_Can0_bTxFlag.0_1;
+  if (_2 != 0)
     goto <bb 4>; [INV]
   else
     goto <bb 5>; [INV]
 
   <bb 5> :
   CanIf_Can0_bTxFlag = 0;
-  Message2_SDU.3_7 = Message2_SDU;
-  Message2_SDU.4_8 = Message2_SDU.3_7;
-  _9 = Message2_SDU.4_8 + 1;
-  Message2_SDU = _9;
+  Message2_SDU.1_3 = Message2_SDU;
+  Message2_SDU.2_4 = Message2_SDU.1_3;
+  _5 = Message2_SDU.2_4 + 1;
+  Message2_SDU = _5;
   Delay (5000);
   goto <bb 3>; [INV]
 

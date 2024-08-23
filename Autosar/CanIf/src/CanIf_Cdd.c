@@ -24,8 +24,7 @@ void CDD_UserTxConfirmation_Can_0( PduIdType TxPduId, Std_ReturnType result ) {
     if ( result == E_OK ) { //Message was transmitted successfully.
         Transmit_count++;
         CanIf_Can0_bTxFlag = TRUE;
-    }
-    
+    }    
 }
 
 /**
@@ -57,11 +56,6 @@ void CDD_UserTxConfirmation_Can_2( PduIdType TxPduId, Std_ReturnType result ) {
         Transmit_count++;
         CanIf_Can2_bTxFlag = TRUE;
     }
-
-    /*if ( Transmit_count == 2 ) {    //All PDUs were transmitted successfully.
-        CanIf_Can2_bTxFlag = TRUE;
-        Transmit_count = 0;
-    }*/
 }
 
 /**
