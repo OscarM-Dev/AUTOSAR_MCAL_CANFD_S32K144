@@ -1,32 +1,32 @@
 main ()
 {
-  struct PduInfoType Message1;
-  uint8 Message1_SDU[3];
+  struct PduInfoType Message0;
+  uint8 Message0_SDU[3];
   int D.9637;
-  _Bool CanIf_Can2_bTxFlag.0_1;
+  _Bool CanIf_Can0_bTxFlag.0_1;
   _Bool _2;
 
   <bb 2> :
-  Message1_SDU = "\xaaR\xd5";
-  Message1.SduDataPtr = &Message1_SDU;
-  Message1.MetaDataPtr = 0B;
-  Message1.SduLength = 3;
+  Message0_SDU = "\xde\xf4\xc9";
+  Message0.SduDataPtr = &Message0_SDU;
+  Message0.MetaDataPtr = 0B;
+  Message0.SduLength = 3;
   EcuM_Init ();
-  CanIf_SetControllerMode (0, 1);
+  CanIf_SetControllerMode (1, 1);
 
   <bb 3> :
-  CanIf_Transmit (1, &Message1);
+  CanIf_Transmit (0, &Message0);
 
   <bb 4> :
-  CanIf_Can2_bTxFlag.0_1 = CanIf_Can2_bTxFlag;
-  _2 = ~CanIf_Can2_bTxFlag.0_1;
+  CanIf_Can0_bTxFlag.0_1 = CanIf_Can0_bTxFlag;
+  _2 = ~CanIf_Can0_bTxFlag.0_1;
   if (_2 != 0)
     goto <bb 4>; [INV]
   else
     goto <bb 5>; [INV]
 
   <bb 5> :
-  CanIf_Can2_bTxFlag = 0;
+  CanIf_Can0_bTxFlag = 0;
   Delay (5000);
   goto <bb 3>; [INV]
 

@@ -8,12 +8,12 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
   uint8 * _3;
   int _4;
   unsigned char _5;
-  unsigned char i.4_6;
+  unsigned char i.7_6;
   long unsigned int _7;
   long unsigned int _8;
   int _9;
-  unsigned char counter_RXPDU1.5_10;
-  unsigned char counter_RXPDU1.6_11;
+  unsigned char counter_RXPDU1.8_10;
+  unsigned char counter_RXPDU1.9_11;
   unsigned char _12;
 
   <bb 2> :
@@ -27,8 +27,8 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
   _4 = (int) i_13;
   _5 = *_3;
   Data[_4] = _5;
-  i.4_6 = i_13;
-  i_24 = i.4_6 + 1;
+  i.7_6 = i_13;
+  i_24 = i.7_6 + 1;
 
   <bb 4> :
   # i_13 = PHI <i_16(2), i_24(3)>
@@ -48,9 +48,9 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
 
   <bb 6> :
 <L3>:
-  counter_RXPDU1.5_10 = counter_RXPDU1;
-  counter_RXPDU1.6_11 = counter_RXPDU1.5_10;
-  _12 = counter_RXPDU1.6_11 + 1;
+  counter_RXPDU1.8_10 = counter_RXPDU1;
+  counter_RXPDU1.9_11 = counter_RXPDU1.8_10;
+  _12 = counter_RXPDU1.9_11 + 1;
   counter_RXPDU1 = _12;
   goto <bb 8>; [INV]
 
@@ -68,8 +68,8 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
 CDD_UserTxConfirmation_Can_2 (PduIdType TxPduId, Std_ReturnType result)
 {
   static uint8 Transmit_count = 0;
-  unsigned char Transmit_count.2_1;
-  unsigned char Transmit_count.3_2;
+  unsigned char Transmit_count.5_1;
+  unsigned char Transmit_count.6_2;
   unsigned char _3;
 
   <bb 2> :
@@ -79,9 +79,9 @@ CDD_UserTxConfirmation_Can_2 (PduIdType TxPduId, Std_ReturnType result)
     goto <bb 4>; [INV]
 
   <bb 3> :
-  Transmit_count.2_1 = Transmit_count;
-  Transmit_count.3_2 = Transmit_count.2_1;
-  _3 = Transmit_count.3_2 + 1;
+  Transmit_count.5_1 = Transmit_count;
+  Transmit_count.6_2 = Transmit_count.5_1;
+  _3 = Transmit_count.6_2 + 1;
   Transmit_count = _3;
   CanIf_Can2_bTxFlag = 1;
 
@@ -93,8 +93,66 @@ CDD_UserTxConfirmation_Can_2 (PduIdType TxPduId, Std_ReturnType result)
 
 CDD_UserRxIndication_Can_0 (PduIdType RxPduId, const struct PduInfoType * PduInfoPtr)
 {
+  uint8 i;
+  uint8 Data[8];
+  static uint8 counter_RXPDU0 = 0;
+  uint8 * _1;
+  sizetype _2;
+  uint8 * _3;
+  int _4;
+  unsigned char _5;
+  unsigned char i.2_6;
+  long unsigned int _7;
+  long unsigned int _8;
+  int _9;
+  unsigned char counter_RXPDU0.3_10;
+  unsigned char counter_RXPDU0.4_11;
+  unsigned char _12;
+
   <bb 2> :
+  i_16 = 0;
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  _1 = PduInfoPtr_18(D)->SduDataPtr;
+  _2 = (sizetype) i_13;
+  _3 = _1 + _2;
+  _4 = (int) i_13;
+  _5 = *_3;
+  Data[_4] = _5;
+  i.2_6 = i_13;
+  i_24 = i.2_6 + 1;
+
+  <bb 4> :
+  # i_13 = PHI <i_16(2), i_24(3)>
+  _7 = (long unsigned int) i_13;
+  _8 = PduInfoPtr_18(D)->SduLength;
+  if (_7 < _8)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  _9 = (int) RxPduId_19(D);
+  if (_9 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 6> :
+<L3>:
+  counter_RXPDU0.3_10 = counter_RXPDU0;
+  counter_RXPDU0.4_11 = counter_RXPDU0.3_10;
+  _12 = counter_RXPDU0.4_11 + 1;
+  counter_RXPDU0 = _12;
+  goto <bb 8>; [INV]
+
+  <bb 7> :
+<L4>:
+
+  <bb 8> :
   CanIf_Can0_bRxFlag = 1;
+  Data ={v} {CLOBBER};
   return;
 
 }
