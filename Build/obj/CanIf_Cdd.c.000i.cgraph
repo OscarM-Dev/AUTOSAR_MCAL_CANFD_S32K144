@@ -1,84 +1,92 @@
 Trivially needed symbols: CDD_UserRxIndication_Can_2/3 CDD_UserTxConfirmation_Can_2/2 CDD_UserRxIndication_Can_0/1 CDD_UserTxConfirmation_Can_0/0
-Trivially needed symbols: Transmit_count/7 Transmit_count/4
+Trivially needed symbols: counter_RXPDU1/9 Transmit_count/7 Transmit_count/4
 
 
 Initial Symbol table:
 
-CanIf_Can2_bRxFlag/9 (CanIf_Can2_bRxFlag) @069bd3a8
+CanIf_Can2_bRxFlag/10 (CanIf_Can2_bRxFlag) @05d3e798
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserRxIndication_Can_2/3 (write) 
   Availability: not-ready
   Varpool flags:
-CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @069bd288
+counter_RXPDU1/9 (counter_RXPDU1) @05d3e750
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  Aux: @01981040
+  References: 
+  Referring: CDD_UserRxIndication_Can_2/3 (read) CDD_UserRxIndication_Can_2/3 (write) 
+  Availability: not-ready
+  Varpool flags: initialized
+CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @05d3e3a8
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not-ready
   Varpool flags:
-Transmit_count/7 (Transmit_count) @069bd240
+Transmit_count/7 (Transmit_count) @05d3e360
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @069bb700
+  Aux: @05d3c700
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (read) CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not-ready
   Varpool flags: initialized
-CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @069bd000
+CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @05d3e120
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserRxIndication_Can_0/1 (write) 
   Availability: not-ready
   Varpool flags:
-CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @0694bea0
+CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @05d3e000
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not-ready
   Varpool flags:
-Transmit_count/4 (Transmit_count) @0694be58
+Transmit_count/4 (Transmit_count) @05ccbf78
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @069bb1c0
+  Aux: @05d3c1c0
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (read) CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not-ready
   Varpool flags: initialized
-CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @069bb700
+CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @05d3c700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
-  References: CanIf_Can2_bRxFlag/9 (write) 
+  References: counter_RXPDU1/9 (read) counter_RXPDU1/9 (write) CanIf_Can2_bRxFlag/10 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @069bb460
+CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @05d3c460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @069bb700
+  Aux: @05d3c700
   References: Transmit_count/7 (read) Transmit_count/7 (write) CanIf_Can2_bTxFlag/8 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
+CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @05d3c1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @069bb460
+  Aux: @05d3c460
   References: CanIf_Can0_bRxFlag/6 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @0694dc40
+CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @05ccdc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @069bb1c0
+  Aux: @05d3c1c0
   References: Transmit_count/4 (read) Transmit_count/4 (write) CanIf_Can0_bTxFlag/5 (write) 
   Referring: 
   Function flags: body
@@ -89,57 +97,64 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-CanIf_Can2_bRxFlag/9 (CanIf_Can2_bRxFlag) @069bd3a8
+CanIf_Can2_bRxFlag/10 (CanIf_Can2_bRxFlag) @05d3e798
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserRxIndication_Can_2/3 (write) 
   Availability: not-ready
   Varpool flags:
-CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @069bd288
+counter_RXPDU1/9 (counter_RXPDU1) @05d3e750
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: CDD_UserRxIndication_Can_2/3 (read) CDD_UserRxIndication_Can_2/3 (write) 
+  Availability: not-ready
+  Varpool flags: initialized
+CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @05d3e3a8
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not-ready
   Varpool flags:
-Transmit_count/7 (Transmit_count) @069bd240
+Transmit_count/7 (Transmit_count) @05d3e360
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (read) CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not-ready
   Varpool flags: initialized
-CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @069bd000
+CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @05d3e120
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserRxIndication_Can_0/1 (write) 
   Availability: not-ready
   Varpool flags:
-CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @0694bea0
+CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @05d3e000
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not-ready
   Varpool flags:
-Transmit_count/4 (Transmit_count) @0694be58
+Transmit_count/4 (Transmit_count) @05ccbf78
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (read) CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not-ready
   Varpool flags: initialized
-CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @069bb700
+CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @05d3c700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: CanIf_Can2_bRxFlag/9 (write) 
+  References: counter_RXPDU1/9 (read) counter_RXPDU1/9 (write) CanIf_Can2_bRxFlag/10 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @069bb460
+CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @05d3c460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Transmit_count/7 (read) Transmit_count/7 (write) CanIf_Can2_bTxFlag/8 (write) 
@@ -147,7 +162,7 @@ CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @069bb460
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
+CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @05d3c1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_Can0_bRxFlag/6 (write) 
@@ -155,7 +170,7 @@ CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @0694dc40
+CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @05ccdc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Transmit_count/4 (read) Transmit_count/4 (write) CanIf_Can0_bTxFlag/5 (write) 
@@ -167,65 +182,72 @@ CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @0694dc40
 
 Initial Symbol table:
 
-CanIf_Can2_bRxFlag/9 (CanIf_Can2_bRxFlag) @069bd3a8
+CanIf_Can2_bRxFlag/10 (CanIf_Can2_bRxFlag) @05d3e798
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserRxIndication_Can_2/3 (write) 
   Availability: not-ready
   Varpool flags:
-CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @069bd288
+counter_RXPDU1.0/9 (counter_RXPDU1) @05d3e750
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: CDD_UserRxIndication_Can_2/3 (read) CDD_UserRxIndication_Can_2/3 (write) 
+  Availability: not-ready
+  Varpool flags: initialized
+CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @05d3e3a8
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not-ready
   Varpool flags:
-Transmit_count.0/7 (Transmit_count) @069bd240
+Transmit_count.1/7 (Transmit_count) @05d3e360
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (read) CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not-ready
   Varpool flags: initialized
-CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @069bd000
+CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @05d3e120
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserRxIndication_Can_0/1 (write) 
   Availability: not-ready
   Varpool flags:
-CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @0694bea0
+CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @05d3e000
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not-ready
   Varpool flags:
-Transmit_count.1/4 (Transmit_count) @0694be58
+Transmit_count.2/4 (Transmit_count) @05ccbf78
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (read) CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not-ready
   Varpool flags: initialized
-CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @069bb700
+CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @05d3c700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: CanIf_Can2_bRxFlag/9 (write) 
+  References: counter_RXPDU1.0/9 (read) counter_RXPDU1.0/9 (write) CanIf_Can2_bRxFlag/10 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @069bb460
+CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @05d3c460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: Transmit_count.0/7 (read) Transmit_count.0/7 (write) CanIf_Can2_bTxFlag/8 (write) 
+  References: Transmit_count.1/7 (read) Transmit_count.1/7 (write) CanIf_Can2_bTxFlag/8 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
+CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @05d3c1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_Can0_bRxFlag/6 (write) 
@@ -233,10 +255,10 @@ CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @0694dc40
+CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @05ccdc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: Transmit_count.1/4 (read) Transmit_count.1/4 (write) CanIf_Can0_bTxFlag/5 (write) 
+  References: Transmit_count.2/4 (read) Transmit_count.2/4 (write) CanIf_Can0_bTxFlag/5 (write) 
   Referring: 
   Function flags: body
   Called by: 
@@ -246,65 +268,72 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-CanIf_Can2_bRxFlag/9 (CanIf_Can2_bRxFlag) @069bd3a8
+CanIf_Can2_bRxFlag/10 (CanIf_Can2_bRxFlag) @05d3e798
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserRxIndication_Can_2/3 (write) 
   Availability: not-ready
   Varpool flags:
-CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @069bd288
+counter_RXPDU1.0/9 (counter_RXPDU1) @05d3e750
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder
+  References: 
+  Referring: CDD_UserRxIndication_Can_2/3 (read) CDD_UserRxIndication_Can_2/3 (write) 
+  Availability: not-ready
+  Varpool flags: initialized
+CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @05d3e3a8
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not-ready
   Varpool flags:
-Transmit_count.0/7 (Transmit_count) @069bd240
+Transmit_count.1/7 (Transmit_count) @05d3e360
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (read) CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not-ready
   Varpool flags: initialized
-CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @069bd000
+CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @05d3e120
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserRxIndication_Can_0/1 (write) 
   Availability: not-ready
   Varpool flags:
-CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @0694bea0
+CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @05d3e000
   Type: variable
   Visibility: external public
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not-ready
   Varpool flags:
-Transmit_count.1/4 (Transmit_count) @0694be58
+Transmit_count.2/4 (Transmit_count) @05ccbf78
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (read) CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not-ready
   Varpool flags: initialized
-CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @069bb700
+CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @05d3c700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: CanIf_Can2_bRxFlag/9 (write) 
+  References: counter_RXPDU1.0/9 (read) counter_RXPDU1.0/9 (write) CanIf_Can2_bRxFlag/10 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @069bb460
+CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @05d3c460
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: Transmit_count.0/7 (read) Transmit_count.0/7 (write) CanIf_Can2_bTxFlag/8 (write) 
+  References: Transmit_count.1/7 (read) Transmit_count.1/7 (write) CanIf_Can2_bTxFlag/8 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
+CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @05d3c1c0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_Can0_bRxFlag/6 (write) 
@@ -312,10 +341,10 @@ CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @0694dc40
+CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @05ccdc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  References: Transmit_count.1/4 (read) Transmit_count.1/4 (write) CanIf_Can0_bTxFlag/5 (write) 
+  References: Transmit_count.2/4 (read) Transmit_count.2/4 (write) CanIf_Can0_bTxFlag/5 (write) 
   Referring: 
   Function flags: body
   Called by: 
@@ -326,7 +355,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-CanIf_Can2_bRxFlag/9 (CanIf_Can2_bRxFlag) @069bd3a8
+CanIf_Can2_bRxFlag/10 (CanIf_Can2_bRxFlag) @05d3e798
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -334,7 +363,14 @@ CanIf_Can2_bRxFlag/9 (CanIf_Can2_bRxFlag) @069bd3a8
   Referring: CDD_UserRxIndication_Can_2/3 (write) 
   Availability: not_available
   Varpool flags:
-CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @069bd288
+counter_RXPDU1.0/9 (counter_RXPDU1) @05d3e750
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: CDD_UserRxIndication_Can_2/3 (read) CDD_UserRxIndication_Can_2/3 (write) 
+  Availability: available
+  Varpool flags: initialized
+CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @05d3e3a8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -342,14 +378,14 @@ CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @069bd288
   Referring: CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not_available
   Varpool flags:
-Transmit_count.0/7 (Transmit_count) @069bd240
+Transmit_count.1/7 (Transmit_count) @05d3e360
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (read) CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: available
   Varpool flags: initialized
-CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @069bd000
+CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @05d3e120
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -357,7 +393,7 @@ CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @069bd000
   Referring: CDD_UserRxIndication_Can_0/1 (write) 
   Availability: not_available
   Varpool flags:
-CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @0694bea0
+CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @05d3e000
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -365,32 +401,32 @@ CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @0694bea0
   Referring: CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not_available
   Varpool flags:
-Transmit_count.1/4 (Transmit_count) @0694be58
+Transmit_count.2/4 (Transmit_count) @05ccbf78
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: CDD_UserTxConfirmation_Can_0/0 (read) CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: available
   Varpool flags: initialized
-CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @069bb700
+CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @05d3c700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
-  References: CanIf_Can2_bRxFlag/9 (write) 
+  References: counter_RXPDU1.0/9 (read) counter_RXPDU1.0/9 (write) CanIf_Can2_bRxFlag/10 (write) 
   Referring: 
   Availability: available
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @069bb460
+CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @05d3c460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
-  References: Transmit_count.0/7 (read) Transmit_count.0/7 (write) CanIf_Can2_bTxFlag/8 (write) 
+  References: Transmit_count.1/7 (read) Transmit_count.1/7 (write) CanIf_Can2_bTxFlag/8 (write) 
   Referring: 
   Availability: available
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
+CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @05d3c1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_Can0_bRxFlag/6 (write) 
@@ -399,10 +435,10 @@ CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @0694dc40
+CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @05ccdc40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
-  References: Transmit_count.1/4 (read) Transmit_count.1/4 (write) CanIf_Can0_bTxFlag/5 (write) 
+  References: Transmit_count.2/4 (read) Transmit_count.2/4 (write) CanIf_Can0_bTxFlag/5 (write) 
   Referring: 
   Availability: available
   Function flags: body
@@ -414,12 +450,12 @@ Materialization Call site updates done.
 Reclaiming functions:
 Reclaiming variables:
 Clearing address taken flags:
-Trivially needed variables: Transmit_count.0/7 Transmit_count.1/4
+Trivially needed variables: counter_RXPDU1.0/9 Transmit_count.1/7 Transmit_count.2/4
 Removing variables:
 
 Final Symbol table:
 
-CanIf_Can2_bRxFlag/9 (CanIf_Can2_bRxFlag) @069bd3a8
+CanIf_Can2_bRxFlag/10 (CanIf_Can2_bRxFlag) @05d3e798
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -427,23 +463,15 @@ CanIf_Can2_bRxFlag/9 (CanIf_Can2_bRxFlag) @069bd3a8
   Referring: 
   Availability: not_available
   Varpool flags:
-CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @069bd288
-  Type: variable
-  Body removed by symtab_remove_unreachable_nodes
-  Visibility: external public
-  References: 
-  Referring: 
-  Availability: not_available
-  Varpool flags:
-Transmit_count.0/7 (Transmit_count) @069bd240
+counter_RXPDU1.0/9 (counter_RXPDU1) @05d3e750
   Type: variable definition analyzed
-  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Transmit_count.0 (implicit_section)
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.counter_RXPDU1.0 (implicit_section)
   Aux: @00000001
   References: 
   Referring: 
   Availability: available
   Varpool flags: initialized
-CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @069bd000
+CanIf_Can2_bTxFlag/8 (CanIf_Can2_bTxFlag) @05d3e3a8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -451,23 +479,39 @@ CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @069bd000
   Referring: 
   Availability: not_available
   Varpool flags:
-CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @0694bea0
-  Type: variable
-  Body removed by symtab_remove_unreachable_nodes
-  Visibility: external public
-  References: 
-  Referring: 
-  Availability: not_available
-  Varpool flags:
-Transmit_count.1/4 (Transmit_count) @0694be58
+Transmit_count.1/7 (Transmit_count) @05d3e360
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Transmit_count.1 (implicit_section)
-  Aux: @069bd240
+  Aux: @05d3e750
   References: 
   Referring: 
   Availability: available
   Varpool flags: initialized
-CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @069bb700
+CanIf_Can0_bRxFlag/6 (CanIf_Can0_bRxFlag) @05d3e120
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags:
+CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @05d3e000
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags:
+Transmit_count.2/4 (Transmit_count) @05ccbf78
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Transmit_count.2 (implicit_section)
+  Aux: @05d3e360
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @05d3c700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CDD_UserRxIndication_Can_2 (implicit_section)
   References: 
@@ -476,7 +520,7 @@ CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @069bb700
   Function flags:
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @069bb460
+CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @05d3c460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CDD_UserTxConfirmation_Can_2 (implicit_section)
   References: 
@@ -485,7 +529,7 @@ CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @069bb460
   Function flags:
   Called by: 
   Calls: 
-CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
+CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @05d3c1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CDD_UserRxIndication_Can_0 (implicit_section)
   References: 
@@ -494,7 +538,7 @@ CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @069bb1c0
   Function flags:
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @0694dc40
+CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @05ccdc40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CDD_UserTxConfirmation_Can_0 (implicit_section)
   References: 

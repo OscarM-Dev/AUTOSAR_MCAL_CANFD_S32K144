@@ -204,6 +204,14 @@ static const Can_43_FLEXCAN_HwFilterType Can_aHwFilter_Object0=
     (uint32)0x00000200U,
     (uint32)0xdffc0000U
 };
+/**
+*   @brief  Hardware Filter of Mb0RxFlexCan2
+*/
+static const Can_43_FLEXCAN_HwFilterType Can_aHwFilter_Object1=
+{
+    (uint32)0x00000400U,
+    (uint32)0xdffc0000U
+};
 
 #define CAN_43_FLEXCAN_STOP_SEC_CONFIG_DATA_32
 #include "Can_43_FLEXCAN_MemMap.h"
@@ -226,7 +234,8 @@ static const uint8 Can_aHwObjIDToCtrlIDMap[CAN_43_FLEXCAN_HWOBJECT_CONFIG_COUNT]
 {
     (uint8)1U,
     (uint8)0U,
-    (uint8)1U
+    (uint8)1U,
+    (uint8)0U
 };
 
 #define CAN_43_FLEXCAN_STOP_SEC_CONFIG_DATA_8
@@ -274,12 +283,12 @@ static const Can_43_FLEXCAN_HwObjectConfigType Can_aHwObjectConfig[CAN_43_FLEXCA
         /* Message buffer address */
         &Can_au32HwBufferAddr_Ctrl1[0U]
     },
-    /* MbsTxFlexCan2 of FlexCan2*/
+    /* Mb0RxFlexCan2 of FlexCan2*/
     {
         /* Hardware Object ID */
         (Can_HwHandleType)1U,
         /* Hardware Object handle type */
-        CAN_TRANSMIT,
+        CAN_RECEIVE,
         /* ID Message type */
         CAN_STANDARD,
         /* Object uses polling */
@@ -287,7 +296,7 @@ static const Can_43_FLEXCAN_HwObjectConfigType Can_aHwObjectConfig[CAN_43_FLEXCA
         /* Object enable trigger transmit */
         (boolean)FALSE,
         /* Number of Hw Object used in one Hoh */
-        (uint8)2U,
+        (uint8)1U,
         /* MainFunction RW period reference */
         (uint8)0xFFU,
         /* Data Payload length */
@@ -295,11 +304,11 @@ static const Can_43_FLEXCAN_HwObjectConfigType Can_aHwObjectConfig[CAN_43_FLEXCA
         /* Padding value */
         (uint8)0U,
         /* Hardware Filter Count */
-        (uint8)0U,
+        (uint8)1U,
         /* Hw Filter Config */
-        NULL_PTR,
-        /* Message Buffer is Tx normal */
-        CAN_TX_NORMAL,
+        &Can_aHwFilter_Object1,
+        /* Message Buffer is Rx normal */
+        CAN_RX_NORMAL,
         /* Buffer Index in Message buffer ram */
         (uint8)0U,
         /* Message buffer address */
@@ -335,6 +344,37 @@ static const Can_43_FLEXCAN_HwObjectConfigType Can_aHwObjectConfig[CAN_43_FLEXCA
         (uint8)1U,
         /* Message buffer address */
         &Can_au32HwBufferAddr_Ctrl1[1U]
+    },
+    /* MbsTxFlexCan2 of FlexCan2*/
+    {
+        /* Hardware Object ID */
+        (Can_HwHandleType)3U,
+        /* Hardware Object handle type */
+        CAN_TRANSMIT,
+        /* ID Message type */
+        CAN_STANDARD,
+        /* Object uses polling */
+        (boolean)FALSE,
+        /* Object enable trigger transmit */
+        (boolean)FALSE,
+        /* Number of Hw Object used in one Hoh */
+        (uint8)1U,
+        /* MainFunction RW period reference */
+        (uint8)0xFFU,
+        /* Data Payload length */
+        (uint8)8U,
+        /* Padding value */
+        (uint8)0U,
+        /* Hardware Filter Count */
+        (uint8)0U,
+        /* Hw Filter Config */
+        NULL_PTR,
+        /* Message Buffer is Tx normal */
+        CAN_TX_NORMAL,
+        /* Buffer Index in Message buffer ram */
+        (uint8)1U,
+        /* Message buffer address */
+        &Can_au32HwBufferAddr_Ctrl0[1U]
     }
 };
 
@@ -383,9 +423,10 @@ static const Can_43_FLEXCAN_BaudrateConfigType Can_aBaudrateConfig_Ctrl0[1U]=
 /**
 *   @brief  HwObject's pointer structure of FlexCan2
 */
-static const Can_43_FLEXCAN_HwObjectConfigType * const Can_apHwObject_Ctrl0[1U]=
+static const Can_43_FLEXCAN_HwObjectConfigType * const Can_apHwObject_Ctrl0[2U]=
 {
-    &Can_aHwObjectConfig[1U]
+    &Can_aHwObjectConfig[1U],
+    &Can_aHwObjectConfig[3U]
 };
 /**
 *   @brief  Can Baudrate Config of FlexCan0
@@ -481,7 +522,7 @@ static const Can_43_FLEXCAN_ControllerConfigType Can_aControllerConfig[CAN_43_FL
         /* Pointer to IPW structure to IP config */
         &Can_43_FLEXCANIpwHwChannelConfig0,
         /* Hw Object reference count */
-        (uint8)1U,
+        (uint8)2U,
         /* Pointer point to Group of Hw Object that refer to Controller */
         Can_apHwObject_Ctrl0
         #if (CAN_43_FLEXCAN_TIMESTAMP_ENABLE == STD_ON)
@@ -557,7 +598,7 @@ const Can_43_FLEXCAN_ConfigType Can_43_FLEXCAN_Config =
     /* Configuration Core ID */
     (uint32)0U,
     /* The HTH first Index after HRH consecutive */
-    (Can_HwHandleType)1U,
+    (Can_HwHandleType)2U,
     /* Mapping Controller ID to Controller Hw Offset */
     Can_aCtrlOffsetToCtrlIDMap,
     /* Mapping Controller ID to Hardware Object ID */

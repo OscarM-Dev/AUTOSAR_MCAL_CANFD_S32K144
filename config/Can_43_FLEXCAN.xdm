@@ -728,7 +728,7 @@
                     <d:var name="CanIdType" type="ENUMERATION" value="STANDARD">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
-                    <d:var name="CanObjectId" type="INTEGER" value="1"/>
+                    <d:var name="CanObjectId" type="INTEGER" value="3"/>
                     <d:var name="CanObjectType" type="ENUMERATION" 
                            value="TRANSMIT"/>
                     <d:var name="CanHardwareObjectUsesPolling" type="BOOLEAN" 
@@ -752,7 +752,7 @@
                       <a:a name="ENABLE" value="false"/>
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
-                    <d:var name="CanHwObjectCount" type="INTEGER" value="2"/>
+                    <d:var name="CanHwObjectCount" type="INTEGER" value="1"/>
                     <d:lst name="CanHwFilter" type="MAP"/>
                     <d:lst name="CanTTHardwareObjectTrigger" type="MAP"/>
                   </d:ctr>
@@ -850,6 +850,61 @@
                     <d:lst name="CanHwFilter" type="MAP">
                       <d:ctr name="Mb0Filter" type="IDENTIFIABLE">
                         <d:var name="CanHwFilterCode" type="INTEGER" value="512"/>
+                        <d:var name="CanHwFilterMask" type="INTEGER" 
+                               value="2047"/>
+                      </d:ctr>
+                    </d:lst>
+                    <d:lst name="CanTTHardwareObjectTrigger" type="MAP"/>
+                  </d:ctr>
+                  <d:ctr name="Mb0RxFlexCan2" type="IDENTIFIABLE">
+                    <d:var name="CanFdPaddingValue" type="INTEGER" value="0">
+                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:var name="CanObjectPayloadLength" type="ENUMERATION" 
+                           value="CAN_OBJECT_PL_8">
+                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:var name="CanHandleType" type="ENUMERATION" value="BASIC">
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:var name="CanIdType" type="ENUMERATION" value="STANDARD">
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:var name="CanObjectId" type="INTEGER" value="1"/>
+                    <d:var name="CanObjectType" type="ENUMERATION" 
+                           value="RECEIVE">
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:var name="CanHardwareObjectUsesPolling" type="BOOLEAN" 
+                           value="false">
+                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:var name="CanTriggerTransmitEnable" type="BOOLEAN" 
+                           value="false">
+                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:ref name="CanControllerRef" type="REFERENCE" 
+                           value="ASPath:/Can_43_FLEXCAN/Can/CanConfigSet/FlexCan2"/>
+                    <d:ref name="CanMainFunctionRWPeriodRef" type="REFERENCE" >
+                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:ref>
+                    <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
+                           value="CAN_RAM_BLOCK_0">
+                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:var name="CanHwObjectCount" type="INTEGER" value="1">
+                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                    </d:var>
+                    <d:lst name="CanHwFilter" type="MAP">
+                      <d:ctr name="Mb0Filter" type="IDENTIFIABLE">
+                        <d:var name="CanHwFilterCode" type="INTEGER" 
+                               value="1024"/>
                         <d:var name="CanHwFilterMask" type="INTEGER" 
                                value="2047"/>
                       </d:ctr>

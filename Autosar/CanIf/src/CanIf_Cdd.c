@@ -65,8 +65,23 @@ void CDD_UserTxConfirmation_Can_2( PduIdType TxPduId, Std_ReturnType result ) {
  * @param PduInfoPtr Pointer to PDU received (message)
  */
 void CDD_UserRxIndication_Can_2( PduIdType RxPduId, const PduInfoType* PduInfoPtr ) {
-    (void) RxPduId;
-    (void) PduInfoPtr;
+    //local data.
+    static uint8 counter_RXPDU1 = 0;   //Message rx 1 counter.
+    uint8 Data[8];  //Data payload received.
+
+    //Obtaining data received.
+    for ( uint8 i = 0; i < PduInfoPtr->SduLength; i++ ) {
+        Data[i] = PduInfoPtr->SduDataPtr[i];
+    }
+
+    //Verifying which message was received.
+    switch ( RxPduId ) {
+        case 1: //ID 0x400 received
+            counter_RXPDU1++;
+        break;
+        default:
+        break;
+    }
     
     CanIf_Can2_bRxFlag = TRUE;   //Message received.
 }

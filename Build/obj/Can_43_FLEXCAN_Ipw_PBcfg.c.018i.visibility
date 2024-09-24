@@ -13,7 +13,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Symbol table:
 
-Flexcan_aCtrlConfigPB/2 (Flexcan_aCtrlConfigPB) @060bf750
+Flexcan_aCtrlConfigPB/2 (Flexcan_aCtrlConfigPB) @06055798
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -21,14 +21,14 @@ Flexcan_aCtrlConfigPB/2 (Flexcan_aCtrlConfigPB) @060bf750
   Referring: Can_43_FLEXCANIpwHwChannelConfig0/0 (addr) Can_43_FLEXCANIpwHwChannelConfig1/1 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Can_43_FLEXCANIpwHwChannelConfig1/1 (Can_43_FLEXCANIpwHwChannelConfig1) @060bf630
+Can_43_FLEXCANIpwHwChannelConfig1/1 (Can_43_FLEXCANIpwHwChannelConfig1) @06055678
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Flexcan_aCtrlConfigPB/2 (addr) 
   Referring: 
   Availability: available
   Varpool flags: initialized read-only const-value-known
-Can_43_FLEXCANIpwHwChannelConfig0/0 (Can_43_FLEXCANIpwHwChannelConfig0) @060bf5e8
+Can_43_FLEXCANIpwHwChannelConfig0/0 (Can_43_FLEXCANIpwHwChannelConfig0) @06055630
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Flexcan_aCtrlConfigPB/2 (addr) 

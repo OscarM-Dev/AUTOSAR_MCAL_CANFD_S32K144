@@ -19,18 +19,21 @@ boolean CanIf_Can2_bRxFlag;   ///< Flag for reception of PDU of FlexCan2 control
 /**
  * @brief This is the main function of the project
  * 
- * This example transmits a 1 byte data PDU every 5s using CAN 0 at a bitrate of 100Kbps.
- * In this case only one HTH is used with one message buffer.
+ * Test, communication Canable with FlexCAN2 in both directions.
+ * This example transmits a 3 byte data PDU every 5s using CAN 2 at a bitrate of 100Kbps. It also receives
+ * a 3 byte data PDU from CANABLE every determined time.
+ * 
+ * In this case only one HTH is used for transmission with one message buffer. For reception only one HRH is utilized.
  * 
  * @return Always zero
 */
 int main( void ) {
     //local data.
-    //Transmit message (PDU) 2 (Message ID 0x100) for Can 0 controller.
-    uint8 Message2_SDU = 0x01; //Data payload for message.
-    PduInfoType Message2 = {
-        .SduLength = 1,
-        .SduDataPtr = &Message2_SDU,
+    //Transmit message (PDU) 1 (Message ID 0x300) for Can 2 controller.
+    uint8 Message1_SDU[3] = { 0xAA, 0x52, 0xD5 }; //Data payload for message.
+    PduInfoType Message1 = {
+        .SduLength = 3,
+        .SduDataPtr = Message1_SDU,
         .MetaDataPtr = NULL_PTR
     };
 
@@ -38,17 +41,14 @@ int main( void ) {
 
     //SBC by default is in force normal mode so the CAN transceiver is already active.
 
-    CanIf_SetControllerMode( CanIfFlexCan0 , CAN_CS_STARTED );   //Can 0 controller active in Can Bus.
+    CanIf_SetControllerMode( CanIfFlexCan2 , CAN_CS_STARTED );   //Can 2 controller active in Can Bus.
 
     while( 1u ) {
         //Transmit messages every 5s.
-        CanIf_Transmit( CanIfTxPDU_2, &Message2 );   //Writing in Can 0 message buffer 1.
+        CanIf_Transmit( CanIfTxPDU_1, &Message1 );   //Writing in Can 2 message buffer 1.
 
-        while( CanIf_Can0_bTxFlag == FALSE ); //Waiting until messages are transmitted.
-        CanIf_Can0_bTxFlag = FALSE;  //Clearing transmit flag.
-
-        //Changing SDUs.
-        Message2_SDU++;
+        while( CanIf_Can2_bTxFlag == FALSE ); //Waiting until messages are transmitted.
+        CanIf_Can2_bTxFlag = FALSE;  //Clearing transmit flag.
 
         Delay( 5000 );  //Waiting 5s for next transmission.
     }

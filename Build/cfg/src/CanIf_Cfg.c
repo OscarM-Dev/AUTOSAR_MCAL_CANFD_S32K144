@@ -100,7 +100,7 @@ extern "C"{
         /* .CanDrvId */
         (uint8)0U,
         /* .NumCanHoh */
-        (uint8)3U,
+        (uint8)4U,
         /* .CanApi */
         &Can_43_FLEXCAN_Driver_P2Func
     };
