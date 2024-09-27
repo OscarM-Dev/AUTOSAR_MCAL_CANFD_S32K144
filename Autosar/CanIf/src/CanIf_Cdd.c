@@ -23,8 +23,13 @@ void CDD_UserTxConfirmation_Can_0( PduIdType TxPduId, Std_ReturnType result ) {
 
     if ( result == E_OK ) { //Message was transmitted successfully.
         Transmit_count++;
-        CanIf_Can0_bTxFlag = TRUE;
-    }    
+
+        if( Transmit_count == 4 ) { //All messages were transmitted
+            Transmit_count = 0;
+            CanIf_Can0_bTxFlag = TRUE;
+        }
+
+    }
 }
 
 /**

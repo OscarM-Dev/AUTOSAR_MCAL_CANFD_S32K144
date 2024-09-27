@@ -23,7 +23,7 @@ IPA summary for CDD_UserRxIndication_Can_0/1 is missing.
 IPA summary for CDD_UserTxConfirmation_Can_0/0 is missing.
 Symbol table:
 
-CanIf_Can2_bRxFlag/11 (CanIf_Can2_bRxFlag) @06932af8
+CanIf_Can2_bRxFlag/11 (CanIf_Can2_bRxFlag) @06921c60
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -31,14 +31,14 @@ CanIf_Can2_bRxFlag/11 (CanIf_Can2_bRxFlag) @06932af8
   Referring: CDD_UserRxIndication_Can_2/3 (write) 
   Availability: not_available
   Varpool flags:
-counter_RXPDU1.0/10 (counter_RXPDU1) @06932ab0
+counter_RXPDU1.0/10 (counter_RXPDU1) @06921c18
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: CDD_UserRxIndication_Can_2/3 (read) CDD_UserRxIndication_Can_2/3 (write) 
   Availability: available
   Varpool flags: initialized
-CanIf_Can2_bTxFlag/9 (CanIf_Can2_bTxFlag) @06932708
+CanIf_Can2_bTxFlag/9 (CanIf_Can2_bTxFlag) @06921870
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -46,14 +46,14 @@ CanIf_Can2_bTxFlag/9 (CanIf_Can2_bTxFlag) @06932708
   Referring: CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: not_available
   Varpool flags:
-Transmit_count.1/8 (Transmit_count) @069326c0
+Transmit_count.1/8 (Transmit_count) @06921828
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: CDD_UserTxConfirmation_Can_2/2 (read) CDD_UserTxConfirmation_Can_2/2 (write) 
   Availability: available
   Varpool flags: initialized
-CanIf_Can0_bRxFlag/7 (CanIf_Can0_bRxFlag) @06932480
+CanIf_Can0_bRxFlag/7 (CanIf_Can0_bRxFlag) @069215e8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -61,14 +61,14 @@ CanIf_Can0_bRxFlag/7 (CanIf_Can0_bRxFlag) @06932480
   Referring: CDD_UserRxIndication_Can_0/1 (write) 
   Availability: not_available
   Varpool flags:
-counter_RXPDU0.2/6 (counter_RXPDU0) @06932438
+counter_RXPDU0.2/6 (counter_RXPDU0) @069215a0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: CDD_UserRxIndication_Can_0/1 (read) CDD_UserRxIndication_Can_0/1 (write) 
   Availability: available
   Varpool flags: initialized
-CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @06932090
+CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @069211f8
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -76,14 +76,14 @@ CanIf_Can0_bTxFlag/5 (CanIf_Can0_bTxFlag) @06932090
   Referring: CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: not_available
   Varpool flags:
-Transmit_count.3/4 (Transmit_count) @06932048
+Transmit_count.3/4 (Transmit_count) @069211b0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
-  Referring: CDD_UserTxConfirmation_Can_0/0 (read) CDD_UserTxConfirmation_Can_0/0 (write) 
+  Referring: CDD_UserTxConfirmation_Can_0/0 (read) CDD_UserTxConfirmation_Can_0/0 (write) CDD_UserTxConfirmation_Can_0/0 (read) CDD_UserTxConfirmation_Can_0/0 (write) 
   Availability: available
   Varpool flags: initialized
-CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @0692f700
+CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @0691e700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: counter_RXPDU1.0/10 (read) counter_RXPDU1.0/10 (write) CanIf_Can2_bRxFlag/11 (write) 
@@ -92,7 +92,7 @@ CDD_UserRxIndication_Can_2/3 (CDD_UserRxIndication_Can_2) @0692f700
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @0692f460
+CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @0691e460
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Transmit_count.1/8 (read) Transmit_count.1/8 (write) CanIf_Can2_bTxFlag/9 (write) 
@@ -101,7 +101,7 @@ CDD_UserTxConfirmation_Can_2/2 (CDD_UserTxConfirmation_Can_2) @0692f460
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @0692f1c0
+CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @0691e1c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: counter_RXPDU0.2/6 (read) counter_RXPDU0.2/6 (write) CanIf_Can0_bRxFlag/7 (write) 
@@ -110,10 +110,10 @@ CDD_UserRxIndication_Can_0/1 (CDD_UserRxIndication_Can_0) @0692f1c0
   Function flags: body
   Called by: 
   Calls: 
-CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @068bec40
+CDD_UserTxConfirmation_Can_0/0 (CDD_UserTxConfirmation_Can_0) @068adc40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
-  References: Transmit_count.3/4 (read) Transmit_count.3/4 (write) CanIf_Can0_bTxFlag/5 (write) 
+  References: Transmit_count.3/4 (read) Transmit_count.3/4 (write) Transmit_count.3/4 (read) Transmit_count.3/4 (write) CanIf_Can0_bTxFlag/5 (write) 
   Referring: 
   Availability: available
   Function flags: body
@@ -128,21 +128,30 @@ CDD_UserTxConfirmation_Can_0 (PduIdType TxPduId, Std_ReturnType result)
   unsigned char Transmit_count.0_1;
   unsigned char Transmit_count.1_2;
   unsigned char _3;
+  unsigned char Transmit_count.2_4;
 
   <bb 2> :
-  if (result_5(D) == 0)
+  if (result_6(D) == 0)
     goto <bb 3>; [INV]
   else
-    goto <bb 4>; [INV]
+    goto <bb 5>; [INV]
 
   <bb 3> :
   Transmit_count.0_1 = Transmit_count;
   Transmit_count.1_2 = Transmit_count.0_1;
   _3 = Transmit_count.1_2 + 1;
   Transmit_count = _3;
-  CanIf_Can0_bTxFlag = 1;
+  Transmit_count.2_4 = Transmit_count;
+  if (Transmit_count.2_4 == 4)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
 
   <bb 4> :
+  Transmit_count = 0;
+  CanIf_Can0_bTxFlag = 1;
+
+  <bb 5> :
   return;
 
 }
@@ -161,12 +170,12 @@ CDD_UserRxIndication_Can_0 (PduIdType RxPduId, const struct PduInfoType * PduInf
   uint8 * _3;
   int _4;
   unsigned char _5;
-  unsigned char i.2_6;
+  unsigned char i.3_6;
   long unsigned int _7;
   long unsigned int _8;
   int _9;
-  unsigned char counter_RXPDU0.3_10;
-  unsigned char counter_RXPDU0.4_11;
+  unsigned char counter_RXPDU0.4_10;
+  unsigned char counter_RXPDU0.5_11;
   unsigned char _12;
 
   <bb 2> :
@@ -180,8 +189,8 @@ CDD_UserRxIndication_Can_0 (PduIdType RxPduId, const struct PduInfoType * PduInf
   _4 = (int) i_13;
   _5 = *_3;
   Data[_4] = _5;
-  i.2_6 = i_13;
-  i_24 = i.2_6 + 1;
+  i.3_6 = i_13;
+  i_24 = i.3_6 + 1;
 
   <bb 4> :
   # i_13 = PHI <i_16(2), i_24(3)>
@@ -201,9 +210,9 @@ CDD_UserRxIndication_Can_0 (PduIdType RxPduId, const struct PduInfoType * PduInf
 
   <bb 6> :
 <L3>:
-  counter_RXPDU0.3_10 = counter_RXPDU0;
-  counter_RXPDU0.4_11 = counter_RXPDU0.3_10;
-  _12 = counter_RXPDU0.4_11 + 1;
+  counter_RXPDU0.4_10 = counter_RXPDU0;
+  counter_RXPDU0.5_11 = counter_RXPDU0.4_10;
+  _12 = counter_RXPDU0.5_11 + 1;
   counter_RXPDU0 = _12;
   goto <bb 8>; [INV]
 
@@ -224,8 +233,8 @@ CDD_UserRxIndication_Can_0 (PduIdType RxPduId, const struct PduInfoType * PduInf
 CDD_UserTxConfirmation_Can_2 (PduIdType TxPduId, Std_ReturnType result)
 {
   static uint8 Transmit_count = 0;
-  unsigned char Transmit_count.5_1;
-  unsigned char Transmit_count.6_2;
+  unsigned char Transmit_count.6_1;
+  unsigned char Transmit_count.7_2;
   unsigned char _3;
 
   <bb 2> :
@@ -235,9 +244,9 @@ CDD_UserTxConfirmation_Can_2 (PduIdType TxPduId, Std_ReturnType result)
     goto <bb 4>; [INV]
 
   <bb 3> :
-  Transmit_count.5_1 = Transmit_count;
-  Transmit_count.6_2 = Transmit_count.5_1;
-  _3 = Transmit_count.6_2 + 1;
+  Transmit_count.6_1 = Transmit_count;
+  Transmit_count.7_2 = Transmit_count.6_1;
+  _3 = Transmit_count.7_2 + 1;
   Transmit_count = _3;
   CanIf_Can2_bTxFlag = 1;
 
@@ -260,12 +269,12 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
   uint8 * _3;
   int _4;
   unsigned char _5;
-  unsigned char i.7_6;
+  unsigned char i.8_6;
   long unsigned int _7;
   long unsigned int _8;
   int _9;
-  unsigned char counter_RXPDU1.8_10;
-  unsigned char counter_RXPDU1.9_11;
+  unsigned char counter_RXPDU1.9_10;
+  unsigned char counter_RXPDU1.10_11;
   unsigned char _12;
 
   <bb 2> :
@@ -279,8 +288,8 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
   _4 = (int) i_13;
   _5 = *_3;
   Data[_4] = _5;
-  i.7_6 = i_13;
-  i_24 = i.7_6 + 1;
+  i.8_6 = i_13;
+  i_24 = i.8_6 + 1;
 
   <bb 4> :
   # i_13 = PHI <i_16(2), i_24(3)>
@@ -300,9 +309,9 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
 
   <bb 6> :
 <L3>:
-  counter_RXPDU1.8_10 = counter_RXPDU1;
-  counter_RXPDU1.9_11 = counter_RXPDU1.8_10;
-  _12 = counter_RXPDU1.9_11 + 1;
+  counter_RXPDU1.9_10 = counter_RXPDU1;
+  counter_RXPDU1.10_11 = counter_RXPDU1.9_10;
+  _12 = counter_RXPDU1.10_11 + 1;
   counter_RXPDU1 = _12;
   goto <bb 8>; [INV]
 

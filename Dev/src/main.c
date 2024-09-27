@@ -19,12 +19,15 @@ boolean CanIf_Can2_bRxFlag;   ///< Flag for reception of PDU of FlexCan2 control
 /**
  * @brief This is the main function of the project
  * 
- * Test, communication Canable with FlexCAN0 and FlexCAN2 in both directions.
- * This example transmits 2 3 byte data PDUs every 5s using CAN0 and CAN2  at a bitrate of 100Kbps. It also receives
- * 2 3 byte data PDUs from CANABLE every determined time.
+ * Test, communication FLEXCAN0 to CANABLE with CANFD using nominal bit rate of 1Mbps and data bit rate of 2Mbps.
  * 
- * In this case only one HTH is used for transmission with one message buffer. For reception only one HRH is utilized.
- * This configuration is for both CAN controllers.
+ * -Transmission of 4 messages every 3s.
+ *      -3 data byte PDU. -->0x100
+ *      -8 data byte PDU. -->0x101
+ *      -12 data byte PDU.  -->0x102
+ *      -9 data byte PDU. -->0x103
+ * 
+ * In this case only one HTH is used for transmission with four message buffer. For reception only one HRH is utilized.
  * 
  * 
  * @return Always zero
@@ -39,11 +42,27 @@ int main( void ) {
         .MetaDataPtr = NULL_PTR
     };
 
-    //Transmit message (PDU) 1 (Message ID 0x300) for Can 2 controller.
-    uint8 Message1_SDU[3] = { 0xAA, 0xBB, 0xCC }; //Data payload for message.
+    //Transmit message (PDU) 1 (Message ID 0x101) for Can 0 controller.
+    uint8 Message1_SDU[8] = { 0xAA, 0xDE, 0xF4, 0xC5, 0xB6, 0xFE, 0xCC, 0x07 }; //Data payload for message.
     PduInfoType Message1 = {
-        .SduLength = 3,
+        .SduLength = 8,
         .SduDataPtr = Message1_SDU,
+        .MetaDataPtr = NULL_PTR
+    };
+
+    //Transmit message (PDU) 2 (Message ID 0x102) for Can 0 controller.
+    uint8 Message2_SDU[12] = { 0xBB, 0xDE, 0xCC, 0xAA, 0x22, 0x33, 0xDD, 0x05, 0x09, 0x45, 0xFF, 0x33 }; //Data payload for message.
+    PduInfoType Message2 = {
+        .SduLength = 12,
+        .SduDataPtr = Message2_SDU,
+        .MetaDataPtr = NULL_PTR
+    };
+
+    //Transmit message (PDU) 3 (Message ID 0x103) for Can 0 controller.
+    uint8 Message3_SDU[9] = { 0xFF, 0xDD, 0x22, 0x44, 0x53, 0x11, 0x46, 0x59, 0xBB }; //Data payload for message.
+    PduInfoType Message3 = {
+        .SduLength = 9,
+        .SduDataPtr = Message3_SDU,
         .MetaDataPtr = NULL_PTR
     };
 
@@ -52,18 +71,18 @@ int main( void ) {
     //SBC by default is in force normal mode so the CAN transceiver is already active.
 
     CanIf_SetControllerMode( CanIfFlexCan0 , CAN_CS_STARTED );   //Can 0 controller active in Can Bus.
-    CanIf_SetControllerMode( CanIfFlexCan2 , CAN_CS_STARTED );   //Can 2 controller active in Can Bus.
 
     while( 1u ) {
-        //Transmit messages every 5s.
-        CanIf_Transmit( CanIfTxPDU_0, &Message0 );   //Writing in Can 0 message buffer 1.
-        CanIf_Transmit( CanIfTxPDU_1, &Message1 );   //Writing in Can 2 message buffer 1.
+        //Transmit messages every 3s.
+        CanIf_Transmit( CanIfTxPDU_0, &Message0 );   //Writing in Can 0 message buffer 1
+        CanIf_Transmit( CanIfTxPDU_1, &Message1 );   //Writing in Can 0 message buffer 2
+        CanIf_Transmit( CanIfTxPDU_2, &Message2 );   //Writing in Can 0 message buffer 3
+        CanIf_Transmit( CanIfTxPDU_3, &Message3 );   //Writing in Can 0 message buffer 4
 
-        while( ( CanIf_Can0_bTxFlag == FALSE ) || ( CanIf_Can2_bTxFlag == FALSE ) ); //Waiting until messages are transmitted.
+        while( CanIf_Can0_bTxFlag == FALSE ); //Waiting until messages are transmitted.
         CanIf_Can0_bTxFlag = FALSE;  //Clearing transmit flag.
-        CanIf_Can2_bTxFlag = FALSE;  //Clearing transmit flag.
 
-        Delay( 5000 );  //Waiting 5s for next transmission.
+        Delay( 3000 );  //Waiting 3s for next transmission.
     }
 
     return 0u;

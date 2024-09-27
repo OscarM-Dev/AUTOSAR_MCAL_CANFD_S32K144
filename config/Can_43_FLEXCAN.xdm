@@ -454,8 +454,7 @@
                            value="false">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
-                    <d:var name="CanControllerFdISO" type="BOOLEAN" 
-                           value="false"/>
+                    <d:var name="CanControllerFdISO" type="BOOLEAN" value="true"/>
                     <d:var name="CanClockFromBus" type="BOOLEAN" value="true">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
@@ -489,7 +488,7 @@
                         <d:var name="CanTxArbitrationStartDelay" type="INTEGER" 
                                value="0"/>
                         <d:var name="CanControllerPrescaller" type="INTEGER" 
-                               value="30"/>
+                               value="3"/>
                         <d:var name="CanControllerPrescallerAlternate" 
                                type="INTEGER" value="10">
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -499,7 +498,7 @@
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
                         </d:var>
                         <d:var name="CanControllerBaudRate" type="FLOAT" 
-                               value="100.0"/>
+                               value="1000.0"/>
                         <d:var name="CanControllerSyncSeg" type="INTEGER" 
                                value="1">
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -514,27 +513,19 @@
                         </d:var>
                         <d:ctr name="CanControllerFdBaudrateConfig" 
                                type="IDENTIFIABLE">
-                          <a:a name="ENABLE" value="false"/>
+                          <a:a name="ENABLE" value="true"/>
                           <d:var name="CanControllerFdBaudRate" type="FLOAT" 
-                                 value="250.0">
-                            <a:a name="IMPORTER_INFO" value="@DEF"/>
-                          </d:var>
+                                 value="2000.0"/>
                           <d:var name="CanControllerFdSyncSeg" type="INTEGER" 
                                  value="1">
                             <a:a name="IMPORTER_INFO" value="@DEF"/>
                           </d:var>
                           <d:var name="CanControllerPropSeg" type="INTEGER" 
-                                 value="1">
-                            <a:a name="IMPORTER_INFO" value="@DEF"/>
-                          </d:var>
+                                 value="2"/>
                           <d:var name="CanControllerSeg1" type="INTEGER" 
-                                 value="1">
-                            <a:a name="IMPORTER_INFO" value="@DEF"/>
-                          </d:var>
+                                 value="3"/>
                           <d:var name="CanControllerSeg2" type="INTEGER" 
-                                 value="2">
-                            <a:a name="IMPORTER_INFO" value="@DEF"/>
-                          </d:var>
+                                 value="2"/>
                           <d:var name="CanControllerSyncJumpWidth" 
                                  type="INTEGER" value="1">
                             <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -542,12 +533,10 @@
                           <d:var name="CanControllerSspOffset" type="INTEGER" 
                                  value="0">
                             <a:a name="ENABLE" value="false"/>
-                            <a:a name="IMPORTER_INFO" value="@DEF"/>
                           </d:var>
                           <d:var name="CanControllerFdPrescaller" 
-                                 type="INTEGER" value="1">
-                            <a:a name="ENABLE" value="false"/>
-                            <a:a name="IMPORTER_INFO" value="@DEF"/>
+                                 type="INTEGER" value="3">
+                            <a:a name="ENABLE" value="true"/>
                           </d:var>
                           <d:var name="CanControllerPrescallerAlternateFd" 
                                  type="INTEGER" value="10">
@@ -643,13 +632,10 @@
                     </d:ctr>
                     <d:chc name="CanRamBlock" type="IDENTIFIABLE" 
                            value="CanRamBlockUnified">
-                      <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                      <a:a name="ENABLE" value="true"/>
                       <d:ctr name="CanRamBlockUnified" type="IDENTIFIABLE">
                         <d:var name="CanBlockUnifiedPayloadLength" 
-                               type="ENUMERATION" value="CAN_8_BYTES_PAYLOAD">
-                          <a:a name="IMPORTER_INFO" value="@DEF"/>
-                        </d:var>
+                               type="ENUMERATION" value="CAN_16_BYTES_PAYLOAD"/>
                       </d:ctr>
                       <d:ctr name="CanRamBlockSpecified" type="IDENTIFIABLE">
                         <d:var name="CanBlock0PayloadLength" type="ENUMERATION" 
@@ -750,7 +736,6 @@
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
                       <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
                     <d:var name="CanHwObjectCount" type="INTEGER" value="1"/>
                     <d:lst name="CanHwFilter" type="MAP"/>
@@ -759,12 +744,10 @@
                   <d:ctr name="MbsTxFlexCan0" type="IDENTIFIABLE">
                     <d:var name="CanFdPaddingValue" type="INTEGER" value="0">
                       <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
                     <d:var name="CanObjectPayloadLength" type="ENUMERATION" 
-                           value="CAN_OBJECT_PL_8">
-                      <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                           value="CAN_OBJECT_PL_12">
+                      <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanHandleType" type="ENUMERATION" value="BASIC">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -794,11 +777,8 @@
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
                       <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
-                    <d:var name="CanHwObjectCount" type="INTEGER" value="1">
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
-                    </d:var>
+                    <d:var name="CanHwObjectCount" type="INTEGER" value="4"/>
                     <d:lst name="CanHwFilter" type="MAP"/>
                     <d:lst name="CanTTHardwareObjectTrigger" type="MAP"/>
                   </d:ctr>
@@ -809,8 +789,7 @@
                     </d:var>
                     <d:var name="CanObjectPayloadLength" type="ENUMERATION" 
                            value="CAN_OBJECT_PL_8">
-                      <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                      <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanHandleType" type="ENUMERATION" value="BASIC">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -842,7 +821,6 @@
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
                       <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
                     <d:var name="CanHwObjectCount" type="INTEGER" value="1">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>

@@ -15,8 +15,8 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
   _4 = (int) i;
   _5 = *_3;
   Data[_4] = _5;
-  i.7_6 = i;
-  i = i.7_6 + 1;
+  i.8_6 = i;
+  i = i.8_6 + 1;
 
   <bb 4> :
   _7 = (long unsigned int) i;
@@ -35,9 +35,9 @@ CDD_UserRxIndication_Can_2 (PduIdType RxPduId, const struct PduInfoType * PduInf
 
   <bb 6> :
 <L3>:
-  counter_RXPDU1.8_10 = counter_RXPDU1;
-  counter_RXPDU1.9_11 = counter_RXPDU1.8_10;
-  _12 = counter_RXPDU1.9_11 + 1;
+  counter_RXPDU1.9_10 = counter_RXPDU1;
+  counter_RXPDU1.10_11 = counter_RXPDU1.9_10;
+  _12 = counter_RXPDU1.10_11 + 1;
   counter_RXPDU1 = _12;
   goto <bb 8>; [INV]
 
@@ -63,9 +63,9 @@ CDD_UserTxConfirmation_Can_2 (PduIdType TxPduId, Std_ReturnType result)
     goto <bb 4>; [INV]
 
   <bb 3> :
-  Transmit_count.5_1 = Transmit_count;
-  Transmit_count.6_2 = Transmit_count.5_1;
-  _3 = Transmit_count.6_2 + 1;
+  Transmit_count.6_1 = Transmit_count;
+  Transmit_count.7_2 = Transmit_count.6_1;
+  _3 = Transmit_count.7_2 + 1;
   Transmit_count = _3;
   CanIf_Can2_bTxFlag = 1;
 
@@ -92,8 +92,8 @@ CDD_UserRxIndication_Can_0 (PduIdType RxPduId, const struct PduInfoType * PduInf
   _4 = (int) i;
   _5 = *_3;
   Data[_4] = _5;
-  i.2_6 = i;
-  i = i.2_6 + 1;
+  i.3_6 = i;
+  i = i.3_6 + 1;
 
   <bb 4> :
   _7 = (long unsigned int) i;
@@ -112,9 +112,9 @@ CDD_UserRxIndication_Can_0 (PduIdType RxPduId, const struct PduInfoType * PduInf
 
   <bb 6> :
 <L3>:
-  counter_RXPDU0.3_10 = counter_RXPDU0;
-  counter_RXPDU0.4_11 = counter_RXPDU0.3_10;
-  _12 = counter_RXPDU0.4_11 + 1;
+  counter_RXPDU0.4_10 = counter_RXPDU0;
+  counter_RXPDU0.5_11 = counter_RXPDU0.4_10;
+  _12 = counter_RXPDU0.5_11 + 1;
   counter_RXPDU0 = _12;
   goto <bb 8>; [INV]
 
@@ -137,16 +137,24 @@ CDD_UserTxConfirmation_Can_0 (PduIdType TxPduId, Std_ReturnType result)
   if (result == 0)
     goto <bb 3>; [INV]
   else
-    goto <bb 4>; [INV]
+    goto <bb 5>; [INV]
 
   <bb 3> :
   Transmit_count.0_1 = Transmit_count;
   Transmit_count.1_2 = Transmit_count.0_1;
   _3 = Transmit_count.1_2 + 1;
   Transmit_count = _3;
-  CanIf_Can0_bTxFlag = 1;
+  Transmit_count.2_4 = Transmit_count;
+  if (Transmit_count.2_4 == 4)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
 
   <bb 4> :
+  Transmit_count = 0;
+  CanIf_Can0_bTxFlag = 1;
+
+  <bb 5> :
   return;
 
 }

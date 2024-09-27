@@ -189,10 +189,13 @@ static const uint32 Can_au32HwBufferAddr_Ctrl0[2U]=
 /**
 *   @brief  Hardware Buffer Address of FlexCan0
 */
-static const uint32 Can_au32HwBufferAddr_Ctrl1[2U]=
+static const uint32 Can_au32HwBufferAddr_Ctrl1[5U]=
 {
     (FLEXCAN_0_BASE + (uint32)0x0080U),
-    (FLEXCAN_0_BASE + (uint32)0x0090U)
+    (FLEXCAN_0_BASE + (uint32)0x0098U),
+    (FLEXCAN_0_BASE + (uint32)0x00b0U),
+    (FLEXCAN_0_BASE + (uint32)0x00c8U),
+    (FLEXCAN_0_BASE + (uint32)0x00e0U)
 };
 
 
@@ -327,11 +330,11 @@ static const Can_43_FLEXCAN_HwObjectConfigType Can_aHwObjectConfig[CAN_43_FLEXCA
         /* Object enable trigger transmit */
         (boolean)FALSE,
         /* Number of Hw Object used in one Hoh */
-        (uint8)1U,
+        (uint8)4U,
         /* MainFunction RW period reference */
         (uint8)0xFFU,
         /* Data Payload length */
-        (uint8)8U,
+        (uint8)12U,
         /* Padding value */
         (uint8)0U,
         /* Hardware Filter Count */
@@ -435,15 +438,15 @@ static const Can_43_FLEXCAN_BaudrateConfigType Can_aBaudrateConfig_Ctrl1[1U]=
 {
     {
         /* Tx Bit Rate Switch */
-        (boolean)FALSE,
+        (boolean)TRUE,
         /* FD enable */
-        (boolean)FALSE,
+        (boolean)TRUE,
         /* Nominal bit rate */
         {
             (uint8)3U,
             (uint8)6U,
             (uint8)3U,
-            (uint16)29U,
+            (uint16)2U,
             #if (CAN_43_FLEXCAN_DUAL_CLOCK_MODE == STD_ON)
             /* Alternative Baudrate Nominal Prescaler */
             (uint16)9U,
@@ -453,14 +456,15 @@ static const Can_43_FLEXCAN_BaudrateConfigType Can_aBaudrateConfig_Ctrl1[1U]=
         
         /* Data bit rate */
         {
-        (uint8)0U,
-        (uint8)0U,
-        (uint8)0U,
-        (uint16)0U,
-        #if (CAN_43_FLEXCAN_DUAL_CLOCK_MODE == STD_ON)
-        (uint16)0U,
-        #endif
-        (uint8)0U
+            (uint8)2U,
+            (uint8)2U,
+            (uint8)1U,
+            (uint16)2U,
+            #if (CAN_43_FLEXCAN_DUAL_CLOCK_MODE == STD_ON)
+            /* Alternative Baudrate Data Prescaler */
+            (uint16)9U,
+            #endif
+            (uint8)0U
         },
         
         /* Tx Arbitration Start delay */

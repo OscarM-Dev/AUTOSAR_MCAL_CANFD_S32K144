@@ -98,6 +98,12 @@ extern "C"{
 #define CanIfTxPDU_0    ((PduIdType)0U)
 /*Symbolic name for CanIfTxPDU_1 */
 #define CanIfTxPDU_1    ((PduIdType)1U)
+/*Symbolic name for CanIfTxPDU_2 */
+#define CanIfTxPDU_2    ((PduIdType)2U)
+/*Symbolic name for CanIfTxPDU_3 */
+#define CanIfTxPDU_3    ((PduIdType)3U)
+/*Symbolic name for CanIfTxPDU_5 */
+#define CanIfTxPDU_5    ((PduIdType)4U)
 
 /*Symbolic name for CanIfRxPDU_0 */
 #define CanIfRxPDU_0    ((PduIdType)0U)

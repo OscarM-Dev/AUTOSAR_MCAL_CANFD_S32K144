@@ -82,7 +82,7 @@ extern "C"{
 
 
 /* Here is the TxPdu configuration */
-static const CanIf_TxPduType CanIf_TxPdu[2U] =
+static const CanIf_TxPduType CanIf_TxPdu[5U] =
 {
     {
         /* .PduIdType */
@@ -90,7 +90,7 @@ static const CanIf_TxPduType CanIf_TxPdu[2U] =
         /* .CanId */
         (Can_IdType)256U,
         /* .CanFrameType */
-        CANIF_STANDARD_CAN,
+        CANIF_STANDARD_FD_CAN,
         /* .Can_HwHandleType */
         (Can_HwHandleType)2U,
         /* .CanIfCtrlId */
@@ -101,6 +101,48 @@ static const CanIf_TxPduType CanIf_TxPdu[2U] =
     {
         /* .PduIdType */
         (uint8)1U,
+        /* .CanId */
+        (Can_IdType)257U,
+        /* .CanFrameType */
+        CANIF_STANDARD_FD_CAN,
+        /* .Can_HwHandleType */
+        (Can_HwHandleType)2U,
+        /* .CanIfCtrlId */
+        (uint8)1U,
+        /* .UserTxConfirmation */
+        CDD_UserTxConfirmation_Can_0
+    },
+    {
+        /* .PduIdType */
+        (uint8)2U,
+        /* .CanId */
+        (Can_IdType)258U,
+        /* .CanFrameType */
+        CANIF_STANDARD_FD_CAN,
+        /* .Can_HwHandleType */
+        (Can_HwHandleType)2U,
+        /* .CanIfCtrlId */
+        (uint8)1U,
+        /* .UserTxConfirmation */
+        CDD_UserTxConfirmation_Can_0
+    },
+    {
+        /* .PduIdType */
+        (uint8)3U,
+        /* .CanId */
+        (Can_IdType)259U,
+        /* .CanFrameType */
+        CANIF_STANDARD_FD_CAN,
+        /* .Can_HwHandleType */
+        (Can_HwHandleType)2U,
+        /* .CanIfCtrlId */
+        (uint8)1U,
+        /* .UserTxConfirmation */
+        CDD_UserTxConfirmation_Can_0
+    },
+    {
+        /* .PduIdType */
+        (uint8)4U,
         /* .CanId */
         (Can_IdType)768U,
         /* .CanFrameType */
@@ -170,7 +212,7 @@ const CanIf_ConfigType CanIf_Config =
     /* .NumRxPdu */
     (uint8)2U,
     /* .NumTxPdu */
-    (uint8)2U,
+    (uint8)5U,
     CanIf_CanDrvConfig,
     /* .CanIf_RxPduConfigPtr */
     CanIf_RxPdu,

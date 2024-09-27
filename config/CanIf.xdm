@@ -55,7 +55,7 @@
                 <d:var name="CanIfMaxRxPduCfg" type="INTEGER" value="2">
                   <a:a name="ENABLE" value="true"/>
                 </d:var>
-                <d:var name="CanIfMaxTxPduCfg" type="INTEGER" value="2">
+                <d:var name="CanIfMaxTxPduCfg" type="INTEGER" value="5">
                   <a:a name="ENABLE" value="true"/>
                 </d:var>
                 <d:lst name="CanIfTxPduCfg" type="MAP">
@@ -64,7 +64,7 @@
                       <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanIfTxPduCanIdType" type="ENUMERATION" 
-                           value="STANDARD_CAN">
+                           value="STANDARD_FD_CAN">
                       <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanIfTxPduId" type="INTEGER" value="0"/>
@@ -80,7 +80,7 @@
                     <d:ref name="CanIfTxPduBufferRef" type="REFERENCE" 
                            value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan0Buffer0"/>
                   </d:ctr>
-                  <d:ctr name="CanIfTxPDU_1" type="IDENTIFIABLE">
+                  <d:ctr name="CanIfTxPDU_5" type="IDENTIFIABLE">
                     <d:var name="CanIfTxPduCanId" type="INTEGER" value="768">
                       <a:a name="ENABLE" value="true"/>
                     </d:var>
@@ -88,7 +88,7 @@
                            value="STANDARD_CAN">
                       <a:a name="ENABLE" value="true"/>
                     </d:var>
-                    <d:var name="CanIfTxPduId" type="INTEGER" value="1"/>
+                    <d:var name="CanIfTxPduId" type="INTEGER" value="4"/>
                     <d:var name="CanIfTxPduUserTxConfirmationName" 
                            type="FUNCTION-NAME" 
                            value="CDD_UserTxConfirmation_Can_2">
@@ -100,6 +100,69 @@
                     </d:var>
                     <d:ref name="CanIfTxPduBufferRef" type="REFERENCE" 
                            value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan2Buffer0"/>
+                  </d:ctr>
+                  <d:ctr name="CanIfTxPDU_1" type="IDENTIFIABLE">
+                    <d:var name="CanIfTxPduCanId" type="INTEGER" value="257">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduCanIdType" type="ENUMERATION" 
+                           value="STANDARD_FD_CAN">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduId" type="INTEGER" value="1"/>
+                    <d:var name="CanIfTxPduUserTxConfirmationName" 
+                           type="FUNCTION-NAME" 
+                           value="CDD_UserTxConfirmation_Can_0">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduUserTxConfirmationUL" 
+                           type="ENUMERATION" value="CDD">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:ref name="CanIfTxPduBufferRef" type="REFERENCE" 
+                           value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan0Buffer0"/>
+                  </d:ctr>
+                  <d:ctr name="CanIfTxPDU_2" type="IDENTIFIABLE">
+                    <d:var name="CanIfTxPduCanId" type="INTEGER" value="258">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduCanIdType" type="ENUMERATION" 
+                           value="STANDARD_FD_CAN">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduId" type="INTEGER" value="2"/>
+                    <d:var name="CanIfTxPduUserTxConfirmationName" 
+                           type="FUNCTION-NAME" 
+                           value="CDD_UserTxConfirmation_Can_0">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduUserTxConfirmationUL" 
+                           type="ENUMERATION" value="CDD">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:ref name="CanIfTxPduBufferRef" type="REFERENCE" 
+                           value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan0Buffer0"/>
+                  </d:ctr>
+                  <d:ctr name="CanIfTxPDU_3" type="IDENTIFIABLE">
+                    <d:var name="CanIfTxPduCanId" type="INTEGER" value="259">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduCanIdType" type="ENUMERATION" 
+                           value="STANDARD_FD_CAN">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduId" type="INTEGER" value="3"/>
+                    <d:var name="CanIfTxPduUserTxConfirmationName" 
+                           type="FUNCTION-NAME" 
+                           value="CDD_UserTxConfirmation_Can_0">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfTxPduUserTxConfirmationUL" 
+                           type="ENUMERATION" value="CDD">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:ref name="CanIfTxPduBufferRef" type="REFERENCE" 
+                           value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan0Buffer0"/>
                   </d:ctr>
                 </d:lst>
                 <d:lst name="CanIfRxPduCfg" type="MAP">
