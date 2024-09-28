@@ -23041,7 +23041,7 @@ int_results     0x1fff8000      0x100
 OUTPUT(Build/temp.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000    0x2f6ef
+.debug_info     0x00000000    0x2f6ff
  .debug_info    0x00000000      0x5b1 Build/obj/main.o
  .debug_info    0x000005b1      0xa37 Build/obj/IntCtrl_Ip.o
  .debug_info    0x00000fe8      0x806 Build/obj/Platform.o
@@ -23092,34 +23092,34 @@ LOAD linker stubs
  .debug_info    0x000215b1      0xada Build/obj/SchM_Spi.o
  .debug_info    0x0002208b      0xcc4 Build/obj/Det.o
  .debug_info    0x00022d4f      0xbcf Build/obj/CanIf.o
- .debug_info    0x0002391e      0x328 Build/obj/CanIf_Cdd.o
- .debug_info    0x00023c46      0x238 Build/obj/startup.o
- .debug_info    0x00023e7e      0x447 Build/obj/system.o
- .debug_info    0x000242c5      0x139 Build/obj/exceptions.o
- .debug_info    0x000243fe      0x4af Build/obj/CanIf_Cfg.o
- .debug_info    0x000248ad      0x461 Build/obj/CanIf_PBcfg.o
- .debug_info    0x00024d0e      0x646 Build/obj/Can_43_FLEXCAN_Ipw_PBcfg.o
- .debug_info    0x00025354      0xd0a Build/obj/Can_43_FLEXCAN_PBcfg.o
- .debug_info    0x0002605e      0xba7 Build/obj/Clock_Ip_PBcfg.o
- .debug_info    0x00026c05      0x626 Build/obj/FlexCAN_Ip_PBcfg.o
- .debug_info    0x0002722b      0x41e Build/obj/IntCtrl_Ip_Cfg.o
- .debug_info    0x00027649      0x25f Build/obj/Lpspi_Ip_PBcfg.o
- .debug_info    0x000278a8      0xe6e Build/obj/Mcu_PBcfg.o
- .debug_info    0x00028716      0x13e Build/obj/OsIf_Cfg.o
- .debug_info    0x00028854      0x55f Build/obj/Platform_Cfg.o
- .debug_info    0x00028db3      0x507 Build/obj/Platform_Ipw_Cfg.o
- .debug_info    0x000292ba      0x100 Build/obj/Port_Cfg.o
- .debug_info    0x000293ba      0x421 Build/obj/Port_Ci_Port_Ip_PBcfg.o
- .debug_info    0x000297db      0x72b Build/obj/Port_PBcfg.o
- .debug_info    0x00029f06      0x2dc Build/obj/Power_Ip_PBcfg.o
- .debug_info    0x0002a1e2      0x41d Build/obj/Spi_Ipw_PBcfg.o
- .debug_info    0x0002a5ff      0xa07 Build/obj/Spi_PBcfg.o
- .debug_info    0x0002b006     0x1597 Build/obj/SEGGER_RTT.o
- .debug_info    0x0002c59d      0x41c Build/obj/SEGGER_RTT_printf.o
- .debug_info    0x0002c9b9     0x27c9 Build/obj/mcu_init.o
- .debug_info    0x0002f182       0x26 c:/nxp/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_info    0x0002f1a8      0x521 c:/nxp/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
- .debug_info    0x0002f6c9       0x26 c:/nxp/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0002391e      0x338 Build/obj/CanIf_Cdd.o
+ .debug_info    0x00023c56      0x238 Build/obj/startup.o
+ .debug_info    0x00023e8e      0x447 Build/obj/system.o
+ .debug_info    0x000242d5      0x139 Build/obj/exceptions.o
+ .debug_info    0x0002440e      0x4af Build/obj/CanIf_Cfg.o
+ .debug_info    0x000248bd      0x461 Build/obj/CanIf_PBcfg.o
+ .debug_info    0x00024d1e      0x646 Build/obj/Can_43_FLEXCAN_Ipw_PBcfg.o
+ .debug_info    0x00025364      0xd0a Build/obj/Can_43_FLEXCAN_PBcfg.o
+ .debug_info    0x0002606e      0xba7 Build/obj/Clock_Ip_PBcfg.o
+ .debug_info    0x00026c15      0x626 Build/obj/FlexCAN_Ip_PBcfg.o
+ .debug_info    0x0002723b      0x41e Build/obj/IntCtrl_Ip_Cfg.o
+ .debug_info    0x00027659      0x25f Build/obj/Lpspi_Ip_PBcfg.o
+ .debug_info    0x000278b8      0xe6e Build/obj/Mcu_PBcfg.o
+ .debug_info    0x00028726      0x13e Build/obj/OsIf_Cfg.o
+ .debug_info    0x00028864      0x55f Build/obj/Platform_Cfg.o
+ .debug_info    0x00028dc3      0x507 Build/obj/Platform_Ipw_Cfg.o
+ .debug_info    0x000292ca      0x100 Build/obj/Port_Cfg.o
+ .debug_info    0x000293ca      0x421 Build/obj/Port_Ci_Port_Ip_PBcfg.o
+ .debug_info    0x000297eb      0x72b Build/obj/Port_PBcfg.o
+ .debug_info    0x00029f16      0x2dc Build/obj/Power_Ip_PBcfg.o
+ .debug_info    0x0002a1f2      0x41d Build/obj/Spi_Ipw_PBcfg.o
+ .debug_info    0x0002a60f      0xa07 Build/obj/Spi_PBcfg.o
+ .debug_info    0x0002b016     0x1597 Build/obj/SEGGER_RTT.o
+ .debug_info    0x0002c5ad      0x41c Build/obj/SEGGER_RTT_printf.o
+ .debug_info    0x0002c9c9     0x27c9 Build/obj/mcu_init.o
+ .debug_info    0x0002f192       0x26 c:/nxp/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x0002f1b8      0x521 c:/nxp/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_info    0x0002f6d9       0x26 c:/nxp/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
 
 .debug_abbrev   0x00000000     0x67aa
  .debug_abbrev  0x00000000      0x138 Build/obj/main.o

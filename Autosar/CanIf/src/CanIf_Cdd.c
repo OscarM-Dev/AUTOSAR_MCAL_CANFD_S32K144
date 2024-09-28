@@ -42,7 +42,7 @@ void CDD_UserTxConfirmation_Can_0( PduIdType TxPduId, Std_ReturnType result ) {
 void CDD_UserRxIndication_Can_0( PduIdType RxPduId, const PduInfoType* PduInfoPtr ) {
     //local data.
     static uint8 counters_RXPDU[4];
-    uint8 Data[8];  //Data payload received.
+    uint8 Data[12];  //Data payload received.
 
     //Obtaining data received.
     for ( uint8 i = 0; i < PduInfoPtr->SduLength; i++ ) {

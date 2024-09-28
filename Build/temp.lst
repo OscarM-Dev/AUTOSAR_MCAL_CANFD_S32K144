@@ -1058,7 +1058,7 @@ void CDD_UserRxIndication_Can_0( PduIdType RxPduId, const PduInfoType* PduInfoPt
      a42:	f8ad 3006 	strh.w	r3, [sp, #6]
     //local data.
     static uint8 counters_RXPDU[4];
-    uint8 Data[8];  //Data payload received.
+    uint8 Data[12];  //Data payload received.
 
     //Obtaining data received.
     for ( uint8 i = 0; i < PduInfoPtr->SduLength; i++ ) {
@@ -1074,7 +1074,7 @@ void CDD_UserRxIndication_Can_0( PduIdType RxPduId, const PduInfoType* PduInfoPt
      a5c:	7812      	ldrb	r2, [r2, #0]
      a5e:	a906      	add	r1, sp, #24
      a60:	440b      	add	r3, r1
-     a62:	f803 2c0c 	strb.w	r2, [r3, #-12]
+     a62:	f803 2c10 	strb.w	r2, [r3, #-16]
     for ( uint8 i = 0; i < PduInfoPtr->SduLength; i++ ) {
      a66:	f89d 3017 	ldrb.w	r3, [sp, #23]
      a6a:	3301      	adds	r3, #1
