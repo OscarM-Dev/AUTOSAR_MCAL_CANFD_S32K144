@@ -52,7 +52,7 @@
                 </d:ctr>
               </d:lst>
               <d:ctr name="CanIfInitCfg" type="IDENTIFIABLE">
-                <d:var name="CanIfMaxRxPduCfg" type="INTEGER" value="2">
+                <d:var name="CanIfMaxRxPduCfg" type="INTEGER" value="5">
                   <a:a name="ENABLE" value="true"/>
                 </d:var>
                 <d:var name="CanIfMaxTxPduCfg" type="INTEGER" value="5">
@@ -192,13 +192,8 @@
                     <d:ref name="CanIfRxPduHrhIdRef" type="REFERENCE" 
                            value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan0Hohs/Hrh0"/>
                   </d:ctr>
-                  <d:ctr name="CanIfRxPDU_1" type="IDENTIFIABLE">
-                    <d:var name="CanIfRxPduId" type="INTEGER" value="1">
-                      <a:a name="IMPORTER_INFO">
-                        <a:v>@DEF</a:v>
-                        <a:v>@CALC</a:v>
-                      </a:a>
-                    </d:var>
+                  <d:ctr name="CanIfRxPDU_4" type="IDENTIFIABLE">
+                    <d:var name="CanIfRxPduId" type="INTEGER" value="4"/>
                     <d:var name="CanIfRxPduDataLengthCheck" type="BOOLEAN" 
                            value="true">
                       <a:a name="ENABLE" value="true"/>
@@ -217,6 +212,69 @@
                     </d:var>
                     <d:ref name="CanIfRxPduHrhIdRef" type="REFERENCE" 
                            value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan2Hohs/Hrh0"/>
+                  </d:ctr>
+                  <d:ctr name="CanIfRxPDU_1" type="IDENTIFIABLE">
+                    <d:var name="CanIfRxPduId" type="INTEGER" value="1"/>
+                    <d:var name="CanIfRxPduDataLengthCheck" type="BOOLEAN" 
+                           value="true">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduDataLength" type="INTEGER" value="8">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduUserRxIndicationName" 
+                           type="FUNCTION-NAME" 
+                           value="CDD_UserRxIndication_Can_0">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduUserRxIndicationUL" 
+                           type="ENUMERATION" value="CDD">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:ref name="CanIfRxPduHrhIdRef" type="REFERENCE" 
+                           value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan0Hohs/Hrh1"/>
+                  </d:ctr>
+                  <d:ctr name="CanIfRxPDU_2" type="IDENTIFIABLE">
+                    <d:var name="CanIfRxPduId" type="INTEGER" value="2"/>
+                    <d:var name="CanIfRxPduDataLengthCheck" type="BOOLEAN" 
+                           value="true">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduDataLength" type="INTEGER" value="12">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduUserRxIndicationName" 
+                           type="FUNCTION-NAME" 
+                           value="CDD_UserRxIndication_Can_0">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduUserRxIndicationUL" 
+                           type="ENUMERATION" value="CDD">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:ref name="CanIfRxPduHrhIdRef" type="REFERENCE" 
+                           value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan0Hohs/Hrh2"/>
+                  </d:ctr>
+                  <d:ctr name="CanIfRxPDU_3" type="IDENTIFIABLE">
+                    <d:var name="CanIfRxPduId" type="INTEGER" value="3"/>
+                    <d:var name="CanIfRxPduDataLengthCheck" type="BOOLEAN" 
+                           value="true">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduDataLength" type="INTEGER" value="9">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduUserRxIndicationName" 
+                           type="FUNCTION-NAME" 
+                           value="CDD_UserRxIndication_Can_0">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:var name="CanIfRxPduUserRxIndicationUL" 
+                           type="ENUMERATION" value="CDD">
+                      <a:a name="ENABLE" value="true"/>
+                    </d:var>
+                    <d:ref name="CanIfRxPduHrhIdRef" type="REFERENCE" 
+                           value="ASPath:/CanIf/CanIf/CanIfInitCfg/CanIfFlexCan0Hohs/Hrh3"/>
                   </d:ctr>
                 </d:lst>
                 <d:lst name="CanIfBufferCfg" type="MAP">
@@ -263,6 +321,24 @@
                                value="ASPath:/CanIf/CanIf/CanIfDriver0/CanIfFlexCan0"/>
                         <d:ref name="CanIfHrhIdSymRef" type="REFERENCE" 
                                value="ASPath:/Can_43_FLEXCAN/Can/CanConfigSet/Mb0RxFlexCan0"/>
+                      </d:ctr>
+                      <d:ctr name="Hrh1" type="IDENTIFIABLE">
+                        <d:ref name="CanIfHrhCanCtrlIdRef" type="REFERENCE" 
+                               value="ASPath:/CanIf/CanIf/CanIfDriver0/CanIfFlexCan0"/>
+                        <d:ref name="CanIfHrhIdSymRef" type="REFERENCE" 
+                               value="ASPath:/Can_43_FLEXCAN/Can/CanConfigSet/Mb1RxFlexCan0"/>
+                      </d:ctr>
+                      <d:ctr name="Hrh2" type="IDENTIFIABLE">
+                        <d:ref name="CanIfHrhCanCtrlIdRef" type="REFERENCE" 
+                               value="ASPath:/CanIf/CanIf/CanIfDriver0/CanIfFlexCan0"/>
+                        <d:ref name="CanIfHrhIdSymRef" type="REFERENCE" 
+                               value="ASPath:/Can_43_FLEXCAN/Can/CanConfigSet/Mb2RxFlexCan0"/>
+                      </d:ctr>
+                      <d:ctr name="Hrh3" type="IDENTIFIABLE">
+                        <d:ref name="CanIfHrhCanCtrlIdRef" type="REFERENCE" 
+                               value="ASPath:/CanIf/CanIf/CanIfDriver0/CanIfFlexCan0"/>
+                        <d:ref name="CanIfHrhIdSymRef" type="REFERENCE" 
+                               value="ASPath:/Can_43_FLEXCAN/Can/CanConfigSet/Mb3RxFlexCan0"/>
                       </d:ctr>
                     </d:lst>
                   </d:ctr>

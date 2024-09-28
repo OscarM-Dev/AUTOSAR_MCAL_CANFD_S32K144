@@ -109,6 +109,12 @@ extern "C"{
 #define CanIfRxPDU_0    ((PduIdType)0U)
 /*Symbolic name for CanIfRxPDU_1 */
 #define CanIfRxPDU_1    ((PduIdType)1U)
+/*Symbolic name for CanIfRxPDU_2 */
+#define CanIfRxPDU_2    ((PduIdType)2U)
+/*Symbolic name for CanIfRxPDU_3 */
+#define CanIfRxPDU_3    ((PduIdType)3U)
+/*Symbolic name for CanIfRxPDU_4 */
+#define CanIfRxPDU_4    ((PduIdType)4U)
 
 #define CANIF_CONFIG_EXT \
     CANIF_CONFIG_PB

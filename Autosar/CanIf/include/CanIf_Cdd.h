@@ -12,9 +12,9 @@
 #include "CanIf.h"
 
 //Global data.
-extern boolean CanIf_Can0_bTxFlag;   ///< Flag for transmision of PDU of FlexCan0 controller.
+extern boolean CanIf_Can0_bTxFlag;   ///< Flag for transmission of PDU of FlexCan0 controller.
 extern boolean CanIf_Can0_bRxFlag;   ///< Flag for reception of PDU of FlexCan0 controller.
-extern boolean CanIf_Can2_bTxFlag;   ///< Flag for transmision of PDU of FlexCan2 controller.
+extern boolean CanIf_Can2_bTxFlag;   ///< Flag for transmission of PDU of FlexCan2 controller.
 extern boolean CanIf_Can2_bRxFlag;   ///< Flag for reception of PDU of FlexCan2 controller.
 
 //Functions.

@@ -92,7 +92,7 @@ static const CanIf_TxPduType CanIf_TxPdu[5U] =
         /* .CanFrameType */
         CANIF_STANDARD_FD_CAN,
         /* .Can_HwHandleType */
-        (Can_HwHandleType)2U,
+        (Can_HwHandleType)5U,
         /* .CanIfCtrlId */
         (uint8)1U,
         /* .UserTxConfirmation */
@@ -106,7 +106,7 @@ static const CanIf_TxPduType CanIf_TxPdu[5U] =
         /* .CanFrameType */
         CANIF_STANDARD_FD_CAN,
         /* .Can_HwHandleType */
-        (Can_HwHandleType)2U,
+        (Can_HwHandleType)5U,
         /* .CanIfCtrlId */
         (uint8)1U,
         /* .UserTxConfirmation */
@@ -120,7 +120,7 @@ static const CanIf_TxPduType CanIf_TxPdu[5U] =
         /* .CanFrameType */
         CANIF_STANDARD_FD_CAN,
         /* .Can_HwHandleType */
-        (Can_HwHandleType)2U,
+        (Can_HwHandleType)5U,
         /* .CanIfCtrlId */
         (uint8)1U,
         /* .UserTxConfirmation */
@@ -134,7 +134,7 @@ static const CanIf_TxPduType CanIf_TxPdu[5U] =
         /* .CanFrameType */
         CANIF_STANDARD_FD_CAN,
         /* .Can_HwHandleType */
-        (Can_HwHandleType)2U,
+        (Can_HwHandleType)5U,
         /* .CanIfCtrlId */
         (uint8)1U,
         /* .UserTxConfirmation */
@@ -148,7 +148,7 @@ static const CanIf_TxPduType CanIf_TxPdu[5U] =
         /* .CanFrameType */
         CANIF_STANDARD_CAN,
         /* .Can_HwHandleType */
-        (Can_HwHandleType)3U,
+        (Can_HwHandleType)6U,
         /* .CanIfCtrlId */
         (uint8)0U,
         /* .UserTxConfirmation */
@@ -157,7 +157,7 @@ static const CanIf_TxPduType CanIf_TxPdu[5U] =
 };
 
 /* Here is the RxPdu configuration */
-static const CanIf_RxPduType CanIf_RxPdu[2U] =
+static const CanIf_RxPduType CanIf_RxPdu[5U] =
 {
     {
         /* .PduId */
@@ -177,6 +177,42 @@ static const CanIf_RxPduType CanIf_RxPdu[2U] =
         /* .PduLengthCheck */
         (boolean)TRUE,
         /* .PduLength */
+        (uint16)8U,
+        /* .CanIfCtrlId */
+        (uint8)1U,
+        /* .UserRxIndication */
+        CDD_UserRxIndication_Can_0
+    },
+    {
+        /* .PduId */
+        (uint8)2U,
+        /* .PduLengthCheck */
+        (boolean)TRUE,
+        /* .PduLength */
+        (uint16)12U,
+        /* .CanIfCtrlId */
+        (uint8)1U,
+        /* .UserRxIndication */
+        CDD_UserRxIndication_Can_0
+    },
+    {
+        /* .PduId */
+        (uint8)3U,
+        /* .PduLengthCheck */
+        (boolean)TRUE,
+        /* .PduLength */
+        (uint16)9U,
+        /* .CanIfCtrlId */
+        (uint8)1U,
+        /* .UserRxIndication */
+        CDD_UserRxIndication_Can_0
+    },
+    {
+        /* .PduId */
+        (uint8)4U,
+        /* .PduLengthCheck */
+        (boolean)TRUE,
+        /* .PduLength */
         (uint16)3U,
         /* .CanIfCtrlId */
         (uint8)0U,
@@ -187,10 +223,13 @@ static const CanIf_RxPduType CanIf_RxPdu[2U] =
 
 
 /* Here is the configuration related to Can_43_FLEXCAN Driver */
-static const CanIf_RxPduType * const CanIf_Can_43_FLEXCAN_HohToRxPduMapping[4U] = 
+static const CanIf_RxPduType * const CanIf_Can_43_FLEXCAN_HohToRxPduMapping[7U] = 
 {
     &CanIf_RxPdu[0U],
     &CanIf_RxPdu[1U],
+    &CanIf_RxPdu[2U],
+    &CanIf_RxPdu[3U],
+    &CanIf_RxPdu[4U],
     NULL_PTR,
     NULL_PTR
 };
@@ -210,7 +249,7 @@ static const CanIf_CanDrvConfigType * const CanIf_CanDrvConfig[1U] =
 const CanIf_ConfigType CanIf_Config =
 {
     /* .NumRxPdu */
-    (uint8)2U,
+    (uint8)5U,
     /* .NumTxPdu */
     (uint8)5U,
     CanIf_CanDrvConfig,

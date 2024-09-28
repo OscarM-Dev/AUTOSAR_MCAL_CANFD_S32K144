@@ -200,7 +200,7 @@ Can_43_FLEXCAN_Ipw_Write (const struct Can_43_FLEXCAN_ControllerConfigType * Can
   struct Flexcan_Ip_DataInfoType DataInfo;
   Flexcan_Ip_StatusType eRetVal;
   Std_ReturnType iftmp.9;
-  Std_ReturnType D.7078;
+  Std_ReturnType D.7082;
   <unnamed type> _1;
   long unsigned int _2;
   unsigned int _3;
@@ -390,7 +390,7 @@ Can_43_FLEXCAN_Ipw_Write (const struct Can_43_FLEXCAN_ControllerConfigType * Can
 
 Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter (const struct Can_43_FLEXCAN_ControllerConfigType * Can_pControllerConfig, uint8 * pValue)
 {
-  Std_ReturnType D.7064;
+  Std_ReturnType D.7068;
   unsigned char _1;
   unsigned char _2;
   Std_ReturnType _8;
@@ -410,7 +410,7 @@ Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter (const struct Can_43_FLEXCAN_Cont
 
 Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter (const struct Can_43_FLEXCAN_ControllerConfigType * Can_pControllerConfig, uint8 * pValue)
 {
-  Std_ReturnType D.7062;
+  Std_ReturnType D.7066;
   unsigned char _1;
   unsigned char _2;
   Std_ReturnType _8;
@@ -431,7 +431,7 @@ Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter (const struct Can_43_FLEXCAN_Cont
 Can_43_FLEXCAN_Ipw_GetControllerErrorState (const struct Can_43_FLEXCAN_ControllerConfigType * Can_pControllerConfig, uint8 * pValue)
 {
   uint32 Error;
-  Std_ReturnType D.7060;
+  Std_ReturnType D.7064;
   unsigned char _1;
   long unsigned int _2;
   unsigned char _3;
@@ -553,7 +553,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode (const struct Can_43_FLEXCAN_Controll
   const struct Can_43_FLEXCAN_HwObjectConfigType * Can_pHwObject;
   uint8 u8HwObjRefIdx;
   Std_ReturnType eReturnValue;
-  Std_ReturnType D.7050;
+  Std_ReturnType D.7054;
   unsigned char _1;
   <unnamed type> _2;
   unsigned char _3;
@@ -689,7 +689,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode (const struct Can_43_FLEXCAN_Control
   Flexcan_Ip_StatusType eRetVal;
   const struct Can_43_FLEXCAN_HwObjectConfigType * Can_pHwObject;
   uint8 u8HwObjRefIdx;
-  Std_ReturnType D.7038;
+  Std_ReturnType D.7042;
   unsigned char _1;
   unsigned char _2;
   int _3;
@@ -802,7 +802,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode (const struct Can_43_FLEXCAN_Control
 Can_43_FLEXCAN_Ipw_SetControlerErrorInit (const struct Can_43_FLEXCAN_ControllerConfigType * Can_pControllerConfig)
 {
   Flexcan_Ip_StatusType eRetVal;
-  Std_ReturnType D.7032;
+  Std_ReturnType D.7036;
   unsigned char _1;
   int _2;
   _Bool _3;
@@ -870,7 +870,7 @@ Can_43_FLEXCAN_Ipw_Init (const struct Can_43_FLEXCAN_ControllerConfigType * Can_
   uint8 u8ObjIdx;
   uint8 u8HwObjRefIdx;
   Std_ReturnType eRetVal;
-  Std_ReturnType D.7026;
+  Std_ReturnType D.7030;
   unsigned char _1;
   unsigned char _2;
   int _3;

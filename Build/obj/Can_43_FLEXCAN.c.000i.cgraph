@@ -3,7 +3,7 @@ Trivially needed symbols: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 Can_43_FLEXCA
 
 Initial Symbol table:
 
-CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
+CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06ecbb60
   Type: function
   Visibility: external public
   References: 
@@ -11,7 +11,7 @@ CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 
   Calls: 
-Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6b9a0
+Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06ecb9a0
   Type: function
   Visibility: external public
   References: 
@@ -19,7 +19,7 @@ Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 
   Calls: 
-Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06e6b7e0
+Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06ecb7e0
   Type: function
   Visibility: external public
   References: 
@@ -27,7 +27,7 @@ Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @
   Function flags:
   Called by: Can_43_FLEXCAN_MainFunction_Mode/19 
   Calls: 
-Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
+Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06ecb380
   Type: function
   Visibility: external public
   References: 
@@ -35,7 +35,7 @@ Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
   Function flags:
   Called by: Can_43_FLEXCAN_Write/15 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06e6b1c0
+Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06ecb1c0
   Type: function
   Visibility: external public
   References: 
@@ -43,7 +43,7 @@ Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerTxErrorCounter/14 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06e6b000
+Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06ecb000
   Type: function
   Visibility: external public
   References: 
@@ -51,7 +51,7 @@ Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerRxErrorCounter/13 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06e63e00
+Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06ec3e00
   Type: function
   Visibility: external public
   References: 
@@ -59,7 +59,7 @@ Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerE
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerErrorState/11 
   Calls: 
-Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06e63c40
+Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06ec3c40
   Type: function
   Visibility: external public
   References: 
@@ -67,7 +67,7 @@ Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableContr
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e63a80
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec3a80
   Type: function
   Visibility: external public
   References: 
@@ -75,7 +75,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e639a0
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec39a0
   Type: function
   Visibility: external public
   References: 
@@ -83,7 +83,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06e637e0
+Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06ec37e0
   Type: function
   Visibility: external public
   References: 
@@ -91,7 +91,7 @@ Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableCon
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63700
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3700
   Type: function
   Visibility: external public
   References: 
@@ -99,7 +99,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63620
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3620
   Type: function
   Visibility: external public
   References: 
@@ -107,7 +107,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06e63380
+Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06ec3380
   Type: function
   Visibility: external public
   References: 
@@ -115,7 +115,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerT
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
+CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06ec32a0
   Type: function
   Visibility: external public
   References: 
@@ -123,7 +123,7 @@ CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06e631c0
+Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06ec31c0
   Type: function
   Visibility: external public
   References: 
@@ -131,7 +131,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetController
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
+Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e940e0
   Type: function
   Visibility: external public
   References: 
@@ -139,7 +139,7 @@ Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
   Function flags:
   Called by: Can_DeInitControllers/5 
   Calls: 
-Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
+Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e94d20
   Type: function
   Visibility: external public
   References: 
@@ -147,7 +147,7 @@ Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
   Function flags:
   Called by: Can_InitControllers/4 
   Calls: 
-Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e327e0
+Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e947e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -156,188 +156,188 @@ Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt)
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerBusOff/39 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 
-Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e32540
+Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e94540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06e327e0
+  Aux: @06e947e0
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_ProcessHwObject/38 
-Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
+Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e942a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06e32540
+  Aux: @06e94540
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (addr) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 
-Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e32000
+Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e94000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06e322a0
+  Aux: @06e942a0
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
+Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06e2ab60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06e32000
+  Aux: @06e94000
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc9620
+Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06e2a620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc9b60
+  Aux: @06e2ab60
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
+Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06e2a0e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc9620
+  Aux: @06e2a620
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_Write/36 
-Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06dc9d20
+Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06e2ad20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc90e0
+  Aux: @06e2a0e0
   References: Can_apxConfig/2 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 
-Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06dc9a80
+Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06e2aa80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc9d20
+  Aux: @06e2ad20
   References: Can_apxConfig/2 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 
-Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
+Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06e2a7e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc9a80
+  Aux: @06e2aa80
   References: Can_eControllerState/1 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06dc9540
+Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06e2a540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc97e0
+  Aux: @06e2a7e0
   References: Can_apxConfig/2 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 
-Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06dc92a0
+Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06e2a2a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc9540
+  Aux: @06e2a540
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) Can_au8DisableInterruptLevel/0 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 
-Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06dc9000
+Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06e2a000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc92a0
+  Aux: @06e2a2a0
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 
-Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
+Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06e0bc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06dc9000
+  Aux: @06e2a000
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 
-Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
+Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06e0b700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06daac40
+  Aux: @06e0bc40
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_apxConfig/2 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_DeInitControllers/5 
-Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
+Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06e0be00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06daa700
+  Aux: @06e0b700
   References: Can_apxConfig/2 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: Can_InitControllers/4 Can_IsControllersBusy/3 
-Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
+Can_DeInitControllers/5 (Can_DeInitControllers) @06e0bb60
   Type: function definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06daae00
+  Aux: @06e0be00
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
   Referring: 
   Function flags: body
   Called by: Can_43_FLEXCAN_DeInit/7 
   Calls: Can_43_FLEXCAN_Ipw_DeInit/23 
-Can_InitControllers/4 (Can_InitControllers) @06daa8c0
+Can_InitControllers/4 (Can_InitControllers) @06e0b8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06daab60
+  Aux: @06e0bb60
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (write) Can_eControllerState/1 (write) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
   Referring: 
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: Can_43_FLEXCAN_Ipw_Init/22 
-Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
+Can_IsControllersBusy/3 (Can_IsControllersBusy) @06e0b620
   Type: function definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06daa8c0
+  Aux: @06e0b8c0
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
   Referring: 
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: 
-Can_apxConfig/2 (Can_apxConfig) @06da91f8
+Can_apxConfig/2 (Can_apxConfig) @06e0a2d0
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06daa620
+  Aux: @06e0b620
   References: 
   Referring: Can_IsControllersBusy/3 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_DeInitControllers/5 (read) Can_DeInitControllers/5 (read) Can_43_FLEXCAN_Init/6 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_DeInit/7 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_DisableControllerInterrupts/9 (read) Can_43_FLEXCAN_EnableControllerInterrupts/10 (read) Can_43_FLEXCAN_GetControllerErrorState/11 (read) Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (read) Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) 
   Availability: not-ready
   Varpool flags:
-Can_eControllerState/1 (Can_eControllerState) @06da9120
+Can_eControllerState/1 (Can_eControllerState) @06e0a1f8
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06da91f8
+  Aux: @06e0a2d0
   References: 
   Referring: Can_IsControllersBusy/3 (read) Can_InitControllers/4 (write) Can_InitControllers/4 (write) Can_DeInitControllers/5 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_GetControllerMode/12 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (addr) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (write) 
   Availability: not-ready
   Varpool flags:
-Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06da9048
+Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06e0a120
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06da9120
+  Aux: @06e0a1f8
   References: 
   Referring: Can_InitControllers/4 (write) Can_43_FLEXCAN_DisableControllerInterrupts/9 (read) Can_43_FLEXCAN_DisableControllerInterrupts/9 (write) Can_43_FLEXCAN_EnableControllerInterrupts/10 (read) Can_43_FLEXCAN_EnableControllerInterrupts/10 (read) Can_43_FLEXCAN_EnableControllerInterrupts/10 (write) Can_43_FLEXCAN_EnableControllerInterrupts/10 (read) 
   Availability: not-ready
@@ -347,7 +347,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
+CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06ecbb60
   Type: function
   Visibility: external public
   References: 
@@ -355,7 +355,7 @@ CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 
   Calls: 
-Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6b9a0
+Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06ecb9a0
   Type: function
   Visibility: external public
   References: 
@@ -363,7 +363,7 @@ Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 
   Calls: 
-Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06e6b7e0
+Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06ecb7e0
   Type: function
   Visibility: external public
   References: 
@@ -371,7 +371,7 @@ Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @
   Function flags:
   Called by: Can_43_FLEXCAN_MainFunction_Mode/19 
   Calls: 
-Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
+Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06ecb380
   Type: function
   Visibility: external public
   References: 
@@ -379,7 +379,7 @@ Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
   Function flags:
   Called by: Can_43_FLEXCAN_Write/15 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06e6b1c0
+Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06ecb1c0
   Type: function
   Visibility: external public
   References: 
@@ -387,7 +387,7 @@ Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerTxErrorCounter/14 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06e6b000
+Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06ecb000
   Type: function
   Visibility: external public
   References: 
@@ -395,7 +395,7 @@ Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerRxErrorCounter/13 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06e63e00
+Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06ec3e00
   Type: function
   Visibility: external public
   References: 
@@ -403,7 +403,7 @@ Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerE
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerErrorState/11 
   Calls: 
-Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06e63c40
+Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06ec3c40
   Type: function
   Visibility: external public
   References: 
@@ -411,7 +411,7 @@ Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableContr
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e63a80
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec3a80
   Type: function
   Visibility: external public
   References: 
@@ -419,7 +419,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e639a0
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec39a0
   Type: function
   Visibility: external public
   References: 
@@ -427,7 +427,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06e637e0
+Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06ec37e0
   Type: function
   Visibility: external public
   References: 
@@ -435,7 +435,7 @@ Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableCon
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63700
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3700
   Type: function
   Visibility: external public
   References: 
@@ -443,7 +443,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63620
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3620
   Type: function
   Visibility: external public
   References: 
@@ -451,7 +451,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06e63380
+Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06ec3380
   Type: function
   Visibility: external public
   References: 
@@ -459,7 +459,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerT
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
+CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06ec32a0
   Type: function
   Visibility: external public
   References: 
@@ -467,7 +467,7 @@ CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06e631c0
+Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06ec31c0
   Type: function
   Visibility: external public
   References: 
@@ -475,7 +475,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetController
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
+Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e940e0
   Type: function
   Visibility: external public
   References: 
@@ -483,7 +483,7 @@ Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
   Function flags:
   Called by: Can_DeInitControllers/5 
   Calls: 
-Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
+Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e94d20
   Type: function
   Visibility: external public
   References: 
@@ -491,7 +491,7 @@ Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
   Function flags:
   Called by: Can_InitControllers/4 
   Calls: 
-Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e327e0
+Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e947e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -499,7 +499,7 @@ Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt)
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerBusOff/39 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 
-Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e32540
+Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e94540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) 
@@ -507,7 +507,7 @@ Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBu
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_ProcessHwObject/38 
-Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
+Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e942a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (addr) 
@@ -515,7 +515,7 @@ Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 
-Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e32000
+Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e94000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -523,7 +523,7 @@ Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e3
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
+Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06e2ab60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -531,7 +531,7 @@ Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc9620
+Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06e2a620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -539,7 +539,7 @@ Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc96
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
+Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06e2a0e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
@@ -547,7 +547,7 @@ Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_Write/36 
-Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06dc9d20
+Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06e2ad20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -555,7 +555,7 @@ Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErr
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 
-Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06dc9a80
+Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06e2aa80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -563,7 +563,7 @@ Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErr
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 
-Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
+Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06e2a7e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_eControllerState/1 (read) 
@@ -571,7 +571,7 @@ Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06dc9540
+Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06e2a540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -579,7 +579,7 @@ Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorStat
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 
-Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06dc92a0
+Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06e2a2a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) Can_au8DisableInterruptLevel/0 (read) 
@@ -587,7 +587,7 @@ Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInt
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 
-Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06dc9000
+Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06e2a000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) 
@@ -595,7 +595,7 @@ Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerIn
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 
-Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
+Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06e0bc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) 
@@ -603,7 +603,7 @@ Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 
-Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
+Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06e0b700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_apxConfig/2 (write) 
@@ -611,7 +611,7 @@ Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
   Function flags: body
   Called by: 
   Calls: Can_DeInitControllers/5 
-Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
+Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06e0be00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (write) 
@@ -619,7 +619,7 @@ Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
   Function flags: body
   Called by: 
   Calls: Can_InitControllers/4 Can_IsControllersBusy/3 
-Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
+Can_DeInitControllers/5 (Can_DeInitControllers) @06e0bb60
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -627,7 +627,7 @@ Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
   Function flags: body
   Called by: Can_43_FLEXCAN_DeInit/7 
   Calls: Can_43_FLEXCAN_Ipw_DeInit/23 
-Can_InitControllers/4 (Can_InitControllers) @06daa8c0
+Can_InitControllers/4 (Can_InitControllers) @06e0b8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (write) Can_eControllerState/1 (write) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -635,7 +635,7 @@ Can_InitControllers/4 (Can_InitControllers) @06daa8c0
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: Can_43_FLEXCAN_Ipw_Init/22 
-Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
+Can_IsControllersBusy/3 (Can_IsControllersBusy) @06e0b620
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
@@ -643,21 +643,21 @@ Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: 
-Can_apxConfig/2 (Can_apxConfig) @06da91f8
+Can_apxConfig/2 (Can_apxConfig) @06e0a2d0
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: Can_IsControllersBusy/3 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_DeInitControllers/5 (read) Can_DeInitControllers/5 (read) Can_43_FLEXCAN_Init/6 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_DeInit/7 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_DisableControllerInterrupts/9 (read) Can_43_FLEXCAN_EnableControllerInterrupts/10 (read) Can_43_FLEXCAN_GetControllerErrorState/11 (read) Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (read) Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) 
   Availability: not-ready
   Varpool flags:
-Can_eControllerState/1 (Can_eControllerState) @06da9120
+Can_eControllerState/1 (Can_eControllerState) @06e0a1f8
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: Can_IsControllersBusy/3 (read) Can_InitControllers/4 (write) Can_InitControllers/4 (write) Can_DeInitControllers/5 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_GetControllerMode/12 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (addr) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (write) 
   Availability: not-ready
   Varpool flags:
-Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06da9048
+Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06e0a120
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -668,7 +668,7 @@ Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06da9048
 
 Initial Symbol table:
 
-CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
+CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06ecbb60
   Type: function
   Visibility: external public
   References: 
@@ -676,7 +676,7 @@ CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 
   Calls: 
-Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6b9a0
+Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06ecb9a0
   Type: function
   Visibility: external public
   References: 
@@ -684,7 +684,7 @@ Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 
   Calls: 
-Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06e6b7e0
+Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06ecb7e0
   Type: function
   Visibility: external public
   References: 
@@ -692,7 +692,7 @@ Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @
   Function flags:
   Called by: Can_43_FLEXCAN_MainFunction_Mode/19 
   Calls: 
-Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
+Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06ecb380
   Type: function
   Visibility: external public
   References: 
@@ -700,7 +700,7 @@ Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
   Function flags:
   Called by: Can_43_FLEXCAN_Write/15 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06e6b1c0
+Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06ecb1c0
   Type: function
   Visibility: external public
   References: 
@@ -708,7 +708,7 @@ Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerTxErrorCounter/14 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06e6b000
+Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06ecb000
   Type: function
   Visibility: external public
   References: 
@@ -716,7 +716,7 @@ Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerRxErrorCounter/13 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06e63e00
+Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06ec3e00
   Type: function
   Visibility: external public
   References: 
@@ -724,7 +724,7 @@ Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerE
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerErrorState/11 
   Calls: 
-Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06e63c40
+Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06ec3c40
   Type: function
   Visibility: external public
   References: 
@@ -732,7 +732,7 @@ Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableContr
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e63a80
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec3a80
   Type: function
   Visibility: external public
   References: 
@@ -740,7 +740,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e639a0
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec39a0
   Type: function
   Visibility: external public
   References: 
@@ -748,7 +748,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06e637e0
+Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06ec37e0
   Type: function
   Visibility: external public
   References: 
@@ -756,7 +756,7 @@ Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableCon
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63700
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3700
   Type: function
   Visibility: external public
   References: 
@@ -764,7 +764,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63620
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3620
   Type: function
   Visibility: external public
   References: 
@@ -772,7 +772,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06e63380
+Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06ec3380
   Type: function
   Visibility: external public
   References: 
@@ -780,7 +780,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerT
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
+CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06ec32a0
   Type: function
   Visibility: external public
   References: 
@@ -788,7 +788,7 @@ CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06e631c0
+Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06ec31c0
   Type: function
   Visibility: external public
   References: 
@@ -796,7 +796,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetController
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
+Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e940e0
   Type: function
   Visibility: external public
   References: 
@@ -804,7 +804,7 @@ Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
   Function flags:
   Called by: Can_DeInitControllers/5 
   Calls: 
-Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
+Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e94d20
   Type: function
   Visibility: external public
   References: 
@@ -812,7 +812,7 @@ Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
   Function flags:
   Called by: Can_InitControllers/4 
   Calls: 
-Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e327e0
+Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e947e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -820,7 +820,7 @@ Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt)
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerBusOff/39 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 
-Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e32540
+Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e94540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) 
@@ -828,7 +828,7 @@ Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBu
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_ProcessHwObject/38 
-Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
+Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e942a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (addr) 
@@ -836,7 +836,7 @@ Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 
-Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e32000
+Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e94000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -844,7 +844,7 @@ Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e3
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
+Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06e2ab60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -852,7 +852,7 @@ Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc9620
+Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06e2a620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -860,7 +860,7 @@ Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc96
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
+Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06e2a0e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
@@ -868,7 +868,7 @@ Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_Write/36 
-Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06dc9d20
+Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06e2ad20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -876,7 +876,7 @@ Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErr
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 
-Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06dc9a80
+Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06e2aa80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -884,7 +884,7 @@ Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErr
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 
-Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
+Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06e2a7e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_eControllerState/1 (read) 
@@ -892,7 +892,7 @@ Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06dc9540
+Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06e2a540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -900,7 +900,7 @@ Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorStat
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 
-Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06dc92a0
+Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06e2a2a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) Can_au8DisableInterruptLevel/0 (read) 
@@ -908,7 +908,7 @@ Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInt
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 
-Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06dc9000
+Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06e2a000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) 
@@ -916,7 +916,7 @@ Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerIn
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 
-Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
+Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06e0bc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) 
@@ -924,7 +924,7 @@ Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 
-Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
+Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06e0b700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_apxConfig/2 (write) 
@@ -932,7 +932,7 @@ Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
   Function flags: body
   Called by: 
   Calls: Can_DeInitControllers/5 
-Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
+Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06e0be00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (write) 
@@ -940,7 +940,7 @@ Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
   Function flags: body
   Called by: 
   Calls: Can_InitControllers/4 Can_IsControllersBusy/3 
-Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
+Can_DeInitControllers/5 (Can_DeInitControllers) @06e0bb60
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -948,7 +948,7 @@ Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
   Function flags: body
   Called by: Can_43_FLEXCAN_DeInit/7 
   Calls: Can_43_FLEXCAN_Ipw_DeInit/23 
-Can_InitControllers/4 (Can_InitControllers) @06daa8c0
+Can_InitControllers/4 (Can_InitControllers) @06e0b8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (write) Can_eControllerState/1 (write) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -956,7 +956,7 @@ Can_InitControllers/4 (Can_InitControllers) @06daa8c0
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: Can_43_FLEXCAN_Ipw_Init/22 
-Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
+Can_IsControllersBusy/3 (Can_IsControllersBusy) @06e0b620
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
@@ -964,21 +964,21 @@ Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: 
-Can_apxConfig/2 (Can_apxConfig) @06da91f8
+Can_apxConfig/2 (Can_apxConfig) @06e0a2d0
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: Can_IsControllersBusy/3 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_DeInitControllers/5 (read) Can_DeInitControllers/5 (read) Can_43_FLEXCAN_Init/6 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_DeInit/7 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_DisableControllerInterrupts/9 (read) Can_43_FLEXCAN_EnableControllerInterrupts/10 (read) Can_43_FLEXCAN_GetControllerErrorState/11 (read) Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (read) Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) 
   Availability: not-ready
   Varpool flags:
-Can_eControllerState/1 (Can_eControllerState) @06da9120
+Can_eControllerState/1 (Can_eControllerState) @06e0a1f8
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: Can_IsControllersBusy/3 (read) Can_InitControllers/4 (write) Can_InitControllers/4 (write) Can_DeInitControllers/5 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_GetControllerMode/12 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (addr) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (write) 
   Availability: not-ready
   Varpool flags:
-Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06da9048
+Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06e0a120
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -990,7 +990,7 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
+CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06ecbb60
   Type: function
   Visibility: external public
   References: 
@@ -998,7 +998,7 @@ CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 
   Calls: 
-Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6b9a0
+Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06ecb9a0
   Type: function
   Visibility: external public
   References: 
@@ -1006,7 +1006,7 @@ Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 
   Calls: 
-Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06e6b7e0
+Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06ecb7e0
   Type: function
   Visibility: external public
   References: 
@@ -1014,7 +1014,7 @@ Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @
   Function flags:
   Called by: Can_43_FLEXCAN_MainFunction_Mode/19 
   Calls: 
-Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
+Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06ecb380
   Type: function
   Visibility: external public
   References: 
@@ -1022,7 +1022,7 @@ Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
   Function flags:
   Called by: Can_43_FLEXCAN_Write/15 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06e6b1c0
+Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06ecb1c0
   Type: function
   Visibility: external public
   References: 
@@ -1030,7 +1030,7 @@ Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerTxErrorCounter/14 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06e6b000
+Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06ecb000
   Type: function
   Visibility: external public
   References: 
@@ -1038,7 +1038,7 @@ Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerRxErrorCounter/13 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06e63e00
+Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06ec3e00
   Type: function
   Visibility: external public
   References: 
@@ -1046,7 +1046,7 @@ Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerE
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerErrorState/11 
   Calls: 
-Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06e63c40
+Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06ec3c40
   Type: function
   Visibility: external public
   References: 
@@ -1054,7 +1054,7 @@ Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableContr
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e63a80
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec3a80
   Type: function
   Visibility: external public
   References: 
@@ -1062,7 +1062,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e639a0
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec39a0
   Type: function
   Visibility: external public
   References: 
@@ -1070,7 +1070,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06e637e0
+Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06ec37e0
   Type: function
   Visibility: external public
   References: 
@@ -1078,7 +1078,7 @@ Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableCon
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63700
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3700
   Type: function
   Visibility: external public
   References: 
@@ -1086,7 +1086,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63620
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3620
   Type: function
   Visibility: external public
   References: 
@@ -1094,7 +1094,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06e63380
+Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06ec3380
   Type: function
   Visibility: external public
   References: 
@@ -1102,7 +1102,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerT
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
+CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06ec32a0
   Type: function
   Visibility: external public
   References: 
@@ -1110,7 +1110,7 @@ CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06e631c0
+Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06ec31c0
   Type: function
   Visibility: external public
   References: 
@@ -1118,7 +1118,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetController
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
+Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e940e0
   Type: function
   Visibility: external public
   References: 
@@ -1126,7 +1126,7 @@ Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
   Function flags:
   Called by: Can_DeInitControllers/5 
   Calls: 
-Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
+Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e94d20
   Type: function
   Visibility: external public
   References: 
@@ -1134,7 +1134,7 @@ Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
   Function flags:
   Called by: Can_InitControllers/4 
   Calls: 
-Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e327e0
+Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e947e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -1142,7 +1142,7 @@ Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt)
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerBusOff/39 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 
-Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e32540
+Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e94540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) 
@@ -1150,7 +1150,7 @@ Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBu
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_ProcessHwObject/38 
-Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
+Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e942a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (addr) 
@@ -1158,7 +1158,7 @@ Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 
-Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e32000
+Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e94000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -1166,7 +1166,7 @@ Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e3
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
+Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06e2ab60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -1174,7 +1174,7 @@ Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc9620
+Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06e2a620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -1182,7 +1182,7 @@ Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc96
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
+Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06e2a0e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
@@ -1190,7 +1190,7 @@ Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_Write/36 
-Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06dc9d20
+Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06e2ad20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -1198,7 +1198,7 @@ Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErr
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 
-Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06dc9a80
+Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06e2aa80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -1206,7 +1206,7 @@ Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErr
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 
-Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
+Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06e2a7e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_eControllerState/1 (read) 
@@ -1214,7 +1214,7 @@ Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06dc9540
+Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06e2a540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -1222,7 +1222,7 @@ Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorStat
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 
-Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06dc92a0
+Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06e2a2a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) Can_au8DisableInterruptLevel/0 (read) 
@@ -1230,7 +1230,7 @@ Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInt
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 
-Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06dc9000
+Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06e2a000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) 
@@ -1238,7 +1238,7 @@ Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerIn
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 
-Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
+Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06e0bc40
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) 
@@ -1246,7 +1246,7 @@ Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 
-Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
+Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06e0b700
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_apxConfig/2 (write) 
@@ -1254,7 +1254,7 @@ Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
   Function flags: body
   Called by: 
   Calls: Can_DeInitControllers/5 
-Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
+Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06e0be00
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: Can_apxConfig/2 (write) 
@@ -1262,7 +1262,7 @@ Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
   Function flags: body
   Called by: 
   Calls: Can_InitControllers/4 Can_IsControllersBusy/3 
-Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
+Can_DeInitControllers/5 (Can_DeInitControllers) @06e0bb60
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -1270,7 +1270,7 @@ Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
   Function flags: body
   Called by: Can_43_FLEXCAN_DeInit/7 
   Calls: Can_43_FLEXCAN_Ipw_DeInit/23 
-Can_InitControllers/4 (Can_InitControllers) @06daa8c0
+Can_InitControllers/4 (Can_InitControllers) @06e0b8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (write) Can_eControllerState/1 (write) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -1278,7 +1278,7 @@ Can_InitControllers/4 (Can_InitControllers) @06daa8c0
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: Can_43_FLEXCAN_Ipw_Init/22 
-Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
+Can_IsControllersBusy/3 (Can_IsControllersBusy) @06e0b620
   Type: function definition analyzed
   Visibility: force_output no_reorder
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
@@ -1286,21 +1286,21 @@ Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: 
-Can_apxConfig/2 (Can_apxConfig) @06da91f8
+Can_apxConfig/2 (Can_apxConfig) @06e0a2d0
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: Can_IsControllersBusy/3 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_DeInitControllers/5 (read) Can_DeInitControllers/5 (read) Can_43_FLEXCAN_Init/6 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_DeInit/7 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_DisableControllerInterrupts/9 (read) Can_43_FLEXCAN_EnableControllerInterrupts/10 (read) Can_43_FLEXCAN_GetControllerErrorState/11 (read) Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (read) Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) 
   Availability: not-ready
   Varpool flags:
-Can_eControllerState/1 (Can_eControllerState) @06da9120
+Can_eControllerState/1 (Can_eControllerState) @06e0a1f8
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
   Referring: Can_IsControllersBusy/3 (read) Can_InitControllers/4 (write) Can_InitControllers/4 (write) Can_DeInitControllers/5 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_GetControllerMode/12 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (addr) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (write) 
   Availability: not-ready
   Varpool flags:
-Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06da9048
+Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06e0a120
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -1313,7 +1313,7 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
+CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06ecbb60
   Type: function
   Visibility: external public
   References: 
@@ -1322,7 +1322,7 @@ CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 
   Calls: 
-Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6b9a0
+Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06ecb9a0
   Type: function
   Visibility: external public
   References: 
@@ -1331,7 +1331,7 @@ Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 
   Calls: 
-Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06e6b7e0
+Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06ecb7e0
   Type: function
   Visibility: external public
   References: 
@@ -1340,7 +1340,7 @@ Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @
   Function flags:
   Called by: Can_43_FLEXCAN_MainFunction_Mode/19 
   Calls: 
-Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
+Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06ecb380
   Type: function
   Visibility: external public
   References: 
@@ -1349,7 +1349,7 @@ Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
   Function flags:
   Called by: Can_43_FLEXCAN_Write/15 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06e6b1c0
+Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06ecb1c0
   Type: function
   Visibility: external public
   References: 
@@ -1358,7 +1358,7 @@ Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerTxErrorCounter/14 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06e6b000
+Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06ecb000
   Type: function
   Visibility: external public
   References: 
@@ -1367,7 +1367,7 @@ Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerRxErrorCounter/13 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06e63e00
+Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06ec3e00
   Type: function
   Visibility: external public
   References: 
@@ -1376,7 +1376,7 @@ Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerE
   Function flags:
   Called by: Can_43_FLEXCAN_GetControllerErrorState/11 
   Calls: 
-Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06e63c40
+Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06ec3c40
   Type: function
   Visibility: external public
   References: 
@@ -1385,7 +1385,7 @@ Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableContr
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e63a80
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec3a80
   Type: function
   Visibility: external public
   References: 
@@ -1394,7 +1394,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e639a0
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec39a0
   Type: function
   Visibility: external public
   References: 
@@ -1403,7 +1403,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_EnableControllerInterrupts/10 
   Calls: 
-Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06e637e0
+Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06ec37e0
   Type: function
   Visibility: external public
   References: 
@@ -1412,7 +1412,7 @@ Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableCon
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63700
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3700
   Type: function
   Visibility: external public
   References: 
@@ -1421,7 +1421,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63620
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3620
   Type: function
   Visibility: external public
   References: 
@@ -1430,7 +1430,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: Can_43_FLEXCAN_DisableControllerInterrupts/9 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06e63380
+Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06ec3380
   Type: function
   Visibility: external public
   References: 
@@ -1439,7 +1439,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerT
   Function flags:
   Called by: Can_43_FLEXCAN_ProcessBusOffInterrupt/21 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
+CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06ec32a0
   Type: function
   Visibility: external public
   References: 
@@ -1448,7 +1448,7 @@ CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06e631c0
+Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06ec31c0
   Type: function
   Visibility: external public
   References: 
@@ -1457,7 +1457,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetController
   Function flags:
   Called by: Can_43_FLEXCAN_SetControllerMode/8 
   Calls: 
-Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
+Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e940e0
   Type: function
   Visibility: external public
   References: 
@@ -1466,7 +1466,7 @@ Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
   Function flags:
   Called by: Can_DeInitControllers/5 
   Calls: 
-Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
+Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e94d20
   Type: function
   Visibility: external public
   References: 
@@ -1475,7 +1475,7 @@ Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
   Function flags:
   Called by: Can_InitControllers/4 
   Calls: 
-Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e327e0
+Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e947e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -1484,7 +1484,7 @@ Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt)
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerBusOff/39 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 
-Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e32540
+Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e94540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) 
@@ -1493,7 +1493,7 @@ Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBu
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_ProcessHwObject/38 
-Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
+Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e942a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (addr) 
@@ -1502,7 +1502,7 @@ Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 
-Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e32000
+Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e94000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -1511,7 +1511,7 @@ Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e3
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
+Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06e2ab60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -1520,7 +1520,7 @@ Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc9620
+Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06e2a620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -1529,7 +1529,7 @@ Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc96
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
+Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06e2a0e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
@@ -1538,7 +1538,7 @@ Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_Write/36 
-Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06dc9d20
+Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06e2ad20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -1547,7 +1547,7 @@ Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErr
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 
-Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06dc9a80
+Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06e2aa80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -1556,7 +1556,7 @@ Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErr
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 
-Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
+Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06e2a7e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_eControllerState/1 (read) 
@@ -1565,7 +1565,7 @@ Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
   Function flags: body
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06dc9540
+Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06e2a540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) 
@@ -1574,7 +1574,7 @@ Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorStat
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 
-Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06dc92a0
+Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06e2a2a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) Can_au8DisableInterruptLevel/0 (read) 
@@ -1583,7 +1583,7 @@ Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInt
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 
-Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06dc9000
+Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06e2a000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (read) Can_au8DisableInterruptLevel/0 (write) 
@@ -1592,7 +1592,7 @@ Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerIn
   Function flags: body
   Called by: 
   Calls: Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 
-Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
+Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06e0bc40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) Can_eControllerState/1 (write) Can_eControllerState/1 (read) Can_eControllerState/1 (write) 
@@ -1601,7 +1601,7 @@ Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
   Function flags: body
   Called by: 
   Calls: CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 CanIf_ControllerModeIndication/25 Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 
-Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
+Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06e0b700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) Can_apxConfig/2 (write) 
@@ -1610,7 +1610,7 @@ Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
   Function flags: body
   Called by: 
   Calls: Can_DeInitControllers/5 
-Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
+Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06e0be00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Can_apxConfig/2 (write) 
@@ -1619,7 +1619,7 @@ Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
   Function flags: body
   Called by: 
   Calls: Can_InitControllers/4 Can_IsControllersBusy/3 
-Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
+Can_DeInitControllers/5 (Can_DeInitControllers) @06e0bb60
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -1628,7 +1628,7 @@ Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
   Function flags: body
   Called by: Can_43_FLEXCAN_DeInit/7 
   Calls: Can_43_FLEXCAN_Ipw_DeInit/23 
-Can_InitControllers/4 (Can_InitControllers) @06daa8c0
+Can_InitControllers/4 (Can_InitControllers) @06e0b8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: Can_apxConfig/2 (read) Can_apxConfig/2 (read) Can_au8DisableInterruptLevel/0 (write) Can_eControllerState/1 (write) Can_apxConfig/2 (read) Can_eControllerState/1 (write) 
@@ -1637,7 +1637,7 @@ Can_InitControllers/4 (Can_InitControllers) @06daa8c0
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: Can_43_FLEXCAN_Ipw_Init/22 
-Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
+Can_IsControllersBusy/3 (Can_IsControllersBusy) @06e0b620
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: Can_apxConfig/2 (read) Can_eControllerState/1 (read) 
@@ -1646,21 +1646,21 @@ Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
   Function flags: body
   Called by: Can_43_FLEXCAN_Init/6 
   Calls: 
-Can_apxConfig/2 (Can_apxConfig) @06da91f8
+Can_apxConfig/2 (Can_apxConfig) @06e0a2d0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_IsControllersBusy/3 (read) Can_InitControllers/4 (read) Can_InitControllers/4 (read) Can_DeInitControllers/5 (read) Can_43_FLEXCAN_Init/6 (write) Can_43_FLEXCAN_DeInit/7 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_DisableControllerInterrupts/9 (read) Can_43_FLEXCAN_EnableControllerInterrupts/10 (read) Can_43_FLEXCAN_GetControllerErrorState/11 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_DeInitControllers/5 (read) Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (read) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (read) Can_43_FLEXCAN_Write/15 (read) Can_InitControllers/4 (read) Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (read) 
   Availability: available
   Varpool flags:
-Can_eControllerState/1 (Can_eControllerState) @06da9120
+Can_eControllerState/1 (Can_eControllerState) @06e0a1f8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
   Referring: Can_43_FLEXCAN_Write/15 (read) Can_43_FLEXCAN_GetControllerMode/12 (read) Can_43_FLEXCAN_MainFunction_Mode/19 (addr) Can_IsControllersBusy/3 (read) Can_InitControllers/4 (write) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_InitControllers/4 (write) Can_DeInitControllers/5 (write) Can_43_FLEXCAN_DeInit/7 (read) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (write) Can_43_FLEXCAN_SetControllerMode/8 (read) Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (write) 
   Availability: available
   Varpool flags:
-Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06da9048
+Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06e0a120
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
@@ -1678,7 +1678,7 @@ Removing variables:
 
 Final Symbol table:
 
-CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
+CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06ecbb60
   Type: function
   Visibility: external public
   References: 
@@ -1687,7 +1687,7 @@ CanIf_ControllerBusOff/39 (CanIf_ControllerBusOff) @06e6bb60
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6b9a0
+Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06ecb9a0
   Type: function
   Visibility: external public
   References: 
@@ -1696,7 +1696,7 @@ Can_43_FLEXCAN_Ipw_ProcessHwObject/38 (Can_43_FLEXCAN_Ipw_ProcessHwObject) @06e6
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06e6b7e0
+Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @06ecb7e0
   Type: function
   Visibility: external public
   References: 
@@ -1705,7 +1705,7 @@ Can_43_FLEXCAN_Ipw_MainFunction_Mode/37 (Can_43_FLEXCAN_Ipw_MainFunction_Mode) @
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
+Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06ecb380
   Type: function
   Visibility: external public
   References: 
@@ -1714,7 +1714,7 @@ Can_43_FLEXCAN_Ipw_Write/36 (Can_43_FLEXCAN_Ipw_Write) @06e6b380
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06e6b1c0
+Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter) @06ecb1c0
   Type: function
   Visibility: external public
   References: 
@@ -1723,7 +1723,7 @@ Can_43_FLEXCAN_Ipw_GetControllerTxErrorCounter/35 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06e6b000
+Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter) @06ecb000
   Type: function
   Visibility: external public
   References: 
@@ -1732,7 +1732,7 @@ Can_43_FLEXCAN_Ipw_GetControllerRxErrorCounter/34 (Can_43_FLEXCAN_Ipw_GetControl
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06e63e00
+Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerErrorState) @06ec3e00
   Type: function
   Visibility: external public
   References: 
@@ -1741,7 +1741,7 @@ Can_43_FLEXCAN_Ipw_GetControllerErrorState/33 (Can_43_FLEXCAN_Ipw_GetControllerE
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06e63c40
+Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableControllerInterrupts) @06ec3c40
   Type: function
   Visibility: external public
   References: 
@@ -1750,7 +1750,7 @@ Can_43_FLEXCAN_Ipw_EnableControllerInterrupts/32 (Can_43_FLEXCAN_Ipw_EnableContr
   Function flags:
   Called by: 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e63a80
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec3a80
   Type: function
   Visibility: external public
   References: 
@@ -1759,7 +1759,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/31 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06e639a0
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01) @06ec39a0
   Type: function
   Visibility: external public
   References: 
@@ -1768,7 +1768,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_01/30 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06e637e0
+Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableControllerInterrupts) @06ec37e0
   Type: function
   Visibility: external public
   References: 
@@ -1777,7 +1777,7 @@ Can_43_FLEXCAN_Ipw_DisableControllerInterrupts/29 (Can_43_FLEXCAN_Ipw_DisableCon
   Function flags:
   Called by: 
   Calls: 
-SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63700
+SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3700
   Type: function
   Visibility: external public
   References: 
@@ -1786,7 +1786,7 @@ SchM_Exit_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/28 (SchM_Exit_Can_43_FLEXCAN_CAN_
   Function flags:
   Called by: 
   Calls: 
-SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06e63620
+SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00) @06ec3620
   Type: function
   Visibility: external public
   References: 
@@ -1795,7 +1795,7 @@ SchM_Enter_Can_43_FLEXCAN_CAN_EXCLUSIVE_AREA_00/27 (SchM_Enter_Can_43_FLEXCAN_CA
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06e63380
+Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerToStopMode) @06ec3380
   Type: function
   Visibility: external public
   References: 
@@ -1804,7 +1804,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStopMode/26 (Can_43_FLEXCAN_Ipw_SetControllerT
   Function flags:
   Called by: 
   Calls: 
-CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
+CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06ec32a0
   Type: function
   Visibility: external public
   References: 
@@ -1813,7 +1813,7 @@ CanIf_ControllerModeIndication/25 (CanIf_ControllerModeIndication) @06e632a0
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06e631c0
+Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetControllerToStartMode) @06ec31c0
   Type: function
   Visibility: external public
   References: 
@@ -1822,7 +1822,7 @@ Can_43_FLEXCAN_Ipw_SetControllerToStartMode/24 (Can_43_FLEXCAN_Ipw_SetController
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
+Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e940e0
   Type: function
   Visibility: external public
   References: 
@@ -1831,7 +1831,7 @@ Can_43_FLEXCAN_Ipw_DeInit/23 (Can_43_FLEXCAN_Ipw_DeInit) @06e320e0
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
+Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e94d20
   Type: function
   Visibility: external public
   References: 
@@ -1840,7 +1840,7 @@ Can_43_FLEXCAN_Ipw_Init/22 (Can_43_FLEXCAN_Ipw_Init) @06e32d20
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e327e0
+Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt) @06e947e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_ProcessBusOffInterrupt (implicit_section)
   References: 
@@ -1849,7 +1849,7 @@ Can_43_FLEXCAN_ProcessBusOffInterrupt/21 (Can_43_FLEXCAN_ProcessBusOffInterrupt)
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e32540
+Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt) @06e94540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt (implicit_section)
   References: 
@@ -1858,7 +1858,7 @@ Can_43_FLEXCAN_ProcessMesgBufferCommonInterrupt/20 (Can_43_FLEXCAN_ProcessMesgBu
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
+Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e942a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_MainFunction_Mode (implicit_section)
   References: 
@@ -1867,7 +1867,7 @@ Can_43_FLEXCAN_MainFunction_Mode/19 (Can_43_FLEXCAN_MainFunction_Mode) @06e322a0
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e32000
+Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e94000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_MainFunction_BusOff (implicit_section)
   References: 
@@ -1876,7 +1876,7 @@ Can_43_FLEXCAN_MainFunction_BusOff/18 (Can_43_FLEXCAN_MainFunction_BusOff) @06e3
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
+Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06e2ab60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_MainFunction_Read (implicit_section)
   References: 
@@ -1885,7 +1885,7 @@ Can_43_FLEXCAN_MainFunction_Read/17 (Can_43_FLEXCAN_MainFunction_Read) @06dc9b60
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc9620
+Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06e2a620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_MainFunction_Write (implicit_section)
   References: 
@@ -1894,7 +1894,7 @@ Can_43_FLEXCAN_MainFunction_Write/16 (Can_43_FLEXCAN_MainFunction_Write) @06dc96
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
+Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06e2a0e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_Write (implicit_section)
   References: 
@@ -1903,7 +1903,7 @@ Can_43_FLEXCAN_Write/15 (Can_43_FLEXCAN_Write) @06dc90e0
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06dc9d20
+Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErrorCounter) @06e2ad20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_GetControllerTxErrorCounter (implicit_section)
   References: 
@@ -1912,7 +1912,7 @@ Can_43_FLEXCAN_GetControllerTxErrorCounter/14 (Can_43_FLEXCAN_GetControllerTxErr
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06dc9a80
+Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErrorCounter) @06e2aa80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_GetControllerRxErrorCounter (implicit_section)
   References: 
@@ -1921,7 +1921,7 @@ Can_43_FLEXCAN_GetControllerRxErrorCounter/13 (Can_43_FLEXCAN_GetControllerRxErr
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
+Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06e2a7e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_GetControllerMode (implicit_section)
   References: 
@@ -1930,7 +1930,7 @@ Can_43_FLEXCAN_GetControllerMode/12 (Can_43_FLEXCAN_GetControllerMode) @06dc97e0
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06dc9540
+Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorState) @06e2a540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_GetControllerErrorState (implicit_section)
   References: 
@@ -1939,7 +1939,7 @@ Can_43_FLEXCAN_GetControllerErrorState/11 (Can_43_FLEXCAN_GetControllerErrorStat
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06dc92a0
+Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInterrupts) @06e2a2a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_EnableControllerInterrupts (implicit_section)
   References: 
@@ -1948,7 +1948,7 @@ Can_43_FLEXCAN_EnableControllerInterrupts/10 (Can_43_FLEXCAN_EnableControllerInt
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06dc9000
+Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerInterrupts) @06e2a000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_DisableControllerInterrupts (implicit_section)
   References: 
@@ -1957,7 +1957,7 @@ Can_43_FLEXCAN_DisableControllerInterrupts/9 (Can_43_FLEXCAN_DisableControllerIn
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
+Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06e0bc40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_SetControllerMode (implicit_section)
   References: 
@@ -1966,7 +1966,7 @@ Can_43_FLEXCAN_SetControllerMode/8 (Can_43_FLEXCAN_SetControllerMode) @06daac40
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
+Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06e0b700
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_DeInit (implicit_section)
   References: 
@@ -1975,7 +1975,7 @@ Can_43_FLEXCAN_DeInit/7 (Can_43_FLEXCAN_DeInit) @06daa700
   Function flags:
   Called by: 
   Calls: 
-Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
+Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06e0be00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.Can_43_FLEXCAN_Init (implicit_section)
   References: 
@@ -1984,7 +1984,7 @@ Can_43_FLEXCAN_Init/6 (Can_43_FLEXCAN_Init) @06daae00
   Function flags:
   Called by: 
   Calls: 
-Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
+Can_DeInitControllers/5 (Can_DeInitControllers) @06e0bb60
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Can_DeInitControllers (implicit_section)
   References: 
@@ -1993,7 +1993,7 @@ Can_DeInitControllers/5 (Can_DeInitControllers) @06daab60
   Function flags:
   Called by: 
   Calls: 
-Can_InitControllers/4 (Can_InitControllers) @06daa8c0
+Can_InitControllers/4 (Can_InitControllers) @06e0b8c0
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Can_InitControllers (implicit_section)
   References: 
@@ -2002,7 +2002,7 @@ Can_InitControllers/4 (Can_InitControllers) @06daa8c0
   Function flags:
   Called by: 
   Calls: 
-Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
+Can_IsControllersBusy/3 (Can_IsControllersBusy) @06e0b620
   Type: function definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.text.Can_IsControllersBusy (implicit_section)
   References: 
@@ -2011,7 +2011,7 @@ Can_IsControllersBusy/3 (Can_IsControllersBusy) @06daa620
   Function flags:
   Called by: 
   Calls: 
-Can_apxConfig/2 (Can_apxConfig) @06da91f8
+Can_apxConfig/2 (Can_apxConfig) @06e0a2d0
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Can_apxConfig (implicit_section)
   Aux: @00000001
@@ -2019,18 +2019,18 @@ Can_apxConfig/2 (Can_apxConfig) @06da91f8
   Referring: 
   Availability: available
   Varpool flags:
-Can_eControllerState/1 (Can_eControllerState) @06da9120
+Can_eControllerState/1 (Can_eControllerState) @06e0a1f8
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Can_eControllerState (implicit_section)
-  Aux: @06da91f8
+  Aux: @06e0a2d0
   References: 
   Referring: 
   Availability: available
   Varpool flags:
-Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06da9048
+Can_au8DisableInterruptLevel/0 (Can_au8DisableInterruptLevel) @06e0a120
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.Can_au8DisableInterruptLevel (implicit_section)
-  Aux: @06da9120
+  Aux: @06e0a1f8
   References: 
   Referring: 
   Availability: available

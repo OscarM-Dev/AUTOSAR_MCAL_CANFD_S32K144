@@ -1,4 +1,4 @@
 Autosar/CanIf/src/CanIf_Cdd.c:19:6:CDD_UserTxConfirmation_Can_0	8	static
-Autosar/CanIf/src/CanIf_Cdd.c:41:6:CDD_UserRxIndication_Can_0	24	static
-Autosar/CanIf/src/CanIf_Cdd.c:70:6:CDD_UserTxConfirmation_Can_2	8	static
-Autosar/CanIf/src/CanIf_Cdd.c:87:6:CDD_UserRxIndication_Can_2	24	static
+Autosar/CanIf/src/CanIf_Cdd.c:42:6:CDD_UserRxIndication_Can_0	24	static
+Autosar/CanIf/src/CanIf_Cdd.c:80:6:CDD_UserTxConfirmation_Can_2	8	static
+Autosar/CanIf/src/CanIf_Cdd.c:97:6:CDD_UserRxIndication_Can_2	24	static

@@ -1,42 +1,42 @@
 Symbol table:
 
-Delay/64 (Delay) @0a4ad1c0
+Delay/66 (Delay) @0a4cb380
   Type: function
   Visibility: external public
   References: 
   Referring: 
   Availability: not_available
   Function flags:
-  Called by: main/60 
+  Called by: main/62 
   Calls: 
-CanIf_Transmit/63 (CanIf_Transmit) @0a4ad0e0
+CanIf_Transmit/65 (CanIf_Transmit) @0a4cb2a0
   Type: function
   Visibility: external public
   References: 
   Referring: 
   Availability: not_available
   Function flags:
-  Called by: main/60 main/60 main/60 main/60 
+  Called by: main/62 main/62 main/62 main/62 
   Calls: 
-CanIf_SetControllerMode/62 (CanIf_SetControllerMode) @0a4ad000
+CanIf_SetControllerMode/64 (CanIf_SetControllerMode) @0a4cb1c0
   Type: function
   Visibility: external public
   References: 
   Referring: 
   Availability: not_available
   Function flags:
-  Called by: main/60 
+  Called by: main/62 
   Calls: 
-EcuM_Init/61 (EcuM_Init) @0a4a7ee0
+EcuM_Init/63 (EcuM_Init) @0a4cb0e0
   Type: function
   Visibility: external public
   References: 
   Referring: 
   Availability: not_available
   Function flags:
-  Called by: main/60 
+  Called by: main/62 
   Calls: 
-main/60 (main) @0a4a7a80
+main/62 (main) @0a4c6c40
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_Can0_bTxFlag/56 (read) CanIf_Can0_bTxFlag/56 (write) 
@@ -44,36 +44,50 @@ main/60 (main) @0a4a7a80
   Availability: available
   Function flags: body
   Called by: 
-  Calls: Delay/64 CanIf_Transmit/63 CanIf_Transmit/63 CanIf_Transmit/63 CanIf_Transmit/63 CanIf_SetControllerMode/62 EcuM_Init/61 
-CanIf_Can2_bRxFlag/59 (CanIf_Can2_bRxFlag) @0a49fab0
+  Calls: Delay/66 CanIf_Transmit/65 CanIf_Transmit/65 CanIf_Transmit/65 CanIf_Transmit/65 CanIf_SetControllerMode/64 EcuM_Init/63 
+CanIf_Can2_BusOff_Count/61 (CanIf_Can2_BusOff_Count) @0a4bfd80
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: 
   Availability: available
   Varpool flags:
-CanIf_Can2_bTxFlag/58 (CanIf_Can2_bTxFlag) @0a49fa68
+CanIf_Can0_BusOff_Count/60 (CanIf_Can0_BusOff_Count) @0a4bfd38
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: 
   Availability: available
   Varpool flags:
-CanIf_Can0_bRxFlag/57 (CanIf_Can0_bRxFlag) @0a49fa20
+CanIf_Can2_bRxFlag/59 (CanIf_Can2_bRxFlag) @0a4bfcf0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
   Referring: 
   Availability: available
   Varpool flags:
-CanIf_Can0_bTxFlag/56 (CanIf_Can0_bTxFlag) @0a49f9d8
+CanIf_Can2_bTxFlag/58 (CanIf_Can2_bTxFlag) @0a4bfca8
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
-  Referring: main/60 (read) main/60 (write) 
+  Referring: 
   Availability: available
   Varpool flags:
-Queue1/55 (Queue1) @0a49f990
+CanIf_Can0_bRxFlag/57 (CanIf_Can0_bRxFlag) @0a4bfc60
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+CanIf_Can0_bTxFlag/56 (CanIf_Can0_bTxFlag) @0a4bfc18
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: main/62 (read) main/62 (write) 
+  Availability: available
+  Varpool flags:
+Queue1/55 (Queue1) @0a4bfbd0
   Type: variable definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -90,7 +104,7 @@ main ()
   uint8 Message1_SDU[8];
   struct PduInfoType Message0;
   uint8 Message0_SDU[3];
-  int D.9643;
+  int D.9649;
   _Bool CanIf_Can0_bTxFlag.0_1;
   _Bool _2;
 

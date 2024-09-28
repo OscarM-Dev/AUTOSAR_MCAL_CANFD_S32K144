@@ -3,7 +3,7 @@ Delay (uint32 ms)
   uint32 ElapsedTime;
   uint32 SeedTick;
   uint32 Timeout;
-  long unsigned int D.9249;
+  long unsigned int D.9253;
 
   <bb 2> :
   _1 = ms * 1000;
@@ -13,8 +13,8 @@ Delay (uint32 ms)
   ElapsedTime = 0;
 
   <bb 3> :
-  D.9249 = OsIf_GetElapsed (&SeedTick, 1);
-  ElapsedTime = D.9249 + ElapsedTime;
+  D.9253 = OsIf_GetElapsed (&SeedTick, 1);
+  ElapsedTime = D.9253 + ElapsedTime;
   if (ElapsedTime < Timeout)
     goto <bb 3>; [INV]
   else

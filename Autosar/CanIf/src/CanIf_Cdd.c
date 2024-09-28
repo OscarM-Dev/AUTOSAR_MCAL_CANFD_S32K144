@@ -24,13 +24,14 @@ void CDD_UserTxConfirmation_Can_0( PduIdType TxPduId, Std_ReturnType result ) {
     if ( result == E_OK ) { //Message was transmitted successfully.
         Transmit_count++;
 
-        if( Transmit_count == 4 ) { //All messages were transmitted
+        if ( Transmit_count == 4 ) { //All messages were transmitted
             Transmit_count = 0;
             CanIf_Can0_bTxFlag = TRUE;
         }
 
     }
 }
+
 
 /**
  * @brief Callback function for the reception of a PDU (registered) of interest for the Can0 controller.
@@ -40,7 +41,7 @@ void CDD_UserTxConfirmation_Can_0( PduIdType TxPduId, Std_ReturnType result ) {
  */
 void CDD_UserRxIndication_Can_0( PduIdType RxPduId, const PduInfoType* PduInfoPtr ) {
     //local data.
-    static uint8 counter_RXPDU0 = 0;   //Message rx 0 counter.
+    static uint8 counters_RXPDU[4];
     uint8 Data[8];  //Data payload received.
 
     //Obtaining data received.
@@ -51,7 +52,16 @@ void CDD_UserRxIndication_Can_0( PduIdType RxPduId, const PduInfoType* PduInfoPt
     //Verifying which message was received.
     switch ( RxPduId ) {
         case 0: //ID 0x200 received
-            counter_RXPDU0++;
+            counters_RXPDU[0]++;
+        break;
+        case 1: //ID 0x201 received
+            counters_RXPDU[1]++;
+        break;
+        case 2: //ID 0x202 received
+            counters_RXPDU[2]++;
+        break;
+        case 3: //ID 0x203 received
+            counters_RXPDU[3]++;
         break;
         default:
         break;
@@ -86,7 +96,7 @@ void CDD_UserTxConfirmation_Can_2( PduIdType TxPduId, Std_ReturnType result ) {
  */
 void CDD_UserRxIndication_Can_2( PduIdType RxPduId, const PduInfoType* PduInfoPtr ) {
     //local data.
-    static uint8 counter_RXPDU1 = 0;   //Message rx 1 counter.
+    static uint8 counter_RXPDU4 = 0;   //Message rx 1 counter.
     uint8 Data[8];  //Data payload received.
 
     //Obtaining data received.
@@ -96,8 +106,8 @@ void CDD_UserRxIndication_Can_2( PduIdType RxPduId, const PduInfoType* PduInfoPt
 
     //Verifying which message was received.
     switch ( RxPduId ) {
-        case 1: //ID 0x400 received
-            counter_RXPDU1++;
+        case 4: //ID 0x400 received
+            counter_RXPDU4++;
         break;
         default:
         break;

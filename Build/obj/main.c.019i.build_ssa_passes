@@ -8,7 +8,7 @@ main ()
   uint8 Message1_SDU[8];
   struct PduInfoType Message0;
   uint8 Message0_SDU[3];
-  int D.9643;
+  int D.9649;
 
   <bb 2> :
   Message0_SDU = "\xde\xf4\xc9";

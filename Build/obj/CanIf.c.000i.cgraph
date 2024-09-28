@@ -3,14 +3,35 @@ Trivially needed symbols: CanIf_GetControllerTxErrorCounter/13 CanIf_GetControll
 
 Initial Symbol table:
 
-CanIf_PCConfig/14 (CanIf_PCConfig) @06b06e10
+CanIf_Can0_BusOff_Count/17 (CanIf_Can0_BusOff_Count) @068eecf0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can0_bTxFlag/16 (CanIf_Can0_bTxFlag) @068eeca8
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can2_BusOff_Count/15 (CanIf_Can2_BusOff_Count) @068eebd0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_PCConfig/14 (CanIf_PCConfig) @068c5480
   Type: variable
   Visibility: external public
   References: 
   Referring: CanIf_Transmit/2 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_SetControllerMode/7 (read) CanIf_SetControllerMode/7 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerTxErrorCounter/13 (read) CanIf_GetControllerTxErrorCounter/13 (read) 
   Availability: not-ready
   Varpool flags: read-only
-CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d20
+CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @068e3d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   Aux: @01981040
@@ -20,127 +41,127 @@ CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a80
+CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @068e3a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b12d20
+  Aux: @068e3d20
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
+CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @068e37e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b12a80
+  Aux: @068e3a80
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
+CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @068e3540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b127e0
+  Aux: @068e37e0
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a0
+CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @068e32a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b12540
+  Aux: @068e3540
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
+CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @068e3000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b122a0
+  Aux: @068e32a0
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @06b05b60
+CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @068c6b60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b12000
+  Aux: @068e3000
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
-  Called by: 
+  Called by: CanIf_ControllerBusOff/6 CanIf_ControllerBusOff/6 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
+CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @068c6620
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b05b60
+  Aux: @068c6b60
+  References: CanIf_Can2_BusOff_Count/15 (read) CanIf_Can2_BusOff_Count/15 (write) CanIf_Can0_bTxFlag/16 (write) CanIf_Can0_BusOff_Count/17 (read) CanIf_Can0_BusOff_Count/17 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: CanIf_SetControllerMode/7 CanIf_SetControllerMode/7 
+CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @068c6000
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  Aux: @068c6620
   References: 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @06b05000
+CanIf_RxIndication/4 (CanIf_RxIndication) @068c6d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b05620
-  References: 
-  Referring: 
-  Function flags: body
-  Called by: 
-  Calls: 
-CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
-  Type: function definition analyzed
-  Visibility: force_output no_reorder public
-  Aux: @06b05000
+  Aux: @068c6000
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_ConfigPtr/0 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
+CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @068c6a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b05d20
+  Aux: @068c6d20
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
+CanIf_Transmit/2 (CanIf_Transmit) @068c67e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b05a80
+  Aux: @068c6a80
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Init/1 (CanIf_Init) @06b05540
+CanIf_Init/1 (CanIf_Init) @068c6540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
-  Aux: @06b057e0
+  Aux: @068c67e0
   References: CanIf_ConfigPtr/0 (write) 
   Referring: 
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @06b06048
+CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @068c5240
   Type: variable definition analyzed
   Visibility: force_output no_reorder
-  Aux: @06b05540
+  Aux: @068c6540
   References: 
   Referring: CanIf_Init/1 (write) CanIf_Transmit/2 (read) CanIf_Transmit/2 (read) CanIf_Transmit/2 (read) CanIf_TxConfirmation/3 (read) CanIf_TxConfirmation/3 (read) CanIf_TxConfirmation/3 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_SetControllerMode/7 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerTxErrorCounter/13 (read) 
   Availability: not-ready
@@ -150,14 +171,35 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-CanIf_PCConfig/14 (CanIf_PCConfig) @06b06e10
+CanIf_Can0_BusOff_Count/17 (CanIf_Can0_BusOff_Count) @068eecf0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can0_bTxFlag/16 (CanIf_Can0_bTxFlag) @068eeca8
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can2_BusOff_Count/15 (CanIf_Can2_BusOff_Count) @068eebd0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_PCConfig/14 (CanIf_PCConfig) @068c5480
   Type: variable
   Visibility: external public
   References: 
   Referring: CanIf_Transmit/2 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_SetControllerMode/7 (read) CanIf_SetControllerMode/7 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerTxErrorCounter/13 (read) CanIf_GetControllerTxErrorCounter/13 (read) 
   Availability: not-ready
   Varpool flags: read-only
-CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d20
+CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @068e3d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -166,7 +208,7 @@ CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a80
+CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @068e3a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -175,7 +217,7 @@ CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
+CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @068e37e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -184,7 +226,7 @@ CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
+CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @068e3540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -193,7 +235,7 @@ CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a0
+CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @068e32a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -202,7 +244,7 @@ CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
+CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @068e3000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -211,16 +253,24 @@ CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @06b05b60
+CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @068c6b60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
-  Called by: 
+  Called by: CanIf_ControllerBusOff/6 CanIf_ControllerBusOff/6 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
+CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @068c6620
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: CanIf_Can2_BusOff_Count/15 (read) CanIf_Can2_BusOff_Count/15 (write) CanIf_Can0_bTxFlag/16 (write) CanIf_Can0_BusOff_Count/17 (read) CanIf_Can0_BusOff_Count/17 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: CanIf_SetControllerMode/7 CanIf_SetControllerMode/7 
+CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @068c6000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -228,15 +278,7 @@ CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @06b05000
-  Type: function definition analyzed
-  Visibility: force_output no_reorder public
-  References: 
-  Referring: 
-  Function flags: body
-  Called by: 
-  Calls: 
-CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
+CanIf_RxIndication/4 (CanIf_RxIndication) @068c6d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_ConfigPtr/0 (read) 
@@ -245,7 +287,7 @@ CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
+CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @068c6a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) 
@@ -254,7 +296,7 @@ CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
+CanIf_Transmit/2 (CanIf_Transmit) @068c67e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) 
@@ -263,7 +305,7 @@ CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Init/1 (CanIf_Init) @06b05540
+CanIf_Init/1 (CanIf_Init) @068c6540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (write) 
@@ -271,7 +313,7 @@ CanIf_Init/1 (CanIf_Init) @06b05540
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @06b06048
+CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @068c5240
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -282,14 +324,35 @@ CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @06b06048
 
 Initial Symbol table:
 
-CanIf_PCConfig/14 (CanIf_PCConfig) @06b06e10
+CanIf_Can0_BusOff_Count/17 (CanIf_Can0_BusOff_Count) @068eecf0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can0_bTxFlag/16 (CanIf_Can0_bTxFlag) @068eeca8
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can2_BusOff_Count/15 (CanIf_Can2_BusOff_Count) @068eebd0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_PCConfig/14 (CanIf_PCConfig) @068c5480
   Type: variable
   Visibility: external public
   References: 
   Referring: CanIf_Transmit/2 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_SetControllerMode/7 (read) CanIf_SetControllerMode/7 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerTxErrorCounter/13 (read) CanIf_GetControllerTxErrorCounter/13 (read) 
   Availability: not-ready
   Varpool flags: read-only
-CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d20
+CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @068e3d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -298,7 +361,7 @@ CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a80
+CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @068e3a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -307,7 +370,7 @@ CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
+CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @068e37e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -316,7 +379,7 @@ CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
+CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @068e3540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -325,7 +388,7 @@ CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a0
+CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @068e32a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -334,7 +397,7 @@ CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
+CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @068e3000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -343,16 +406,24 @@ CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @06b05b60
+CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @068c6b60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
-  Called by: 
+  Called by: CanIf_ControllerBusOff/6 CanIf_ControllerBusOff/6 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
+CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @068c6620
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: CanIf_Can2_BusOff_Count/15 (read) CanIf_Can2_BusOff_Count/15 (write) CanIf_Can0_bTxFlag/16 (write) CanIf_Can0_BusOff_Count/17 (read) CanIf_Can0_BusOff_Count/17 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: CanIf_SetControllerMode/7 CanIf_SetControllerMode/7 
+CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @068c6000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -360,15 +431,7 @@ CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @06b05000
-  Type: function definition analyzed
-  Visibility: force_output no_reorder public
-  References: 
-  Referring: 
-  Function flags: body
-  Called by: 
-  Calls: 
-CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
+CanIf_RxIndication/4 (CanIf_RxIndication) @068c6d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_ConfigPtr/0 (read) 
@@ -377,7 +440,7 @@ CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
+CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @068c6a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) 
@@ -386,7 +449,7 @@ CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
+CanIf_Transmit/2 (CanIf_Transmit) @068c67e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) 
@@ -395,7 +458,7 @@ CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Init/1 (CanIf_Init) @06b05540
+CanIf_Init/1 (CanIf_Init) @068c6540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (write) 
@@ -403,7 +466,7 @@ CanIf_Init/1 (CanIf_Init) @06b05540
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @06b06048
+CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @068c5240
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -415,14 +478,35 @@ Removing unused symbols:
 
 Reclaimed Symbol table:
 
-CanIf_PCConfig/14 (CanIf_PCConfig) @06b06e10
+CanIf_Can0_BusOff_Count/17 (CanIf_Can0_BusOff_Count) @068eecf0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can0_bTxFlag/16 (CanIf_Can0_bTxFlag) @068eeca8
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_Can2_BusOff_Count/15 (CanIf_Can2_BusOff_Count) @068eebd0
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not-ready
+  Varpool flags:
+CanIf_PCConfig/14 (CanIf_PCConfig) @068c5480
   Type: variable
   Visibility: external public
   References: 
   Referring: CanIf_Transmit/2 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_SetControllerMode/7 (read) CanIf_SetControllerMode/7 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerTxErrorCounter/13 (read) CanIf_GetControllerTxErrorCounter/13 (read) 
   Availability: not-ready
   Varpool flags: read-only
-CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d20
+CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @068e3d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -431,7 +515,7 @@ CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a80
+CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @068e3a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -440,7 +524,7 @@ CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
+CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @068e37e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -449,7 +533,7 @@ CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
+CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @068e3540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -458,7 +542,7 @@ CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a0
+CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @068e32a0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -467,7 +551,7 @@ CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
+CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @068e3000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -476,16 +560,24 @@ CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @06b05b60
+CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @068c6b60
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Function flags: body
-  Called by: 
+  Called by: CanIf_ControllerBusOff/6 CanIf_ControllerBusOff/6 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
+CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @068c6620
+  Type: function definition analyzed
+  Visibility: force_output no_reorder public
+  References: CanIf_Can2_BusOff_Count/15 (read) CanIf_Can2_BusOff_Count/15 (write) CanIf_Can0_bTxFlag/16 (write) CanIf_Can0_BusOff_Count/17 (read) CanIf_Can0_BusOff_Count/17 (write) 
+  Referring: 
+  Function flags: body
+  Called by: 
+  Calls: CanIf_SetControllerMode/7 CanIf_SetControllerMode/7 
+CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @068c6000
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: 
@@ -493,15 +585,7 @@ CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @06b05000
-  Type: function definition analyzed
-  Visibility: force_output no_reorder public
-  References: 
-  Referring: 
-  Function flags: body
-  Called by: 
-  Calls: 
-CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
+CanIf_RxIndication/4 (CanIf_RxIndication) @068c6d20
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_ConfigPtr/0 (read) 
@@ -510,7 +594,7 @@ CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
+CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @068c6a80
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) 
@@ -519,7 +603,7 @@ CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
+CanIf_Transmit/2 (CanIf_Transmit) @068c67e0
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) 
@@ -528,7 +612,7 @@ CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Init/1 (CanIf_Init) @06b05540
+CanIf_Init/1 (CanIf_Init) @068c6540
   Type: function definition analyzed
   Visibility: force_output no_reorder public
   References: CanIf_ConfigPtr/0 (write) 
@@ -536,7 +620,7 @@ CanIf_Init/1 (CanIf_Init) @06b05540
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @06b06048
+CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @068c5240
   Type: variable definition analyzed
   Visibility: force_output no_reorder
   References: 
@@ -549,7 +633,31 @@ Reclaiming variables:
 Clearing address taken flags:
 Optimized Symbol table:
 
-CanIf_PCConfig/14 (CanIf_PCConfig) @06b06e10
+CanIf_Can0_BusOff_Count/17 (CanIf_Can0_BusOff_Count) @068eecf0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not_available
+  Varpool flags:
+CanIf_Can0_bTxFlag/16 (CanIf_Can0_bTxFlag) @068eeca8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (write) 
+  Availability: not_available
+  Varpool flags:
+CanIf_Can2_BusOff_Count/15 (CanIf_Can2_BusOff_Count) @068eebd0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: CanIf_ControllerBusOff/6 (read) CanIf_ControllerBusOff/6 (write) 
+  Availability: not_available
+  Varpool flags:
+CanIf_PCConfig/14 (CanIf_PCConfig) @068c5480
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -557,7 +665,7 @@ CanIf_PCConfig/14 (CanIf_PCConfig) @06b06e10
   Referring: CanIf_GetControllerMode/11 (read) CanIf_GetControllerErrorState/10 (read) CanIf_GetControllerMode/11 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_GetControllerRxErrorCounter/12 (read) CanIf_Transmit/2 (read) CanIf_RxIndication/4 (read) CanIf_RxIndication/4 (read) CanIf_SetControllerMode/7 (read) CanIf_SetControllerMode/7 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_EnableControllerInterrupts/8 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_DisableControllerInterrupts/9 (read) CanIf_GetControllerErrorState/10 (read) CanIf_RxIndication/4 (read) CanIf_GetControllerTxErrorCounter/13 (read) CanIf_GetControllerTxErrorCounter/13 (read) 
   Availability: not_available
   Varpool flags: read-only
-CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d20
+CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @068e3d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -567,7 +675,7 @@ CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a80
+CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @068e3a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -577,7 +685,7 @@ CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
+CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @068e37e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -587,7 +695,7 @@ CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
+CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @068e3540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -597,7 +705,7 @@ CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a0
+CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @068e32a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -607,7 +715,7 @@ CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
+CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @068e3000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
@@ -617,17 +725,26 @@ CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @06b05b60
+CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @068c6b60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) 
   Referring: 
   Availability: available
   Function flags: body
-  Called by: 
+  Called by: CanIf_ControllerBusOff/6 CanIf_ControllerBusOff/6 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
+CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @068c6620
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: CanIf_Can2_BusOff_Count/15 (read) CanIf_Can2_BusOff_Count/15 (write) CanIf_Can0_bTxFlag/16 (write) CanIf_Can0_BusOff_Count/17 (read) CanIf_Can0_BusOff_Count/17 (write) 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: CanIf_SetControllerMode/7 CanIf_SetControllerMode/7 
+CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @068c6000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -636,16 +753,7 @@ CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @06b05000
-  Type: function definition analyzed
-  Visibility: force_output externally_visible no_reorder public
-  References: 
-  Referring: 
-  Availability: available
-  Function flags: body
-  Called by: 
-  Calls: 
-CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
+CanIf_RxIndication/4 (CanIf_RxIndication) @068c6d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_PCConfig/14 (read) CanIf_ConfigPtr/0 (read) 
@@ -655,7 +763,7 @@ CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
+CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @068c6a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) 
@@ -665,7 +773,7 @@ CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
+CanIf_Transmit/2 (CanIf_Transmit) @068c67e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_ConfigPtr/0 (read) CanIf_PCConfig/14 (read) 
@@ -675,7 +783,7 @@ CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
   Called by: 
   Calls: 
    Indirect call Num speculative call targets: 0
-CanIf_Init/1 (CanIf_Init) @06b05540
+CanIf_Init/1 (CanIf_Init) @068c6540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: CanIf_ConfigPtr/0 (write) 
@@ -684,7 +792,7 @@ CanIf_Init/1 (CanIf_Init) @06b05540
   Function flags: body
   Called by: 
   Calls: 
-CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @06b06048
+CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @068c5240
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly
   References: 
@@ -702,7 +810,31 @@ Removing variables:
 
 Final Symbol table:
 
-CanIf_PCConfig/14 (CanIf_PCConfig) @06b06e10
+CanIf_Can0_BusOff_Count/17 (CanIf_Can0_BusOff_Count) @068eecf0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags:
+CanIf_Can0_bTxFlag/16 (CanIf_Can0_bTxFlag) @068eeca8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags:
+CanIf_Can2_BusOff_Count/15 (CanIf_Can2_BusOff_Count) @068eebd0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags:
+CanIf_PCConfig/14 (CanIf_PCConfig) @068c5480
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -710,7 +842,7 @@ CanIf_PCConfig/14 (CanIf_PCConfig) @06b06e10
   Referring: 
   Availability: not_available
   Varpool flags: read-only
-CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d20
+CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @068e3d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_GetControllerTxErrorCounter (implicit_section)
   References: 
@@ -719,7 +851,7 @@ CanIf_GetControllerTxErrorCounter/13 (CanIf_GetControllerTxErrorCounter) @06b12d
   Function flags:
   Called by: 
   Calls: 
-CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a80
+CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @068e3a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_GetControllerRxErrorCounter (implicit_section)
   References: 
@@ -728,7 +860,7 @@ CanIf_GetControllerRxErrorCounter/12 (CanIf_GetControllerRxErrorCounter) @06b12a
   Function flags:
   Called by: 
   Calls: 
-CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
+CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @068e37e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_GetControllerMode (implicit_section)
   References: 
@@ -737,7 +869,7 @@ CanIf_GetControllerMode/11 (CanIf_GetControllerMode) @06b127e0
   Function flags:
   Called by: 
   Calls: 
-CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
+CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @068e3540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_GetControllerErrorState (implicit_section)
   References: 
@@ -746,7 +878,7 @@ CanIf_GetControllerErrorState/10 (CanIf_GetControllerErrorState) @06b12540
   Function flags:
   Called by: 
   Calls: 
-CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a0
+CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @068e32a0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_DisableControllerInterrupts (implicit_section)
   References: 
@@ -755,7 +887,7 @@ CanIf_DisableControllerInterrupts/9 (CanIf_DisableControllerInterrupts) @06b122a
   Function flags:
   Called by: 
   Calls: 
-CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
+CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @068e3000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_EnableControllerInterrupts (implicit_section)
   References: 
@@ -764,7 +896,7 @@ CanIf_EnableControllerInterrupts/8 (CanIf_EnableControllerInterrupts) @06b12000
   Function flags:
   Called by: 
   Calls: 
-CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @06b05b60
+CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @068c6b60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_SetControllerMode (implicit_section)
   References: 
@@ -773,7 +905,7 @@ CanIf_SetControllerMode/7 (CanIf_SetControllerMode) @06b05b60
   Function flags:
   Called by: 
   Calls: 
-CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
+CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @068c6620
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_ControllerBusOff (implicit_section)
   References: 
@@ -782,7 +914,7 @@ CanIf_ControllerBusOff/6 (CanIf_ControllerBusOff) @06b05620
   Function flags:
   Called by: 
   Calls: 
-CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @06b05000
+CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @068c6000
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_ControllerModeIndication (implicit_section)
   References: 
@@ -791,7 +923,7 @@ CanIf_ControllerModeIndication/5 (CanIf_ControllerModeIndication) @06b05000
   Function flags:
   Called by: 
   Calls: 
-CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
+CanIf_RxIndication/4 (CanIf_RxIndication) @068c6d20
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_RxIndication (implicit_section)
   References: 
@@ -800,7 +932,7 @@ CanIf_RxIndication/4 (CanIf_RxIndication) @06b05d20
   Function flags:
   Called by: 
   Calls: 
-CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
+CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @068c6a80
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_TxConfirmation (implicit_section)
   References: 
@@ -809,7 +941,7 @@ CanIf_TxConfirmation/3 (CanIf_TxConfirmation) @06b05a80
   Function flags:
   Called by: 
   Calls: 
-CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
+CanIf_Transmit/2 (CanIf_Transmit) @068c67e0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_Transmit (implicit_section)
   References: 
@@ -818,7 +950,7 @@ CanIf_Transmit/2 (CanIf_Transmit) @06b057e0
   Function flags:
   Called by: 
   Calls: 
-CanIf_Init/1 (CanIf_Init) @06b05540
+CanIf_Init/1 (CanIf_Init) @068c6540
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder asm_written public section:.text.CanIf_Init (implicit_section)
   References: 
@@ -827,7 +959,7 @@ CanIf_Init/1 (CanIf_Init) @06b05540
   Function flags:
   Called by: 
   Calls: 
-CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @06b06048
+CanIf_ConfigPtr/0 (CanIf_ConfigPtr) @068c5240
   Type: variable definition analyzed
   Visibility: force_output no_reorder prevailing_def_ironly asm_written section:.bss.CanIf_ConfigPtr (implicit_section)
   Aux: @00000001

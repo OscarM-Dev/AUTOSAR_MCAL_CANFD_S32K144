@@ -261,12 +261,24 @@ void CanIf_ControllerModeIndication
     (void)ControllerMode;
 }
 
-void CanIf_ControllerBusOff
-(
-    uint8 ControllerId
-)
-{
-    (void)ControllerId;
+void CanIf_ControllerBusOff ( uint8 ControllerId ) {
+    switch ( ControllerId ) { //Identifying which CAN controller is in bus off state.
+        case 0: //FlexCan2
+            CanIf_Can2_BusOff_Count++;
+        break;
+                
+        case 1: //FlexCan0
+            //Restarting controller
+            CanIf_SetControllerMode( CanIfFlexCan0 , CAN_CS_STOPPED );
+            CanIf_SetControllerMode( CanIfFlexCan0 , CAN_CS_STARTED );
+            
+            CanIf_Can0_bTxFlag = TRUE;  //For restarting transmission routine.
+            CanIf_Can0_BusOff_Count++;
+        break;
+        
+        default:
+        break;
+    }
 }
 
 /**

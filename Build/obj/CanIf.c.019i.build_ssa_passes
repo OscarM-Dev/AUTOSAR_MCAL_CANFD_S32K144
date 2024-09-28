@@ -3,14 +3,14 @@ CanIf_GetControllerTxErrorCounter (uint8 ControllerId, uint8 * TxErrorCounterPtr
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5652;
+  Std_ReturnType D.5660;
 
   <bb 2> :
   RetVal = 1;
   CanIfControllerConf = 0B;
   CanController_ID = 0;
-  CanIf_ConfigPtr.14_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.14_1 != 0B)
+  CanIf_ConfigPtr.18_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.18_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -34,11 +34,11 @@ CanIf_GetControllerTxErrorCounter (uint8 ControllerId, uint8 * TxErrorCounterPtr
   RetVal = _8 (CanController_ID, TxErrorCounterPtr);
 
   <bb 5> :
-  D.5652 = RetVal;
+  D.5660 = RetVal;
 
   <bb 6> :
 <L4>:
-  return D.5652;
+  return D.5660;
 
 }
 
@@ -48,14 +48,14 @@ CanIf_GetControllerRxErrorCounter (uint8 ControllerId, uint8 * RxErrorCounterPtr
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5646;
+  Std_ReturnType D.5654;
 
   <bb 2> :
   RetVal = 1;
   CanIfControllerConf = 0B;
   CanController_ID = 0;
-  CanIf_ConfigPtr.13_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.13_1 != 0B)
+  CanIf_ConfigPtr.17_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.17_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -79,11 +79,11 @@ CanIf_GetControllerRxErrorCounter (uint8 ControllerId, uint8 * RxErrorCounterPtr
   RetVal = _8 (CanController_ID, RxErrorCounterPtr);
 
   <bb 5> :
-  D.5646 = RetVal;
+  D.5654 = RetVal;
 
   <bb 6> :
 <L4>:
-  return D.5646;
+  return D.5654;
 
 }
 
@@ -93,14 +93,14 @@ CanIf_GetControllerMode (uint8 Controller, Can_ControllerStateType * ControllerM
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5640;
+  Std_ReturnType D.5648;
 
   <bb 2> :
   RetVal = 1;
   CanIfControllerConf = 0B;
   CanController_ID = 0;
-  CanIf_ConfigPtr.12_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.12_1 != 0B)
+  CanIf_ConfigPtr.16_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.16_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -124,11 +124,11 @@ CanIf_GetControllerMode (uint8 Controller, Can_ControllerStateType * ControllerM
   RetVal = _8 (CanController_ID, ControllerModePtr);
 
   <bb 5> :
-  D.5640 = RetVal;
+  D.5648 = RetVal;
 
   <bb 6> :
 <L4>:
-  return D.5640;
+  return D.5648;
 
 }
 
@@ -138,14 +138,14 @@ CanIf_GetControllerErrorState (uint8 ControllerId, Can_ErrorStateType * ErrorSta
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5634;
+  Std_ReturnType D.5642;
 
   <bb 2> :
   RetVal = 1;
   CanIfControllerConf = 0B;
   CanController_ID = 0;
-  CanIf_ConfigPtr.11_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.11_1 != 0B)
+  CanIf_ConfigPtr.15_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.15_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -169,11 +169,11 @@ CanIf_GetControllerErrorState (uint8 ControllerId, Can_ErrorStateType * ErrorSta
   RetVal = _8 (CanController_ID, ErrorStatePtr);
 
   <bb 5> :
-  D.5634 = RetVal;
+  D.5642 = RetVal;
 
   <bb 6> :
 <L4>:
-  return D.5634;
+  return D.5642;
 
 }
 
@@ -186,8 +186,8 @@ CanIf_DisableControllerInterrupts (uint8 Controller)
   <bb 2> :
   CanIfControllerConf = 0B;
   CanController_ID = 0;
-  CanIf_ConfigPtr.10_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.10_1 != 0B)
+  CanIf_ConfigPtr.14_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.14_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -224,8 +224,8 @@ CanIf_EnableControllerInterrupts (uint8 Controller)
   <bb 2> :
   CanIfControllerConf = 0B;
   CanController_ID = 0;
-  CanIf_ConfigPtr.9_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.9_1 != 0B)
+  CanIf_ConfigPtr.13_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.13_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -259,14 +259,14 @@ CanIf_SetControllerMode (uint8 Controller, Can_ControllerStateType Transition)
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5620;
+  Std_ReturnType D.5628;
 
   <bb 2> :
   RetVal = 1;
   CanIfControllerConf = 0B;
   CanController_ID = 0;
-  CanIf_ConfigPtr.8_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.8_1 != 0B)
+  CanIf_ConfigPtr.12_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.12_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -290,11 +290,11 @@ CanIf_SetControllerMode (uint8 Controller, Can_ControllerStateType Transition)
   RetVal = _8 (CanController_ID, Transition);
 
   <bb 5> :
-  D.5620 = RetVal;
+  D.5628 = RetVal;
 
   <bb 6> :
 <L4>:
-  return D.5620;
+  return D.5628;
 
 }
 
@@ -302,6 +302,32 @@ CanIf_SetControllerMode (uint8 Controller, Can_ControllerStateType Transition)
 CanIf_ControllerBusOff (uint8 ControllerId)
 {
   <bb 2> :
+  _1 = (int) ControllerId;
+  switch (_1) <default: <L2> [INV], case 0: <L0> [INV], case 1: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  CanIf_Can2_BusOff_Count.8_2 = CanIf_Can2_BusOff_Count;
+  CanIf_Can2_BusOff_Count.9_3 = CanIf_Can2_BusOff_Count.8_2;
+  _4 = CanIf_Can2_BusOff_Count.9_3 + 1;
+  CanIf_Can2_BusOff_Count = _4;
+  goto <bb 6>; [INV]
+
+  <bb 4> :
+<L1>:
+  CanIf_SetControllerMode (1, 2);
+  CanIf_SetControllerMode (1, 1);
+  CanIf_Can0_bTxFlag = 1;
+  CanIf_Can0_BusOff_Count.10_5 = CanIf_Can0_BusOff_Count;
+  CanIf_Can0_BusOff_Count.11_6 = CanIf_Can0_BusOff_Count.10_5;
+  _7 = CanIf_Can0_BusOff_Count.11_6 + 1;
+  CanIf_Can0_BusOff_Count = _7;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+<L2>:
+
+  <bb 6> :
   return;
 
 }
@@ -479,7 +505,7 @@ CanIf_Transmit (PduIdType CanTxPduId, const struct PduInfoType * PduInfoPtr)
   struct Can_PduType PduInfo;
   Can_HwHandleType CanHth;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5593;
+  Std_ReturnType D.5601;
 
   <bb 2> :
   RetVal = 1;
@@ -556,12 +582,12 @@ CanIf_Transmit (PduIdType CanTxPduId, const struct PduInfoType * PduInfoPtr)
   RetVal = _25 (CanHth, &PduInfo);
 
   <bb 10> :
-  D.5593 = RetVal;
+  D.5601 = RetVal;
   PduInfo = {CLOBBER};
 
   <bb 11> :
 <L10>:
-  return D.5593;
+  return D.5601;
 
 }
 

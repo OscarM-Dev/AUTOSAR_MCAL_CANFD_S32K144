@@ -3,8 +3,8 @@ CanIf_GetControllerTxErrorCounter (uint8 ControllerId, uint8 * TxErrorCounterPtr
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5652;
-  const struct CanIf_ConfigType * CanIf_ConfigPtr.14_1;
+  Std_ReturnType D.5660;
+  const struct CanIf_ConfigType * CanIf_ConfigPtr.18_1;
   unsigned char _2;
   const struct CanIf_CtrlPCConfigType * _3;
   unsigned int _4;
@@ -18,8 +18,8 @@ CanIf_GetControllerTxErrorCounter (uint8 ControllerId, uint8 * TxErrorCounterPtr
   RetVal_11 = 1;
   CanIfControllerConf_12 = 0B;
   CanController_ID_13 = 0;
-  CanIf_ConfigPtr.14_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.14_1 != 0B)
+  CanIf_ConfigPtr.18_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.18_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -58,8 +58,8 @@ CanIf_GetControllerRxErrorCounter (uint8 ControllerId, uint8 * RxErrorCounterPtr
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5646;
-  const struct CanIf_ConfigType * CanIf_ConfigPtr.13_1;
+  Std_ReturnType D.5654;
+  const struct CanIf_ConfigType * CanIf_ConfigPtr.17_1;
   unsigned char _2;
   const struct CanIf_CtrlPCConfigType * _3;
   unsigned int _4;
@@ -73,8 +73,8 @@ CanIf_GetControllerRxErrorCounter (uint8 ControllerId, uint8 * RxErrorCounterPtr
   RetVal_11 = 1;
   CanIfControllerConf_12 = 0B;
   CanController_ID_13 = 0;
-  CanIf_ConfigPtr.13_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.13_1 != 0B)
+  CanIf_ConfigPtr.17_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.17_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -113,8 +113,8 @@ CanIf_GetControllerMode (uint8 Controller, Can_ControllerStateType * ControllerM
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5640;
-  const struct CanIf_ConfigType * CanIf_ConfigPtr.12_1;
+  Std_ReturnType D.5648;
+  const struct CanIf_ConfigType * CanIf_ConfigPtr.16_1;
   unsigned char _2;
   const struct CanIf_CtrlPCConfigType * _3;
   unsigned int _4;
@@ -128,8 +128,8 @@ CanIf_GetControllerMode (uint8 Controller, Can_ControllerStateType * ControllerM
   RetVal_11 = 1;
   CanIfControllerConf_12 = 0B;
   CanController_ID_13 = 0;
-  CanIf_ConfigPtr.12_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.12_1 != 0B)
+  CanIf_ConfigPtr.16_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.16_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -168,8 +168,8 @@ CanIf_GetControllerErrorState (uint8 ControllerId, Can_ErrorStateType * ErrorSta
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5634;
-  const struct CanIf_ConfigType * CanIf_ConfigPtr.11_1;
+  Std_ReturnType D.5642;
+  const struct CanIf_ConfigType * CanIf_ConfigPtr.15_1;
   unsigned char _2;
   const struct CanIf_CtrlPCConfigType * _3;
   unsigned int _4;
@@ -183,8 +183,8 @@ CanIf_GetControllerErrorState (uint8 ControllerId, Can_ErrorStateType * ErrorSta
   RetVal_11 = 1;
   CanIfControllerConf_12 = 0B;
   CanController_ID_13 = 0;
-  CanIf_ConfigPtr.11_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.11_1 != 0B)
+  CanIf_ConfigPtr.15_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.15_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -222,7 +222,7 @@ CanIf_DisableControllerInterrupts (uint8 Controller)
 {
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
-  const struct CanIf_ConfigType * CanIf_ConfigPtr.10_1;
+  const struct CanIf_ConfigType * CanIf_ConfigPtr.14_1;
   unsigned char _2;
   const struct CanIf_CtrlPCConfigType * _3;
   unsigned int _4;
@@ -234,8 +234,8 @@ CanIf_DisableControllerInterrupts (uint8 Controller)
   <bb 2> :
   CanIfControllerConf_10 = 0B;
   CanController_ID_11 = 0;
-  CanIf_ConfigPtr.10_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.10_1 != 0B)
+  CanIf_ConfigPtr.14_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.14_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -268,7 +268,7 @@ CanIf_EnableControllerInterrupts (uint8 Controller)
 {
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
-  const struct CanIf_ConfigType * CanIf_ConfigPtr.9_1;
+  const struct CanIf_ConfigType * CanIf_ConfigPtr.13_1;
   unsigned char _2;
   const struct CanIf_CtrlPCConfigType * _3;
   unsigned int _4;
@@ -280,8 +280,8 @@ CanIf_EnableControllerInterrupts (uint8 Controller)
   <bb 2> :
   CanIfControllerConf_10 = 0B;
   CanController_ID_11 = 0;
-  CanIf_ConfigPtr.9_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.9_1 != 0B)
+  CanIf_ConfigPtr.13_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.13_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -315,8 +315,8 @@ CanIf_SetControllerMode (uint8 Controller, Can_ControllerStateType Transition)
   uint8 CanController_ID;
   const struct CanIf_CtrlPCConfigType * CanIfControllerConf;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5620;
-  const struct CanIf_ConfigType * CanIf_ConfigPtr.8_1;
+  Std_ReturnType D.5628;
+  const struct CanIf_ConfigType * CanIf_ConfigPtr.12_1;
   unsigned char _2;
   const struct CanIf_CtrlPCConfigType * _3;
   unsigned int _4;
@@ -330,8 +330,8 @@ CanIf_SetControllerMode (uint8 Controller, Can_ControllerStateType Transition)
   RetVal_11 = 1;
   CanIfControllerConf_12 = 0B;
   CanController_ID_13 = 0;
-  CanIf_ConfigPtr.8_1 = CanIf_ConfigPtr;
-  if (CanIf_ConfigPtr.8_1 != 0B)
+  CanIf_ConfigPtr.12_1 = CanIf_ConfigPtr;
+  if (CanIf_ConfigPtr.12_1 != 0B)
     goto <bb 3>; [INV]
   else
     goto <bb 5>; [INV]
@@ -367,7 +367,41 @@ CanIf_SetControllerMode (uint8 Controller, Can_ControllerStateType Transition)
 
 CanIf_ControllerBusOff (uint8 ControllerId)
 {
+  int _1;
+  short unsigned int CanIf_Can2_BusOff_Count.8_2;
+  short unsigned int CanIf_Can2_BusOff_Count.9_3;
+  short unsigned int _4;
+  short unsigned int CanIf_Can0_BusOff_Count.10_5;
+  short unsigned int CanIf_Can0_BusOff_Count.11_6;
+  short unsigned int _7;
+
   <bb 2> :
+  _1 = (int) ControllerId_9(D);
+  switch (_1) <default: <L2> [INV], case 0: <L0> [INV], case 1: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  CanIf_Can2_BusOff_Count.8_2 = CanIf_Can2_BusOff_Count;
+  CanIf_Can2_BusOff_Count.9_3 = CanIf_Can2_BusOff_Count.8_2;
+  _4 = CanIf_Can2_BusOff_Count.9_3 + 1;
+  CanIf_Can2_BusOff_Count = _4;
+  goto <bb 6>; [INV]
+
+  <bb 4> :
+<L1>:
+  CanIf_SetControllerMode (1, 2);
+  CanIf_SetControllerMode (1, 1);
+  CanIf_Can0_bTxFlag = 1;
+  CanIf_Can0_BusOff_Count.10_5 = CanIf_Can0_BusOff_Count;
+  CanIf_Can0_BusOff_Count.11_6 = CanIf_Can0_BusOff_Count.10_5;
+  _7 = CanIf_Can0_BusOff_Count.11_6 + 1;
+  CanIf_Can0_BusOff_Count = _7;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+<L2>:
+
+  <bb 6> :
   return;
 
 }
@@ -593,7 +627,7 @@ CanIf_Transmit (PduIdType CanTxPduId, const struct PduInfoType * PduInfoPtr)
   struct Can_PduType PduInfo;
   Can_HwHandleType CanHth;
   Std_ReturnType RetVal;
-  Std_ReturnType D.5593;
+  Std_ReturnType D.5601;
   const struct CanIf_ConfigType * CanIf_ConfigPtr.0_1;
   const struct CanIf_ConfigType * CanIf_ConfigPtr.1_2;
   unsigned char _3;

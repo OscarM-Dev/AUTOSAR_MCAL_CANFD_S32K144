@@ -122,6 +122,11 @@ typedef struct
 #define CANIF_START_SEC_CONFIG_DATA_UNSPECIFIED
 #include "CanIf_MemMap.h"
 
+extern boolean CanIf_Can0_bTxFlag;   ///< Flag for transmission of PDU of FlexCan0 controller.
+extern boolean CanIf_Can2_bTxFlag;   ///< Flag for transmission of PDU of FlexCan2 controller.
+extern uint16 CanIf_Can0_BusOff_Count;  ///< Counter of bus off states of FlexCan0 controller.
+extern uint16 CanIf_Can2_BusOff_Count;  ///< Counter of bus off states of FlexCan2 controller.
+
 CANIF_CONFIG_EXT
 
 #define CANIF_STOP_SEC_CONFIG_DATA_UNSPECIFIED

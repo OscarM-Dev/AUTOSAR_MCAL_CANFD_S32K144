@@ -15,11 +15,14 @@ boolean CanIf_Can0_bTxFlag;   ///< Flag for transmision of PDU of FlexCan0 contr
 boolean CanIf_Can0_bRxFlag;   ///< Flag for reception of PDU of FlexCan0 controller.
 boolean CanIf_Can2_bTxFlag;   ///< Flag for transmision of PDU of FlexCan2 controller.
 boolean CanIf_Can2_bRxFlag;   ///< Flag for reception of PDU of FlexCan2 controller.
+uint16 CanIf_Can0_BusOff_Count;  ///< Counter of bus off states of FlexCan0 controller.
+uint16 CanIf_Can2_BusOff_Count;  ///< Counter of bus off states of FlexCan2 controller.
+
 
 /**
  * @brief This is the main function of the project
  * 
- * Test, communication FLEXCAN0 to CANABLE with CANFD using nominal bit rate of 1Mbps and data bit rate of 2Mbps.
+ * Test, communication FLEXCAN0 - CANABLE with CANFD using nominal bit rate of 1Mbps and data bit rate of 2Mbps.
  * 
  * -Transmission of 4 messages every 3s.
  *      -3 data byte PDU. -->0x100
@@ -27,7 +30,13 @@ boolean CanIf_Can2_bRxFlag;   ///< Flag for reception of PDU of FlexCan2 control
  *      -12 data byte PDU.  -->0x102
  *      -9 data byte PDU. -->0x103
  * 
- * In this case only one HTH is used for transmission with four message buffer. For reception only one HRH is utilized.
+ * -Recepction of 4 messages every determined time by CANABLE
+ *      -3 data byte PDU. -->0x200
+ *      -8 data byte PDU. -->0x201
+ *      -12 data byte PDU.  -->0x202
+ *      -9 data byte PDU. -->0x203
+ * 
+ * In this case only one HTH is used for transmission with four message buffers. For reception 4 HRH are utilized.
  * 
  * 
  * @return Always zero
@@ -72,14 +81,14 @@ int main( void ) {
 
     CanIf_SetControllerMode( CanIfFlexCan0 , CAN_CS_STARTED );   //Can 0 controller active in Can Bus.
 
-    while( 1u ) {
+    while ( 1u ) {
         //Transmit messages every 3s.
-        CanIf_Transmit( CanIfTxPDU_0, &Message0 );   //Writing in Can 0 message buffer 1
-        CanIf_Transmit( CanIfTxPDU_1, &Message1 );   //Writing in Can 0 message buffer 2
-        CanIf_Transmit( CanIfTxPDU_2, &Message2 );   //Writing in Can 0 message buffer 3
-        CanIf_Transmit( CanIfTxPDU_3, &Message3 );   //Writing in Can 0 message buffer 4
+        CanIf_Transmit( CanIfTxPDU_0, &Message0 );   //Writing in Can 0 message buffer 4
+        CanIf_Transmit( CanIfTxPDU_1, &Message1 );   //Writing in Can 0 message buffer 5
+        CanIf_Transmit( CanIfTxPDU_2, &Message2 );   //Writing in Can 0 message buffer 6
+        CanIf_Transmit( CanIfTxPDU_3, &Message3 );   //Writing in Can 0 message buffer 7
 
-        while( CanIf_Can0_bTxFlag == FALSE ); //Waiting until messages are transmitted.
+        while ( CanIf_Can0_bTxFlag == FALSE ); //Waiting until messages are transmitted.
         CanIf_Can0_bTxFlag = FALSE;  //Clearing transmit flag.
 
         Delay( 3000 );  //Waiting 3s for next transmission.

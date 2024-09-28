@@ -190,7 +190,7 @@ const Flexcan_Ip_ConfigType Flexcan_aCtrlConfigPB[2U]=
     /* Can Hardware Channel FLEXCAN_0 */
     {
         /* Number Of Message Buffer used .max_num_mb */
-        (uint8)5U,
+        (uint8)8U,
         /*Can Hw filter count* .num_id_filters */
         (Flexcan_Ip_RxFifoIdFilterNumType)0U,
         /* Legacy FIFO ENABLED .is_rx_fifo_needed */

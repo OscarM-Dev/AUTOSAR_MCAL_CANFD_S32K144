@@ -23,7 +23,7 @@ IPA summary for EcuM_Init/6 is missing.
 IPA summary for MCU_clocks/5 is missing.
 Symbol table:
 
-OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a430b60
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a438b60
   Type: function
   Visibility: external public
   References: 
@@ -32,7 +32,7 @@ OsIf_GetElapsed/24 (OsIf_GetElapsed) @0a430b60
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_GetCounter/23 (OsIf_GetCounter) @0a430a80
+OsIf_GetCounter/23 (OsIf_GetCounter) @0a438a80
   Type: function
   Visibility: external public
   References: 
@@ -41,7 +41,7 @@ OsIf_GetCounter/23 (OsIf_GetCounter) @0a430a80
   Function flags:
   Called by: Delay/7 
   Calls: 
-OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4309a0
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4389a0
   Type: function
   Visibility: external public
   References: 
@@ -50,7 +50,7 @@ OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @0a4309a0
   Function flags:
   Called by: Delay/7 
   Calls: 
-CanIf_Config/21 (CanIf_Config) @0a42ebd0
+CanIf_Config/21 (CanIf_Config) @0739fe10
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -58,7 +58,7 @@ CanIf_Config/21 (CanIf_Config) @0a42ebd0
   Referring: EcuM_Init/6 (addr) 
   Availability: not_available
   Varpool flags: read-only
-CanIf_Init/20 (CanIf_Init) @0a4307e0
+CanIf_Init/20 (CanIf_Init) @0a4387e0
   Type: function
   Visibility: external public
   References: 
@@ -67,7 +67,7 @@ CanIf_Init/20 (CanIf_Init) @0a4307e0
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0a42eb40
+Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0739fd80
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -75,7 +75,7 @@ Can_43_FLEXCAN_Config/19 (Can_43_FLEXCAN_Config) @0a42eb40
   Referring: EcuM_Init/6 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a430700
+Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a438700
   Type: function
   Visibility: external public
   References: 
@@ -84,7 +84,7 @@ Can_43_FLEXCAN_Init/18 (Can_43_FLEXCAN_Init) @0a430700
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Spi_Config/17 (Spi_Config) @0a42eab0
+Spi_Config/17 (Spi_Config) @0739fcf0
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -92,7 +92,7 @@ Spi_Config/17 (Spi_Config) @0a42eab0
   Referring: EcuM_Init/6 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Spi_Init/16 (Spi_Init) @0a430620
+Spi_Init/16 (Spi_Init) @0a438620
   Type: function
   Visibility: external public
   References: 
@@ -101,7 +101,7 @@ Spi_Init/16 (Spi_Init) @0a430620
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Port_Config/15 (Port_Config) @0a42ea20
+Port_Config/15 (Port_Config) @0739fc60
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -109,7 +109,7 @@ Port_Config/15 (Port_Config) @0a42ea20
   Referring: EcuM_Init/6 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Port_Init/14 (Port_Init) @0a430540
+Port_Init/14 (Port_Init) @0a438540
   Type: function
   Visibility: external public
   References: 
@@ -118,7 +118,7 @@ Port_Init/14 (Port_Init) @0a430540
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Platform_Init/13 (Platform_Init) @0a430460
+Platform_Init/13 (Platform_Init) @0a438460
   Type: function
   Visibility: external public
   References: 
@@ -127,7 +127,7 @@ Platform_Init/13 (Platform_Init) @0a430460
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-OsIf_Init/12 (OsIf_Init) @0a430380
+OsIf_Init/12 (OsIf_Init) @0a438380
   Type: function
   Visibility: external public
   References: 
@@ -136,7 +136,7 @@ OsIf_Init/12 (OsIf_Init) @0a430380
   Function flags:
   Called by: EcuM_Init/6 
   Calls: 
-Mcu_InitClock/11 (Mcu_InitClock) @0a4301c0
+Mcu_InitClock/11 (Mcu_InitClock) @0a4381c0
   Type: function
   Visibility: external public
   References: 
@@ -145,7 +145,7 @@ Mcu_InitClock/11 (Mcu_InitClock) @0a4301c0
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_SetMode/10 (Mcu_SetMode) @0a4300e0
+Mcu_SetMode/10 (Mcu_SetMode) @0a4380e0
   Type: function
   Visibility: external public
   References: 
@@ -154,7 +154,7 @@ Mcu_SetMode/10 (Mcu_SetMode) @0a4300e0
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Mcu_Config/9 (Mcu_Config) @0a42e708
+Mcu_Config/9 (Mcu_Config) @0739f948
   Type: variable
   Body removed by symtab_remove_unreachable_nodes
   Visibility: external public
@@ -162,7 +162,7 @@ Mcu_Config/9 (Mcu_Config) @0a42e708
   Referring: MCU_clocks/5 (addr) 
   Availability: not_available
   Varpool flags: read-only
-Mcu_Init/8 (Mcu_Init) @0a430000
+Mcu_Init/8 (Mcu_Init) @0a438000
   Type: function
   Visibility: external public
   References: 
@@ -171,7 +171,7 @@ Mcu_Init/8 (Mcu_Init) @0a430000
   Function flags:
   Called by: MCU_clocks/5 
   Calls: 
-Delay/7 (Delay) @0a42ce00
+Delay/7 (Delay) @0739de00
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: 
@@ -180,7 +180,7 @@ Delay/7 (Delay) @0a42ce00
   Function flags: body
   Called by: 
   Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
-EcuM_Init/6 (EcuM_Init) @0a42cb60
+EcuM_Init/6 (EcuM_Init) @0739db60
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Port_Config/15 (addr) Spi_Config/17 (addr) Can_43_FLEXCAN_Config/19 (addr) CanIf_Config/21 (addr) 
@@ -189,7 +189,7 @@ EcuM_Init/6 (EcuM_Init) @0a42cb60
   Function flags: body
   Called by: 
   Calls: CanIf_Init/20 Can_43_FLEXCAN_Init/18 Spi_Init/16 Port_Init/14 Platform_Init/13 OsIf_Init/12 MCU_clocks/5 
-MCU_clocks/5 (MCU_clocks) @0a42c8c0
+MCU_clocks/5 (MCU_clocks) @0739d8c0
   Type: function definition analyzed
   Visibility: force_output externally_visible no_reorder public
   References: Mcu_Config/9 (addr) 
@@ -199,7 +199,7 @@ MCU_clocks/5 (MCU_clocks) @0a42c8c0
   Called by: EcuM_Init/6 
   Calls: Mcu_InitClock/11 Mcu_SetMode/10 Mcu_Init/8 
 
-;; Function MCU_clocks (MCU_clocks, funcdef_no=5, decl_uid=9226, cgraph_uid=6, symbol_order=5)
+;; Function MCU_clocks (MCU_clocks, funcdef_no=5, decl_uid=9230, cgraph_uid=6, symbol_order=5)
 
 MCU_clocks ()
 {
@@ -213,7 +213,7 @@ MCU_clocks ()
 
 
 
-;; Function EcuM_Init (EcuM_Init, funcdef_no=6, decl_uid=9228, cgraph_uid=7, symbol_order=6)
+;; Function EcuM_Init (EcuM_Init, funcdef_no=6, decl_uid=9232, cgraph_uid=7, symbol_order=6)
 
 EcuM_Init ()
 {
@@ -231,14 +231,14 @@ EcuM_Init ()
 
 
 
-;; Function Delay (Delay, funcdef_no=7, decl_uid=9230, cgraph_uid=8, symbol_order=7)
+;; Function Delay (Delay, funcdef_no=7, decl_uid=9234, cgraph_uid=8, symbol_order=7)
 
 Delay (uint32 ms)
 {
   uint32 ElapsedTime;
   uint32 SeedTick;
   uint32 Timeout;
-  long unsigned int D.9249;
+  long unsigned int D.9253;
   long unsigned int _1;
   long unsigned int _2;
   long unsigned int _13;
