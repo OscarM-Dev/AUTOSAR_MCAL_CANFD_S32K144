@@ -360,11 +360,15 @@
                       <SUB-CONTAINERS>
                         <ECUC-CONTAINER-VALUE>
                           <SHORT-NAME>CanRamBlock</SHORT-NAME>
-                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanController/CanRamBlock/CanRamBlockUnified</DEFINITION-REF>
+                          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanController/CanRamBlock/CanRamBlockSpecified</DEFINITION-REF>
                           <PARAMETER-VALUES>
                             <ECUC-TEXTUAL-PARAM-VALUE>
-                              <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanController/CanRamBlock/CanRamBlockUnified/CanBlockUnifiedPayloadLength</DEFINITION-REF>
+                              <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanController/CanRamBlock/CanRamBlockSpecified/CanBlock0PayloadLength</DEFINITION-REF>
                               <VALUE>CAN_16_BYTES_PAYLOAD</VALUE>
+                            </ECUC-TEXTUAL-PARAM-VALUE>
+                            <ECUC-TEXTUAL-PARAM-VALUE>
+                              <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanController/CanRamBlock/CanRamBlockSpecified/CanBlock1PayloadLength</DEFINITION-REF>
+                              <VALUE>CAN_8_BYTES_PAYLOAD</VALUE>
                             </ECUC-TEXTUAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
@@ -410,6 +414,10 @@
                   <INDEX>1</INDEX>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject</DEFINITION-REF>
                   <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanFdPaddingValue</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHandleType</DEFINITION-REF>
                       <VALUE>BASIC</VALUE>
@@ -418,6 +426,10 @@
                       <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHwObjectCount</DEFINITION-REF>
                       <VALUE>4</VALUE>
                     </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHwObjectUsesBlock</DEFINITION-REF>
+                      <VALUE>CAN_RAM_BLOCK_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanIdType</DEFINITION-REF>
                       <VALUE>STANDARD</VALUE>
@@ -455,6 +467,10 @@
                       <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHwObjectCount</DEFINITION-REF>
                       <VALUE>1</VALUE>
                     </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHwObjectUsesBlock</DEFINITION-REF>
+                      <VALUE>CAN_RAM_BLOCK_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanIdType</DEFINITION-REF>
                       <VALUE>STANDARD</VALUE>
@@ -560,6 +576,10 @@
                       <VALUE>1</VALUE>
                     </ECUC-NUMERICAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHwObjectUsesBlock</DEFINITION-REF>
+                      <VALUE>CAN_RAM_BLOCK_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanIdType</DEFINITION-REF>
                       <VALUE>STANDARD</VALUE>
                     </ECUC-TEXTUAL-PARAM-VALUE>
@@ -614,6 +634,10 @@
                       <VALUE>1</VALUE>
                     </ECUC-NUMERICAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHwObjectUsesBlock</DEFINITION-REF>
+                      <VALUE>CAN_RAM_BLOCK_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanIdType</DEFINITION-REF>
                       <VALUE>STANDARD</VALUE>
                     </ECUC-TEXTUAL-PARAM-VALUE>
@@ -667,6 +691,10 @@
                       <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHwObjectCount</DEFINITION-REF>
                       <VALUE>1</VALUE>
                     </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanHwObjectUsesBlock</DEFINITION-REF>
+                      <VALUE>CAN_RAM_BLOCK_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
                     <ECUC-TEXTUAL-PARAM-VALUE>
                       <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/Can_43_FLEXCAN_TS_T40D2M20I0R0/Can/CanConfigSet/CanHardwareObject/CanIdType</DEFINITION-REF>
                       <VALUE>STANDARD</VALUE>

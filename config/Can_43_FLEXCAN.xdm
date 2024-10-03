@@ -631,7 +631,7 @@
                       </d:ref>
                     </d:ctr>
                     <d:chc name="CanRamBlock" type="IDENTIFIABLE" 
-                           value="CanRamBlockUnified">
+                           value="CanRamBlockSpecified">
                       <a:a name="ENABLE" value="true"/>
                       <d:ctr name="CanRamBlockUnified" type="IDENTIFIABLE">
                         <d:var name="CanBlockUnifiedPayloadLength" 
@@ -639,9 +639,7 @@
                       </d:ctr>
                       <d:ctr name="CanRamBlockSpecified" type="IDENTIFIABLE">
                         <d:var name="CanBlock0PayloadLength" type="ENUMERATION" 
-                               value="CAN_8_BYTES_PAYLOAD">
-                          <a:a name="IMPORTER_INFO" value="@DEF"/>
-                        </d:var>
+                               value="CAN_16_BYTES_PAYLOAD"/>
                         <d:var name="CanBlock1PayloadLength" type="ENUMERATION" 
                                value="CAN_8_BYTES_PAYLOAD">
                           <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -743,7 +741,7 @@
                   </d:ctr>
                   <d:ctr name="MbsTxFlexCan0" type="IDENTIFIABLE">
                     <d:var name="CanFdPaddingValue" type="INTEGER" value="0">
-                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanObjectPayloadLength" type="ENUMERATION" 
                            value="CAN_OBJECT_PL_12">
@@ -776,7 +774,7 @@
                     </d:ref>
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
-                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanHwObjectCount" type="INTEGER" value="4"/>
                     <d:lst name="CanHwFilter" type="MAP"/>
@@ -820,7 +818,7 @@
                     </d:ref>
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
-                      <a:a name="ENABLE" value="false"/>
+                      <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanHwObjectCount" type="INTEGER" value="1">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -874,7 +872,6 @@
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
                       <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
                     </d:var>
                     <d:var name="CanHwObjectCount" type="INTEGER" value="1">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -927,8 +924,7 @@
                     </d:ref>
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
-                      <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                      <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanHwObjectCount" type="INTEGER" value="1">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -980,8 +976,7 @@
                     </d:ref>
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
-                      <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                      <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanHwObjectCount" type="INTEGER" value="1">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1033,8 +1028,7 @@
                     </d:ref>
                     <d:var name="CanHwObjectUsesBlock" type="ENUMERATION" 
                            value="CAN_RAM_BLOCK_0">
-                      <a:a name="ENABLE" value="false"/>
-                      <a:a name="IMPORTER_INFO" value="@DEF"/>
+                      <a:a name="ENABLE" value="true"/>
                     </d:var>
                     <d:var name="CanHwObjectCount" type="INTEGER" value="1">
                       <a:a name="IMPORTER_INFO" value="@DEF"/>
